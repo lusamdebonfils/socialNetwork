@@ -17,7 +17,7 @@ public class ManageProfile extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         System.out.println("DO get");
-
+        /*
         // Simulation Data
         User user  = new User("Moses ", "Niyonshuti", "niyo@mum.edu", "String password",
                 LocalDate.of(2010, 2,1), LocalDate.now());
@@ -34,7 +34,7 @@ public class ManageProfile extends HttpServlet {
         profile.addEmployment(employment);
 
         req.setAttribute("profile", profile);
-
+        */
         RequestDispatcher requestDispatcher = req.getRequestDispatcher("05-ProfilePage-About.jsp");
         requestDispatcher.forward(req,resp);
     }
