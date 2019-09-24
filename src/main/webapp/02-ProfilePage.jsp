@@ -68,7 +68,7 @@
 <div class="fixed-sidebar">
 	<div class="fixed-sidebar-left sidebar--small" id="sidebar-left">
 
-		<a href="02-ProfilePage.html" class="logo">
+		<a href="02-ProfilePage.jsp" class="logo">
 			<div class="img-wrap">
 				<img src="img/logo.png" alt="Olympus">
 			</div>
@@ -77,7 +77,7 @@
 		<div class="mCustomScrollbar" data-mcs-theme="dark">
 			<ul class="left-menu">
 				<li>
-					<a href="02-ProfilePage.html#" class="js-sidebar-open">
+					<a href="02-ProfilePage.jsp#" class="js-sidebar-open">
 						<svg class="olymp-menu-icon left-menu-icon"  data-toggle="tooltip" data-placement="right"   data-original-title="OPEN MENU"><use xlink:href="svg-icons/sprites/icons.svg#olymp-menu-icon"></use></svg>
 					</a>
 				</li>
@@ -136,7 +136,7 @@
 	</div>
 
 	<div class="fixed-sidebar-left sidebar--large" id="sidebar-left-1">
-		<a href="02-ProfilePage.html" class="logo">
+		<a href="02-ProfilePage.jsp" class="logo">
 			<div class="img-wrap">
 				<img src="img/logo.png" alt="Olympus">
 			</div>
@@ -148,7 +148,7 @@
 		<div class="mCustomScrollbar" data-mcs-theme="dark">
 			<ul class="left-menu">
 				<li>
-					<a href="02-ProfilePage.html#" class="js-sidebar-open">
+					<a href="02-ProfilePage.jsp#" class="js-sidebar-open">
 						<svg class="olymp-close-icon left-menu-icon"><use xlink:href="svg-icons/sprites/icons.svg#olymp-close-icon"></use></svg>
 						<span class="left-menu-title">Collapse Menu</span>
 					</a>
@@ -227,7 +227,7 @@
 					</div>
 				</div>
 
-				<span>Complete <a href="02-ProfilePage.html#">your profile</a> so people can know more about you!</span>
+				<span>Complete <a href="02-ProfilePage.jsp#">your profile</a> so people can know more about you!</span>
 
 			</div>
 		</div>
@@ -242,14 +242,14 @@
 <div class="fixed-sidebar fixed-sidebar-responsive">
 
 	<div class="fixed-sidebar-left sidebar--small" id="sidebar-left-responsive">
-		<a href="02-ProfilePage.html#" class="logo js-sidebar-open">
+		<a href="02-ProfilePage.jsp#" class="logo js-sidebar-open">
 			<img src="img/logo.png" alt="Olympus">
 		</a>
 
 	</div>
 
 	<div class="fixed-sidebar-left sidebar--large" id="sidebar-left-1-responsive">
-		<a href="02-ProfilePage.html#" class="logo">
+		<a href="02-ProfilePage.jsp#" class="logo">
 			<div class="img-wrap">
 				<img src="img/logo.png" alt="Olympus">
 			</div>
@@ -266,7 +266,7 @@
 						<img alt="author" src="img/author-page.jpg" class="avatar">
 						<span class="icon-status online"></span>
 					</div>
-					<a href="02-ProfilePage.html" class="author-name fn">
+					<a href="02-ProfilePage.jsp" class="author-name fn">
 						<div class="author-title">
 							James Spiegel <svg class="olymp-dropdown-arrow-icon"><use xlink:href="svg-icons/sprites/icons.svg#olymp-dropdown-arrow-icon"></use></svg>
 						</div>
@@ -281,7 +281,7 @@
 
 			<ul class="left-menu">
 				<li>
-					<a href="02-ProfilePage.html#" class="js-sidebar-open">
+					<a href="02-ProfilePage.jsp#" class="js-sidebar-open">
 						<svg class="olymp-close-icon left-menu-icon"><use xlink:href="svg-icons/sprites/icons.svg#olymp-close-icon"></use></svg>
 						<span class="left-menu-title">Collapse Menu</span>
 					</a>
@@ -341,7 +341,7 @@
 					</a>
 				</li>
 				<li>
-					<a href="02-ProfilePage.html#">
+					<a href="02-ProfilePage.jsp#">
 						<svg class="olymp-manage-widgets-icon left-menu-icon"  data-toggle="tooltip" data-placement="right"   data-original-title="Manage Widgets"><use xlink:href="svg-icons/sprites/icons.svg#olymp-manage-widgets-icon"></use></svg>
 						<span class="left-menu-title">Manage Widgets</span>
 					</a>
@@ -354,7 +354,7 @@
 
 			<ul class="account-settings">
 				<li>
-					<a href="02-ProfilePage.html#">
+					<a href="02-ProfilePage.jsp#">
 
 						<svg class="olymp-menu-icon"><use xlink:href="svg-icons/sprites/icons.svg#olymp-menu-icon"></use></svg>
 
@@ -362,14 +362,14 @@
 					</a>
 				</li>
 				<li>
-					<a href="02-ProfilePage.html#">
+					<a href="02-ProfilePage.jsp#">
 						<svg class="olymp-star-icon left-menu-icon"  data-toggle="tooltip" data-placement="right"   data-original-title="FAV PAGE"><use xlink:href="svg-icons/sprites/icons.svg#olymp-star-icon"></use></svg>
 
 						<span>Create Fav Page</span>
 					</a>
 				</li>
 				<li>
-					<a href="02-ProfilePage.html#">
+					<a href="02-ProfilePage.jsp#">
 						<svg class="olymp-logout-icon"><use xlink:href="svg-icons/sprites/icons.svg#olymp-logout-icon"></use></svg>
 
 						<span>Log Out</span>
@@ -383,22 +383,22 @@
 
 			<ul class="about-olympus">
 				<li>
-					<a href="02-ProfilePage.html#">
+					<a href="02-ProfilePage.jsp#">
 						<span>Terms and Conditions</span>
 					</a>
 				</li>
 				<li>
-					<a href="02-ProfilePage.html#">
+					<a href="02-ProfilePage.jsp#">
 						<span>FAQs</span>
 					</a>
 				</li>
 				<li>
-					<a href="02-ProfilePage.html#">
+					<a href="02-ProfilePage.jsp#">
 						<span>Careers</span>
 					</a>
 				</li>
 				<li>
-					<a href="02-ProfilePage.html#">
+					<a href="02-ProfilePage.jsp#">
 						<span>Contact</span>
 					</a>
 				</li>
@@ -409,918 +409,6 @@
 </div>
 
 <!-- ... end Fixed Sidebar Left -->
-
-
-<!-- Fixed Sidebar Right -->
-
-<div class="fixed-sidebar right">
-	<div class="fixed-sidebar-right sidebar--small" id="sidebar-right">
-
-		<div class="mCustomScrollbar" data-mcs-theme="dark">
-			<ul class="chat-users">
-				<li class="inline-items js-chat-open">
-					<div class="author-thumb">
-						<img alt="author" src="img/avatar67-sm.jpg" class="avatar">
-						<span class="icon-status online"></span>
-					</div>
-				</li>
-				<li class="inline-items js-chat-open">
-					<div class="author-thumb">
-						<img alt="author" src="img/avatar62-sm.jpg" class="avatar">
-						<span class="icon-status online"></span>
-					</div>
-				</li>
-
-				<li class="inline-items js-chat-open">
-					<div class="author-thumb">
-						<img alt="author" src="img/avatar68-sm.jpg" class="avatar">
-						<span class="icon-status online"></span>
-					</div>
-				</li>
-
-				<li class="inline-items js-chat-open">
-					<div class="author-thumb">
-						<img alt="author" src="img/avatar69-sm.jpg" class="avatar">
-						<span class="icon-status away"></span>
-					</div>
-				</li>
-
-				<li class="inline-items js-chat-open">
-					<div class="author-thumb">
-						<img alt="author" src="img/avatar70-sm.jpg" class="avatar">
-						<span class="icon-status disconected"></span>
-					</div>
-				</li>
-				<li class="inline-items js-chat-open">
-					<div class="author-thumb">
-						<img alt="author" src="img/avatar64-sm.jpg" class="avatar">
-						<span class="icon-status online"></span>
-					</div>
-				</li>
-				<li class="inline-items js-chat-open">
-					<div class="author-thumb">
-						<img alt="author" src="img/avatar71-sm.jpg" class="avatar">
-						<span class="icon-status online"></span>
-					</div>
-				</li>
-				<li class="inline-items js-chat-open">
-					<div class="author-thumb">
-						<img alt="author" src="img/avatar72-sm.jpg" class="avatar">
-						<span class="icon-status away"></span>
-					</div>
-				</li>
-				<li class="inline-items js-chat-open">
-					<div class="author-thumb">
-						<img alt="author" src="img/avatar63-sm.jpg" class="avatar">
-						<span class="icon-status status-invisible"></span>
-					</div>
-				</li>
-				<li class="inline-items js-chat-open">
-					<div class="author-thumb">
-						<img alt="author" src="img/avatar72-sm.jpg" class="avatar">
-						<span class="icon-status away"></span>
-					</div>
-				</li>
-				<li class="inline-items js-chat-open">
-
-					<div class="author-thumb">
-						<img alt="author" src="img/avatar71-sm.jpg" class="avatar">
-						<span class="icon-status online"></span>
-					</div>
-				</li>
-			</ul>
-		</div>
-
-		<div class="search-friend inline-items">
-			<a href="02-ProfilePage.html#" class="js-sidebar-open">
-				<svg class="olymp-menu-icon"><use xlink:href="svg-icons/sprites/icons.svg#olymp-menu-icon"></use></svg>
-			</a>
-		</div>
-
-		<a href="02-ProfilePage.html#" class="olympus-chat inline-items js-chat-open">
-			<svg class="olymp-chat---messages-icon"><use xlink:href="svg-icons/sprites/icons.svg#olymp-chat---messages-icon"></use></svg>
-		</a>
-
-	</div>
-
-	<div class="fixed-sidebar-right sidebar--large" id="sidebar-right-1">
-
-		<div class="mCustomScrollbar" data-mcs-theme="dark">
-
-			<div class="ui-block-title ui-block-title-small">
-				<a href="02-ProfilePage.html#" class="title">Close Friends</a>
-				<a href="02-ProfilePage.html#">Settings</a>
-			</div>
-
-			<ul class="chat-users">
-				<li class="inline-items js-chat-open">
-
-					<div class="author-thumb">
-						<img alt="author" src="img/avatar67-sm.jpg" class="avatar">
-						<span class="icon-status online"></span>
-					</div>
-
-					<div class="author-status">
-						<a href="02-ProfilePage.html#" class="h6 author-name">Carol Summers</a>
-						<span class="status">ONLINE</span>
-					</div>
-
-					<div class="more"><svg class="olymp-three-dots-icon"><use xlink:href="svg-icons/sprites/icons.svg#olymp-three-dots-icon"></use></svg>
-
-						<ul class="more-icons">
-							<li>
-								<svg data-toggle="tooltip" data-placement="top" data-original-title="START CONVERSATION" class="olymp-comments-post-icon"><use xlink:href="svg-icons/sprites/icons.svg#olymp-comments-post-icon"></use></svg>
-							</li>
-
-							<li>
-								<svg data-toggle="tooltip" data-placement="top" data-original-title="ADD TO CONVERSATION" class="olymp-add-to-conversation-icon"><use xlink:href="svg-icons/sprites/icons.svg#olymp-add-to-conversation-icon"></use></svg>
-							</li>
-
-							<li>
-								<svg data-toggle="tooltip" data-placement="top" data-original-title="BLOCK FROM CHAT" class="olymp-block-from-chat-icon"><use xlink:href="svg-icons/sprites/icons.svg#olymp-block-from-chat-icon"></use></svg>
-							</li>
-						</ul>
-
-					</div>
-
-				</li>
-				<li class="inline-items js-chat-open">
-
-					<div class="author-thumb">
-						<img alt="author" src="img/avatar62-sm.jpg" class="avatar">
-						<span class="icon-status online"></span>
-					</div>
-
-					<div class="author-status">
-						<a href="02-ProfilePage.html#" class="h6 author-name">Mathilda Brinker</a>
-						<span class="status">AT WORK!</span>
-					</div>
-
-					<div class="more"><svg class="olymp-three-dots-icon"><use xlink:href="svg-icons/sprites/icons.svg#olymp-three-dots-icon"></use></svg>
-
-						<ul class="more-icons">
-							<li>
-								<svg data-toggle="tooltip" data-placement="top" data-original-title="START CONVERSATION" class="olymp-comments-post-icon"><use xlink:href="svg-icons/sprites/icons.svg#olymp-comments-post-icon"></use></svg>
-							</li>
-
-							<li>
-								<svg data-toggle="tooltip" data-placement="top" data-original-title="ADD TO CONVERSATION" class="olymp-add-to-conversation-icon"><use xlink:href="svg-icons/sprites/icons.svg#olymp-add-to-conversation-icon"></use></svg>
-							</li>
-
-							<li>
-								<svg data-toggle="tooltip" data-placement="top" data-original-title="BLOCK FROM CHAT" class="olymp-block-from-chat-icon"><use xlink:href="svg-icons/sprites/icons.svg#olymp-block-from-chat-icon"></use></svg>
-							</li>
-						</ul>
-
-					</div>
-
-				</li>
-
-				<li class="inline-items js-chat-open">
-
-
-					<div class="author-thumb">
-						<img alt="author" src="img/avatar68-sm.jpg" class="avatar">
-						<span class="icon-status online"></span>
-					</div>
-
-					<div class="author-status">
-						<a href="02-ProfilePage.html#" class="h6 author-name">Carol Summers</a>
-						<span class="status">ONLINE</span>
-					</div>
-
-					<div class="more"><svg class="olymp-three-dots-icon"><use xlink:href="svg-icons/sprites/icons.svg#olymp-three-dots-icon"></use></svg>
-
-						<ul class="more-icons">
-							<li>
-								<svg data-toggle="tooltip" data-placement="top" data-original-title="START CONVERSATION" class="olymp-comments-post-icon"><use xlink:href="svg-icons/sprites/icons.svg#olymp-comments-post-icon"></use></svg>
-							</li>
-
-							<li>
-								<svg data-toggle="tooltip" data-placement="top" data-original-title="ADD TO CONVERSATION" class="olymp-add-to-conversation-icon"><use xlink:href="svg-icons/sprites/icons.svg#olymp-add-to-conversation-icon"></use></svg>
-							</li>
-
-							<li>
-								<svg data-toggle="tooltip" data-placement="top" data-original-title="BLOCK FROM CHAT" class="olymp-block-from-chat-icon"><use xlink:href="svg-icons/sprites/icons.svg#olymp-block-from-chat-icon"></use></svg>
-							</li>
-						</ul>
-
-					</div>
-
-
-				</li>
-
-				<li class="inline-items js-chat-open">
-
-
-					<div class="author-thumb">
-						<img alt="author" src="img/avatar69-sm.jpg" class="avatar">
-						<span class="icon-status away"></span>
-					</div>
-
-					<div class="author-status">
-						<a href="02-ProfilePage.html#" class="h6 author-name">Michael Maximoff</a>
-						<span class="status">AWAY</span>
-					</div>
-
-					<div class="more"><svg class="olymp-three-dots-icon"><use xlink:href="svg-icons/sprites/icons.svg#olymp-three-dots-icon"></use></svg>
-
-						<ul class="more-icons">
-							<li>
-								<svg data-toggle="tooltip" data-placement="top" data-original-title="START CONVERSATION" class="olymp-comments-post-icon"><use xlink:href="svg-icons/sprites/icons.svg#olymp-comments-post-icon"></use></svg>
-							</li>
-
-							<li>
-								<svg data-toggle="tooltip" data-placement="top" data-original-title="ADD TO CONVERSATION" class="olymp-add-to-conversation-icon"><use xlink:href="svg-icons/sprites/icons.svg#olymp-add-to-conversation-icon"></use></svg>
-							</li>
-
-							<li>
-								<svg data-toggle="tooltip" data-placement="top" data-original-title="BLOCK FROM CHAT" class="olymp-block-from-chat-icon"><use xlink:href="svg-icons/sprites/icons.svg#olymp-block-from-chat-icon"></use></svg>
-							</li>
-						</ul>
-
-					</div>
-
-
-				</li>
-
-				<li class="inline-items js-chat-open">
-
-
-					<div class="author-thumb">
-						<img alt="author" src="img/avatar70-sm.jpg" class="avatar">
-						<span class="icon-status disconected"></span>
-					</div>
-
-					<div class="author-status">
-						<a href="02-ProfilePage.html#" class="h6 author-name">Rachel Howlett</a>
-						<span class="status">OFFLINE</span>
-					</div>
-
-					<div class="more"><svg class="olymp-three-dots-icon"><use xlink:href="svg-icons/sprites/icons.svg#olymp-three-dots-icon"></use></svg>
-
-						<ul class="more-icons">
-							<li>
-								<svg data-toggle="tooltip" data-placement="top" data-original-title="START CONVERSATION" class="olymp-comments-post-icon"><use xlink:href="svg-icons/sprites/icons.svg#olymp-comments-post-icon"></use></svg>
-							</li>
-
-							<li>
-								<svg data-toggle="tooltip" data-placement="top" data-original-title="ADD TO CONVERSATION" class="olymp-add-to-conversation-icon"><use xlink:href="svg-icons/sprites/icons.svg#olymp-add-to-conversation-icon"></use></svg>
-							</li>
-
-							<li>
-								<svg data-toggle="tooltip" data-placement="top" data-original-title="BLOCK FROM CHAT" class="olymp-block-from-chat-icon"><use xlink:href="svg-icons/sprites/icons.svg#olymp-block-from-chat-icon"></use></svg>
-							</li>
-						</ul>
-
-					</div>
-
-
-				</li>
-			</ul>
-
-
-			<div class="ui-block-title ui-block-title-small">
-				<a href="02-ProfilePage.html#" class="title">MY FAMILY</a>
-				<a href="02-ProfilePage.html#">Settings</a>
-			</div>
-
-			<ul class="chat-users">
-				<li class="inline-items js-chat-open">
-
-					<div class="author-thumb">
-						<img alt="author" src="img/avatar64-sm.jpg" class="avatar">
-						<span class="icon-status online"></span>
-					</div>
-
-					<div class="author-status">
-						<a href="02-ProfilePage.html#" class="h6 author-name">Sarah Hetfield</a>
-						<span class="status">ONLINE</span>
-					</div>
-
-					<div class="more"><svg class="olymp-three-dots-icon"><use xlink:href="svg-icons/sprites/icons.svg#olymp-three-dots-icon"></use></svg>
-
-						<ul class="more-icons">
-							<li>
-								<svg data-toggle="tooltip" data-placement="top" data-original-title="START CONVERSATION" class="olymp-comments-post-icon"><use xlink:href="svg-icons/sprites/icons.svg#olymp-comments-post-icon"></use></svg>
-							</li>
-
-							<li>
-								<svg data-toggle="tooltip" data-placement="top" data-original-title="ADD TO CONVERSATION" class="olymp-add-to-conversation-icon"><use xlink:href="svg-icons/sprites/icons.svg#olymp-add-to-conversation-icon"></use></svg>
-							</li>
-
-							<li>
-								<svg data-toggle="tooltip" data-placement="top" data-original-title="BLOCK FROM CHAT" class="olymp-block-from-chat-icon"><use xlink:href="svg-icons/sprites/icons.svg#olymp-block-from-chat-icon"></use></svg>
-							</li>
-						</ul>
-
-					</div>
-				</li>
-			</ul>
-
-
-			<div class="ui-block-title ui-block-title-small">
-				<a href="02-ProfilePage.html#" class="title">UNCATEGORIZED</a>
-				<a href="02-ProfilePage.html#">Settings</a>
-			</div>
-
-			<ul class="chat-users">
-				<li class="inline-items js-chat-open">
-
-					<div class="author-thumb">
-						<img alt="author" src="img/avatar71-sm.jpg" class="avatar">
-						<span class="icon-status online"></span>
-					</div>
-
-					<div class="author-status">
-						<a href="02-ProfilePage.html#" class="h6 author-name">Bruce Peterson</a>
-						<span class="status">ONLINE</span>
-					</div>
-
-					<div class="more"><svg class="olymp-three-dots-icon"><use xlink:href="svg-icons/sprites/icons.svg#olymp-three-dots-icon"></use></svg>
-
-						<ul class="more-icons">
-							<li>
-								<svg data-toggle="tooltip" data-placement="top" data-original-title="START CONVERSATION" class="olymp-comments-post-icon"><use xlink:href="svg-icons/sprites/icons.svg#olymp-comments-post-icon"></use></svg>
-							</li>
-
-							<li>
-								<svg data-toggle="tooltip" data-placement="top" data-original-title="ADD TO CONVERSATION" class="olymp-add-to-conversation-icon"><use xlink:href="svg-icons/sprites/icons.svg#olymp-add-to-conversation-icon"></use></svg>
-							</li>
-
-							<li>
-								<svg data-toggle="tooltip" data-placement="top" data-original-title="BLOCK FROM CHAT" class="olymp-block-from-chat-icon"><use xlink:href="svg-icons/sprites/icons.svg#olymp-block-from-chat-icon"></use></svg>
-							</li>
-						</ul>
-
-					</div>
-
-
-				</li>
-				<li class="inline-items js-chat-open">
-
-					<div class="author-thumb">
-						<img alt="author" src="img/avatar72-sm.jpg" class="avatar">
-						<span class="icon-status away"></span>
-					</div>
-
-					<div class="author-status">
-						<a href="02-ProfilePage.html#" class="h6 author-name">Chris Greyson</a>
-						<span class="status">AWAY</span>
-					</div>
-
-					<div class="more"><svg class="olymp-three-dots-icon"><use xlink:href="svg-icons/sprites/icons.svg#olymp-three-dots-icon"></use></svg>
-
-						<ul class="more-icons">
-							<li>
-								<svg data-toggle="tooltip" data-placement="top" data-original-title="START CONVERSATION" class="olymp-comments-post-icon"><use xlink:href="svg-icons/sprites/icons.svg#olymp-comments-post-icon"></use></svg>
-							</li>
-
-							<li>
-								<svg data-toggle="tooltip" data-placement="top" data-original-title="ADD TO CONVERSATION" class="olymp-add-to-conversation-icon"><use xlink:href="svg-icons/sprites/icons.svg#olymp-add-to-conversation-icon"></use></svg>
-							</li>
-
-							<li>
-								<svg data-toggle="tooltip" data-placement="top" data-original-title="BLOCK FROM CHAT" class="olymp-block-from-chat-icon"><use xlink:href="svg-icons/sprites/icons.svg#olymp-block-from-chat-icon"></use></svg>
-							</li>
-						</ul>
-
-					</div>
-
-				</li>
-				<li class="inline-items js-chat-open">
-
-					<div class="author-thumb">
-						<img alt="author" src="img/avatar63-sm.jpg" class="avatar">
-						<span class="icon-status status-invisible"></span>
-					</div>
-
-					<div class="author-status">
-						<a href="02-ProfilePage.html#" class="h6 author-name">Nicholas Grisom</a>
-						<span class="status">INVISIBLE</span>
-					</div>
-
-					<div class="more"><svg class="olymp-three-dots-icon"><use xlink:href="svg-icons/sprites/icons.svg#olymp-three-dots-icon"></use></svg>
-
-						<ul class="more-icons">
-							<li>
-								<svg data-toggle="tooltip" data-placement="top" data-original-title="START CONVERSATION" class="olymp-comments-post-icon"><use xlink:href="svg-icons/sprites/icons.svg#olymp-comments-post-icon"></use></svg>
-							</li>
-
-							<li>
-								<svg data-toggle="tooltip" data-placement="top" data-original-title="ADD TO CONVERSATION" class="olymp-add-to-conversation-icon"><use xlink:href="svg-icons/sprites/icons.svg#olymp-add-to-conversation-icon"></use></svg>
-							</li>
-
-							<li>
-								<svg data-toggle="tooltip" data-placement="top" data-original-title="BLOCK FROM CHAT" class="olymp-block-from-chat-icon"><use xlink:href="svg-icons/sprites/icons.svg#olymp-block-from-chat-icon"></use></svg>
-							</li>
-						</ul>
-
-					</div>
-				</li>
-				<li class="inline-items js-chat-open">
-
-					<div class="author-thumb">
-						<img alt="author" src="img/avatar72-sm.jpg" class="avatar">
-						<span class="icon-status away"></span>
-					</div>
-
-					<div class="author-status">
-						<a href="02-ProfilePage.html#" class="h6 author-name">Chris Greyson</a>
-						<span class="status">AWAY</span>
-					</div>
-
-					<div class="more"><svg class="olymp-three-dots-icon"><use xlink:href="svg-icons/sprites/icons.svg#olymp-three-dots-icon"></use></svg>
-
-						<ul class="more-icons">
-							<li>
-								<svg data-toggle="tooltip" data-placement="top" data-original-title="START CONVERSATION" class="olymp-comments-post-icon"><use xlink:href="svg-icons/sprites/icons.svg#olymp-comments-post-icon"></use></svg>
-							</li>
-
-							<li>
-								<svg data-toggle="tooltip" data-placement="top" data-original-title="ADD TO CONVERSATION" class="olymp-add-to-conversation-icon"><use xlink:href="svg-icons/sprites/icons.svg#olymp-add-to-conversation-icon"></use></svg>
-							</li>
-
-							<li>
-								<svg data-toggle="tooltip" data-placement="top" data-original-title="BLOCK FROM CHAT" class="olymp-block-from-chat-icon"><use xlink:href="svg-icons/sprites/icons.svg#olymp-block-from-chat-icon"></use></svg>
-							</li>
-						</ul>
-
-					</div>
-				</li>
-				<li class="inline-items js-chat-open">
-
-					<div class="author-thumb">
-						<img alt="author" src="img/avatar71-sm.jpg" class="avatar">
-						<span class="icon-status online"></span>
-					</div>
-
-					<div class="author-status">
-						<a href="02-ProfilePage.html#" class="h6 author-name">Bruce Peterson</a>
-						<span class="status">ONLINE</span>
-					</div>
-
-					<div class="more"><svg class="olymp-three-dots-icon"><use xlink:href="svg-icons/sprites/icons.svg#olymp-three-dots-icon"></use></svg>
-
-						<ul class="more-icons">
-							<li>
-								<svg data-toggle="tooltip" data-placement="top" data-original-title="START CONVERSATION" class="olymp-comments-post-icon"><use xlink:href="svg-icons/sprites/icons.svg#olymp-comments-post-icon"></use></svg>
-							</li>
-
-							<li>
-								<svg data-toggle="tooltip" data-placement="top" data-original-title="ADD TO CONVERSATION" class="olymp-add-to-conversation-icon"><use xlink:href="svg-icons/sprites/icons.svg#olymp-add-to-conversation-icon"></use></svg>
-							</li>
-
-							<li>
-								<svg data-toggle="tooltip" data-placement="top" data-original-title="BLOCK FROM CHAT" class="olymp-block-from-chat-icon"><use xlink:href="svg-icons/sprites/icons.svg#olymp-block-from-chat-icon"></use></svg>
-							</li>
-						</ul>
-
-					</div>
-				</li>
-			</ul>
-
-		</div>
-
-		<div class="search-friend inline-items">
-			<form class="form-group" >
-				<input class="form-control" placeholder="Search Friends..." value="" type="text">
-			</form>
-
-			<a href="29-YourAccount-AccountSettings.html" class="settings">
-				<svg class="olymp-settings-icon"><use xlink:href="svg-icons/sprites/icons.svg#olymp-settings-icon"></use></svg>
-			</a>
-
-			<a href="02-ProfilePage.html#" class="js-sidebar-open">
-				<svg class="olymp-close-icon"><use xlink:href="svg-icons/sprites/icons.svg#olymp-close-icon"></use></svg>
-			</a>
-		</div>
-
-		<a href="02-ProfilePage.html#" class="olympus-chat inline-items js-chat-open">
-
-			<h6 class="olympus-chat-title">OLYMPUS CHAT</h6>
-			<svg class="olymp-chat---messages-icon"><use xlink:href="svg-icons/sprites/icons.svg#olymp-chat---messages-icon"></use></svg>
-		</a>
-
-	</div>
-</div>
-
-<!-- ... end Fixed Sidebar Right -->
-
-
-<!-- Fixed Sidebar Right-Responsive -->
-
-<div class="fixed-sidebar right fixed-sidebar-responsive" id="sidebar-right-responsive">
-
-	<div class="fixed-sidebar-right sidebar--small">
-		<a href="02-ProfilePage.html#" class="js-sidebar-open">
-			<svg class="olymp-menu-icon"><use xlink:href="svg-icons/sprites/icons.svg#olymp-menu-icon"></use></svg>
-			<svg class="olymp-close-icon"><use xlink:href="svg-icons/sprites/icons.svg#olymp-close-icon"></use></svg>
-		</a>
-	</div>
-
-	<div class="fixed-sidebar-right sidebar--large">
-		<div class="mCustomScrollbar" data-mcs-theme="dark">
-
-			<div class="ui-block-title ui-block-title-small">
-				<a href="02-ProfilePage.html#" class="title">Close Friends</a>
-				<a href="02-ProfilePage.html#">Settings</a>
-			</div>
-
-			<ul class="chat-users">
-				<li class="inline-items js-chat-open">
-
-					<div class="author-thumb">
-						<img alt="author" src="img/avatar67-sm.jpg" class="avatar">
-						<span class="icon-status online"></span>
-					</div>
-
-					<div class="author-status">
-						<a href="02-ProfilePage.html#" class="h6 author-name">Carol Summers</a>
-						<span class="status">ONLINE</span>
-					</div>
-
-					<div class="more"><svg class="olymp-three-dots-icon"><use xlink:href="svg-icons/sprites/icons.svg#olymp-three-dots-icon"></use></svg>
-
-						<ul class="more-icons">
-							<li>
-								<svg data-toggle="tooltip" data-placement="top" data-original-title="START CONVERSATION" class="olymp-comments-post-icon"><use xlink:href="svg-icons/sprites/icons.svg#olymp-comments-post-icon"></use></svg>
-							</li>
-
-							<li>
-								<svg data-toggle="tooltip" data-placement="top" data-original-title="ADD TO CONVERSATION" class="olymp-add-to-conversation-icon"><use xlink:href="svg-icons/sprites/icons.svg#olymp-add-to-conversation-icon"></use></svg>
-							</li>
-
-							<li>
-								<svg data-toggle="tooltip" data-placement="top" data-original-title="BLOCK FROM CHAT" class="olymp-block-from-chat-icon"><use xlink:href="svg-icons/sprites/icons.svg#olymp-block-from-chat-icon"></use></svg>
-							</li>
-						</ul>
-
-					</div>
-
-				</li>
-				<li class="inline-items js-chat-open">
-
-					<div class="author-thumb">
-						<img alt="author" src="img/avatar62-sm.jpg" class="avatar">
-						<span class="icon-status online"></span>
-					</div>
-
-					<div class="author-status">
-						<a href="02-ProfilePage.html#" class="h6 author-name">Mathilda Brinker</a>
-						<span class="status">AT WORK!</span>
-					</div>
-
-					<div class="more"><svg class="olymp-three-dots-icon"><use xlink:href="svg-icons/sprites/icons.svg#olymp-three-dots-icon"></use></svg>
-
-						<ul class="more-icons">
-							<li>
-								<svg data-toggle="tooltip" data-placement="top" data-original-title="START CONVERSATION" class="olymp-comments-post-icon"><use xlink:href="svg-icons/sprites/icons.svg#olymp-comments-post-icon"></use></svg>
-							</li>
-
-							<li>
-								<svg data-toggle="tooltip" data-placement="top" data-original-title="ADD TO CONVERSATION" class="olymp-add-to-conversation-icon"><use xlink:href="svg-icons/sprites/icons.svg#olymp-add-to-conversation-icon"></use></svg>
-							</li>
-
-							<li>
-								<svg data-toggle="tooltip" data-placement="top" data-original-title="BLOCK FROM CHAT" class="olymp-block-from-chat-icon"><use xlink:href="svg-icons/sprites/icons.svg#olymp-block-from-chat-icon"></use></svg>
-							</li>
-						</ul>
-
-					</div>
-
-				</li>
-
-				<li class="inline-items js-chat-open">
-
-
-					<div class="author-thumb">
-						<img alt="author" src="img/avatar68-sm.jpg" class="avatar">
-						<span class="icon-status online"></span>
-					</div>
-
-					<div class="author-status">
-						<a href="02-ProfilePage.html#" class="h6 author-name">Carol Summers</a>
-						<span class="status">ONLINE</span>
-					</div>
-
-					<div class="more"><svg class="olymp-three-dots-icon"><use xlink:href="svg-icons/sprites/icons.svg#olymp-three-dots-icon"></use></svg>
-
-						<ul class="more-icons">
-							<li>
-								<svg data-toggle="tooltip" data-placement="top" data-original-title="START CONVERSATION" class="olymp-comments-post-icon"><use xlink:href="svg-icons/sprites/icons.svg#olymp-comments-post-icon"></use></svg>
-							</li>
-
-							<li>
-								<svg data-toggle="tooltip" data-placement="top" data-original-title="ADD TO CONVERSATION" class="olymp-add-to-conversation-icon"><use xlink:href="svg-icons/sprites/icons.svg#olymp-add-to-conversation-icon"></use></svg>
-							</li>
-
-							<li>
-								<svg data-toggle="tooltip" data-placement="top" data-original-title="BLOCK FROM CHAT" class="olymp-block-from-chat-icon"><use xlink:href="svg-icons/sprites/icons.svg#olymp-block-from-chat-icon"></use></svg>
-							</li>
-						</ul>
-
-					</div>
-
-
-				</li>
-
-				<li class="inline-items js-chat-open">
-
-
-					<div class="author-thumb">
-						<img alt="author" src="img/avatar69-sm.jpg" class="avatar">
-						<span class="icon-status away"></span>
-					</div>
-
-					<div class="author-status">
-						<a href="02-ProfilePage.html#" class="h6 author-name">Michael Maximoff</a>
-						<span class="status">AWAY</span>
-					</div>
-
-					<div class="more"><svg class="olymp-three-dots-icon"><use xlink:href="svg-icons/sprites/icons.svg#olymp-three-dots-icon"></use></svg>
-
-						<ul class="more-icons">
-							<li>
-								<svg data-toggle="tooltip" data-placement="top" data-original-title="START CONVERSATION" class="olymp-comments-post-icon"><use xlink:href="svg-icons/sprites/icons.svg#olymp-comments-post-icon"></use></svg>
-							</li>
-
-							<li>
-								<svg data-toggle="tooltip" data-placement="top" data-original-title="ADD TO CONVERSATION" class="olymp-add-to-conversation-icon"><use xlink:href="svg-icons/sprites/icons.svg#olymp-add-to-conversation-icon"></use></svg>
-							</li>
-
-							<li>
-								<svg data-toggle="tooltip" data-placement="top" data-original-title="BLOCK FROM CHAT" class="olymp-block-from-chat-icon"><use xlink:href="svg-icons/sprites/icons.svg#olymp-block-from-chat-icon"></use></svg>
-							</li>
-						</ul>
-
-					</div>
-
-
-				</li>
-
-				<li class="inline-items js-chat-open">
-
-
-					<div class="author-thumb">
-						<img alt="author" src="img/avatar70-sm.jpg" class="avatar">
-						<span class="icon-status disconected"></span>
-					</div>
-
-					<div class="author-status">
-						<a href="02-ProfilePage.html#" class="h6 author-name">Rachel Howlett</a>
-						<span class="status">OFFLINE</span>
-					</div>
-
-					<div class="more"><svg class="olymp-three-dots-icon"><use xlink:href="svg-icons/sprites/icons.svg#olymp-three-dots-icon"></use></svg>
-
-						<ul class="more-icons">
-							<li>
-								<svg data-toggle="tooltip" data-placement="top" data-original-title="START CONVERSATION" class="olymp-comments-post-icon"><use xlink:href="svg-icons/sprites/icons.svg#olymp-comments-post-icon"></use></svg>
-							</li>
-
-							<li>
-								<svg data-toggle="tooltip" data-placement="top" data-original-title="ADD TO CONVERSATION" class="olymp-add-to-conversation-icon"><use xlink:href="svg-icons/sprites/icons.svg#olymp-add-to-conversation-icon"></use></svg>
-							</li>
-
-							<li>
-								<svg data-toggle="tooltip" data-placement="top" data-original-title="BLOCK FROM CHAT" class="olymp-block-from-chat-icon"><use xlink:href="svg-icons/sprites/icons.svg#olymp-block-from-chat-icon"></use></svg>
-							</li>
-						</ul>
-
-					</div>
-
-
-				</li>
-			</ul>
-
-
-			<div class="ui-block-title ui-block-title-small">
-				<a href="02-ProfilePage.html#" class="title">MY FAMILY</a>
-				<a href="02-ProfilePage.html#">Settings</a>
-			</div>
-
-			<ul class="chat-users">
-				<li class="inline-items js-chat-open">
-
-					<div class="author-thumb">
-						<img alt="author" src="img/avatar64-sm.jpg" class="avatar">
-						<span class="icon-status online"></span>
-					</div>
-
-					<div class="author-status">
-						<a href="02-ProfilePage.html#" class="h6 author-name">Sarah Hetfield</a>
-						<span class="status">ONLINE</span>
-					</div>
-
-					<div class="more"><svg class="olymp-three-dots-icon"><use xlink:href="svg-icons/sprites/icons.svg#olymp-three-dots-icon"></use></svg>
-
-						<ul class="more-icons">
-							<li>
-								<svg data-toggle="tooltip" data-placement="top" data-original-title="START CONVERSATION" class="olymp-comments-post-icon"><use xlink:href="svg-icons/sprites/icons.svg#olymp-comments-post-icon"></use></svg>
-							</li>
-
-							<li>
-								<svg data-toggle="tooltip" data-placement="top" data-original-title="ADD TO CONVERSATION" class="olymp-add-to-conversation-icon"><use xlink:href="svg-icons/sprites/icons.svg#olymp-add-to-conversation-icon"></use></svg>
-							</li>
-
-							<li>
-								<svg data-toggle="tooltip" data-placement="top" data-original-title="BLOCK FROM CHAT" class="olymp-block-from-chat-icon"><use xlink:href="svg-icons/sprites/icons.svg#olymp-block-from-chat-icon"></use></svg>
-							</li>
-						</ul>
-
-					</div>
-				</li>
-			</ul>
-
-
-			<div class="ui-block-title ui-block-title-small">
-				<a href="02-ProfilePage.html#" class="title">UNCATEGORIZED</a>
-				<a href="02-ProfilePage.html#">Settings</a>
-			</div>
-
-			<ul class="chat-users">
-				<li class="inline-items js-chat-open">
-
-					<div class="author-thumb">
-						<img alt="author" src="img/avatar71-sm.jpg" class="avatar">
-						<span class="icon-status online"></span>
-					</div>
-
-					<div class="author-status">
-						<a href="02-ProfilePage.html#" class="h6 author-name">Bruce Peterson</a>
-						<span class="status">ONLINE</span>
-					</div>
-
-					<div class="more"><svg class="olymp-three-dots-icon"><use xlink:href="svg-icons/sprites/icons.svg#olymp-three-dots-icon"></use></svg>
-
-						<ul class="more-icons">
-							<li>
-								<svg data-toggle="tooltip" data-placement="top" data-original-title="START CONVERSATION" class="olymp-comments-post-icon"><use xlink:href="svg-icons/sprites/icons.svg#olymp-comments-post-icon"></use></svg>
-							</li>
-
-							<li>
-								<svg data-toggle="tooltip" data-placement="top" data-original-title="ADD TO CONVERSATION" class="olymp-add-to-conversation-icon"><use xlink:href="svg-icons/sprites/icons.svg#olymp-add-to-conversation-icon"></use></svg>
-							</li>
-
-							<li>
-								<svg data-toggle="tooltip" data-placement="top" data-original-title="BLOCK FROM CHAT" class="olymp-block-from-chat-icon"><use xlink:href="svg-icons/sprites/icons.svg#olymp-block-from-chat-icon"></use></svg>
-							</li>
-						</ul>
-
-					</div>
-
-
-				</li>
-				<li class="inline-items js-chat-open">
-
-					<div class="author-thumb">
-						<img alt="author" src="img/avatar72-sm.jpg" class="avatar">
-						<span class="icon-status away"></span>
-					</div>
-
-					<div class="author-status">
-						<a href="02-ProfilePage.html#" class="h6 author-name">Chris Greyson</a>
-						<span class="status">AWAY</span>
-					</div>
-
-					<div class="more"><svg class="olymp-three-dots-icon"><use xlink:href="svg-icons/sprites/icons.svg#olymp-three-dots-icon"></use></svg>
-
-						<ul class="more-icons">
-							<li>
-								<svg data-toggle="tooltip" data-placement="top" data-original-title="START CONVERSATION" class="olymp-comments-post-icon"><use xlink:href="svg-icons/sprites/icons.svg#olymp-comments-post-icon"></use></svg>
-							</li>
-
-							<li>
-								<svg data-toggle="tooltip" data-placement="top" data-original-title="ADD TO CONVERSATION" class="olymp-add-to-conversation-icon"><use xlink:href="svg-icons/sprites/icons.svg#olymp-add-to-conversation-icon"></use></svg>
-							</li>
-
-							<li>
-								<svg data-toggle="tooltip" data-placement="top" data-original-title="BLOCK FROM CHAT" class="olymp-block-from-chat-icon"><use xlink:href="svg-icons/sprites/icons.svg#olymp-block-from-chat-icon"></use></svg>
-							</li>
-						</ul>
-
-					</div>
-
-				</li>
-				<li class="inline-items js-chat-open">
-
-					<div class="author-thumb">
-						<img alt="author" src="img/avatar63-sm.jpg" class="avatar">
-						<span class="icon-status status-invisible"></span>
-					</div>
-
-					<div class="author-status">
-						<a href="02-ProfilePage.html#" class="h6 author-name">Nicholas Grisom</a>
-						<span class="status">INVISIBLE</span>
-					</div>
-
-					<div class="more"><svg class="olymp-three-dots-icon"><use xlink:href="svg-icons/sprites/icons.svg#olymp-three-dots-icon"></use></svg>
-
-						<ul class="more-icons">
-							<li>
-								<svg data-toggle="tooltip" data-placement="top" data-original-title="START CONVERSATION" class="olymp-comments-post-icon"><use xlink:href="svg-icons/sprites/icons.svg#olymp-comments-post-icon"></use></svg>
-							</li>
-
-							<li>
-								<svg data-toggle="tooltip" data-placement="top" data-original-title="ADD TO CONVERSATION" class="olymp-add-to-conversation-icon"><use xlink:href="svg-icons/sprites/icons.svg#olymp-add-to-conversation-icon"></use></svg>
-							</li>
-
-							<li>
-								<svg data-toggle="tooltip" data-placement="top" data-original-title="BLOCK FROM CHAT" class="olymp-block-from-chat-icon"><use xlink:href="svg-icons/sprites/icons.svg#olymp-block-from-chat-icon"></use></svg>
-							</li>
-						</ul>
-
-					</div>
-				</li>
-				<li class="inline-items js-chat-open">
-
-					<div class="author-thumb">
-						<img alt="author" src="img/avatar72-sm.jpg" class="avatar">
-						<span class="icon-status away"></span>
-					</div>
-
-					<div class="author-status">
-						<a href="02-ProfilePage.html#" class="h6 author-name">Chris Greyson</a>
-						<span class="status">AWAY</span>
-					</div>
-
-					<div class="more"><svg class="olymp-three-dots-icon"><use xlink:href="svg-icons/sprites/icons.svg#olymp-three-dots-icon"></use></svg>
-
-						<ul class="more-icons">
-							<li>
-								<svg data-toggle="tooltip" data-placement="top" data-original-title="START CONVERSATION" class="olymp-comments-post-icon"><use xlink:href="svg-icons/sprites/icons.svg#olymp-comments-post-icon"></use></svg>
-							</li>
-
-							<li>
-								<svg data-toggle="tooltip" data-placement="top" data-original-title="ADD TO CONVERSATION" class="olymp-add-to-conversation-icon"><use xlink:href="svg-icons/sprites/icons.svg#olymp-add-to-conversation-icon"></use></svg>
-							</li>
-
-							<li>
-								<svg data-toggle="tooltip" data-placement="top" data-original-title="BLOCK FROM CHAT" class="olymp-block-from-chat-icon"><use xlink:href="svg-icons/sprites/icons.svg#olymp-block-from-chat-icon"></use></svg>
-							</li>
-						</ul>
-
-					</div>
-				</li>
-				<li class="inline-items js-chat-open">
-
-					<div class="author-thumb">
-						<img alt="author" src="img/avatar71-sm.jpg" class="avatar">
-						<span class="icon-status online"></span>
-					</div>
-
-					<div class="author-status">
-						<a href="02-ProfilePage.html#" class="h6 author-name">Bruce Peterson</a>
-						<span class="status">ONLINE</span>
-					</div>
-
-					<div class="more"><svg class="olymp-three-dots-icon"><use xlink:href="svg-icons/sprites/icons.svg#olymp-three-dots-icon"></use></svg>
-
-						<ul class="more-icons">
-							<li>
-								<svg data-toggle="tooltip" data-placement="top" data-original-title="START CONVERSATION" class="olymp-comments-post-icon"><use xlink:href="svg-icons/sprites/icons.svg#olymp-comments-post-icon"></use></svg>
-							</li>
-
-							<li>
-								<svg data-toggle="tooltip" data-placement="top" data-original-title="ADD TO CONVERSATION" class="olymp-add-to-conversation-icon"><use xlink:href="svg-icons/sprites/icons.svg#olymp-add-to-conversation-icon"></use></svg>
-							</li>
-
-							<li>
-								<svg data-toggle="tooltip" data-placement="top" data-original-title="BLOCK FROM CHAT" class="olymp-block-from-chat-icon"><use xlink:href="svg-icons/sprites/icons.svg#olymp-block-from-chat-icon"></use></svg>
-							</li>
-						</ul>
-
-					</div>
-				</li>
-			</ul>
-
-		</div>
-
-		<div class="search-friend inline-items">
-			<form class="form-group" >
-				<input class="form-control" placeholder="Search Friends..." value="" type="text">
-			</form>
-
-			<a href="29-YourAccount-AccountSettings.html" class="settings">
-				<svg class="olymp-settings-icon"><use xlink:href="svg-icons/sprites/icons.svg#olymp-settings-icon"></use></svg>
-			</a>
-
-			<a href="02-ProfilePage.html#" class="js-sidebar-open">
-				<svg class="olymp-close-icon"><use xlink:href="svg-icons/sprites/icons.svg#olymp-close-icon"></use></svg>
-			</a>
-		</div>
-
-		<a href="02-ProfilePage.html#" class="olympus-chat inline-items js-chat-open">
-
-			<h6 class="olympus-chat-title">OLYMPUS CHAT</h6>
-			<svg class="olymp-chat---messages-icon"><use xlink:href="svg-icons/sprites/icons.svg#olymp-chat---messages-icon"></use></svg>
-		</a>
-	</div>
-
-</div>
-
-<!-- ... end Fixed Sidebar Right-Responsive -->
 
 
 <!-- Header-BP -->
@@ -1341,7 +429,7 @@
 			</div>
 		</form>
 
-		<a href="02-ProfilePage.html#" class="link-find-friend">Find Friends</a>
+		<a href="02-ProfilePage.jsp#" class="link-find-friend">Find Friends</a>
 
 		<div class="control-block">
 
@@ -1352,8 +440,8 @@
 				<div class="more-dropdown more-with-triangle triangle-top-center">
 					<div class="ui-block-title ui-block-title-small">
 						<h6 class="title">FRIEND REQUESTS</h6>
-						<a href="02-ProfilePage.html#">Find Friends</a>
-						<a href="02-ProfilePage.html#">Settings</a>
+						<a href="02-ProfilePage.jsp#">Find Friends</a>
+						<a href="02-ProfilePage.jsp#">Settings</a>
 					</div>
 
 					<div class="mCustomScrollbar" data-mcs-theme="dark">
@@ -1363,17 +451,17 @@
 									<img src="img/avatar55-sm.jpg" alt="author">
 								</div>
 								<div class="notification-event">
-									<a href="02-ProfilePage.html#" class="h6 notification-friend">Tamara Romanoff</a>
+									<a href="02-ProfilePage.jsp#" class="h6 notification-friend">Tamara Romanoff</a>
 									<span class="chat-message-item">Mutual Friend: Sarah Hetfield</span>
 								</div>
 								<span class="notification-icon">
-									<a href="02-ProfilePage.html#" class="accept-request">
+									<a href="02-ProfilePage.jsp#" class="accept-request">
 										<span class="icon-add without-text">
 											<svg class="olymp-happy-face-icon"><use xlink:href="svg-icons/sprites/icons.svg#olymp-happy-face-icon"></use></svg>
 										</span>
 									</a>
 
-									<a href="02-ProfilePage.html#" class="accept-request request-del">
+									<a href="02-ProfilePage.jsp#" class="accept-request request-del">
 										<span class="icon-minus">
 											<svg class="olymp-happy-face-icon"><use xlink:href="svg-icons/sprites/icons.svg#olymp-happy-face-icon"></use></svg>
 										</span>
@@ -1391,17 +479,17 @@
 									<img src="img/avatar56-sm.jpg" alt="author">
 								</div>
 								<div class="notification-event">
-									<a href="02-ProfilePage.html#" class="h6 notification-friend">Tony Stevens</a>
+									<a href="02-ProfilePage.jsp#" class="h6 notification-friend">Tony Stevens</a>
 									<span class="chat-message-item">4 Friends in Common</span>
 								</div>
 								<span class="notification-icon">
-									<a href="02-ProfilePage.html#" class="accept-request">
+									<a href="02-ProfilePage.jsp#" class="accept-request">
 										<span class="icon-add without-text">
 											<svg class="olymp-happy-face-icon"><use xlink:href="svg-icons/sprites/icons.svg#olymp-happy-face-icon"></use></svg>
 										</span>
 									</a>
 
-									<a href="02-ProfilePage.html#" class="accept-request request-del">
+									<a href="02-ProfilePage.jsp#" class="accept-request request-del">
 										<span class="icon-minus">
 											<svg class="olymp-happy-face-icon"><use xlink:href="svg-icons/sprites/icons.svg#olymp-happy-face-icon"></use></svg>
 										</span>
@@ -1419,7 +507,7 @@
 									<img src="img/avatar57-sm.jpg" alt="author">
 								</div>
 								<div class="notification-event">
-									You and <a href="02-ProfilePage.html#" class="h6 notification-friend">Mary Jane Stark</a> just became friends. Write on <a href="02-ProfilePage.html#" class="notification-link">her wall</a>.
+									You and <a href="02-ProfilePage.jsp#" class="h6 notification-friend">Mary Jane Stark</a> just became friends. Write on <a href="02-ProfilePage.jsp#" class="notification-link">her wall</a>.
 								</div>
 								<span class="notification-icon">
 									<svg class="olymp-happy-face-icon"><use xlink:href="svg-icons/sprites/icons.svg#olymp-happy-face-icon"></use></svg>
@@ -1436,17 +524,17 @@
 									<img src="img/avatar58-sm.jpg" alt="author">
 								</div>
 								<div class="notification-event">
-									<a href="02-ProfilePage.html#" class="h6 notification-friend">Stagg Clothing</a>
+									<a href="02-ProfilePage.jsp#" class="h6 notification-friend">Stagg Clothing</a>
 									<span class="chat-message-item">9 Friends in Common</span>
 								</div>
 								<span class="notification-icon">
-									<a href="02-ProfilePage.html#" class="accept-request">
+									<a href="02-ProfilePage.jsp#" class="accept-request">
 										<span class="icon-add without-text">
 											<svg class="olymp-happy-face-icon"><use xlink:href="svg-icons/sprites/icons.svg#olymp-happy-face-icon"></use></svg>
 										</span>
 									</a>
 
-									<a href="02-ProfilePage.html#" class="accept-request request-del">
+									<a href="02-ProfilePage.jsp#" class="accept-request request-del">
 										<span class="icon-minus">
 											<svg class="olymp-happy-face-icon"><use xlink:href="svg-icons/sprites/icons.svg#olymp-happy-face-icon"></use></svg>
 										</span>
@@ -1462,7 +550,7 @@
 						</ul>
 					</div>
 
-					<a href="02-ProfilePage.html#" class="view-all bg-blue">Check all your Events</a>
+					<a href="02-ProfilePage.jsp#" class="view-all bg-blue">Check all your Events</a>
 				</div>
 			</div>
 
@@ -1473,8 +561,8 @@
 				<div class="more-dropdown more-with-triangle triangle-top-center">
 					<div class="ui-block-title ui-block-title-small">
 						<h6 class="title">Chat / Messages</h6>
-						<a href="02-ProfilePage.html#">Mark all as read</a>
-						<a href="02-ProfilePage.html#">Settings</a>
+						<a href="02-ProfilePage.jsp#">Mark all as read</a>
+						<a href="02-ProfilePage.jsp#">Settings</a>
 					</div>
 
 					<div class="mCustomScrollbar" data-mcs-theme="dark">
@@ -1484,7 +572,7 @@
 									<img src="img/avatar59-sm.jpg" alt="author">
 								</div>
 								<div class="notification-event">
-									<a href="02-ProfilePage.html#" class="h6 notification-friend">Diana Jameson</a>
+									<a href="02-ProfilePage.jsp#" class="h6 notification-friend">Diana Jameson</a>
 									<span class="chat-message-item">Hi James! It’s Diana, I just wanted to let you know that we have to reschedule...</span>
 									<span class="notification-date"><time class="entry-date updated" datetime="2004-07-24T18:18">4 hours ago</time></span>
 								</div>
@@ -1501,7 +589,7 @@
 									<img src="img/avatar60-sm.jpg" alt="author">
 								</div>
 								<div class="notification-event">
-									<a href="02-ProfilePage.html#" class="h6 notification-friend">Jake Parker</a>
+									<a href="02-ProfilePage.jsp#" class="h6 notification-friend">Jake Parker</a>
 									<span class="chat-message-item">Great, I’ll see you tomorrow!.</span>
 									<span class="notification-date"><time class="entry-date updated" datetime="2004-07-24T18:18">4 hours ago</time></span>
 								</div>
@@ -1518,7 +606,7 @@
 									<img src="img/avatar61-sm.jpg" alt="author">
 								</div>
 								<div class="notification-event">
-									<a href="02-ProfilePage.html#" class="h6 notification-friend">Elaine Dreyfuss</a>
+									<a href="02-ProfilePage.jsp#" class="h6 notification-friend">Elaine Dreyfuss</a>
 									<span class="chat-message-item">We’ll have to check that at the office and see if the client is on board with...</span>
 									<span class="notification-date"><time class="entry-date updated" datetime="2004-07-24T18:18">Yesterday at 9:56pm</time></span>
 								</div>
@@ -1538,7 +626,7 @@
 									<img src="img/avatar10-sm.jpg" alt="author">
 								</div>
 								<div class="notification-event">
-									<a href="02-ProfilePage.html#" class="h6 notification-friend">You, Faye, Ed &amp; Jet +3</a>
+									<a href="02-ProfilePage.jsp#" class="h6 notification-friend">You, Faye, Ed &amp; Jet +3</a>
 									<span class="last-message-author">Ed:</span>
 									<span class="chat-message-item">Yeah! Seems fine by me!</span>
 									<span class="notification-date"><time class="entry-date updated" datetime="2004-07-24T18:18">March 16th at 10:23am</time></span>
@@ -1553,7 +641,7 @@
 						</ul>
 					</div>
 
-					<a href="02-ProfilePage.html#" class="view-all bg-purple">View All Messages</a>
+					<a href="02-ProfilePage.jsp#" class="view-all bg-purple">View All Messages</a>
 				</div>
 			</div>
 
@@ -1565,8 +653,8 @@
 				<div class="more-dropdown more-with-triangle triangle-top-center">
 					<div class="ui-block-title ui-block-title-small">
 						<h6 class="title">Notifications</h6>
-						<a href="02-ProfilePage.html#">Mark all as read</a>
-						<a href="02-ProfilePage.html#">Settings</a>
+						<a href="02-ProfilePage.jsp#">Mark all as read</a>
+						<a href="02-ProfilePage.jsp#">Settings</a>
 					</div>
 
 					<div class="mCustomScrollbar" data-mcs-theme="dark">
@@ -1576,7 +664,7 @@
 									<img src="img/avatar62-sm.jpg" alt="author">
 								</div>
 								<div class="notification-event">
-									<div><a href="02-ProfilePage.html#" class="h6 notification-friend">Mathilda Brinker</a> commented on your new <a href="02-ProfilePage.html#" class="notification-link">profile status</a>.</div>
+									<div><a href="02-ProfilePage.jsp#" class="h6 notification-friend">Mathilda Brinker</a> commented on your new <a href="02-ProfilePage.jsp#" class="notification-link">profile status</a>.</div>
 									<span class="notification-date"><time class="entry-date updated" datetime="2004-07-24T18:18">4 hours ago</time></span>
 								</div>
 									<span class="notification-icon">
@@ -1594,7 +682,7 @@
 									<img src="img/avatar63-sm.jpg" alt="author">
 								</div>
 								<div class="notification-event">
-									<div>You and <a href="02-ProfilePage.html#" class="h6 notification-friend">Nicholas Grissom</a> just became friends. Write on <a href="02-ProfilePage.html#" class="notification-link">his wall</a>.</div>
+									<div>You and <a href="02-ProfilePage.jsp#" class="h6 notification-friend">Nicholas Grissom</a> just became friends. Write on <a href="02-ProfilePage.jsp#" class="notification-link">his wall</a>.</div>
 									<span class="notification-date"><time class="entry-date updated" datetime="2004-07-24T18:18">9 hours ago</time></span>
 								</div>
 									<span class="notification-icon">
@@ -1612,7 +700,7 @@
 									<img src="img/avatar64-sm.jpg" alt="author">
 								</div>
 								<div class="notification-event">
-									<div><a href="02-ProfilePage.html#" class="h6 notification-friend">Sarah Hetfield</a> commented on your <a href="02-ProfilePage.html#" class="notification-link">photo</a>.</div>
+									<div><a href="02-ProfilePage.jsp#" class="h6 notification-friend">Sarah Hetfield</a> commented on your <a href="02-ProfilePage.jsp#" class="notification-link">photo</a>.</div>
 									<span class="notification-date"><time class="entry-date updated" datetime="2004-07-24T18:18">Yesterday at 5:32am</time></span>
 								</div>
 									<span class="notification-icon">
@@ -1635,7 +723,7 @@
 									<img src="img/avatar65-sm.jpg" alt="author">
 								</div>
 								<div class="notification-event">
-									<div><a href="02-ProfilePage.html#" class="h6 notification-friend">Green Goo Rock</a> invited you to attend to his event Goo in <a href="02-ProfilePage.html#" class="notification-link">Gotham Bar</a>.</div>
+									<div><a href="02-ProfilePage.jsp#" class="h6 notification-friend">Green Goo Rock</a> invited you to attend to his event Goo in <a href="02-ProfilePage.jsp#" class="notification-link">Gotham Bar</a>.</div>
 									<span class="notification-date"><time class="entry-date updated" datetime="2004-07-24T18:18">March 5th at 6:43pm</time></span>
 								</div>
 									<span class="notification-icon">
@@ -1653,7 +741,7 @@
 									<img src="img/avatar66-sm.jpg" alt="author">
 								</div>
 								<div class="notification-event">
-									<div><a href="02-ProfilePage.html#" class="h6 notification-friend">James Summers</a> commented on your new <a href="02-ProfilePage.html#" class="notification-link">profile status</a>.</div>
+									<div><a href="02-ProfilePage.jsp#" class="h6 notification-friend">James Summers</a> commented on your new <a href="02-ProfilePage.jsp#" class="notification-link">profile status</a>.</div>
 									<span class="notification-date"><time class="entry-date updated" datetime="2004-07-24T18:18">March 2nd at 8:29pm</time></span>
 								</div>
 									<span class="notification-icon">
@@ -1668,7 +756,7 @@
 						</ul>
 					</div>
 
-					<a href="02-ProfilePage.html#" class="view-all bg-primary">View All Notifications</a>
+					<a href="02-ProfilePage.jsp#" class="view-all bg-primary">View All Notifications</a>
 				</div>
 			</div>
 
@@ -1684,7 +772,7 @@
 
 							<ul class="account-settings">
 								<li>
-									<a href="29-YourAccount-AccountSettings.html">
+									<a href="29-YourAccount-AccountSettings.jsp">
 
 										<svg class="olymp-menu-icon"><use xlink:href="svg-icons/sprites/icons.svg#olymp-menu-icon"></use></svg>
 
@@ -1699,7 +787,7 @@
 									</a>
 								</li>
 								<li>
-									<a href="02-ProfilePage.html#">
+									<a href="02-ProfilePage.jsp#">
 										<svg class="olymp-logout-icon"><use xlink:href="svg-icons/sprites/icons.svg#olymp-logout-icon"></use></svg>
 
 										<span>Log Out</span>
@@ -1713,26 +801,26 @@
 
 							<ul class="chat-settings">
 								<li>
-									<a href="02-ProfilePage.html#">
+									<a href="02-ProfilePage.jsp#">
 										<span class="icon-status online"></span>
 										<span>Online</span>
 									</a>
 								</li>
 								<li>
-									<a href="02-ProfilePage.html#">
+									<a href="02-ProfilePage.jsp#">
 										<span class="icon-status away"></span>
 										<span>Away</span>
 									</a>
 								</li>
 								<li>
-									<a href="02-ProfilePage.html#">
+									<a href="02-ProfilePage.jsp#">
 										<span class="icon-status disconected"></span>
 										<span>Disconnected</span>
 									</a>
 								</li>
 
 								<li>
-									<a href="02-ProfilePage.html#">
+									<a href="02-ProfilePage.jsp#">
 										<span class="icon-status status-invisible"></span>
 										<span>Invisible</span>
 									</a>
@@ -1757,22 +845,22 @@
 
 							<ul>
 								<li>
-									<a href="02-ProfilePage.html#">
+									<a href="02-ProfilePage.jsp#">
 										<span>Terms and Conditions</span>
 									</a>
 								</li>
 								<li>
-									<a href="02-ProfilePage.html#">
+									<a href="02-ProfilePage.jsp#">
 										<span>FAQs</span>
 									</a>
 								</li>
 								<li>
-									<a href="02-ProfilePage.html#">
+									<a href="02-ProfilePage.jsp#">
 										<span>Careers</span>
 									</a>
 								</li>
 								<li>
-									<a href="02-ProfilePage.html#">
+									<a href="02-ProfilePage.jsp#">
 										<span>Contact</span>
 									</a>
 								</li>
@@ -1781,7 +869,7 @@
 
 					</div>
 				</div>
-				<a href="02-ProfilePage.html" class="author-name fn">
+				<a href="02-ProfilePage.jsp" class="author-name fn">
 					<div class="author-title">
 						James Spiegel <svg class="olymp-dropdown-arrow-icon"><use xlink:href="svg-icons/sprites/icons.svg#olymp-dropdown-arrow-icon"></use></svg>
 					</div>
@@ -1804,7 +892,7 @@
 	<div class="header-content-wrapper">
 		<ul class="nav nav-tabs mobile-app-tabs" role="tablist">
 			<li class="nav-item">
-				<a class="nav-link" data-toggle="tab" href="02-ProfilePage.html#request" role="tab">
+				<a class="nav-link" data-toggle="tab" href="02-ProfilePage.jsp#request" role="tab">
 					<div class="control-icon has-items">
 						<svg class="olymp-happy-face-icon"><use xlink:href="svg-icons/sprites/icons.svg#olymp-happy-face-icon"></use></svg>
 						<div class="label-avatar bg-blue">6</div>
@@ -1813,7 +901,7 @@
 			</li>
 
 			<li class="nav-item">
-				<a class="nav-link" data-toggle="tab" href="02-ProfilePage.html#chat" role="tab">
+				<a class="nav-link" data-toggle="tab" href="02-ProfilePage.jsp#chat" role="tab">
 					<div class="control-icon has-items">
 						<svg class="olymp-chat---messages-icon"><use xlink:href="svg-icons/sprites/icons.svg#olymp-chat---messages-icon"></use></svg>
 						<div class="label-avatar bg-purple">2</div>
@@ -1822,7 +910,7 @@
 			</li>
 
 			<li class="nav-item">
-				<a class="nav-link" data-toggle="tab" href="02-ProfilePage.html#notification" role="tab">
+				<a class="nav-link" data-toggle="tab" href="02-ProfilePage.jsp#notification" role="tab">
 					<div class="control-icon has-items">
 						<svg class="olymp-thunder-icon"><use xlink:href="svg-icons/sprites/icons.svg#olymp-thunder-icon"></use></svg>
 						<div class="label-avatar bg-primary">8</div>
@@ -1831,7 +919,7 @@
 			</li>
 
 			<li class="nav-item">
-				<a class="nav-link" data-toggle="tab" href="02-ProfilePage.html#search" role="tab">
+				<a class="nav-link" data-toggle="tab" href="02-ProfilePage.jsp#search" role="tab">
 					<svg class="olymp-magnifying-glass-icon"><use xlink:href="svg-icons/sprites/icons.svg#olymp-magnifying-glass-icon"></use></svg>
 					<svg class="olymp-close-icon"><use xlink:href="svg-icons/sprites/icons.svg#olymp-close-icon"></use></svg>
 				</a>
@@ -1847,8 +935,8 @@
 			<div class="mCustomScrollbar" data-mcs-theme="dark">
 				<div class="ui-block-title ui-block-title-small">
 					<h6 class="title">FRIEND REQUESTS</h6>
-					<a href="02-ProfilePage.html#">Find Friends</a>
-					<a href="02-ProfilePage.html#">Settings</a>
+					<a href="02-ProfilePage.jsp#">Find Friends</a>
+					<a href="02-ProfilePage.jsp#">Settings</a>
 				</div>
 				<ul class="notification-list friend-requests">
 					<li>
@@ -1856,17 +944,17 @@
 							<img src="img/avatar55-sm.jpg" alt="author">
 						</div>
 						<div class="notification-event">
-							<a href="02-ProfilePage.html#" class="h6 notification-friend">Tamara Romanoff</a>
+							<a href="02-ProfilePage.jsp#" class="h6 notification-friend">Tamara Romanoff</a>
 							<span class="chat-message-item">Mutual Friend: Sarah Hetfield</span>
 						</div>
 									<span class="notification-icon">
-										<a href="02-ProfilePage.html#" class="accept-request">
+										<a href="02-ProfilePage.jsp#" class="accept-request">
 											<span class="icon-add without-text">
 												<svg class="olymp-happy-face-icon"><use xlink:href="svg-icons/sprites/icons.svg#olymp-happy-face-icon"></use></svg>
 											</span>
 										</a>
 
-										<a href="02-ProfilePage.html#" class="accept-request request-del">
+										<a href="02-ProfilePage.jsp#" class="accept-request request-del">
 											<span class="icon-minus">
 												<svg class="olymp-happy-face-icon"><use xlink:href="svg-icons/sprites/icons.svg#olymp-happy-face-icon"></use></svg>
 											</span>
@@ -1883,17 +971,17 @@
 							<img src="img/avatar56-sm.jpg" alt="author">
 						</div>
 						<div class="notification-event">
-							<a href="02-ProfilePage.html#" class="h6 notification-friend">Tony Stevens</a>
+							<a href="02-ProfilePage.jsp#" class="h6 notification-friend">Tony Stevens</a>
 							<span class="chat-message-item">4 Friends in Common</span>
 						</div>
 									<span class="notification-icon">
-										<a href="02-ProfilePage.html#" class="accept-request">
+										<a href="02-ProfilePage.jsp#" class="accept-request">
 											<span class="icon-add without-text">
 												<svg class="olymp-happy-face-icon"><use xlink:href="svg-icons/sprites/icons.svg#olymp-happy-face-icon"></use></svg>
 											</span>
 										</a>
 
-										<a href="02-ProfilePage.html#" class="accept-request request-del">
+										<a href="02-ProfilePage.jsp#" class="accept-request request-del">
 											<span class="icon-minus">
 												<svg class="olymp-happy-face-icon"><use xlink:href="svg-icons/sprites/icons.svg#olymp-happy-face-icon"></use></svg>
 											</span>
@@ -1910,7 +998,7 @@
 							<img src="img/avatar57-sm.jpg" alt="author">
 						</div>
 						<div class="notification-event">
-							You and <a href="02-ProfilePage.html#" class="h6 notification-friend">Mary Jane Stark</a> just became friends. Write on <a href="02-ProfilePage.html#" class="notification-link">her wall</a>.
+							You and <a href="02-ProfilePage.jsp#" class="h6 notification-friend">Mary Jane Stark</a> just became friends. Write on <a href="02-ProfilePage.jsp#" class="notification-link">her wall</a>.
 						</div>
 									<span class="notification-icon">
 										<svg class="olymp-happy-face-icon"><use xlink:href="svg-icons/sprites/icons.svg#olymp-happy-face-icon"></use></svg>
@@ -1926,17 +1014,17 @@
 							<img src="img/avatar58-sm.jpg" alt="author">
 						</div>
 						<div class="notification-event">
-							<a href="02-ProfilePage.html#" class="h6 notification-friend">Stagg Clothing</a>
+							<a href="02-ProfilePage.jsp#" class="h6 notification-friend">Stagg Clothing</a>
 							<span class="chat-message-item">9 Friends in Common</span>
 						</div>
 									<span class="notification-icon">
-										<a href="02-ProfilePage.html#" class="accept-request">
+										<a href="02-ProfilePage.jsp#" class="accept-request">
 											<span class="icon-add without-text">
 												<svg class="olymp-happy-face-icon"><use xlink:href="svg-icons/sprites/icons.svg#olymp-happy-face-icon"></use></svg>
 											</span>
 										</a>
 
-										<a href="02-ProfilePage.html#" class="accept-request request-del">
+										<a href="02-ProfilePage.jsp#" class="accept-request request-del">
 											<span class="icon-minus">
 												<svg class="olymp-happy-face-icon"><use xlink:href="svg-icons/sprites/icons.svg#olymp-happy-face-icon"></use></svg>
 											</span>
@@ -1949,7 +1037,7 @@
 						</div>
 					</li>
 				</ul>
-				<a href="02-ProfilePage.html#" class="view-all bg-blue">Check all your Events</a>
+				<a href="02-ProfilePage.jsp#" class="view-all bg-blue">Check all your Events</a>
 			</div>
 
 		</div>
@@ -1959,8 +1047,8 @@
 			<div class="mCustomScrollbar" data-mcs-theme="dark">
 				<div class="ui-block-title ui-block-title-small">
 					<h6 class="title">Chat / Messages</h6>
-					<a href="02-ProfilePage.html#">Mark all as read</a>
-					<a href="02-ProfilePage.html#">Settings</a>
+					<a href="02-ProfilePage.jsp#">Mark all as read</a>
+					<a href="02-ProfilePage.jsp#">Settings</a>
 				</div>
 
 				<ul class="notification-list chat-message">
@@ -1969,7 +1057,7 @@
 							<img src="img/avatar59-sm.jpg" alt="author">
 						</div>
 						<div class="notification-event">
-							<a href="02-ProfilePage.html#" class="h6 notification-friend">Diana Jameson</a>
+							<a href="02-ProfilePage.jsp#" class="h6 notification-friend">Diana Jameson</a>
 							<span class="chat-message-item">Hi James! It’s Diana, I just wanted to let you know that we have to reschedule...</span>
 							<span class="notification-date"><time class="entry-date updated" datetime="2004-07-24T18:18">4 hours ago</time></span>
 						</div>
@@ -1986,7 +1074,7 @@
 							<img src="img/avatar60-sm.jpg" alt="author">
 						</div>
 						<div class="notification-event">
-							<a href="02-ProfilePage.html#" class="h6 notification-friend">Jake Parker</a>
+							<a href="02-ProfilePage.jsp#" class="h6 notification-friend">Jake Parker</a>
 							<span class="chat-message-item">Great, I’ll see you tomorrow!.</span>
 							<span class="notification-date"><time class="entry-date updated" datetime="2004-07-24T18:18">4 hours ago</time></span>
 						</div>
@@ -2003,7 +1091,7 @@
 							<img src="img/avatar61-sm.jpg" alt="author">
 						</div>
 						<div class="notification-event">
-							<a href="02-ProfilePage.html#" class="h6 notification-friend">Elaine Dreyfuss</a>
+							<a href="02-ProfilePage.jsp#" class="h6 notification-friend">Elaine Dreyfuss</a>
 							<span class="chat-message-item">We’ll have to check that at the office and see if the client is on board with...</span>
 							<span class="notification-date"><time class="entry-date updated" datetime="2004-07-24T18:18">Yesterday at 9:56pm</time></span>
 						</div>
@@ -2023,7 +1111,7 @@
 							<img src="img/avatar10-sm.jpg" alt="author">
 						</div>
 						<div class="notification-event">
-							<a href="02-ProfilePage.html#" class="h6 notification-friend">You, Faye, Ed &amp; Jet +3</a>
+							<a href="02-ProfilePage.jsp#" class="h6 notification-friend">You, Faye, Ed &amp; Jet +3</a>
 							<span class="last-message-author">Ed:</span>
 							<span class="chat-message-item">Yeah! Seems fine by me!</span>
 							<span class="notification-date"><time class="entry-date updated" datetime="2004-07-24T18:18">March 16th at 10:23am</time></span>
@@ -2037,7 +1125,7 @@
 					</li>
 				</ul>
 
-				<a href="02-ProfilePage.html#" class="view-all bg-purple">View All Messages</a>
+				<a href="02-ProfilePage.jsp#" class="view-all bg-purple">View All Messages</a>
 			</div>
 
 		</div>
@@ -2047,8 +1135,8 @@
 			<div class="mCustomScrollbar" data-mcs-theme="dark">
 				<div class="ui-block-title ui-block-title-small">
 					<h6 class="title">Notifications</h6>
-					<a href="02-ProfilePage.html#">Mark all as read</a>
-					<a href="02-ProfilePage.html#">Settings</a>
+					<a href="02-ProfilePage.jsp#">Mark all as read</a>
+					<a href="02-ProfilePage.jsp#">Settings</a>
 				</div>
 
 				<ul class="notification-list">
@@ -2057,7 +1145,7 @@
 							<img src="img/avatar62-sm.jpg" alt="author">
 						</div>
 						<div class="notification-event">
-							<div><a href="02-ProfilePage.html#" class="h6 notification-friend">Mathilda Brinker</a> commented on your new <a href="02-ProfilePage.html#" class="notification-link">profile status</a>.</div>
+							<div><a href="02-ProfilePage.jsp#" class="h6 notification-friend">Mathilda Brinker</a> commented on your new <a href="02-ProfilePage.jsp#" class="notification-link">profile status</a>.</div>
 							<span class="notification-date"><time class="entry-date updated" datetime="2004-07-24T18:18">4 hours ago</time></span>
 						</div>
 										<span class="notification-icon">
@@ -2075,7 +1163,7 @@
 							<img src="img/avatar63-sm.jpg" alt="author">
 						</div>
 						<div class="notification-event">
-							<div>You and <a href="02-ProfilePage.html#" class="h6 notification-friend">Nicholas Grissom</a> just became friends. Write on <a href="02-ProfilePage.html#" class="notification-link">his wall</a>.</div>
+							<div>You and <a href="02-ProfilePage.jsp#" class="h6 notification-friend">Nicholas Grissom</a> just became friends. Write on <a href="02-ProfilePage.jsp#" class="notification-link">his wall</a>.</div>
 							<span class="notification-date"><time class="entry-date updated" datetime="2004-07-24T18:18">9 hours ago</time></span>
 						</div>
 										<span class="notification-icon">
@@ -2093,7 +1181,7 @@
 							<img src="img/avatar64-sm.jpg" alt="author">
 						</div>
 						<div class="notification-event">
-							<div><a href="02-ProfilePage.html#" class="h6 notification-friend">Sarah Hetfield</a> commented on your <a href="02-ProfilePage.html#" class="notification-link">photo</a>.</div>
+							<div><a href="02-ProfilePage.jsp#" class="h6 notification-friend">Sarah Hetfield</a> commented on your <a href="02-ProfilePage.jsp#" class="notification-link">photo</a>.</div>
 							<span class="notification-date"><time class="entry-date updated" datetime="2004-07-24T18:18">Yesterday at 5:32am</time></span>
 						</div>
 										<span class="notification-icon">
@@ -2116,7 +1204,7 @@
 							<img src="img/avatar65-sm.jpg" alt="author">
 						</div>
 						<div class="notification-event">
-							<div><a href="02-ProfilePage.html#" class="h6 notification-friend">Green Goo Rock</a> invited you to attend to his event Goo in <a href="02-ProfilePage.html#" class="notification-link">Gotham Bar</a>.</div>
+							<div><a href="02-ProfilePage.jsp#" class="h6 notification-friend">Green Goo Rock</a> invited you to attend to his event Goo in <a href="02-ProfilePage.jsp#" class="notification-link">Gotham Bar</a>.</div>
 							<span class="notification-date"><time class="entry-date updated" datetime="2004-07-24T18:18">March 5th at 6:43pm</time></span>
 						</div>
 										<span class="notification-icon">
@@ -2134,7 +1222,7 @@
 							<img src="img/avatar66-sm.jpg" alt="author">
 						</div>
 						<div class="notification-event">
-							<div><a href="02-ProfilePage.html#" class="h6 notification-friend">James Summers</a> commented on your new <a href="02-ProfilePage.html#" class="notification-link">profile status</a>.</div>
+							<div><a href="02-ProfilePage.jsp#" class="h6 notification-friend">James Summers</a> commented on your new <a href="02-ProfilePage.jsp#" class="notification-link">profile status</a>.</div>
 							<span class="notification-date"><time class="entry-date updated" datetime="2004-07-24T18:18">March 2nd at 8:29pm</time></span>
 						</div>
 										<span class="notification-icon">
@@ -2148,7 +1236,7 @@
 					</li>
 				</ul>
 
-				<a href="02-ProfilePage.html#" class="view-all bg-primary">View All Notifications</a>
+				<a href="02-ProfilePage.jsp#" class="view-all bg-primary">View All Notifications</a>
 			</div>
 
 		</div>
@@ -2190,10 +1278,13 @@
 							<div class="col col-lg-5 col-md-5 col-sm-12 col-12">
 								<ul class="profile-menu">
 									<li>
-										<a href="02-ProfilePage.html" class="active">Timeline</a>
+										<a href="29-YourAccount-AccountSettings.jsp" class="active">Edit Profile</a>
 									</li>
 									<li>
-										<a href="05-ProfilePage-About.html">About</a>
+										<a href="02-ProfilePage.jsp" class="active">Timeline</a>
+									</li>
+									<li>
+										<a href="profile">About</a>
 									</li>
 									<li>
 										<a href="06-ProfilePage.html">Friends</a>
@@ -2213,10 +1304,10 @@
 											<svg class="olymp-three-dots-icon"><use xlink:href="svg-icons/sprites/icons.svg#olymp-three-dots-icon"></use></svg>
 											<ul class="more-dropdown more-with-triangle">
 												<li>
-													<a href="02-ProfilePage.html#">Report Profile</a>
+													<a href="02-ProfilePage.jsp#">Report Profile</a>
 												</li>
 												<li>
-													<a href="02-ProfilePage.html#">Block Profile</a>
+													<a href="02-ProfilePage.jsp#">Block Profile</a>
 												</li>
 											</ul>
 										</div>
@@ -2230,7 +1321,7 @@
 								<svg class="olymp-happy-face-icon"><use xlink:href="svg-icons/sprites/icons.svg#olymp-happy-face-icon"></use></svg>
 							</a>
 
-							<a href="02-ProfilePage.html#" class="btn btn-control bg-purple">
+							<a href="02-ProfilePage.jsp#" class="btn btn-control bg-purple">
 								<svg class="olymp-chat---messages-icon"><use xlink:href="svg-icons/sprites/icons.svg#olymp-chat---messages-icon"></use></svg>
 							</a>
 
@@ -2239,24 +1330,24 @@
 
 								<ul class="more-dropdown more-with-triangle triangle-bottom-right">
 									<li>
-										<a href="02-ProfilePage.html#" data-toggle="modal" data-target="#update-header-photo">Update Profile Photo</a>
+										<a href="02-ProfilePage.jsp#" data-toggle="modal" data-target="#update-header-photo">Update Profile Photo</a>
 									</li>
 									<li>
-										<a href="02-ProfilePage.html#" data-toggle="modal" data-target="#update-header-photo">Update Header Photo</a>
+										<a href="02-ProfilePage.jsp#" data-toggle="modal" data-target="#update-header-photo">Update Header Photo</a>
 									</li>
 									<li>
-										<a href="29-YourAccount-AccountSettings.html">Account Settings</a>
+										<a href="29-YourAccount-AccountSettings.jsp">Account Settings</a>
 									</li>
 								</ul>
 							</div>
 						</div>
 					</div>
 					<div class="top-header-author">
-						<a href="02-ProfilePage.html" class="author-thumb">
+						<a href="02-ProfilePage.jsp" class="author-thumb">
 							<img src="img/author-main1.jpg" alt="author">
 						</a>
 						<div class="author-content">
-							<a href="02-ProfilePage.html" class="h4 author-name">James Spiegel</a>
+							<a href="02-ProfilePage.jsp" class="h4 author-name">James Spiegel</a>
 							<div class="country">San Francisco, CA</div>
 						</div>
 					</div>
@@ -2284,7 +1375,7 @@
 								<img src="img/author-page.jpg" alt="author">
 					
 								<div class="author-date">
-									<a class="h6 post__author-name fn" href="02-ProfilePage.html">James Spiegel</a>
+									<a class="h6 post__author-name fn" href="02-ProfilePage.jsp">James Spiegel</a>
 									<div class="post__date">
 										<time class="published" datetime="2017-03-24T18:18">
 											19 hours ago
@@ -2298,16 +1389,16 @@
 									</svg>
 									<ul class="more-dropdown">
 										<li>
-											<a href="02-ProfilePage.html#">Edit Post</a>
+											<a href="02-ProfilePage.jsp#">Edit Post</a>
 										</li>
 										<li>
-											<a href="02-ProfilePage.html#">Delete Post</a>
+											<a href="02-ProfilePage.jsp#">Delete Post</a>
 										</li>
 										<li>
-											<a href="02-ProfilePage.html#">Turn Off Notifications</a>
+											<a href="02-ProfilePage.jsp#">Turn Off Notifications</a>
 										</li>
 										<li>
-											<a href="02-ProfilePage.html#">Select as Featured</a>
+											<a href="02-ProfilePage.jsp#">Select as Featured</a>
 										</li>
 									</ul>
 								</div>
@@ -2322,7 +1413,7 @@
 					
 							<div class="post-additional-info inline-items">
 					
-								<a href="02-ProfilePage.html#" class="post-add-icon inline-items">
+								<a href="02-ProfilePage.jsp#" class="post-add-icon inline-items">
 									<svg class="olymp-heart-icon">
 										<use xlink:href="svg-icons/sprites/icons.svg#olymp-heart-icon"></use>
 									</svg>
@@ -2331,47 +1422,47 @@
 					
 								<ul class="friends-harmonic">
 									<li>
-										<a href="02-ProfilePage.html#">
+										<a href="02-ProfilePage.jsp#">
 											<img src="img/friend-harmonic7.jpg" alt="friend">
 										</a>
 									</li>
 									<li>
-										<a href="02-ProfilePage.html#">
+										<a href="02-ProfilePage.jsp#">
 											<img src="img/friend-harmonic8.jpg" alt="friend">
 										</a>
 									</li>
 									<li>
-										<a href="02-ProfilePage.html#">
+										<a href="02-ProfilePage.jsp#">
 											<img src="img/friend-harmonic9.jpg" alt="friend">
 										</a>
 									</li>
 									<li>
-										<a href="02-ProfilePage.html#">
+										<a href="02-ProfilePage.jsp#">
 											<img src="img/friend-harmonic10.jpg" alt="friend">
 										</a>
 									</li>
 									<li>
-										<a href="02-ProfilePage.html#">
+										<a href="02-ProfilePage.jsp#">
 											<img src="img/friend-harmonic11.jpg" alt="friend">
 										</a>
 									</li>
 								</ul>
 					
 								<div class="names-people-likes">
-									<a href="02-ProfilePage.html#">Jenny</a>, <a href="02-ProfilePage.html#">Robert</a> and
+									<a href="02-ProfilePage.jsp#">Jenny</a>, <a href="02-ProfilePage.jsp#">Robert</a> and
 									<br>6 more liked this
 								</div>
 					
 					
 								<div class="comments-shared">
-									<a href="02-ProfilePage.html#" class="post-add-icon inline-items">
+									<a href="02-ProfilePage.jsp#" class="post-add-icon inline-items">
 										<svg class="olymp-speech-balloon-icon">
 											<use xlink:href="svg-icons/sprites/icons.svg#olymp-speech-balloon-icon"></use>
 										</svg>
 										<span>17</span>
 									</a>
 					
-									<a href="02-ProfilePage.html#" class="post-add-icon inline-items">
+									<a href="02-ProfilePage.jsp#" class="post-add-icon inline-items">
 										<svg class="olymp-share-icon">
 											<use xlink:href="svg-icons/sprites/icons.svg#olymp-share-icon"></use>
 										</svg>
@@ -2384,25 +1475,25 @@
 					
 							<div class="control-block-button post-control-button">
 					
-								<a href="02-ProfilePage.html#" class="btn btn-control featured-post">
+								<a href="02-ProfilePage.jsp#" class="btn btn-control featured-post">
 									<svg class="olymp-trophy-icon">
 										<use xlink:href="svg-icons/sprites/icons.svg#olymp-trophy-icon"></use>
 									</svg>
 								</a>
 					
-								<a href="02-ProfilePage.html#" class="btn btn-control">
+								<a href="02-ProfilePage.jsp#" class="btn btn-control">
 									<svg class="olymp-like-post-icon">
 										<use xlink:href="svg-icons/sprites/icons.svg#olymp-like-post-icon"></use>
 									</svg>
 								</a>
 					
-								<a href="02-ProfilePage.html#" class="btn btn-control">
+								<a href="02-ProfilePage.jsp#" class="btn btn-control">
 									<svg class="olymp-comments-post-icon">
 										<use xlink:href="svg-icons/sprites/icons.svg#olymp-comments-post-icon"></use>
 									</svg>
 								</a>
 					
-								<a href="02-ProfilePage.html#" class="btn btn-control">
+								<a href="02-ProfilePage.jsp#" class="btn btn-control">
 									<svg class="olymp-share-icon">
 										<use xlink:href="svg-icons/sprites/icons.svg#olymp-share-icon"></use>
 									</svg>
@@ -2423,8 +1514,8 @@
 								<img src="img/author-page.jpg" alt="author">
 					
 								<div class="author-date">
-									<a class="h6 post__author-name fn" href="02-ProfilePage.html">James Spiegel</a> shared a
-									<a href="02-ProfilePage.html#">link</a>
+									<a class="h6 post__author-name fn" href="02-ProfilePage.jsp">James Spiegel</a> shared a
+									<a href="02-ProfilePage.jsp#">link</a>
 									<div class="post__date">
 										<time class="published" datetime="2017-03-24T18:18">
 											7 hours ago
@@ -2438,16 +1529,16 @@
 									</svg>
 									<ul class="more-dropdown">
 										<li>
-											<a href="02-ProfilePage.html#">Edit Post</a>
+											<a href="02-ProfilePage.jsp#">Edit Post</a>
 										</li>
 										<li>
-											<a href="02-ProfilePage.html#">Delete Post</a>
+											<a href="02-ProfilePage.jsp#">Delete Post</a>
 										</li>
 										<li>
-											<a href="02-ProfilePage.html#">Turn Off Notifications</a>
+											<a href="02-ProfilePage.jsp#">Turn Off Notifications</a>
 										</li>
 										<li>
-											<a href="02-ProfilePage.html#">Select as Featured</a>
+											<a href="02-ProfilePage.jsp#">Select as Featured</a>
 										</li>
 									</ul>
 								</div>
@@ -2467,15 +1558,15 @@
 								</div>
 					
 								<div class="video-content">
-									<a href="02-ProfilePage.html#" class="h4 title">System of a Revenge - Nothing Else Matters (LIVE)</a>
+									<a href="02-ProfilePage.jsp#" class="h4 title">System of a Revenge - Nothing Else Matters (LIVE)</a>
 									<p>Lorem ipsum dolor sit amet, consectetur ipisicing elit, sed do eiusmod tempo incididunt ut labore..</p>
-									<a href="02-ProfilePage.html#" class="link-site">YOUTUBE.COM</a>
+									<a href="02-ProfilePage.jsp#" class="link-site">YOUTUBE.COM</a>
 								</div>
 							</div>
 					
 							<div class="post-additional-info inline-items">
 					
-								<a href="02-ProfilePage.html#" class="post-add-icon inline-items">
+								<a href="02-ProfilePage.jsp#" class="post-add-icon inline-items">
 									<svg class="olymp-heart-icon">
 										<use xlink:href="svg-icons/sprites/icons.svg#olymp-heart-icon"></use>
 									</svg>
@@ -2484,46 +1575,46 @@
 					
 								<ul class="friends-harmonic">
 									<li>
-										<a href="02-ProfilePage.html#">
+										<a href="02-ProfilePage.jsp#">
 											<img src="img/friend-harmonic9.jpg" alt="friend">
 										</a>
 									</li>
 									<li>
-										<a href="02-ProfilePage.html#">
+										<a href="02-ProfilePage.jsp#">
 											<img src="img/friend-harmonic10.jpg" alt="friend">
 										</a>
 									</li>
 									<li>
-										<a href="02-ProfilePage.html#">
+										<a href="02-ProfilePage.jsp#">
 											<img src="img/friend-harmonic7.jpg" alt="friend">
 										</a>
 									</li>
 									<li>
-										<a href="02-ProfilePage.html#">
+										<a href="02-ProfilePage.jsp#">
 											<img src="img/friend-harmonic8.jpg" alt="friend">
 										</a>
 									</li>
 									<li>
-										<a href="02-ProfilePage.html#">
+										<a href="02-ProfilePage.jsp#">
 											<img src="img/friend-harmonic11.jpg" alt="friend">
 										</a>
 									</li>
 								</ul>
 					
 								<div class="names-people-likes">
-									<a href="02-ProfilePage.html#">Jenny</a>, <a href="02-ProfilePage.html#">Robert</a> and
+									<a href="02-ProfilePage.jsp#">Jenny</a>, <a href="02-ProfilePage.jsp#">Robert</a> and
 									<br>13 more liked this
 								</div>
 					
 								<div class="comments-shared">
-									<a href="02-ProfilePage.html#" class="post-add-icon inline-items">
+									<a href="02-ProfilePage.jsp#" class="post-add-icon inline-items">
 										<svg class="olymp-speech-balloon-icon">
 											<use xlink:href="svg-icons/sprites/icons.svg#olymp-speech-balloon-icon"></use>
 										</svg>
 										<span>1</span>
 									</a>
 					
-									<a href="02-ProfilePage.html#" class="post-add-icon inline-items">
+									<a href="02-ProfilePage.jsp#" class="post-add-icon inline-items">
 										<svg class="olymp-share-icon">
 											<use xlink:href="svg-icons/sprites/icons.svg#olymp-share-icon"></use>
 										</svg>
@@ -2536,19 +1627,19 @@
 					
 							<div class="control-block-button post-control-button">
 					
-								<a href="02-ProfilePage.html#" class="btn btn-control">
+								<a href="02-ProfilePage.jsp#" class="btn btn-control">
 									<svg class="olymp-like-post-icon">
 										<use xlink:href="svg-icons/sprites/icons.svg#olymp-like-post-icon"></use>
 									</svg>
 								</a>
 					
-								<a href="02-ProfilePage.html#" class="btn btn-control">
+								<a href="02-ProfilePage.jsp#" class="btn btn-control">
 									<svg class="olymp-comments-post-icon">
 										<use xlink:href="svg-icons/sprites/icons.svg#olymp-comments-post-icon"></use>
 									</svg>
 								</a>
 					
-								<a href="02-ProfilePage.html#" class="btn btn-control">
+								<a href="02-ProfilePage.jsp#" class="btn btn-control">
 									<svg class="olymp-share-icon">
 										<use xlink:href="svg-icons/sprites/icons.svg#olymp-share-icon"></use>
 									</svg>
@@ -2568,7 +1659,7 @@
 							<img src="img/author-page.jpg" alt="author">
 					
 							<div class="author-date">
-								<a class="h6 post__author-name fn" href="02-ProfilePage.html">James Spiegel</a>
+								<a class="h6 post__author-name fn" href="02-ProfilePage.jsp">James Spiegel</a>
 								<div class="post__date">
 									<time class="published" datetime="2017-03-24T18:18">
 										2 hours ago
@@ -2582,16 +1673,16 @@
 								</svg>
 								<ul class="more-dropdown">
 									<li>
-										<a href="02-ProfilePage.html#">Edit Post</a>
+										<a href="02-ProfilePage.jsp#">Edit Post</a>
 									</li>
 									<li>
-										<a href="02-ProfilePage.html#">Delete Post</a>
+										<a href="02-ProfilePage.jsp#">Delete Post</a>
 									</li>
 									<li>
-										<a href="02-ProfilePage.html#">Turn Off Notifications</a>
+										<a href="02-ProfilePage.jsp#">Turn Off Notifications</a>
 									</li>
 									<li>
-										<a href="02-ProfilePage.html#">Select as Featured</a>
+										<a href="02-ProfilePage.jsp#">Select as Featured</a>
 									</li>
 								</ul>
 							</div>
@@ -2604,7 +1695,7 @@
 					
 						<div class="post-additional-info inline-items">
 					
-							<a href="02-ProfilePage.html#" class="post-add-icon inline-items">
+							<a href="02-ProfilePage.jsp#" class="post-add-icon inline-items">
 								<svg class="olymp-heart-icon">
 									<use xlink:href="svg-icons/sprites/icons.svg#olymp-heart-icon"></use>
 								</svg>
@@ -2613,47 +1704,47 @@
 					
 							<ul class="friends-harmonic">
 								<li>
-									<a href="02-ProfilePage.html#">
+									<a href="02-ProfilePage.jsp#">
 										<img src="img/friend-harmonic7.jpg" alt="friend">
 									</a>
 								</li>
 								<li>
-									<a href="02-ProfilePage.html#">
+									<a href="02-ProfilePage.jsp#">
 										<img src="img/friend-harmonic8.jpg" alt="friend">
 									</a>
 								</li>
 								<li>
-									<a href="02-ProfilePage.html#">
+									<a href="02-ProfilePage.jsp#">
 										<img src="img/friend-harmonic9.jpg" alt="friend">
 									</a>
 								</li>
 								<li>
-									<a href="02-ProfilePage.html#">
+									<a href="02-ProfilePage.jsp#">
 										<img src="img/friend-harmonic10.jpg" alt="friend">
 									</a>
 								</li>
 								<li>
-									<a href="02-ProfilePage.html#">
+									<a href="02-ProfilePage.jsp#">
 										<img src="img/friend-harmonic11.jpg" alt="friend">
 									</a>
 								</li>
 							</ul>
 					
 							<div class="names-people-likes">
-								<a href="02-ProfilePage.html#">You</a>, <a href="02-ProfilePage.html#">Elaine</a> and
+								<a href="02-ProfilePage.jsp#">You</a>, <a href="02-ProfilePage.jsp#">Elaine</a> and
 								<br>34 more liked this
 							</div>
 					
 					
 							<div class="comments-shared">
-								<a href="02-ProfilePage.html#" class="post-add-icon inline-items">
+								<a href="02-ProfilePage.jsp#" class="post-add-icon inline-items">
 									<svg class="olymp-speech-balloon-icon">
 										<use xlink:href="svg-icons/sprites/icons.svg#olymp-speech-balloon-icon"></use>
 									</svg>
 									<span>17</span>
 								</a>
 					
-								<a href="02-ProfilePage.html#" class="post-add-icon inline-items">
+								<a href="02-ProfilePage.jsp#" class="post-add-icon inline-items">
 									<svg class="olymp-share-icon">
 										<use xlink:href="svg-icons/sprites/icons.svg#olymp-share-icon"></use>
 									</svg>
@@ -2666,19 +1757,19 @@
 					
 						<div class="control-block-button post-control-button">
 					
-							<a href="02-ProfilePage.html#" class="btn btn-control">
+							<a href="02-ProfilePage.jsp#" class="btn btn-control">
 								<svg class="olymp-like-post-icon">
 									<use xlink:href="svg-icons/sprites/icons.svg#olymp-like-post-icon"></use>
 								</svg>
 							</a>
 					
-							<a href="02-ProfilePage.html#" class="btn btn-control">
+							<a href="02-ProfilePage.jsp#" class="btn btn-control">
 								<svg class="olymp-comments-post-icon">
 									<use xlink:href="svg-icons/sprites/icons.svg#olymp-comments-post-icon"></use>
 								</svg>
 							</a>
 					
-							<a href="02-ProfilePage.html#" class="btn btn-control">
+							<a href="02-ProfilePage.jsp#" class="btn btn-control">
 								<svg class="olymp-share-icon">
 									<use xlink:href="svg-icons/sprites/icons.svg#olymp-share-icon"></use>
 								</svg>
@@ -2697,7 +1788,7 @@
 								<img src="img/avatar10-sm.jpg" alt="author">
 					
 								<div class="author-date">
-									<a class="h6 post__author-name fn" href="02-ProfilePage.html#">Elaine Dreyfuss</a>
+									<a class="h6 post__author-name fn" href="02-ProfilePage.jsp#">Elaine Dreyfuss</a>
 									<div class="post__date">
 										<time class="published" datetime="2017-03-24T18:18">
 											5 mins ago
@@ -2705,7 +1796,7 @@
 									</div>
 								</div>
 					
-								<a href="02-ProfilePage.html#" class="more">
+								<a href="02-ProfilePage.jsp#" class="more">
 									<svg class="olymp-three-dots-icon">
 										<use xlink:href="svg-icons/sprites/icons.svg#olymp-three-dots-icon"></use>
 									</svg>
@@ -2715,20 +1806,20 @@
 					
 							<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium der doloremque laudantium.</p>
 					
-							<a href="02-ProfilePage.html#" class="post-add-icon inline-items">
+							<a href="02-ProfilePage.jsp#" class="post-add-icon inline-items">
 								<svg class="olymp-heart-icon">
 									<use xlink:href="svg-icons/sprites/icons.svg#olymp-heart-icon"></use>
 								</svg>
 								<span>8</span>
 							</a>
-							<a href="02-ProfilePage.html#" class="reply">Reply</a>
+							<a href="02-ProfilePage.jsp#" class="reply">Reply</a>
 						</li>
 						<li class="comment-item has-children">
 							<div class="post__author author vcard inline-items">
 								<img src="img/avatar5-sm.jpg" alt="author">
 					
 								<div class="author-date">
-									<a class="h6 post__author-name fn" href="02-ProfilePage.html#">Green Goo Rock</a>
+									<a class="h6 post__author-name fn" href="02-ProfilePage.jsp#">Green Goo Rock</a>
 									<div class="post__date">
 										<time class="published" datetime="2017-03-24T18:18">
 											1 hour ago
@@ -2736,7 +1827,7 @@
 									</div>
 								</div>
 					
-								<a href="02-ProfilePage.html#" class="more">
+								<a href="02-ProfilePage.jsp#" class="more">
 									<svg class="olymp-three-dots-icon">
 										<use xlink:href="svg-icons/sprites/icons.svg#olymp-three-dots-icon"></use>
 									</svg>
@@ -2749,13 +1840,13 @@
 								quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur adipisci velit en lorem ipsum der.
 							</p>
 					
-							<a href="02-ProfilePage.html#" class="post-add-icon inline-items">
+							<a href="02-ProfilePage.jsp#" class="post-add-icon inline-items">
 								<svg class="olymp-heart-icon">
 									<use xlink:href="svg-icons/sprites/icons.svg#olymp-heart-icon"></use>
 								</svg>
 								<span>5</span>
 							</a>
-							<a href="02-ProfilePage.html#" class="reply">Reply</a>
+							<a href="02-ProfilePage.jsp#" class="reply">Reply</a>
 					
 							<ul class="children">
 								<li class="comment-item">
@@ -2763,7 +1854,7 @@
 										<img src="img/avatar8-sm.jpg" alt="author">
 					
 										<div class="author-date">
-											<a class="h6 post__author-name fn" href="02-ProfilePage.html#">Diana Jameson</a>
+											<a class="h6 post__author-name fn" href="02-ProfilePage.jsp#">Diana Jameson</a>
 											<div class="post__date">
 												<time class="published" datetime="2017-03-24T18:18">
 													39 mins ago
@@ -2771,7 +1862,7 @@
 											</div>
 										</div>
 					
-										<a href="02-ProfilePage.html#" class="more">
+										<a href="02-ProfilePage.jsp#" class="more">
 											<svg class="olymp-three-dots-icon">
 												<use xlink:href="svg-icons/sprites/icons.svg#olymp-three-dots-icon"></use>
 											</svg>
@@ -2781,20 +1872,20 @@
 					
 									<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
 					
-									<a href="02-ProfilePage.html#" class="post-add-icon inline-items">
+									<a href="02-ProfilePage.jsp#" class="post-add-icon inline-items">
 										<svg class="olymp-heart-icon">
 											<use xlink:href="svg-icons/sprites/icons.svg#olymp-heart-icon"></use>
 										</svg>
 										<span>2</span>
 									</a>
-									<a href="02-ProfilePage.html#" class="reply">Reply</a>
+									<a href="02-ProfilePage.jsp#" class="reply">Reply</a>
 								</li>
 								<li class="comment-item">
 									<div class="post__author author vcard inline-items">
 										<img src="img/avatar2-sm.jpg" alt="author">
 					
 										<div class="author-date">
-											<a class="h6 post__author-name fn" href="02-ProfilePage.html#">Nicholas Grisom</a>
+											<a class="h6 post__author-name fn" href="02-ProfilePage.jsp#">Nicholas Grisom</a>
 											<div class="post__date">
 												<time class="published" datetime="2017-03-24T18:18">
 													24 mins ago
@@ -2802,7 +1893,7 @@
 											</div>
 										</div>
 					
-										<a href="02-ProfilePage.html#" class="more">
+										<a href="02-ProfilePage.jsp#" class="more">
 											<svg class="olymp-three-dots-icon">
 												<use xlink:href="svg-icons/sprites/icons.svg#olymp-three-dots-icon"></use>
 											</svg>
@@ -2812,13 +1903,13 @@
 					
 									<p>Excepteur sint occaecat cupidatat non proident.</p>
 					
-									<a href="02-ProfilePage.html#" class="post-add-icon inline-items">
+									<a href="02-ProfilePage.jsp#" class="post-add-icon inline-items">
 										<svg class="olymp-heart-icon">
 											<use xlink:href="svg-icons/sprites/icons.svg#olymp-heart-icon"></use>
 										</svg>
 										<span>0</span>
 									</a>
-									<a href="02-ProfilePage.html#" class="reply">Reply</a>
+									<a href="02-ProfilePage.jsp#" class="reply">Reply</a>
 					
 								</li>
 							</ul>
@@ -2830,7 +1921,7 @@
 								<img src="img/avatar4-sm.jpg" alt="author">
 					
 								<div class="author-date">
-									<a class="h6 post__author-name fn" href="02-ProfilePage.html#">Chris Greyson</a>
+									<a class="h6 post__author-name fn" href="02-ProfilePage.jsp#">Chris Greyson</a>
 									<div class="post__date">
 										<time class="published" datetime="2017-03-24T18:18">
 											1 hour ago
@@ -2838,7 +1929,7 @@
 									</div>
 								</div>
 					
-								<a href="02-ProfilePage.html#" class="more">
+								<a href="02-ProfilePage.jsp#" class="more">
 									<svg class="olymp-three-dots-icon">
 										<use xlink:href="svg-icons/sprites/icons.svg#olymp-three-dots-icon"></use>
 									</svg>
@@ -2848,19 +1939,19 @@
 					
 							<p>Dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit.</p>
 					
-							<a href="02-ProfilePage.html#" class="post-add-icon inline-items">
+							<a href="02-ProfilePage.jsp#" class="post-add-icon inline-items">
 								<svg class="olymp-heart-icon">
 									<use xlink:href="svg-icons/sprites/icons.svg#olymp-heart-icon"></use>
 								</svg>
 								<span>7</span>
 							</a>
-							<a href="02-ProfilePage.html#" class="reply">Reply</a>
+							<a href="02-ProfilePage.jsp#" class="reply">Reply</a>
 					
 						</li>
 					</ul>
 					
 					<!-- ... end Comments -->
-					<a href="02-ProfilePage.html#" class="more-comments">View more comments <span>+</span></a>
+					<a href="02-ProfilePage.jsp#" class="more-comments">View more comments <span>+</span></a>
 					
 					<!-- Comment Form  -->
 					
@@ -2872,7 +1963,7 @@
 							<div class="form-group with-icon-right ">
 								<textarea class="form-control" placeholder=""></textarea>
 								<div class="add-options-message">
-									<a href="02-ProfilePage.html#" class="options-message" data-toggle="modal" data-target="#update-header-photo">
+									<a href="02-ProfilePage.jsp#" class="options-message" data-toggle="modal" data-target="#update-header-photo">
 										<svg class="olymp-camera-icon">
 											<use xlink:href="svg-icons/sprites/icons.svg#olymp-camera-icon"></use>
 										</svg>
@@ -2897,8 +1988,8 @@
 								<img src="img/author-page.jpg" alt="author">
 					
 								<div class="author-date">
-									<a class="h6 post__author-name fn" href="02-ProfilePage.html">James Spiegel</a> shared
-									<a href="02-ProfilePage.html#">Diana Jameson</a>’s <a href="02-ProfilePage.html#">photo</a>
+									<a class="h6 post__author-name fn" href="02-ProfilePage.jsp">James Spiegel</a> shared
+									<a href="02-ProfilePage.jsp#">Diana Jameson</a>’s <a href="02-ProfilePage.jsp#">photo</a>
 									<div class="post__date">
 										<time class="published" datetime="2017-03-24T18:18">
 											7 hours ago
@@ -2912,16 +2003,16 @@
 									</svg>
 									<ul class="more-dropdown">
 										<li>
-											<a href="02-ProfilePage.html#">Edit Post</a>
+											<a href="02-ProfilePage.jsp#">Edit Post</a>
 										</li>
 										<li>
-											<a href="02-ProfilePage.html#">Delete Post</a>
+											<a href="02-ProfilePage.jsp#">Delete Post</a>
 										</li>
 										<li>
-											<a href="02-ProfilePage.html#">Turn Off Notifications</a>
+											<a href="02-ProfilePage.jsp#">Turn Off Notifications</a>
 										</li>
 										<li>
-											<a href="02-ProfilePage.html#">Select as Featured</a>
+											<a href="02-ProfilePage.jsp#">Select as Featured</a>
 										</li>
 									</ul>
 								</div>
@@ -2939,7 +2030,7 @@
 									<div class="post__author author vcard inline-items">
 										<img src="img/avatar8-sm.jpg" alt="author">
 										<div class="author-date">
-											<a class="h6 post__author-name fn" href="02-ProfilePage.html#">Diana Jameson</a>
+											<a class="h6 post__author-name fn" href="02-ProfilePage.jsp#">Diana Jameson</a>
 											<div class="post__date">
 												<time class="published" datetime="2017-03-24T18:18">
 													16 hours ago
@@ -2954,7 +2045,7 @@
 					
 							<div class="post-additional-info inline-items">
 					
-								<a href="02-ProfilePage.html#" class="post-add-icon inline-items">
+								<a href="02-ProfilePage.jsp#" class="post-add-icon inline-items">
 									<svg class="olymp-heart-icon">
 										<use xlink:href="svg-icons/sprites/icons.svg#olymp-heart-icon"></use>
 									</svg>
@@ -2963,46 +2054,46 @@
 					
 								<ul class="friends-harmonic">
 									<li>
-										<a href="02-ProfilePage.html#">
+										<a href="02-ProfilePage.jsp#">
 											<img src="img/friend-harmonic5.jpg" alt="friend">
 										</a>
 									</li>
 									<li>
-										<a href="02-ProfilePage.html#">
+										<a href="02-ProfilePage.jsp#">
 											<img src="img/friend-harmonic10.jpg" alt="friend">
 										</a>
 									</li>
 									<li>
-										<a href="02-ProfilePage.html#">
+										<a href="02-ProfilePage.jsp#">
 											<img src="img/friend-harmonic7.jpg" alt="friend">
 										</a>
 									</li>
 									<li>
-										<a href="02-ProfilePage.html#">
+										<a href="02-ProfilePage.jsp#">
 											<img src="img/friend-harmonic8.jpg" alt="friend">
 										</a>
 									</li>
 									<li>
-										<a href="02-ProfilePage.html#">
+										<a href="02-ProfilePage.jsp#">
 											<img src="img/friend-harmonic2.jpg" alt="friend">
 										</a>
 									</li>
 								</ul>
 					
 								<div class="names-people-likes">
-									<a href="02-ProfilePage.html#">Diana</a>, <a href="02-ProfilePage.html#">Nicholas</a> and
+									<a href="02-ProfilePage.jsp#">Diana</a>, <a href="02-ProfilePage.jsp#">Nicholas</a> and
 									<br>13 more liked this
 								</div>
 					
 								<div class="comments-shared">
-									<a href="02-ProfilePage.html#" class="post-add-icon inline-items">
+									<a href="02-ProfilePage.jsp#" class="post-add-icon inline-items">
 										<svg class="olymp-speech-balloon-icon">
 											<use xlink:href="svg-icons/sprites/icons.svg#olymp-speech-balloon-icon"></use>
 										</svg>
 										<span>0</span>
 									</a>
 					
-									<a href="02-ProfilePage.html#" class="post-add-icon inline-items">
+									<a href="02-ProfilePage.jsp#" class="post-add-icon inline-items">
 										<svg class="olymp-share-icon">
 											<use xlink:href="svg-icons/sprites/icons.svg#olymp-share-icon"></use>
 										</svg>
@@ -3014,19 +2105,19 @@
 					
 							<div class="control-block-button post-control-button">
 					
-								<a href="02-ProfilePage.html#" class="btn btn-control">
+								<a href="02-ProfilePage.jsp#" class="btn btn-control">
 									<svg class="olymp-like-post-icon">
 										<use xlink:href="svg-icons/sprites/icons.svg#olymp-like-post-icon"></use>
 									</svg>
 								</a>
 					
-								<a href="02-ProfilePage.html#" class="btn btn-control">
+								<a href="02-ProfilePage.jsp#" class="btn btn-control">
 									<svg class="olymp-comments-post-icon">
 										<use xlink:href="svg-icons/sprites/icons.svg#olymp-comments-post-icon"></use>
 									</svg>
 								</a>
 					
-								<a href="02-ProfilePage.html#" class="btn btn-control">
+								<a href="02-ProfilePage.jsp#" class="btn btn-control">
 									<svg class="olymp-share-icon">
 										<use xlink:href="svg-icons/sprites/icons.svg#olymp-share-icon"></use>
 									</svg>
@@ -3039,7 +2130,7 @@
 					<!-- .. end Post -->				</div>
 			</div>
 
-			<a id="load-more-button" href="02-ProfilePage.html#" class="btn btn-control btn-more" data-load-link="items-to-load.html" data-container="newsfeed-items-grid">
+			<a id="load-more-button" href="02-ProfilePage.jsp#" class="btn btn-control btn-more" data-load-link="items-to-load.html" data-container="newsfeed-items-grid">
 				<svg class="olymp-three-dots-icon">
 					<use xlink:href="svg-icons/sprites/icons.svg#olymp-three-dots-icon"></use>
 				</svg>
@@ -3081,15 +2172,15 @@
 					
 					<div class="widget w-socials">
 						<h6 class="title">Other Social Networks:</h6>
-						<a href="02-ProfilePage.html#" class="social-item bg-facebook">
+						<a href="02-ProfilePage.jsp#" class="social-item bg-facebook">
 							<i class="fab fa-facebook-f" aria-hidden="true"></i>
 							Facebook
 						</a>
-						<a href="02-ProfilePage.html#" class="social-item bg-twitter">
+						<a href="02-ProfilePage.jsp#" class="social-item bg-twitter">
 							<i class="fab fa-twitter" aria-hidden="true"></i>
 							Twitter
 						</a>
-						<a href="02-ProfilePage.html#" class="social-item bg-dribbble">
+						<a href="02-ProfilePage.jsp#" class="social-item bg-dribbble">
 							<i class="fab fa-dribbble" aria-hidden="true"></i>
 							Dribbble
 						</a>
@@ -3180,7 +2271,7 @@
 						<div class="playlist-thumb">
 							<img src="img/playlist6.jpg" alt="thumb-composition">
 							<div class="overlay"></div>
-							<a href="02-ProfilePage.html#" class="play-icon">
+							<a href="02-ProfilePage.jsp#" class="play-icon">
 								<svg class="olymp-music-play-icon-big">
 									<use xlink:href="svg-icons/sprites/icons-music.svg#olymp-music-play-icon-big"></use>
 								</svg>
@@ -3188,8 +2279,8 @@
 						</div>
 				
 						<div class="composition">
-							<a href="02-ProfilePage.html#" class="composition-name">The Past Starts Slow...</a>
-							<a href="02-ProfilePage.html#" class="composition-author">System of a Revenge</a>
+							<a href="02-ProfilePage.jsp#" class="composition-name">The Past Starts Slow...</a>
+							<a href="02-ProfilePage.jsp#" class="composition-author">System of a Revenge</a>
 						</div>
 				
 						<div class="composition-time">
@@ -3200,10 +2291,10 @@
 								</svg>
 								<ul class="more-dropdown">
 									<li>
-										<a href="02-ProfilePage.html#">Add Song to Player</a>
+										<a href="02-ProfilePage.jsp#">Add Song to Player</a>
 									</li>
 									<li>
-										<a href="02-ProfilePage.html#">Add Playlist to Player</a>
+										<a href="02-ProfilePage.jsp#">Add Playlist to Player</a>
 									</li>
 								</ul>
 							</div>
@@ -3215,7 +2306,7 @@
 						<div class="playlist-thumb">
 							<img src="img/playlist7.jpg" alt="thumb-composition">
 							<div class="overlay"></div>
-							<a href="02-ProfilePage.html#" class="play-icon">
+							<a href="02-ProfilePage.jsp#" class="play-icon">
 								<svg class="olymp-music-play-icon-big">
 									<use xlink:href="svg-icons/sprites/icons-music.svg#olymp-music-play-icon-big"></use>
 								</svg>
@@ -3223,8 +2314,8 @@
 						</div>
 				
 						<div class="composition">
-							<a href="02-ProfilePage.html#" class="composition-name">The Pretender</a>
-							<a href="02-ProfilePage.html#" class="composition-author">Kung Fighters</a>
+							<a href="02-ProfilePage.jsp#" class="composition-name">The Pretender</a>
+							<a href="02-ProfilePage.jsp#" class="composition-author">Kung Fighters</a>
 						</div>
 				
 						<div class="composition-time">
@@ -3235,10 +2326,10 @@
 								</svg>
 								<ul class="more-dropdown">
 									<li>
-										<a href="02-ProfilePage.html#">Add Song to Player</a>
+										<a href="02-ProfilePage.jsp#">Add Song to Player</a>
 									</li>
 									<li>
-										<a href="02-ProfilePage.html#">Add Playlist to Player</a>
+										<a href="02-ProfilePage.jsp#">Add Playlist to Player</a>
 									</li>
 								</ul>
 							</div>
@@ -3249,7 +2340,7 @@
 						<div class="playlist-thumb">
 							<img src="img/playlist8.jpg" alt="thumb-composition">
 							<div class="overlay"></div>
-							<a href="02-ProfilePage.html#" class="play-icon">
+							<a href="02-ProfilePage.jsp#" class="play-icon">
 								<svg class="olymp-music-play-icon-big">
 									<use xlink:href="svg-icons/sprites/icons-music.svg#olymp-music-play-icon-big"></use>
 								</svg>
@@ -3257,8 +2348,8 @@
 						</div>
 				
 						<div class="composition">
-							<a href="02-ProfilePage.html#" class="composition-name">Blood Brothers</a>
-							<a href="02-ProfilePage.html#" class="composition-author">Iron Maid</a>
+							<a href="02-ProfilePage.jsp#" class="composition-name">Blood Brothers</a>
+							<a href="02-ProfilePage.jsp#" class="composition-author">Iron Maid</a>
 						</div>
 				
 						<div class="composition-time">
@@ -3269,10 +2360,10 @@
 								</svg>
 								<ul class="more-dropdown">
 									<li>
-										<a href="02-ProfilePage.html#">Add Song to Player</a>
+										<a href="02-ProfilePage.jsp#">Add Song to Player</a>
 									</li>
 									<li>
-										<a href="02-ProfilePage.html#">Add Playlist to Player</a>
+										<a href="02-ProfilePage.jsp#">Add Playlist to Player</a>
 									</li>
 								</ul>
 							</div>
@@ -3283,7 +2374,7 @@
 						<div class="playlist-thumb">
 							<img src="img/playlist9.jpg" alt="thumb-composition">
 							<div class="overlay"></div>
-							<a href="02-ProfilePage.html#" class="play-icon">
+							<a href="02-ProfilePage.jsp#" class="play-icon">
 								<svg class="olymp-music-play-icon-big">
 									<use xlink:href="svg-icons/sprites/icons-music.svg#olymp-music-play-icon-big"></use>
 								</svg>
@@ -3291,8 +2382,8 @@
 						</div>
 				
 						<div class="composition">
-							<a href="02-ProfilePage.html#" class="composition-name">Seven Nation Army</a>
-							<a href="02-ProfilePage.html#" class="composition-author">The Black Stripes</a>
+							<a href="02-ProfilePage.jsp#" class="composition-name">Seven Nation Army</a>
+							<a href="02-ProfilePage.jsp#" class="composition-author">The Black Stripes</a>
 						</div>
 				
 						<div class="composition-time">
@@ -3303,10 +2394,10 @@
 								</svg>
 								<ul class="more-dropdown">
 									<li>
-										<a href="02-ProfilePage.html#">Add Song to Player</a>
+										<a href="02-ProfilePage.jsp#">Add Song to Player</a>
 									</li>
 									<li>
-										<a href="02-ProfilePage.html#">Add Playlist to Player</a>
+										<a href="02-ProfilePage.jsp#">Add Playlist to Player</a>
 									</li>
 								</ul>
 							</div>
@@ -3317,7 +2408,7 @@
 						<div class="playlist-thumb">
 							<img src="img/playlist10.jpg" alt="thumb-composition">
 							<div class="overlay"></div>
-							<a href="02-ProfilePage.html#" class="play-icon">
+							<a href="02-ProfilePage.jsp#" class="play-icon">
 								<svg class="olymp-music-play-icon-big">
 									<use xlink:href="svg-icons/sprites/icons-music.svg#olymp-music-play-icon-big"></use>
 								</svg>
@@ -3325,8 +2416,8 @@
 						</div>
 				
 						<div class="composition">
-							<a href="02-ProfilePage.html#" class="composition-name">Killer Queen</a>
-							<a href="02-ProfilePage.html#" class="composition-author">Archiduke</a>
+							<a href="02-ProfilePage.jsp#" class="composition-name">Killer Queen</a>
+							<a href="02-ProfilePage.jsp#" class="composition-author">Archiduke</a>
 						</div>
 				
 						<div class="composition-time">
@@ -3337,10 +2428,10 @@
 								</svg>
 								<ul class="more-dropdown">
 									<li>
-										<a href="02-ProfilePage.html#">Add Song to Player</a>
+										<a href="02-ProfilePage.jsp#">Add Song to Player</a>
 									</li>
 									<li>
-										<a href="02-ProfilePage.html#">Add Playlist to Player</a>
+										<a href="02-ProfilePage.jsp#">Add Playlist to Player</a>
 									</li>
 								</ul>
 							</div>
@@ -3364,12 +2455,12 @@
 						<div class="author-folder">
 							<img src="img/twitter-avatar1.png" alt="avatar">
 							<div class="author">
-								<a href="02-ProfilePage.html#" class="author-name">Space Cowboy</a>
-								<a href="02-ProfilePage.html#" class="group">@james_spiegelOK</a>
+								<a href="02-ProfilePage.jsp#" class="author-name">Space Cowboy</a>
+								<a href="02-ProfilePage.jsp#" class="group">@james_spiegelOK</a>
 							</div>
 						</div>
 						<p>Tomorrow with the agency we will run 5 km for charity. Come and give us your support!
-							<a href="02-ProfilePage.html#" class="link-post">#Daydream5K</a></p>
+							<a href="02-ProfilePage.jsp#" class="link-post">#Daydream5K</a></p>
 						<span class="post__date">
 							<time class="published" datetime="2017-03-24T18:18">
 								2 hours ago
@@ -3380,11 +2471,11 @@
 						<div class="author-folder">
 							<img src="img/twitter-avatar1.png" alt="avatar">
 							<div class="author">
-								<a href="02-ProfilePage.html#" class="author-name">Space Cowboy</a>
-								<a href="02-ProfilePage.html#" class="group">@james_spiegelOK</a>
+								<a href="02-ProfilePage.jsp#" class="author-name">Space Cowboy</a>
+								<a href="02-ProfilePage.jsp#" class="group">@james_spiegelOK</a>
 							</div>
 						</div>
-						<p>Check out the new website of “The Bebop Bar”! <a href="02-ProfilePage.html#" class="link-post">bytle/thbp53f</a></p>
+						<p>Check out the new website of “The Bebop Bar”! <a href="02-ProfilePage.jsp#" class="link-post">bytle/thbp53f</a></p>
 						<span class="post__date">
 							<time class="published" datetime="2017-03-24T18:18">
 								16 hours ago
@@ -3395,12 +2486,12 @@
 						<div class="author-folder">
 							<img src="img/twitter-avatar1.png" alt="avatar">
 							<div class="author">
-								<a href="02-ProfilePage.html#" class="author-name">Space Cowboy</a>
-								<a href="02-ProfilePage.html#" class="group">@james_spiegelOK</a>
+								<a href="02-ProfilePage.jsp#" class="author-name">Space Cowboy</a>
+								<a href="02-ProfilePage.jsp#" class="group">@james_spiegelOK</a>
 							</div>
 						</div>
 						<p>The Sunday is the annual agency camping trip and I still haven’t got a tent
-							<a href="02-ProfilePage.html#" class="link-post">#TheWild #Indoors</a></p>
+							<a href="02-ProfilePage.jsp#" class="link-post">#TheWild #Indoors</a></p>
 						<span class="post__date">
 							<time class="published" datetime="2017-03-24T18:18">
 								Yesterday
@@ -3534,7 +2625,7 @@
 					<li>
 						<article class="hentry post">
 				
-							<a href="02-ProfilePage.html#" class="h4">My Perfect Vacations in South America and Europe</a>
+							<a href="02-ProfilePage.jsp#" class="h4">My Perfect Vacations in South America and Europe</a>
 				
 							<p>Lorem ipsum dolor sit amet, consect adipisicing elit, sed do eiusmod por incidid ut labore et.</p>
 				
@@ -3549,7 +2640,7 @@
 					<li>
 						<article class="hentry post">
 				
-							<a href="02-ProfilePage.html#" class="h4">The Big Experience of Travelling Alone</a>
+							<a href="02-ProfilePage.jsp#" class="h4">The Big Experience of Travelling Alone</a>
 				
 							<p>Lorem ipsum dolor sit amet, consect adipisicing elit, sed do eiusmod por incidid ut labore et.</p>
 				
@@ -3576,77 +2667,77 @@
 					
 					<ul class="widget w-faved-page js-zoom-gallery">
 						<li>
-							<a href="02-ProfilePage.html#">
+							<a href="02-ProfilePage.jsp#">
 								<img src="img/avatar38-sm.jpg" alt="author">
 							</a>
 						</li>
 						<li>
-							<a href="02-ProfilePage.html#">
+							<a href="02-ProfilePage.jsp#">
 								<img src="img/avatar24-sm.jpg" alt="user">
 							</a>
 						</li>
 						<li>
-							<a href="02-ProfilePage.html#">
+							<a href="02-ProfilePage.jsp#">
 								<img src="img/avatar36-sm.jpg" alt="author">
 							</a>
 						</li>
 						<li>
-							<a href="02-ProfilePage.html#">
+							<a href="02-ProfilePage.jsp#">
 								<img src="img/avatar35-sm.jpg" alt="user">
 							</a>
 						</li>
 						<li>
-							<a href="02-ProfilePage.html#">
+							<a href="02-ProfilePage.jsp#">
 								<img src="img/avatar34-sm.jpg" alt="author">
 							</a>
 						</li>
 						<li>
-							<a href="02-ProfilePage.html#">
+							<a href="02-ProfilePage.jsp#">
 								<img src="img/avatar33-sm.jpg" alt="author">
 							</a>
 						</li>
 						<li>
-							<a href="02-ProfilePage.html#">
+							<a href="02-ProfilePage.jsp#">
 								<img src="img/avatar32-sm.jpg" alt="user">
 							</a>
 						</li>
 						<li>
-							<a href="02-ProfilePage.html#">
+							<a href="02-ProfilePage.jsp#">
 								<img src="img/avatar31-sm.jpg" alt="author">
 							</a>
 						</li>
 						<li>
-							<a href="02-ProfilePage.html#">
+							<a href="02-ProfilePage.jsp#">
 								<img src="img/avatar30-sm.jpg" alt="author">
 							</a>
 						</li>
 						<li>
-							<a href="02-ProfilePage.html#">
+							<a href="02-ProfilePage.jsp#">
 								<img src="img/avatar29-sm.jpg" alt="user">
 							</a>
 						</li>
 						<li>
-							<a href="02-ProfilePage.html#">
+							<a href="02-ProfilePage.jsp#">
 								<img src="img/avatar28-sm.jpg" alt="user">
 							</a>
 						</li>
 						<li>
-							<a href="02-ProfilePage.html#">
+							<a href="02-ProfilePage.jsp#">
 								<img src="img/avatar27-sm.jpg" alt="user">
 							</a>
 						</li>
 						<li>
-							<a href="02-ProfilePage.html#">
+							<a href="02-ProfilePage.jsp#">
 								<img src="img/avatar26-sm.jpg" alt="user">
 							</a>
 						</li>
 						<li>
-							<a href="02-ProfilePage.html#">
+							<a href="02-ProfilePage.jsp#">
 								<img src="img/avatar25-sm.jpg" alt="user">
 							</a>
 						</li>
 						<li class="all-users">
-							<a href="02-ProfilePage.html#">+74</a>
+							<a href="02-ProfilePage.jsp#">+74</a>
 						</li>
 					</ul>
 					
@@ -3667,11 +2758,11 @@
 							<img src="img/avatar41-sm.jpg" alt="author">
 						</div>
 						<div class="notification-event">
-							<a href="02-ProfilePage.html#" class="h6 notification-friend">The Marina Bar</a>
+							<a href="02-ProfilePage.jsp#" class="h6 notification-friend">The Marina Bar</a>
 							<span class="chat-message-item">Restaurant / Bar</span>
 						</div>
 						<span class="notification-icon" data-toggle="tooltip" data-placement="top" data-original-title="ADD TO YOUR FAVS">
-							<a href="02-ProfilePage.html#">
+							<a href="02-ProfilePage.jsp#">
 								<svg class="olymp-star-icon"><use xlink:href="svg-icons/sprites/icons.svg#olymp-star-icon"></use></svg>
 							</a>
 						</span>
@@ -3683,11 +2774,11 @@
 							<img src="img/avatar42-sm.jpg" alt="author">
 						</div>
 						<div class="notification-event">
-							<a href="02-ProfilePage.html#" class="h6 notification-friend">Tapronus Rock</a>
+							<a href="02-ProfilePage.jsp#" class="h6 notification-friend">Tapronus Rock</a>
 							<span class="chat-message-item">Rock Band</span>
 						</div>
 						<span class="notification-icon" data-toggle="tooltip" data-placement="top" data-original-title="ADD TO YOUR FAVS">
-							<a href="02-ProfilePage.html#">
+							<a href="02-ProfilePage.jsp#">
 								<svg class="olymp-star-icon"><use xlink:href="svg-icons/sprites/icons.svg#olymp-star-icon"></use></svg>
 							</a>
 						</span>
@@ -3699,11 +2790,11 @@
 							<img src="img/avatar43-sm.jpg" alt="author">
 						</div>
 						<div class="notification-event">
-							<a href="02-ProfilePage.html#" class="h6 notification-friend">Pixel Digital Design</a>
+							<a href="02-ProfilePage.jsp#" class="h6 notification-friend">Pixel Digital Design</a>
 							<span class="chat-message-item">Company</span>
 						</div>
 						<span class="notification-icon" data-toggle="tooltip" data-placement="top" data-original-title="ADD TO YOUR FAVS">
-							<a href="02-ProfilePage.html#">
+							<a href="02-ProfilePage.jsp#">
 								<svg class="olymp-star-icon"><use xlink:href="svg-icons/sprites/icons.svg#olymp-star-icon"></use></svg>
 							</a>
 						</span>
@@ -3714,11 +2805,11 @@
 							<img src="img/avatar44-sm.jpg" alt="author">
 						</div>
 						<div class="notification-event">
-							<a href="02-ProfilePage.html#" class="h6 notification-friend">Thompson’s Custom Clothing Boutique</a>
+							<a href="02-ProfilePage.jsp#" class="h6 notification-friend">Thompson’s Custom Clothing Boutique</a>
 							<span class="chat-message-item">Clothing Store</span>
 						</div>
 						<span class="notification-icon" data-toggle="tooltip" data-placement="top" data-original-title="ADD TO YOUR FAVS">
-							<a href="02-ProfilePage.html#">
+							<a href="02-ProfilePage.jsp#">
 								<svg class="olymp-star-icon"><use xlink:href="svg-icons/sprites/icons.svg#olymp-star-icon"></use></svg>
 							</a>
 						</span>
@@ -3730,11 +2821,11 @@
 							<img src="img/avatar45-sm.jpg" alt="author">
 						</div>
 						<div class="notification-event">
-							<a href="02-ProfilePage.html#" class="h6 notification-friend">Crimson Agency</a>
+							<a href="02-ProfilePage.jsp#" class="h6 notification-friend">Crimson Agency</a>
 							<span class="chat-message-item">Company</span>
 						</div>
 						<span class="notification-icon" data-toggle="tooltip" data-placement="top" data-original-title="ADD TO YOUR FAVS">
-							<a href="02-ProfilePage.html#">
+							<a href="02-ProfilePage.jsp#">
 								<svg class="olymp-star-icon"><use xlink:href="svg-icons/sprites/icons.svg#olymp-star-icon"></use></svg>
 							</a>
 						</span>
@@ -3745,11 +2836,11 @@
 							<img src="img/avatar46-sm.jpg" alt="author">
 						</div>
 						<div class="notification-event">
-							<a href="02-ProfilePage.html#" class="h6 notification-friend">Mannequin Angel</a>
+							<a href="02-ProfilePage.jsp#" class="h6 notification-friend">Mannequin Angel</a>
 							<span class="chat-message-item">Clothing Store</span>
 						</div>
 						<span class="notification-icon" data-toggle="tooltip" data-placement="top" data-original-title="ADD TO YOUR FAVS">
-							<a href="02-ProfilePage.html#">
+							<a href="02-ProfilePage.jsp#">
 								<svg class="olymp-star-icon"><use xlink:href="svg-icons/sprites/icons.svg#olymp-star-icon"></use></svg>
 							</a>
 						</span>
@@ -3795,52 +2886,52 @@
 					
 								<ul class="friends-harmonic">
 									<li>
-										<a href="02-ProfilePage.html#">
+										<a href="02-ProfilePage.jsp#">
 											<img src="img/friend-harmonic1.jpg" alt="friend">
 										</a>
 									</li>
 									<li>
-										<a href="02-ProfilePage.html#">
+										<a href="02-ProfilePage.jsp#">
 											<img src="img/friend-harmonic2.jpg" alt="friend">
 										</a>
 									</li>
 									<li>
-										<a href="02-ProfilePage.html#">
+										<a href="02-ProfilePage.jsp#">
 											<img src="img/friend-harmonic3.jpg" alt="friend">
 										</a>
 									</li>
 									<li>
-										<a href="02-ProfilePage.html#">
+										<a href="02-ProfilePage.jsp#">
 											<img src="img/friend-harmonic4.jpg" alt="friend">
 										</a>
 									</li>
 									<li>
-										<a href="02-ProfilePage.html#">
+										<a href="02-ProfilePage.jsp#">
 											<img src="img/friend-harmonic5.jpg" alt="friend">
 										</a>
 									</li>
 									<li>
-										<a href="02-ProfilePage.html#">
+										<a href="02-ProfilePage.jsp#">
 											<img src="img/friend-harmonic6.jpg" alt="friend">
 										</a>
 									</li>
 									<li>
-										<a href="02-ProfilePage.html#">
+										<a href="02-ProfilePage.jsp#">
 											<img src="img/friend-harmonic7.jpg" alt="friend">
 										</a>
 									</li>
 									<li>
-										<a href="02-ProfilePage.html#">
+										<a href="02-ProfilePage.jsp#">
 											<img src="img/friend-harmonic8.jpg" alt="friend">
 										</a>
 									</li>
 									<li>
-										<a href="02-ProfilePage.html#">
+										<a href="02-ProfilePage.jsp#">
 											<img src="img/friend-harmonic9.jpg" alt="friend">
 										</a>
 									</li>
 									<li>
-										<a href="02-ProfilePage.html#" class="all-users">+3</a>
+										<a href="02-ProfilePage.jsp#" class="all-users">+3</a>
 									</li>
 								</ul>
 							</div>
@@ -3869,37 +2960,37 @@
 					
 								<ul class="friends-harmonic">
 									<li>
-										<a href="02-ProfilePage.html#">
+										<a href="02-ProfilePage.jsp#">
 											<img src="img/friend-harmonic7.jpg" alt="friend">
 										</a>
 									</li>
 									<li>
-										<a href="02-ProfilePage.html#">
+										<a href="02-ProfilePage.jsp#">
 											<img src="img/friend-harmonic8.jpg" alt="friend">
 										</a>
 									</li>
 									<li>
-										<a href="02-ProfilePage.html#">
+										<a href="02-ProfilePage.jsp#">
 											<img src="img/friend-harmonic9.jpg" alt="friend">
 										</a>
 									</li>
 									<li>
-										<a href="02-ProfilePage.html#">
+										<a href="02-ProfilePage.jsp#">
 											<img src="img/friend-harmonic10.jpg" alt="friend">
 										</a>
 									</li>
 									<li>
-										<a href="02-ProfilePage.html#">
+										<a href="02-ProfilePage.jsp#">
 											<img src="img/friend-harmonic11.jpg" alt="friend">
 										</a>
 									</li>
 									<li>
-										<a href="02-ProfilePage.html#">
+										<a href="02-ProfilePage.jsp#">
 											<img src="img/friend-harmonic12.jpg" alt="friend">
 										</a>
 									</li>
 									<li>
-										<a href="02-ProfilePage.html#">
+										<a href="02-ProfilePage.jsp#">
 											<img src="img/friend-harmonic13.jpg" alt="friend">
 										</a>
 									</li>
@@ -3931,12 +3022,12 @@
 					
 								<ul class="friends-harmonic">
 									<li>
-										<a href="02-ProfilePage.html#">
+										<a href="02-ProfilePage.jsp#">
 											<img src="img/friend-harmonic14.jpg" alt="friend">
 										</a>
 									</li>
 									<li>
-										<a href="02-ProfilePage.html#">
+										<a href="02-ProfilePage.jsp#">
 											<img src="img/friend-harmonic15.jpg" alt="friend">
 										</a>
 									</li>
@@ -3946,7 +3037,7 @@
 					</ul>
 					
 					<!-- .. end W-Pool -->
-					<a href="02-ProfilePage.html#" class="btn btn-md-2 btn-border-think custom-color c-grey full-width">Vote Now!</a>
+					<a href="02-ProfilePage.jsp#" class="btn btn-md-2 btn-border-think custom-color c-grey full-width">Vote Now!</a>
 				</div>
 			</div>
 
@@ -3962,7 +3053,7 @@
 <div class="modal fade" id="update-header-photo" tabindex="-1" role="dialog" aria-labelledby="update-header-photo" aria-hidden="true">
 	<div class="modal-dialog window-popup update-header-photo" role="document">
 		<div class="modal-content">
-			<a href="02-ProfilePage.html#" class="close icon-close" data-dismiss="modal" aria-label="Close">
+			<a href="02-ProfilePage.jsp#" class="close icon-close" data-dismiss="modal" aria-label="Close">
 				<svg class="olymp-close-icon"><use xlink:href="svg-icons/sprites/icons.svg#olymp-close-icon"></use></svg>
 			</a>
 
@@ -3971,14 +3062,14 @@
 			</div>
 
 			<div class="modal-body">
-				<a href="02-ProfilePage.html#" class="upload-photo-item">
+				<a href="02-ProfilePage.jsp#" class="upload-photo-item">
 				<svg class="olymp-computer-icon"><use xlink:href="svg-icons/sprites/icons.svg#olymp-computer-icon"></use></svg>
 
 				<h6>Upload Photo</h6>
 				<span>Browse your computer.</span>
 			</a>
 
-				<a href="02-ProfilePage.html#" class="upload-photo-item" data-toggle="modal" data-target="#choose-from-my-photo">
+				<a href="02-ProfilePage.jsp#" class="upload-photo-item" data-toggle="modal" data-target="#choose-from-my-photo">
 
 			<svg class="olymp-photos-icon"><use xlink:href="svg-icons/sprites/icons.svg#olymp-photos-icon"></use></svg>
 
@@ -3999,7 +3090,7 @@
 	<div class="modal-dialog window-popup choose-from-my-photo" role="document">
 
 		<div class="modal-content">
-			<a href="02-ProfilePage.html#" class="close icon-close" data-dismiss="modal" aria-label="Close">
+			<a href="02-ProfilePage.jsp#" class="close icon-close" data-dismiss="modal" aria-label="Close">
 				<svg class="olymp-close-icon"><use xlink:href="svg-icons/sprites/icons.svg#olymp-close-icon"></use></svg>
 			</a>
 			<div class="modal-header">
@@ -4008,12 +3099,12 @@
 				<!-- Nav tabs -->
 				<ul class="nav nav-tabs" role="tablist">
 					<li class="nav-item">
-						<a class="nav-link active" data-toggle="tab" href="02-ProfilePage.html#home" role="tab" aria-expanded="true">
+						<a class="nav-link active" data-toggle="tab" href="02-ProfilePage.jsp#home" role="tab" aria-expanded="true">
 							<svg class="olymp-photos-icon"><use xlink:href="svg-icons/sprites/icons.svg#olymp-photos-icon"></use></svg>
 						</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" data-toggle="tab" href="02-ProfilePage.html#profile" role="tab" aria-expanded="false">
+						<a class="nav-link" data-toggle="tab" href="02-ProfilePage.jsp#profile" role="tab" aria-expanded="false">
 							<svg class="olymp-albums-icon"><use xlink:href="svg-icons/sprites/icons.svg#olymp-albums-icon"></use></svg>
 						</a>
 					</li>
@@ -4101,8 +3192,8 @@
 						</div>
 
 
-						<a href="02-ProfilePage.html#" class="btn btn-secondary btn-lg btn--half-width">Cancel</a>
-						<a href="02-ProfilePage.html#" class="btn btn-primary btn-lg btn--half-width">Confirm Photo</a>
+						<a href="02-ProfilePage.jsp#" class="btn btn-secondary btn-lg btn--half-width">Cancel</a>
+						<a href="02-ProfilePage.jsp#" class="btn btn-primary btn-lg btn--half-width">Confirm Photo</a>
 
 					</div>
 					<div class="tab-pane" id="profile" role="tabpanel" aria-expanded="false">
@@ -4111,7 +3202,7 @@
 							<figure>
 								<img src="img/choose-photo10.jpg" alt="photo">
 								<figcaption>
-									<a href="02-ProfilePage.html#">South America Vacations</a>
+									<a href="02-ProfilePage.jsp#">South America Vacations</a>
 									<span>Last Added: 2 hours ago</span>
 								</figcaption>
 							</figure>
@@ -4120,7 +3211,7 @@
 							<figure>
 								<img src="img/choose-photo11.jpg" alt="photo">
 								<figcaption>
-									<a href="02-ProfilePage.html#">Photoshoot Summer 2016</a>
+									<a href="02-ProfilePage.jsp#">Photoshoot Summer 2016</a>
 									<span>Last Added: 5 weeks ago</span>
 								</figcaption>
 							</figure>
@@ -4129,7 +3220,7 @@
 							<figure>
 								<img src="img/choose-photo12.jpg" alt="photo">
 								<figcaption>
-									<a href="02-ProfilePage.html#">Amazing Street Food</a>
+									<a href="02-ProfilePage.jsp#">Amazing Street Food</a>
 									<span>Last Added: 6 mins ago</span>
 								</figcaption>
 							</figure>
@@ -4139,7 +3230,7 @@
 							<figure>
 								<img src="img/choose-photo13.jpg" alt="photo">
 								<figcaption>
-									<a href="02-ProfilePage.html#">Graffity & Street Art</a>
+									<a href="02-ProfilePage.jsp#">Graffity & Street Art</a>
 									<span>Last Added: 16 hours ago</span>
 								</figcaption>
 							</figure>
@@ -4148,7 +3239,7 @@
 							<figure>
 								<img src="img/choose-photo14.jpg" alt="photo">
 								<figcaption>
-									<a href="02-ProfilePage.html#">Amazing Landscapes</a>
+									<a href="02-ProfilePage.jsp#">Amazing Landscapes</a>
 									<span>Last Added: 13 mins ago</span>
 								</figcaption>
 							</figure>
@@ -4157,15 +3248,15 @@
 							<figure>
 								<img src="img/choose-photo15.jpg" alt="photo">
 								<figcaption>
-									<a href="02-ProfilePage.html#">The Majestic Canyon</a>
+									<a href="02-ProfilePage.jsp#">The Majestic Canyon</a>
 									<span>Last Added: 57 mins ago</span>
 								</figcaption>
 							</figure>
 						</div>
 
 
-						<a href="02-ProfilePage.html#" class="btn btn-secondary btn-lg btn--half-width">Cancel</a>
-						<a href="02-ProfilePage.html#" class="btn btn-primary btn-lg disabled btn--half-width">Confirm Photo</a>
+						<a href="02-ProfilePage.jsp#" class="btn btn-secondary btn-lg btn--half-width">Cancel</a>
+						<a href="02-ProfilePage.jsp#" class="btn btn-primary btn-lg disabled btn--half-width">Confirm Photo</a>
 					</div>
 				</div>
 			</div>
@@ -4180,7 +3271,7 @@
 
 <div class="window-popup playlist-popup" tabindex="-1" role="dialog" aria-labelledby="playlist-popup" aria-hidden="true">
 
-	<a href="02-ProfilePage.html" class="icon-close js-close-popup">
+	<a href="02-ProfilePage.jsp" class="icon-close js-close-popup">
 		<svg class="olymp-close-icon"><use xlink:href="svg-icons/sprites/icons.svg#olymp-close-icon"></use></svg>
 	</a>
 
@@ -4229,7 +3320,7 @@
 		<tbody>
 		<tr>
 			<td class="play">
-				<a href="02-ProfilePage.html#" class="play-icon">
+				<a href="02-ProfilePage.jsp#" class="play-icon">
 					<svg class="olymp-music-play-icon-big"><use xlink:href="svg-icons/sprites/icons-music.svg#olymp-music-play-icon-big"></use></svg>
 				</a>
 			</td>
@@ -4240,12 +3331,12 @@
 			</td>
 			<td class="song-artist">
 				<div class="composition">
-					<a href="02-ProfilePage.html#" class="composition-name">We Can Be Heroes</a>
-					<a href="02-ProfilePage.html#" class="composition-author">Jason Bowie</a>
+					<a href="02-ProfilePage.jsp#" class="composition-name">We Can Be Heroes</a>
+					<a href="02-ProfilePage.jsp#" class="composition-author">Jason Bowie</a>
 				</div>
 			</td>
 			<td class="album">
-				<a href="02-ProfilePage.html#" class="album-composition">Ziggy Firedust</a>
+				<a href="02-ProfilePage.jsp#" class="album-composition">Ziggy Firedust</a>
 			</td>
 			<td class="released">
 				<div class="release-year">2014</div>
@@ -4259,7 +3350,7 @@
 				<i class="fab fa-spotify composition-icon" aria-hidden="true"></i>
 			</td>
 			<td class="remove">
-				<a href="02-ProfilePage.html#" class="remove-icon">
+				<a href="02-ProfilePage.jsp#" class="remove-icon">
 					<svg class="olymp-close-icon"><use xlink:href="svg-icons/sprites/icons.svg#olymp-close-icon"></use></svg>
 				</a>
 			</td>
@@ -4267,7 +3358,7 @@
 
 		<tr>
 			<td class="play">
-				<a href="02-ProfilePage.html#" class="play-icon">
+				<a href="02-ProfilePage.jsp#" class="play-icon">
 					<svg class="olymp-music-play-icon-big"><use xlink:href="svg-icons/sprites/icons-music.svg#olymp-music-play-icon-big"></use></svg>
 				</a>
 			</td>
@@ -4278,12 +3369,12 @@
 			</td>
 			<td class="song-artist">
 				<div class="composition">
-					<a href="02-ProfilePage.html#" class="composition-name">The Past Starts Slow and Ends</a>
-					<a href="02-ProfilePage.html#" class="composition-author">System of a Revenge</a>
+					<a href="02-ProfilePage.jsp#" class="composition-name">The Past Starts Slow and Ends</a>
+					<a href="02-ProfilePage.jsp#" class="composition-author">System of a Revenge</a>
 				</div>
 			</td>
 			<td class="album">
-				<a href="02-ProfilePage.html#" class="album-composition">Wonderize</a>
+				<a href="02-ProfilePage.jsp#" class="album-composition">Wonderize</a>
 			</td>
 			<td class="released">
 				<div class="release-year">2014</div>
@@ -4297,7 +3388,7 @@
 				<i class="fab fa-spotify composition-icon" aria-hidden="true"></i>
 			</td>
 			<td class="remove">
-				<a href="02-ProfilePage.html#" class="remove-icon">
+				<a href="02-ProfilePage.jsp#" class="remove-icon">
 					<svg class="olymp-close-icon"><use xlink:href="svg-icons/sprites/icons.svg#olymp-close-icon"></use></svg>
 				</a>
 			</td>
@@ -4305,7 +3396,7 @@
 
 		<tr>
 			<td class="play">
-				<a href="02-ProfilePage.html#" class="play-icon">
+				<a href="02-ProfilePage.jsp#" class="play-icon">
 					<svg class="olymp-music-play-icon-big"><use xlink:href="svg-icons/sprites/icons-music.svg#olymp-music-play-icon-big"></use></svg>
 				</a>
 			</td>
@@ -4316,12 +3407,12 @@
 			</td>
 			<td class="song-artist">
 				<div class="composition">
-					<a href="02-ProfilePage.html#" class="composition-name">The Pretender</a>
-					<a href="02-ProfilePage.html#" class="composition-author">Kung Fighters</a>
+					<a href="02-ProfilePage.jsp#" class="composition-name">The Pretender</a>
+					<a href="02-ProfilePage.jsp#" class="composition-author">Kung Fighters</a>
 				</div>
 			</td>
 			<td class="album">
-				<a href="02-ProfilePage.html#" class="album-composition">Warping Lights</a>
+				<a href="02-ProfilePage.jsp#" class="album-composition">Warping Lights</a>
 			</td>
 			<td class="released">
 				<div class="release-year">2014</div>
@@ -4335,7 +3426,7 @@
 				<i class="fab fa-spotify composition-icon" aria-hidden="true"></i>
 			</td>
 			<td class="remove">
-				<a href="02-ProfilePage.html#" class="remove-icon">
+				<a href="02-ProfilePage.jsp#" class="remove-icon">
 					<svg class="olymp-close-icon"><use xlink:href="svg-icons/sprites/icons.svg#olymp-close-icon"></use></svg>
 				</a>
 			</td>
@@ -4343,7 +3434,7 @@
 
 		<tr>
 			<td class="play">
-				<a href="02-ProfilePage.html#" class="play-icon">
+				<a href="02-ProfilePage.jsp#" class="play-icon">
 					<svg class="olymp-music-play-icon-big"><use xlink:href="svg-icons/sprites/icons-music.svg#olymp-music-play-icon-big"></use></svg>
 				</a>
 			</td>
@@ -4354,12 +3445,12 @@
 			</td>
 			<td class="song-artist">
 				<div class="composition">
-					<a href="02-ProfilePage.html#" class="composition-name">Seven Nation Army</a>
-					<a href="02-ProfilePage.html#" class="composition-author">The Black Stripes</a>
+					<a href="02-ProfilePage.jsp#" class="composition-name">Seven Nation Army</a>
+					<a href="02-ProfilePage.jsp#" class="composition-author">The Black Stripes</a>
 				</div>
 			</td>
 			<td class="album">
-				<a href="02-ProfilePage.html#" class="album-composition ">Icky Strung (LIVE at Cube Garden)</a>
+				<a href="02-ProfilePage.jsp#" class="album-composition ">Icky Strung (LIVE at Cube Garden)</a>
 			</td>
 			<td class="released">
 				<div class="release-year">2014</div>
@@ -4373,7 +3464,7 @@
 				<i class="fab fa-spotify composition-icon" aria-hidden="true"></i>
 			</td>
 			<td class="remove">
-				<a href="02-ProfilePage.html#" class="remove-icon">
+				<a href="02-ProfilePage.jsp#" class="remove-icon">
 					<svg class="olymp-close-icon"><use xlink:href="svg-icons/sprites/icons.svg#olymp-close-icon"></use></svg>
 				</a>
 			</td>
@@ -4381,7 +3472,7 @@
 
 		<tr>
 			<td class="play">
-				<a href="02-ProfilePage.html#" class="play-icon">
+				<a href="02-ProfilePage.jsp#" class="play-icon">
 					<svg class="olymp-music-play-icon-big"><use xlink:href="svg-icons/sprites/icons-music.svg#olymp-music-play-icon-big"></use></svg>
 				</a>
 			</td>
@@ -4392,12 +3483,12 @@
 			</td>
 			<td class="song-artist">
 				<div class="composition">
-					<a href="02-ProfilePage.html#" class="composition-name">Leap of Faith</a>
-					<a href="02-ProfilePage.html#" class="composition-author">Eden Artifact</a>
+					<a href="02-ProfilePage.jsp#" class="composition-name">Leap of Faith</a>
+					<a href="02-ProfilePage.jsp#" class="composition-author">Eden Artifact</a>
 				</div>
 			</td>
 			<td class="album">
-				<a href="02-ProfilePage.html#" class="album-composition">The Assassins’s Soundtrack</a>
+				<a href="02-ProfilePage.jsp#" class="album-composition">The Assassins’s Soundtrack</a>
 			</td>
 			<td class="released">
 				<div class="release-year">2014</div>
@@ -4411,7 +3502,7 @@
 				<i class="fab fa-spotify composition-icon" aria-hidden="true"></i>
 			</td>
 			<td class="remove">
-				<a href="02-ProfilePage.html#" class="remove-icon">
+				<a href="02-ProfilePage.jsp#" class="remove-icon">
 					<svg class="olymp-close-icon"><use xlink:href="svg-icons/sprites/icons.svg#olymp-close-icon"></use></svg>
 				</a>
 			</td>
@@ -4419,7 +3510,7 @@
 
 		<tr>
 			<td class="play">
-				<a href="02-ProfilePage.html#" class="play-icon">
+				<a href="02-ProfilePage.jsp#" class="play-icon">
 					<svg class="olymp-music-play-icon-big"><use xlink:href="svg-icons/sprites/icons-music.svg#olymp-music-play-icon-big"></use></svg>
 				</a>
 			</td>
@@ -4430,12 +3521,12 @@
 			</td>
 			<td class="song-artist">
 				<div class="composition">
-					<a href="02-ProfilePage.html#" class="composition-name">Killer Queen</a>
-					<a href="02-ProfilePage.html#" class="composition-author">Archiduke</a>
+					<a href="02-ProfilePage.jsp#" class="composition-name">Killer Queen</a>
+					<a href="02-ProfilePage.jsp#" class="composition-author">Archiduke</a>
 				</div>
 			</td>
 			<td class="album">
-				<a href="02-ProfilePage.html#" class="album-composition ">News of the Universe</a>
+				<a href="02-ProfilePage.jsp#" class="album-composition ">News of the Universe</a>
 			</td>
 			<td class="released">
 				<div class="release-year">2014</div>
@@ -4449,7 +3540,7 @@
 				<i class="fab fa-spotify composition-icon" aria-hidden="true"></i>
 			</td>
 			<td class="remove">
-				<a href="02-ProfilePage.html#" class="remove-icon">
+				<a href="02-ProfilePage.jsp#" class="remove-icon">
 					<svg class="olymp-close-icon"><use xlink:href="svg-icons/sprites/icons.svg#olymp-close-icon"></use></svg>
 				</a>
 			</td>
@@ -4470,7 +3561,7 @@
 <!-- ... end Playlist Popup -->
 
 
-<a class="back-to-top" href="02-ProfilePage.html#">
+<a class="back-to-top" href="02-ProfilePage.jsp#">
 	<img src="svg-icons/back-to-top.svg" alt="arrow" class="back-icon">
 </a>
 
@@ -4532,7 +3623,7 @@
 			<label class="control-label">Press enter to post...</label>
 			<textarea class="form-control" placeholder=""></textarea>
 			<div class="add-options-message">
-				<a href="02-ProfilePage.html#" class="options-message">
+				<a href="02-ProfilePage.jsp#" class="options-message">
 					<svg class="olymp-computer-icon"><use xlink:href="svg-icons/sprites/icons.svg#olymp-computer-icon"></use></svg>
 				</a>
 				<div class="options-message smile-block">
@@ -4541,137 +3632,137 @@
 
 					<ul class="more-dropdown more-with-triangle triangle-bottom-right">
 						<li>
-							<a href="02-ProfilePage.html#">
+							<a href="02-ProfilePage.jsp#">
 								<img src="img/icon-chat1.png" alt="icon">
 							</a>
 						</li>
 						<li>
-							<a href="02-ProfilePage.html#">
+							<a href="02-ProfilePage.jsp#">
 								<img src="img/icon-chat2.png" alt="icon">
 							</a>
 						</li>
 						<li>
-							<a href="02-ProfilePage.html#">
+							<a href="02-ProfilePage.jsp#">
 								<img src="img/icon-chat3.png" alt="icon">
 							</a>
 						</li>
 						<li>
-							<a href="02-ProfilePage.html#">
+							<a href="02-ProfilePage.jsp#">
 								<img src="img/icon-chat4.png" alt="icon">
 							</a>
 						</li>
 						<li>
-							<a href="02-ProfilePage.html#">
+							<a href="02-ProfilePage.jsp#">
 								<img src="img/icon-chat5.png" alt="icon">
 							</a>
 						</li>
 						<li>
-							<a href="02-ProfilePage.html#">
+							<a href="02-ProfilePage.jsp#">
 								<img src="img/icon-chat6.png" alt="icon">
 							</a>
 						</li>
 						<li>
-							<a href="02-ProfilePage.html#">
+							<a href="02-ProfilePage.jsp#">
 								<img src="img/icon-chat7.png" alt="icon">
 							</a>
 						</li>
 						<li>
-							<a href="02-ProfilePage.html#">
+							<a href="02-ProfilePage.jsp#">
 								<img src="img/icon-chat8.png" alt="icon">
 							</a>
 						</li>
 						<li>
-							<a href="02-ProfilePage.html#">
+							<a href="02-ProfilePage.jsp#">
 								<img src="img/icon-chat9.png" alt="icon">
 							</a>
 						</li>
 						<li>
-							<a href="02-ProfilePage.html#">
+							<a href="02-ProfilePage.jsp#">
 								<img src="img/icon-chat10.png" alt="icon">
 							</a>
 						</li>
 						<li>
-							<a href="02-ProfilePage.html#">
+							<a href="02-ProfilePage.jsp#">
 								<img src="img/icon-chat11.png" alt="icon">
 							</a>
 						</li>
 						<li>
-							<a href="02-ProfilePage.html#">
+							<a href="02-ProfilePage.jsp#">
 								<img src="img/icon-chat12.png" alt="icon">
 							</a>
 						</li>
 						<li>
-							<a href="02-ProfilePage.html#">
+							<a href="02-ProfilePage.jsp#">
 								<img src="img/icon-chat13.png" alt="icon">
 							</a>
 						</li>
 						<li>
-							<a href="02-ProfilePage.html#">
+							<a href="02-ProfilePage.jsp#">
 								<img src="img/icon-chat14.png" alt="icon">
 							</a>
 						</li>
 						<li>
-							<a href="02-ProfilePage.html#">
+							<a href="02-ProfilePage.jsp#">
 								<img src="img/icon-chat15.png" alt="icon">
 							</a>
 						</li>
 						<li>
-							<a href="02-ProfilePage.html#">
+							<a href="02-ProfilePage.jsp#">
 								<img src="img/icon-chat16.png" alt="icon">
 							</a>
 						</li>
 						<li>
-							<a href="02-ProfilePage.html#">
+							<a href="02-ProfilePage.jsp#">
 								<img src="img/icon-chat17.png" alt="icon">
 							</a>
 						</li>
 						<li>
-							<a href="02-ProfilePage.html#">
+							<a href="02-ProfilePage.jsp#">
 								<img src="img/icon-chat18.png" alt="icon">
 							</a>
 						</li>
 						<li>
-							<a href="02-ProfilePage.html#">
+							<a href="02-ProfilePage.jsp#">
 								<img src="img/icon-chat19.png" alt="icon">
 							</a>
 						</li>
 						<li>
-							<a href="02-ProfilePage.html#">
+							<a href="02-ProfilePage.jsp#">
 								<img src="img/icon-chat20.png" alt="icon">
 							</a>
 						</li>
 						<li>
-							<a href="02-ProfilePage.html#">
+							<a href="02-ProfilePage.jsp#">
 								<img src="img/icon-chat21.png" alt="icon">
 							</a>
 						</li>
 						<li>
-							<a href="02-ProfilePage.html#">
+							<a href="02-ProfilePage.jsp#">
 								<img src="img/icon-chat22.png" alt="icon">
 							</a>
 						</li>
 						<li>
-							<a href="02-ProfilePage.html#">
+							<a href="02-ProfilePage.jsp#">
 								<img src="img/icon-chat23.png" alt="icon">
 							</a>
 						</li>
 						<li>
-							<a href="02-ProfilePage.html#">
+							<a href="02-ProfilePage.jsp#">
 								<img src="img/icon-chat24.png" alt="icon">
 							</a>
 						</li>
 						<li>
-							<a href="02-ProfilePage.html#">
+							<a href="02-ProfilePage.jsp#">
 								<img src="img/icon-chat25.png" alt="icon">
 							</a>
 						</li>
 						<li>
-							<a href="02-ProfilePage.html#">
+							<a href="02-ProfilePage.jsp#">
 								<img src="img/icon-chat26.png" alt="icon">
 							</a>
 						</li>
 						<li>
-							<a href="02-ProfilePage.html#">
+							<a href="02-ProfilePage.jsp#">
 								<img src="img/icon-chat27.png" alt="icon">
 							</a>
 						</li>

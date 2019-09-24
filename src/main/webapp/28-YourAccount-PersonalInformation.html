@@ -93,7 +93,7 @@
 									<a href="28-YourAccount-PersonalInformation.html">Personal Information</a>
 								</li>
 								<li>
-									<a href="29-YourAccount-AccountSettings.html">Account Settings</a>
+									<a href="29-YourAccount-AccountSettings.jsp">Account Settings</a>
 								</li>
 								<li>
 									<a href="30-YourAccount-ChangePassword.html">Change Password</a>
@@ -102,7 +102,7 @@
 									<a href="31-YourAccount-HobbiesAndInterests.html">Hobbies and Interests</a>
 								</li>
 								<li>
-									<a href="32-YourAccount-EducationAndEmployement.html">Education and Employement</a>
+									<a href="32-YourAccount-EducationAndEmployement.jsp">Education and Employement</a>
 								</li>
 							</ul>
 						</div>
@@ -143,7 +143,7 @@
 <div class="fixed-sidebar">
 	<div class="fixed-sidebar-left sidebar--small" id="sidebar-left">
 
-		<a href="02-ProfilePage.html" class="logo">
+		<a href="02-ProfilePage.jsp" class="logo">
 			<div class="img-wrap">
 				<img src="img/logo.png" alt="Olympus">
 			</div>
@@ -211,7 +211,7 @@
 	</div>
 
 	<div class="fixed-sidebar-left sidebar--large" id="sidebar-left-1">
-		<a href="02-ProfilePage.html" class="logo">
+		<a href="02-ProfilePage.jsp" class="logo">
 			<div class="img-wrap">
 				<img src="img/logo.png" alt="Olympus">
 			</div>
@@ -341,7 +341,7 @@
 						<img alt="author" src="img/author-page.jpg" class="avatar">
 						<span class="icon-status online"></span>
 					</div>
-					<a href="02-ProfilePage.html" class="author-name fn">
+					<a href="02-ProfilePage.jsp" class="author-name fn">
 						<div class="author-title">
 							James Spiegel <svg class="olymp-dropdown-arrow-icon"><use xlink:href="svg-icons/sprites/icons.svg#olymp-dropdown-arrow-icon"></use></svg>
 						</div>
@@ -962,7 +962,7 @@
 				<input class="form-control" placeholder="Search Friends..." value="" type="text">
 			</form>
 
-			<a href="29-YourAccount-AccountSettings.html" class="settings">
+			<a href="29-YourAccount-AccountSettings.jsp" class="settings">
 				<svg class="olymp-settings-icon"><use xlink:href="svg-icons/sprites/icons.svg#olymp-settings-icon"></use></svg>
 			</a>
 
@@ -1377,7 +1377,7 @@
 				<input class="form-control" placeholder="Search Friends..." value="" type="text">
 			</form>
 
-			<a href="29-YourAccount-AccountSettings.html" class="settings">
+			<a href="29-YourAccount-AccountSettings.jsp" class="settings">
 				<svg class="olymp-settings-icon"><use xlink:href="svg-icons/sprites/icons.svg#olymp-settings-icon"></use></svg>
 			</a>
 
@@ -1759,7 +1759,7 @@
 
 							<ul class="account-settings">
 								<li>
-									<a href="29-YourAccount-AccountSettings.html">
+									<a href="29-YourAccount-AccountSettings.jsp">
 
 										<svg class="olymp-menu-icon"><use xlink:href="svg-icons/sprites/icons.svg#olymp-menu-icon"></use></svg>
 
@@ -1856,7 +1856,7 @@
 
 					</div>
 				</div>
-				<a href="02-ProfilePage.html" class="author-name fn">
+				<a href="02-ProfilePage.jsp" class="author-name fn">
 					<div class="author-title">
 						James Spiegel <svg class="olymp-dropdown-arrow-icon"><use xlink:href="svg-icons/sprites/icons.svg#olymp-dropdown-arrow-icon"></use></svg>
 					</div>
@@ -2284,23 +2284,23 @@
 					
 					<!-- Personal Information Form  -->
 					
-					<form>
+					<form action="personalProfile" method="post">
 						<div class="row">
 					
 							<div class="col col-lg-6 col-md-6 col-sm-12 col-12">
 								<div class="form-group label-floating">
-									<label class="control-label">First Name</label>
-									<input class="form-control" placeholder="" type="text" value="James">
+									<label class="control-label" for="firstName">First Name</label>
+									<input class="form-control" placeholder="" type="text" id="firstName" name="firstName">
 								</div>
 					
 								<div class="form-group label-floating">
-									<label class="control-label">Your Email</label>
-									<input class="form-control" placeholder="" type="email" value="jspiegel@yourmail.com">
+									<label class="control-label" for="email">Your Email</label>
+									<input class="form-control" placeholder="" type="email" id="email" name="email">
 								</div>
 					
 								<div class="form-group date-time-picker label-floating">
-									<label class="control-label">Your Birthday</label>
-									<input name="datetimepicker" value="10/24/1984" />
+									<label class="control-label" for="birthDay">Your Birthday</label>
+									<input name="datetimepicker" value="10/24/1984" id="birthDay"/>
 									<span class="input-group-addon">
 															<svg class="olymp-month-calendar-icon icon"><use xlink:href="svg-icons/sprites/icons.svg#olymp-month-calendar-icon"></use></svg>
 														</span>
@@ -2309,26 +2309,26 @@
 					
 							<div class="col col-lg-6 col-md-6 col-sm-12 col-12">
 								<div class="form-group label-floating">
-									<label class="control-label">Last Name</label>
-									<input class="form-control" placeholder="" type="text" value="Spiegel">
+									<label class="control-label" for="lastName">Last Name</label>
+									<input class="form-control" placeholder="" type="text"  id="lastName" name="lastName">
 								</div>
 					
 								<div class="form-group label-floating">
-									<label class="control-label">Your Website</label>
-									<input class="form-control" placeholder="" type="email" value="daydreamzagency.com">
+									<label class="control-label" for="website">Your Website</label>
+									<input class="form-control" placeholder="" type="text" id="website" name="website">
 								</div>
 					
 					
 								<div class="form-group label-floating is-empty">
-									<label class="control-label">Your Phone Number</label>
-									<input class="form-control" placeholder="" type="text">
+									<label class="control-label" for="phoneNumber">Your Phone Number</label>
+									<input class="form-control" placeholder="" type="text" id="phoneNumber" name="phoneNumber">
 								</div>
 							</div>
 					
 							<div class="col col-lg-4 col-md-4 col-sm-12 col-12">
 								<div class="form-group label-floating is-select">
-									<label class="control-label">Your Country</label>
-									<select class="selectpicker form-control">
+									<label class="control-label" for="country">Your Country</label>
+									<select class="selectpicker form-control" id="country" name="country">
 										<option value="US">United States</option>
 										<option value="AU">Australia</option>
 									</select>
@@ -2336,8 +2336,8 @@
 							</div>
 							<div class="col col-lg-4 col-md-4 col-sm-12 col-12">
 								<div class="form-group label-floating is-select">
-									<label class="control-label">Your State / Province</label>
-									<select class="selectpicker form-control">
+									<label class="control-label" for="state">Your State / Province</label>
+									<select class="selectpicker form-control" id="state" name="state">
 										<option value="CA">California</option>
 										<option value="TE">Texas</option>
 									</select>
@@ -2345,8 +2345,8 @@
 							</div>
 							<div class="col col-lg-4 col-md-4 col-sm-12 col-12">
 								<div class="form-group label-floating is-select">
-									<label class="control-label">Your City</label>
-									<select class="selectpicker form-control">
+									<label class="control-label" for="city">Your City</label>
+									<select class="selectpicker form-control" id="city" name="city">
 										<option value="SF">San Francisco</option>
 										<option value="NY">New York</option>
 									</select>
@@ -2354,76 +2354,47 @@
 							</div>
 							<div class="col col-lg-6 col-md-6 col-sm-12 col-12">
 								<div class="form-group label-floating">
-									<label class="control-label">Write a little description about you</label>
-									<textarea class="form-control" placeholder="">Hi, I’m James, I’m 36 and I work as a Digital Designer for the  “Daydreams” Agency in Pier 56</textarea>
+									<label class="control-label" for="description">Write a little description about you</label>
+									<textarea class="form-control" id="description" name="description"></textarea>
 								</div>
-					
-								<div class="form-group label-floating is-select">
-									<label class="control-label">Your Gender</label>
-									<select class="selectpicker form-control">
-										<option value="MA">Male</option>
-										<option value="FE">Female</option>
-									</select>
-								</div>
+
 					
 								<div class="form-group label-floating is-empty">
-									<label class="control-label">Religious Belifs</label>
-									<input class="form-control" placeholder="" type="text">
+									<label class="control-label" for="religion">Religious Belifs</label>
+									<input class="form-control" placeholder="" type="text" name="religion" id="religion">
 								</div>
 							</div>
 							<div class="col col-lg-6 col-md-6 col-sm-12 col-12">
 								<div class="form-group label-floating is-empty">
-									<label class="control-label">Your Birthplace</label>
-									<input class="form-control" placeholder="" type="text">
+									<label class="control-label" for="placeofBirth">Your Birthplace</label>
+									<input class="form-control" placeholder="" type="text" id="placeofBirth" name="placeofBirth">
 								</div>
 					
 								<div class="form-group label-floating">
-									<label class="control-label">Your Occupation</label>
-									<input class="form-control" placeholder="" type="text" value="UI/UX Designer">
+									<label class="control-label" for="occupation">Your Occupation</label>
+									<input class="form-control" placeholder="" type="text" value="UI/UX Designer" id="occupation" name="occupation">
 								</div>
-					
-								<div class="form-group label-floating is-select">
-									<label class="control-label">Status</label>
-									<select class="selectpicker form-control">
-										<option value="MA">Married</option>
-										<option value="FE">Not Married</option>
-									</select>
-								</div>
+
 					
 								<div class="form-group label-floating">
-									<label class="control-label">Political Incline</label>
-									<input class="form-control" placeholder="" type="text" value="Democrat">
+									<label class="control-label" for="political">Political Incline</label>
+									<input class="form-control" placeholder="" type="text" id="political" name="political">
 								</div>
 							</div>
 							<div class="col col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
 								<div class="form-group with-icon label-floating">
-									<label class="control-label">Your Facebook Account</label>
-									<input class="form-control" type="text" value="www.facebook.com/james-spiegel95321">
+									<label class="control-label" for="facebook">Your Facebook Account</label>
+									<input class="form-control" type="text" id="facebook" name="facebook">
 									<i class="fab fa-facebook-f c-facebook" aria-hidden="true"></i>
 								</div>
 								<div class="form-group with-icon label-floating">
-									<label class="control-label">Your Twitter Account</label>
-									<input class="form-control" type="text" value="www.twitter.com/james_spiegelOK">
+									<label class="control-label" for="twitter">Your Twitter Account</label>
+									<input class="form-control" type="text" id="twitter" name="twitter">
 									<i class="fab fa-twitter c-twitter" aria-hidden="true"></i>
-								</div>
-								<div class="form-group with-icon label-floating is-empty">
-									<label class="control-label">Your RSS Feed Account</label>
-									<input class="form-control" type="text">
-									<i class="fa fa-rss c-rss" aria-hidden="true"></i>
-								</div>
-								<div class="form-group with-icon label-floating">
-									<label class="control-label">Your Dribbble Account</label>
-									<input class="form-control" type="text" value="www.dribbble.com/thecowboydesigner">
-									<i class="fab fa-dribbble c-dribbble" aria-hidden="true"></i>
-								</div>
-								<div class="form-group with-icon label-floating is-empty">
-									<label class="control-label">Your Spotify Account</label>
-									<input class="form-control" type="text">
-									<i class="fab fa-spotify c-spotify" aria-hidden="true"></i>
 								</div>
 							</div>
 							<div class="col col-lg-6 col-md-6 col-sm-12 col-12">
-								<button class="btn btn-secondary btn-lg full-width">Restore all Attributes</button>
+								<button class="btn btn-secondary btn-lg full-width" href="02-ProfilePage.html">Restore all Attributes</button>
 							</div>
 							<div class="col col-lg-6 col-md-6 col-sm-12 col-12">
 								<button class="btn btn-primary btn-lg full-width">Save all Changes</button>
@@ -2464,7 +2435,7 @@
 										<a href="28-YourAccount-PersonalInformation.html">Personal Information</a>
 									</li>
 									<li>
-										<a href="29-YourAccount-AccountSettings.html">Account Settings</a>
+										<a href="29-YourAccount-AccountSettings.jsp">Account Settings</a>
 									</li>
 									<li>
 										<a href="30-YourAccount-ChangePassword.html">Change Password</a>
@@ -2473,7 +2444,7 @@
 										<a href="31-YourAccount-HobbiesAndInterests.html">Hobbies and Interests</a>
 									</li>
 									<li>
-										<a href="32-YourAccount-EducationAndEmployement.html">Education and Employement</a>
+										<a href="32-YourAccount-EducationAndEmployement.jsp">Education and Employement</a>
 									</li>
 								</ul>
 							</div>

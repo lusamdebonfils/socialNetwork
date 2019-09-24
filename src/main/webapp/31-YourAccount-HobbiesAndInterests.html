@@ -93,7 +93,7 @@
 									<a href="28-YourAccount-PersonalInformation.html">Personal Information</a>
 								</li>
 								<li>
-									<a href="29-YourAccount-AccountSettings.html">Account Settings</a>
+									<a href="29-YourAccount-AccountSettings.jsp">Account Settings</a>
 								</li>
 								<li>
 									<a href="30-YourAccount-ChangePassword.html">Change Password</a>
@@ -102,7 +102,7 @@
 									<a href="31-YourAccount-HobbiesAndInterests.html">Hobbies and Interests</a>
 								</li>
 								<li>
-									<a href="32-YourAccount-EducationAndEmployement.html">Education and Employement</a>
+									<a href="32-YourAccount-EducationAndEmployement.jsp">Education and Employement</a>
 								</li>
 							</ul>
 						</div>
@@ -143,7 +143,7 @@
 <div class="fixed-sidebar">
 	<div class="fixed-sidebar-left sidebar--small" id="sidebar-left">
 
-		<a href="02-ProfilePage.html" class="logo">
+		<a href="02-ProfilePage.jsp" class="logo">
 			<div class="img-wrap">
 				<img src="img/logo.png" alt="Olympus">
 			</div>
@@ -211,7 +211,7 @@
 	</div>
 
 	<div class="fixed-sidebar-left sidebar--large" id="sidebar-left-1">
-		<a href="02-ProfilePage.html" class="logo">
+		<a href="02-ProfilePage.jsp" class="logo">
 			<div class="img-wrap">
 				<img src="img/logo.png" alt="Olympus">
 			</div>
@@ -341,7 +341,7 @@
 						<img alt="author" src="img/author-page.jpg" class="avatar">
 						<span class="icon-status online"></span>
 					</div>
-					<a href="02-ProfilePage.html" class="author-name fn">
+					<a href="02-ProfilePage.jsp" class="author-name fn">
 						<div class="author-title">
 							James Spiegel <svg class="olymp-dropdown-arrow-icon"><use xlink:href="svg-icons/sprites/icons.svg#olymp-dropdown-arrow-icon"></use></svg>
 						</div>
@@ -962,7 +962,7 @@
 				<input class="form-control" placeholder="Search Friends..." value="" type="text">
 			</form>
 
-			<a href="29-YourAccount-AccountSettings.html" class="settings">
+			<a href="29-YourAccount-AccountSettings.jsp" class="settings">
 				<svg class="olymp-settings-icon"><use xlink:href="svg-icons/sprites/icons.svg#olymp-settings-icon"></use></svg>
 			</a>
 
@@ -1377,7 +1377,7 @@
 				<input class="form-control" placeholder="Search Friends..." value="" type="text">
 			</form>
 
-			<a href="29-YourAccount-AccountSettings.html" class="settings">
+			<a href="29-YourAccount-AccountSettings.jsp" class="settings">
 				<svg class="olymp-settings-icon"><use xlink:href="svg-icons/sprites/icons.svg#olymp-settings-icon"></use></svg>
 			</a>
 
@@ -1759,7 +1759,7 @@
 
 							<ul class="account-settings">
 								<li>
-									<a href="29-YourAccount-AccountSettings.html">
+									<a href="29-YourAccount-AccountSettings.jsp">
 
 										<svg class="olymp-menu-icon"><use xlink:href="svg-icons/sprites/icons.svg#olymp-menu-icon"></use></svg>
 
@@ -1856,7 +1856,7 @@
 
 					</div>
 				</div>
-				<a href="02-ProfilePage.html" class="author-name fn">
+				<a href="02-ProfilePage.jsp" class="author-name fn">
 					<div class="author-title">
 						James Spiegel <svg class="olymp-dropdown-arrow-icon"><use xlink:href="svg-icons/sprites/icons.svg#olymp-dropdown-arrow-icon"></use></svg>
 					</div>
@@ -2285,26 +2285,26 @@
 					
 					<!-- Form Hobbies and Interests -->
 					
-					<form>
+					<form action="hobbies" method="post">
 						<div class="row">
 					
 							<div class="col col-lg-6 col-md-6 col-sm-12 col-12">
 								<div class="form-group label-floating">
-									<label class="control-label">Hobbies</label>
-									<textarea class="form-control" placeholder=""  >I like to ride the bike to work, swimming, and working out. I also like reading design magazines, go to museums, and binge watching a good tv show while it’s raining outside.
+									<label class="control-label" for="hobbies">Hobbies</label>
+									<textarea class="form-control" placeholder=""  id="hobbies" name="hobbies">I like to ride the bike to work, swimming, and working out. I also like reading design magazines, go to museums, and binge watching a good tv show while it’s raining outside.
 													</textarea>
 								</div>
 								<div class="form-group label-floating">
-									<label class="control-label">Favourite TV Shows</label>
-									<textarea class="form-control" placeholder=""  >Breaking Good, RedDevil, People of Interest, The Running Dead, Found,  American Guy.</textarea>
+									<label class="control-label" for="tvShows">Favourite TV Shows</label>
+									<textarea class="form-control" placeholder=""  id="tvShows" name="tvShows">Breaking Good, RedDevil, People of Interest, The Running Dead, Found,  American Guy.</textarea>
 								</div>
 								<div class="form-group label-floating">
-									<label class="control-label">Favourite Movies</label>
-									<textarea class="form-control" placeholder=""  >Idiocratic, The Scarred Wizard and the Fire Crown,  Crime Squad, Ferrum Man. </textarea>
+									<label class="control-label" for="movies">Favourite Movies</label>
+									<textarea class="form-control" placeholder=""   id="movies" name="movies">Idiocratic, The Scarred Wizard and the Fire Crown,  Crime Squad, Ferrum Man. </textarea>
 								</div>
-								<div class="form-group label-floating">
-									<label class="control-label">Favourite Games</label>
-									<textarea class="form-control" placeholder=""  >The First of Us, Assassin’s Squad, Dark Assylum, NMAK16, Last Cause 4, Grand Snatch Auto. </textarea>
+								<div class="form-group label-floating" >
+									<label class="control-label" for="games">Favourite Games</label>
+									<textarea class="form-control" placeholder="" id="games" name="games">The First of Us, Assassin’s Squad, Dark Assylum, NMAK16, Last Cause 4, Grand Snatch Auto. </textarea>
 								</div>
 					
 								<button class="btn btn-secondary btn-lg full-width">Cancel</button>
@@ -2312,20 +2312,20 @@
 					
 							<div class="col col-lg-6 col-md-6 col-sm-12 col-12">
 								<div class="form-group label-floating">
-									<label class="control-label">Favourite Music Bands / Artists</label>
-									<textarea class="form-control" placeholder=""  >Iron Maid, DC/AC, Megablow, The Ill, Kung Fighters, System of a Revenge.</textarea>
+									<label class="control-label" for="music">Favourite Music Bands / Artists</label>
+									<textarea class="form-control" placeholder="" id="music" name="music" >Iron Maid, DC/AC, Megablow, The Ill, Kung Fighters, System of a Revenge.</textarea>
 								</div>
 								<div class="form-group label-floating">
-									<label class="control-label">Favourite Books</label>
-									<textarea class="form-control" placeholder=""  >The Crime of the Century, Egiptian Mythology 101, The Scarred Wizard, Lord of the Wings, Amongst Gods, The Oracle, A Tale of Air and Water.</textarea>
+									<label class="control-label" for="books">Favourite Books</label>
+									<textarea class="form-control" placeholder="" id="books" name="books" >The Crime of the Century, Egiptian Mythology 101, The Scarred Wizard, Lord of the Wings, Amongst Gods, The Oracle, A Tale of Air and Water.</textarea>
+								</div>
+								<div class="form-group label-floating" >
+									<label class="control-label" for="writers">Favourite Writers</label>
+									<textarea class="form-control" placeholder="" id="writers" name="writers" >Martin T. Georgeston, Jhonathan R. Token, Ivana Rowle, Alexandria Platt, Marcus Roth. </textarea>
 								</div>
 								<div class="form-group label-floating">
-									<label class="control-label">Favourite Writers</label>
-									<textarea class="form-control" placeholder=""  >Martin T. Georgeston, Jhonathan R. Token, Ivana Rowle, Alexandria Platt, Marcus Roth. </textarea>
-								</div>
-								<div class="form-group label-floating">
-									<label class="control-label">Other Interests</label>
-									<textarea class="form-control" placeholder=""  >Swimming, Surfing, Scuba Diving, Anime, Photography, Tattoos, Street Art.</textarea>
+									<label class="control-label" for="others">Other Interests</label>
+									<textarea class="form-control" placeholder="" id="others" name="others" >Swimming, Surfing, Scuba Diving, Anime, Photography, Tattoos, Street Art.</textarea>
 								</div>
 					
 								<button class="btn btn-primary btn-lg full-width">Save all Changes</button>
@@ -2364,7 +2364,7 @@
 										<a href="28-YourAccount-PersonalInformation.html">Personal Information</a>
 									</li>
 									<li>
-										<a href="29-YourAccount-AccountSettings.html">Account Settings</a>
+										<a href="29-YourAccount-AccountSettings.jsp">Account Settings</a>
 									</li>
 									<li>
 										<a href="30-YourAccount-ChangePassword.html">Change Password</a>
@@ -2373,7 +2373,7 @@
 										<a href="31-YourAccount-HobbiesAndInterests.html">Hobbies and Interests</a>
 									</li>
 									<li>
-										<a href="32-YourAccount-EducationAndEmployement.html">Education and Employement</a>
+										<a href="32-YourAccount-EducationAndEmployement.jsp">Education and Employement</a>
 									</li>
 								</ul>
 							</div>
