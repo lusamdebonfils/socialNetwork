@@ -1,33 +1,40 @@
 package edu.mum.cs.project.model;
 
 
+import javax.persistence.*;
 import java.util.ArrayList;
 import java.util.List;
 
+@Entity
 public class Profile {
-    private User user;
-    private HobbiesAndInterest hobbiesAndInterest;
-    private PersonalInformation personalInformation;
-    private List<Employment> employment;
-    private List<Education> education;
+    @Id
+    @GeneratedValue(strategy = GenerationType.AUTO)
+    private Long id;
 
-    public Profile(User user, HobbiesAndInterest hobbiesAndInterest, PersonalInformation personalInformation) {
-        this.user = user;
+    @OneToOne
+    private HobbiesAndInterest hobbiesAndInterest;
+    @OneToOne
+    private PersonalInformation personalInformation;
+    @OneToMany
+    private List<Employment> employment = new ArrayList<>();
+    @OneToMany
+    private List<Education> education = new ArrayList<>();
+
+    public Profile(HobbiesAndInterest hobbiesAndInterest, PersonalInformation personalInformation) {
         this.hobbiesAndInterest = hobbiesAndInterest;
         this.personalInformation = personalInformation;
-        this.employment = new ArrayList<>();
-        this.education = new ArrayList<>();
     }
 
     public Profile() {
+
     }
 
-    public User getUser() {
-        return user;
+    public Long getId() {
+        return id;
     }
 
-    public void setUser(User user) {
-        this.user = user;
+    public void setId(Long id) {
+        this.id = id;
     }
 
     public HobbiesAndInterest getHobbiesAndInterest() {
@@ -73,9 +80,8 @@ public class Profile {
 
     @Override
     public String toString() {
-        return "Profile{" +
-                "user=" + user +
-                ", hobbiesAndInterest=" + hobbiesAndInterest +
+        return "Profile{"
+                + "hobbiesAndInterest=" + hobbiesAndInterest +
                 ", personalInformation=" + personalInformation +
                 ", employment=" + employment +
                 ", education=" + education +

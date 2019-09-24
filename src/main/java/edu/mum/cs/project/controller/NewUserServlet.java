@@ -1,5 +1,7 @@
 package edu.mum.cs.project.controller;
 
+import edu.mum.cs.project.dao.Dao;
+import edu.mum.cs.project.dao.implementation.UserDao;
 import edu.mum.cs.project.model.User;
 
 import javax.servlet.ServletException;
@@ -14,6 +16,9 @@ import java.time.format.DateTimeFormatter;
 
 @WebServlet("/registerUser")
 public class NewUserServlet extends HttpServlet {
+
+    Dao<User> userDao = new UserDao();
+
     protected void doGet(HttpServletRequest req, HttpServletResponse resp)
             throws ServletException, IOException
     {
@@ -36,7 +41,9 @@ public class NewUserServlet extends HttpServlet {
         LocalDate dateOfJoining = LocalDate.now();
 
         User user = new User(firstName, lastName, email, password, date, dateOfJoining);
-        System.out.println(user);
+        //System.out.println(user);
+        userDao.create(user);
+
 
     }
 }

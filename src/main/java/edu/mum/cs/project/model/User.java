@@ -1,53 +1,57 @@
 package edu.mum.cs.project.model;
 
-import javax.persistence.GeneratedValue;
-import javax.persistence.Id;
+import javax.persistence.*;
 import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.List;
 
+@Entity
 public class User {
-
-    private String id;
-    private String finalName;
+    @Id
+    @GeneratedValue(strategy = GenerationType.AUTO)
+    private Long id;
+    private String firstName;
     private String lastName;
     private String email;
     private String password;
     private LocalDate dateOfBirth;
     private LocalDate dateOfRegistration;
-    private List<Post> postList;
-    private List<User> followingList = new ArrayList<>();
+    @OneToMany
+    private List<Post> postList = new ArrayList<>();;
+    @OneToMany
+    private List<User> followingList = new ArrayList<>();;
+    @OneToOne
+    private Profile profile = new Profile();
+
 
     public User() {
     }
 
-    public User(String finalName, String lastName, String email, String password,
+    public User(String firstName, String lastName, String email, String password,
                 LocalDate dateOfBirth, LocalDate dateOfRegistration) {
         this.id = id;
-        this.finalName = finalName;
+        this.firstName = firstName;
         this.lastName = lastName;
         this.email = email;
         this.password = password;
         this.dateOfBirth = dateOfBirth;
         this.dateOfRegistration = dateOfRegistration;
-        this.postList = postList;
-        this.followingList = followingList;
     }
 
-    public String getId() {
+    public Long getId() {
         return id;
     }
 
-    public void setId(String id) {
+    public void setId(Long id) {
         this.id = id;
     }
 
-    public String getFinalName() {
-        return finalName;
+    public String getFirstName() {
+        return firstName;
     }
 
-    public void setFinalName(String finalName) {
-        this.finalName = finalName;
+    public void setFirstName(String finalName) {
+        this.firstName = finalName;
     }
 
     public String getLastName() {
@@ -106,11 +110,19 @@ public class User {
         this.followingList = followingList;
     }
 
+    public Profile getProfile() {
+        return profile;
+    }
+
+    public void setProfile(Profile profile) {
+        this.profile = profile;
+    }
+
     @Override
     public String toString() {
         return "User{" +
                 "id='" + id + '\'' +
-                ", finalName='" + finalName + '\'' +
+                ", finalName='" + firstName + '\'' +
                 ", lastName='" + lastName + '\'' +
                 ", email='" + email + '\'' +
                 ", password='" + password + '\'' +
