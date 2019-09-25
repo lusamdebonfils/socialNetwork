@@ -9,10 +9,14 @@
 <html>
 <head>
     <title>Login Page</title>
-    <link href="https://stackpath.bootstrapcdn.com/bootswatch/4.3.1/sketchy/bootstrap.min.css" rel="stylesheet" integrity="sha384-N8DsABZCqc1XWbg/bAlIDk7AS/yNzT5fcKzg/TwfmTuUqZhGquVmpb5VvfmLcMzp" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="js/new_user_validation.js" type="text/javascript"></script>
+    <link href="https://stackpath.bootstrapcdn.com/bootswatch/4.3.1/sketchy/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-N8DsABZCqc1XWbg/bAlIDk7AS/yNzT5fcKzg/TwfmTuUqZhGquVmpb5VvfmLcMzp" crossorigin="anonymous">
     <link rel="stylesheet" href="css/login.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+          integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <script src="js/login.js"></script>
 
 </head>
@@ -20,7 +24,7 @@
 
 <div class="container" id="container">
     <div class="form-container sign-up-container">
-        <form action="#">
+        <form id="registerUser" class="content" action="registerUser" method="post">
             <h1>Create Account</h1>
             <div class="social-container">
                 <a href="#" class="social"><i class="fa fa-facebook-f"></i></a>
@@ -29,10 +33,49 @@
                 <a href="#" class="fa fa-twitter"></a>
             </div>
             <span>or use your email for registration</span>
-            <input type="text" placeholder="Name" />
-            <input type="email" placeholder="Email" />
-            <input type="password" placeholder="Password" />
-            <button>Sign Up</button>
+            <%--            <input type="text" placeholder="Name" />--%>
+            <%--            <input type="email" placeholder="Email" />--%>
+            <%--            <input type="password" placeholder="Password" />--%>
+            <%--            <button>Sign Up</button>--%>
+
+            <input class="form-control" id="firstName" placeholder="First Name*" type="text" name="firstName">
+
+            <input class="form-control" placeholder="Last Name*" type="text" id="lastName" name="lastName">
+
+            <input class="form-control" placeholder="Your Email*" type="email" id="email" name="email">
+
+            <input class="form-control" placeholder="Your Password*" type="password" id="password" name="password">
+
+            <input class="form-control" placeholder="Repeat Password*" type="password" id="repeat_password"
+                   name="repeat_password">
+
+            <input id="birthDay" name="datetimepicker" value="10/24/1984" placeholder="Your Birthday*"/>
+            <span class="input-group-addon">
+                <svg class="olymp-calendar-icon"><use
+                        xlink:href="svg-icons/sprites/icons.svg#olymp-calendar-icon"></use></svg>
+            </span>
+
+            <select class="selectpicker form-control" id="gender" name="gender">
+                <option value="D" selected>Your Gender*</option>
+                <option value="M">Male</option>
+                <option value="F">Female</option>
+            </select>
+
+
+            <label>
+                <input name="optionsCheckboxes" type="checkbox" id="optionsCheckboxes">
+                I accept the <a href="#">Terms and Conditions</a> of the website
+            </label>
+
+
+            <div class="form-group label-floating" id="errors" style="color: red">
+
+            </div>
+
+            <input class="btn btn-primary btn-lg full-width" id="submitButton" type="submit"
+                   value="Complete Registration!">
+
+
         </form>
     </div>
     <div class="form-container sign-in-container">

@@ -1640,7 +1640,7 @@
 										<a href="05-ProfilePage-About.html">About</a>
 									</li>
 									<li>
-										<a href="06-ProfilePage.html">Friends</a>
+										<a href="06ProfilePage.html">Friends</a>
 									</li>
 								</ul>
 							</div>

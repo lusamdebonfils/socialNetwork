@@ -36,7 +36,7 @@ public class ManageProfile extends HttpServlet {
         req.setAttribute("profile", profile);
         */
 
-        RequestDispatcher requestDispatcher = req.getRequestDispatcher("test.jsp");
+        RequestDispatcher requestDispatcher = req.getRequestDispatcher("profilePage.jsp");
         requestDispatcher.forward(req,resp);
     }
 
