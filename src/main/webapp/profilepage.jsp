@@ -37,48 +37,12 @@
 
 
 
-<!-- Preloader -->
-
-<div id="hellopreloader">
-	<div class="preloader">
-		<svg width="45" height="45" stroke="#fff">
-			<g fill="none" fill-rule="evenodd" stroke-width="2" transform="translate(1 1)">
-				<circle cx="22" cy="22" r="6" stroke="none">
-					<animate attributeName="r" begin="1.5s" calcMode="linear" dur="3s" repeatCount="indefinite"
-							 values="6;22" />
-					<animate attributeName="stroke-opacity" begin="1.5s" calcMode="linear" dur="3s"
-							 repeatCount="indefinite" values="1;0" />
-					<animate attributeName="stroke-width" begin="1.5s" calcMode="linear" dur="3s"
-							 repeatCount="indefinite" values="2;0" />
-				</circle>
-				<circle cx="22" cy="22" r="6" stroke="none">
-					<animate attributeName="r" begin="3s" calcMode="linear" dur="3s" repeatCount="indefinite"
-							 values="6;22" />
-					<animate attributeName="stroke-opacity" begin="3s" calcMode="linear" dur="3s"
-							 repeatCount="indefinite" values="1;0" />
-					<animate attributeName="stroke-width" begin="3s" calcMode="linear" dur="3s"
-							 repeatCount="indefinite" values="2;0" />
-				</circle>
-				<circle cx="22" cy="22" r="8">
-					<animate attributeName="r" begin="0s" calcMode="linear" dur="1.5s" repeatCount="indefinite"
-							 values="6;1;2;3;4;5;6" />
-				</circle>
-			</g>
-		</svg>
-
-		<div class="text">Loading ...</div>
-	</div>
-</div>
-
-<!-- ... end Preloader -->
-
-
 <!-- Fixed Sidebar Left -->
 
 <div class="fixed-sidebar">
 	<div class="fixed-sidebar-left sidebar--small" id="sidebar-left">
 
-		<a href="02-ProfilePage.html" class="logo">
+		<a href="profilepage.jsp" class="logo">
 			<div class="img-wrap">
 				<img src="img/logo.png" alt="Olympus">
 			</div>
@@ -1009,7 +973,7 @@
 
 							<ul class="account-settings">
 								<li>
-									<a href="29-YourAccount-AccountSettings.html">
+									<a href="accountaccountsettings.jsp">
 
 										<svg class="olymp-menu-icon">
 											<use xlink:href="svg-icons/sprites/icons.svg#olymp-menu-icon"></use>
@@ -1634,13 +1598,13 @@
 										<a href="editProfile" class="active">Edit Profile</a>
 									</li>
 									<li>
-										<a href="02-ProfilePage.html" class="active">Timeline</a>
+										<a href="profilepage.jsp" class="active">Timeline</a>
 									</li>
 									<li>
-										<a href="05-ProfilePage-About.html">About</a>
+										<a href="aboutme.jsp">About</a>
 									</li>
 									<li>
-										<a href="06ProfilePage.html">Friends</a>
+										<a href="profilepage.jsp">Friends</a>
 									</li>
 								</ul>
 							</div>
@@ -1700,19 +1664,19 @@
 										   data-target="#update-header-photo">Update Header Photo</a>
 									</li>
 									<li>
-										<a href="29-YourAccount-AccountSettings.html">Account Settings</a>
+										<a href="accountaccountsettings.jsp">Account Settings</a>
 									</li>
 								</ul>
 							</div>
 						</div>
 					</div>
 					<div class="top-header-author">
-						<a href="02-ProfilePage.html" class="author-thumb">
-							<img src="img/author-main1.jpg" alt="author">
+						<a href="profilepage.jsp" class="author-thumb">
+							<img src="#" alt="Add Profile photo">
 						</a>
 						<div class="author-content">
-							<a href="02-ProfilePage.html" class="h4 author-name">James Spiegel</a>
-							<div class="country">San Francisco, CA</div>
+							<a href="profilepage.jsp" class="h4 author-name">${user.firstName} ${user.lastName} </a>
+							<div class="country">${user.profile.personalInformation.country}</div>
 						</div>
 					</div>
 				</div>
@@ -2560,15 +2524,15 @@
 					<ul class="widget w-personal-info item-block">
 						<li>
 							<span class="title">About Me:</span>
-							<span class="text">${user.personalInformation.aboutMe}</span>
+							<span class="text">${user.profile.personalInformation.aboutMe}</span>
 						</li>
 						<li>
 							<span class="title">Favourite TV Shows:</span>
-							<span class="text">${user.profile.tvShows}</span>
+							<span class="text">${user.profile.hobbiesAndInterest.tvShows}</span>
 						</li>
 						<li>
 							<span class="title">Favourite Music Bands / Artists:</span>
-							<span class="text">${user.profile.music}</span>
+							<span class="text">${user.profile.hobbiesAndInterest.music}</span>
 						</li>
 					</ul>
 
@@ -2577,11 +2541,11 @@
 
 					<div class="widget w-socials">
 						<h6 class="title">Other Social Networks:</h6>
-						<a href="${user.personalInformation.facebookAccount}" class="social-item bg-facebook">
+						<a href="${user.profile.personalInformation.facebookAccount}" class="social-item bg-facebook">
 							<i class="fab fa-facebook-f" aria-hidden="true"></i>
 							Facebook
 						</a>
-						<a href="${user.personalInformation.twitterAccount}" class="social-item bg-twitter">
+						<a href="${user.profile.personalInformation.twitterAccount}" class="social-item bg-twitter">
 							<i class="fab fa-twitter" aria-hidden="true"></i>
 							Twitter
 						</a>
@@ -3486,7 +3450,7 @@
 <script src="js/libs/Chart.js"></script>
 <script src="js/libs/chartjs-plugin-deferred.js"></script>
 <script src="js/libs/circle-progress.js"></script>
-<script src="js/libs/loader.js"></script>
+<%--<script src="js/libs/loader.js"></script>--%>
 <script src="js/libs/run-chart.js"></script>
 <script src="js/libs/jquery.magnific-popup.js"></script>
 <script src="js/libs/jquery.gifplayer.js"></script>

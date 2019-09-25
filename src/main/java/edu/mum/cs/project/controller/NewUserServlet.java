@@ -25,9 +25,9 @@ public class NewUserServlet extends HttpServlet {
     protected void doGet(HttpServletRequest req, HttpServletResponse resp)
             throws ServletException, IOException
     {
-        RequestDispatcher requestDispatcher = req.getRequestDispatcher("00login.jsp");
+        RequestDispatcher requestDispatcher = req.getRequestDispatcher("profilepage.jsp");
         requestDispatcher.forward(req,resp);
-//        resp.sendRedirect("00login.jsp");
+
 
     }
 

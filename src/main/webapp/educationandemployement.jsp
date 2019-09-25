@@ -1,14 +1,14 @@
+<%@ page isELIgnored="false" %>
 <!DOCTYPE html>
 <html lang="en">
 <head>
 
-	<title>Your Account - Personal Information</title>
+	<title>Your Account - Education And Employement</title>
 
 	<!-- Required meta tags always come first -->
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta http-equiv="x-ua-compatible" content="ie=edge">
-
 
 	<!-- Bootstrap CSS -->
 	<link rel="stylesheet" type="text/css" href="Bootstrap/dist/css/bootstrap-reboot.css">
@@ -34,38 +34,11 @@
 <body class="page-has-left-panels page-has-right-panels">
 
 
-<!-- Preloader -->
-
-<div id="hellopreloader">
-	<div class="preloader">
-		<svg width="45" height="45" stroke="#fff">
-			<g fill="none" fill-rule="evenodd" stroke-width="2" transform="translate(1 1)">
-				<circle cx="22" cy="22" r="6" stroke="none">
-					<animate attributeName="r" begin="1.5s" calcMode="linear" dur="3s" repeatCount="indefinite" values="6;22"/>
-					<animate attributeName="stroke-opacity" begin="1.5s" calcMode="linear" dur="3s" repeatCount="indefinite" values="1;0"/>
-					<animate attributeName="stroke-width" begin="1.5s" calcMode="linear" dur="3s" repeatCount="indefinite" values="2;0"/>
-				</circle>
-				<circle cx="22" cy="22" r="6" stroke="none">
-					<animate attributeName="r" begin="3s" calcMode="linear" dur="3s" repeatCount="indefinite" values="6;22"/>
-					<animate attributeName="stroke-opacity" begin="3s" calcMode="linear" dur="3s" repeatCount="indefinite" values="1;0"/>
-					<animate attributeName="stroke-width" begin="3s" calcMode="linear" dur="3s" repeatCount="indefinite" values="2;0"/>
-				</circle>
-				<circle cx="22" cy="22" r="8">
-					<animate attributeName="r" begin="0s" calcMode="linear" dur="1.5s" repeatCount="indefinite" values="6;1;2;3;4;5;6"/>
-				</circle>
-			</g>
-		</svg>
-
-		<div class="text">Loading ...</div>
-	</div>
-</div>
-
-<!-- ... end Preloader -->
 <!-- Profile Settings Responsive -->
 
 <div class="profile-settings-responsive">
 
-	<a href="28-YourAccount-PersonalInformation.html#" class="js-profile-settings-open profile-settings-open">
+	<a href="educationandemployement.jsp#" class="js-profile-settings-open profile-settings-open">
 		<i class="fa fa-angle-right" aria-hidden="true"></i>
 		<i class="fa fa-angle-left" aria-hidden="true"></i>
 	</a>
@@ -80,7 +53,7 @@
 					<div class="card">
 						<div class="card-header" role="tab" id="headingOne-1">
 							<h6 class="mb-0">
-								<a data-toggle="collapse" data-parent="#accordion" href="28-YourAccount-PersonalInformation.html#collapseOne-1" aria-expanded="true" aria-controls="collapseOne">
+								<a data-toggle="collapse" data-parent="#accordion" href="educationandemployement.jsp#collapseOne-1" aria-expanded="true" aria-controls="collapseOne">
 									Profile Settings
 									<svg class="olymp-dropdown-arrow-icon"><use xlink:href="svg-icons/sprites/icons.svg#olymp-dropdown-arrow-icon"></use></svg>
 								</a>
@@ -90,19 +63,19 @@
 						<div id="collapseOne-1" class="collapse show" role="tabpanel" aria-labelledby="headingOne">
 							<ul class="your-profile-menu">
 								<li>
-									<a href="28-YourAccount-PersonalInformation.html">Personal Information</a>
+									<a href="personalinformation.jsp">Personal Information</a>
 								</li>
 								<li>
-									<a href="29YourAccountAccountSettings.jsp">Account Settings</a>
+									<a href="editprofile.jsp">Account Settings</a>
 								</li>
 								<li>
 									<a href="30-YourAccount-ChangePassword.html">Change Password</a>
 								</li>
 								<li>
-									<a href="31YourAccount-HobbiesAndInterests.html">Hobbies and Interests</a>
+									<a href="hobbiesandinterests.jsp">Hobbies and Interests</a>
 								</li>
 								<li>
-									<a href="32YourAccountEducationAndEmployement.jsp">Education and Employement</a>
+									<a href="educationandemployement.jsp">Education and Employement</a>
 								</li>
 							</ul>
 						</div>
@@ -112,14 +85,14 @@
 
 				<div class="ui-block-title">
 					<a href="33-YourAccount-Notifications.html" class="h6 title">Notifications</a>
-					<a href="28-YourAccount-PersonalInformation.html#" class="items-round-little bg-primary">8</a>
+					<a href="educationandemployement.jsp#" class="items-round-little bg-primary">8</a>
 				</div>
 				<div class="ui-block-title">
 					<a href="34-YourAccount-ChatMessages.html" class="h6 title">Chat / Messages</a>
 				</div>
 				<div class="ui-block-title">
 					<a href="35-YourAccount-FriendsRequests.html" class="h6 title">Friend Requests</a>
-					<a href="28-YourAccount-PersonalInformation.html#" class="items-round-little bg-blue">4</a>
+					<a href="educationandemployement.jsp#" class="items-round-little bg-blue">4</a>
 				</div>
 				<div class="ui-block-title ui-block-title-small">
 					<h6 class="title">FAVOURITE PAGE</h6>
@@ -143,7 +116,7 @@
 <div class="fixed-sidebar">
 	<div class="fixed-sidebar-left sidebar--small" id="sidebar-left">
 
-		<a href="02ProfilePage.jsp" class="logo">
+		<a href="profilepage.jsp" class="logo">
 			<div class="img-wrap">
 				<img src="img/logo.png" alt="Olympus">
 			</div>
@@ -152,7 +125,7 @@
 		<div class="mCustomScrollbar" data-mcs-theme="dark">
 			<ul class="left-menu">
 				<li>
-					<a href="28-YourAccount-PersonalInformation.html#" class="js-sidebar-open">
+					<a href="educationandemployement.jsp#" class="js-sidebar-open">
 						<svg class="olymp-menu-icon left-menu-icon"  data-toggle="tooltip" data-placement="right"   data-original-title="OPEN MENU"><use xlink:href="svg-icons/sprites/icons.svg#olymp-menu-icon"></use></svg>
 					</a>
 				</li>
@@ -211,7 +184,7 @@
 	</div>
 
 	<div class="fixed-sidebar-left sidebar--large" id="sidebar-left-1">
-		<a href="02ProfilePage.jsp" class="logo">
+		<a href="profilepage.jsp" class="logo">
 			<div class="img-wrap">
 				<img src="img/logo.png" alt="Olympus">
 			</div>
@@ -223,7 +196,7 @@
 		<div class="mCustomScrollbar" data-mcs-theme="dark">
 			<ul class="left-menu">
 				<li>
-					<a href="28-YourAccount-PersonalInformation.html#" class="js-sidebar-open">
+					<a href="educationandemployement.jsp#" class="js-sidebar-open">
 						<svg class="olymp-close-icon left-menu-icon"><use xlink:href="svg-icons/sprites/icons.svg#olymp-close-icon"></use></svg>
 						<span class="left-menu-title">Collapse Menu</span>
 					</a>
@@ -302,7 +275,7 @@
 					</div>
 				</div>
 
-				<span>Complete <a href="28-YourAccount-PersonalInformation.html#">your profile</a> so people can know more about you!</span>
+				<span>Complete <a href="educationandemployement.jsp#">your profile</a> so people can know more about you!</span>
 
 			</div>
 		</div>
@@ -317,14 +290,14 @@
 <div class="fixed-sidebar fixed-sidebar-responsive">
 
 	<div class="fixed-sidebar-left sidebar--small" id="sidebar-left-responsive">
-		<a href="28-YourAccount-PersonalInformation.html#" class="logo js-sidebar-open">
+		<a href="educationandemployement.jsp#" class="logo js-sidebar-open">
 			<img src="img/logo.png" alt="Olympus">
 		</a>
 
 	</div>
 
 	<div class="fixed-sidebar-left sidebar--large" id="sidebar-left-1-responsive">
-		<a href="28-YourAccount-PersonalInformation.html#" class="logo">
+		<a href="educationandemployement.jsp#" class="logo">
 			<div class="img-wrap">
 				<img src="img/logo.png" alt="Olympus">
 			</div>
@@ -341,7 +314,7 @@
 						<img alt="author" src="img/author-page.jpg" class="avatar">
 						<span class="icon-status online"></span>
 					</div>
-					<a href="02ProfilePage.jsp" class="author-name fn">
+					<a href="profilepage.jsp" class="author-name fn">
 						<div class="author-title">
 							James Spiegel <svg class="olymp-dropdown-arrow-icon"><use xlink:href="svg-icons/sprites/icons.svg#olymp-dropdown-arrow-icon"></use></svg>
 						</div>
@@ -356,7 +329,7 @@
 
 			<ul class="left-menu">
 				<li>
-					<a href="28-YourAccount-PersonalInformation.html#" class="js-sidebar-open">
+					<a href="educationandemployement.jsp#" class="js-sidebar-open">
 						<svg class="olymp-close-icon left-menu-icon"><use xlink:href="svg-icons/sprites/icons.svg#olymp-close-icon"></use></svg>
 						<span class="left-menu-title">Collapse Menu</span>
 					</a>
@@ -416,7 +389,7 @@
 					</a>
 				</li>
 				<li>
-					<a href="28-YourAccount-PersonalInformation.html#">
+					<a href="educationandemployement.jsp#">
 						<svg class="olymp-manage-widgets-icon left-menu-icon"  data-toggle="tooltip" data-placement="right"   data-original-title="Manage Widgets"><use xlink:href="svg-icons/sprites/icons.svg#olymp-manage-widgets-icon"></use></svg>
 						<span class="left-menu-title">Manage Widgets</span>
 					</a>
@@ -429,7 +402,7 @@
 
 			<ul class="account-settings">
 				<li>
-					<a href="28-YourAccount-PersonalInformation.html#">
+					<a href="educationandemployement.jsp#">
 
 						<svg class="olymp-menu-icon"><use xlink:href="svg-icons/sprites/icons.svg#olymp-menu-icon"></use></svg>
 
@@ -437,14 +410,14 @@
 					</a>
 				</li>
 				<li>
-					<a href="28-YourAccount-PersonalInformation.html#">
+					<a href="educationandemployement.jsp#">
 						<svg class="olymp-star-icon left-menu-icon"  data-toggle="tooltip" data-placement="right"   data-original-title="FAV PAGE"><use xlink:href="svg-icons/sprites/icons.svg#olymp-star-icon"></use></svg>
 
 						<span>Create Fav Page</span>
 					</a>
 				</li>
 				<li>
-					<a href="28-YourAccount-PersonalInformation.html#">
+					<a href="educationandemployement.jsp#">
 						<svg class="olymp-logout-icon"><use xlink:href="svg-icons/sprites/icons.svg#olymp-logout-icon"></use></svg>
 
 						<span>Log Out</span>
@@ -458,22 +431,22 @@
 
 			<ul class="about-olympus">
 				<li>
-					<a href="28-YourAccount-PersonalInformation.html#">
+					<a href="educationandemployement.jsp#">
 						<span>Terms and Conditions</span>
 					</a>
 				</li>
 				<li>
-					<a href="28-YourAccount-PersonalInformation.html#">
+					<a href="educationandemployement.jsp#">
 						<span>FAQs</span>
 					</a>
 				</li>
 				<li>
-					<a href="28-YourAccount-PersonalInformation.html#">
+					<a href="educationandemployement.jsp#">
 						<span>Careers</span>
 					</a>
 				</li>
 				<li>
-					<a href="28-YourAccount-PersonalInformation.html#">
+					<a href="educationandemployement.jsp#">
 						<span>Contact</span>
 					</a>
 				</li>
@@ -567,12 +540,12 @@
 		</div>
 
 		<div class="search-friend inline-items">
-			<a href="28-YourAccount-PersonalInformation.html#" class="js-sidebar-open">
+			<a href="educationandemployement.jsp#" class="js-sidebar-open">
 				<svg class="olymp-menu-icon"><use xlink:href="svg-icons/sprites/icons.svg#olymp-menu-icon"></use></svg>
 			</a>
 		</div>
 
-		<a href="28-YourAccount-PersonalInformation.html#" class="olympus-chat inline-items js-chat-open">
+		<a href="educationandemployement.jsp#" class="olympus-chat inline-items js-chat-open">
 			<svg class="olymp-chat---messages-icon"><use xlink:href="svg-icons/sprites/icons.svg#olymp-chat---messages-icon"></use></svg>
 		</a>
 
@@ -583,8 +556,8 @@
 		<div class="mCustomScrollbar" data-mcs-theme="dark">
 
 			<div class="ui-block-title ui-block-title-small">
-				<a href="28-YourAccount-PersonalInformation.html#" class="title">Close Friends</a>
-				<a href="28-YourAccount-PersonalInformation.html#">Settings</a>
+				<a href="educationandemployement.jsp#" class="title">Close Friends</a>
+				<a href="educationandemployement.jsp#">Settings</a>
 			</div>
 
 			<ul class="chat-users">
@@ -596,7 +569,7 @@
 					</div>
 
 					<div class="author-status">
-						<a href="28-YourAccount-PersonalInformation.html#" class="h6 author-name">Carol Summers</a>
+						<a href="educationandemployement.jsp#" class="h6 author-name">Carol Summers</a>
 						<span class="status">ONLINE</span>
 					</div>
 
@@ -627,7 +600,7 @@
 					</div>
 
 					<div class="author-status">
-						<a href="28-YourAccount-PersonalInformation.html#" class="h6 author-name">Mathilda Brinker</a>
+						<a href="educationandemployement.jsp#" class="h6 author-name">Mathilda Brinker</a>
 						<span class="status">AT WORK!</span>
 					</div>
 
@@ -660,7 +633,7 @@
 					</div>
 
 					<div class="author-status">
-						<a href="28-YourAccount-PersonalInformation.html#" class="h6 author-name">Carol Summers</a>
+						<a href="educationandemployement.jsp#" class="h6 author-name">Carol Summers</a>
 						<span class="status">ONLINE</span>
 					</div>
 
@@ -694,7 +667,7 @@
 					</div>
 
 					<div class="author-status">
-						<a href="28-YourAccount-PersonalInformation.html#" class="h6 author-name">Michael Maximoff</a>
+						<a href="educationandemployement.jsp#" class="h6 author-name">Michael Maximoff</a>
 						<span class="status">AWAY</span>
 					</div>
 
@@ -728,7 +701,7 @@
 					</div>
 
 					<div class="author-status">
-						<a href="28-YourAccount-PersonalInformation.html#" class="h6 author-name">Rachel Howlett</a>
+						<a href="educationandemployement.jsp#" class="h6 author-name">Rachel Howlett</a>
 						<span class="status">OFFLINE</span>
 					</div>
 
@@ -756,8 +729,8 @@
 
 
 			<div class="ui-block-title ui-block-title-small">
-				<a href="28-YourAccount-PersonalInformation.html#" class="title">MY FAMILY</a>
-				<a href="28-YourAccount-PersonalInformation.html#">Settings</a>
+				<a href="educationandemployement.jsp#" class="title">MY FAMILY</a>
+				<a href="educationandemployement.jsp#">Settings</a>
 			</div>
 
 			<ul class="chat-users">
@@ -769,7 +742,7 @@
 					</div>
 
 					<div class="author-status">
-						<a href="28-YourAccount-PersonalInformation.html#" class="h6 author-name">Sarah Hetfield</a>
+						<a href="educationandemployement.jsp#" class="h6 author-name">Sarah Hetfield</a>
 						<span class="status">ONLINE</span>
 					</div>
 
@@ -795,8 +768,8 @@
 
 
 			<div class="ui-block-title ui-block-title-small">
-				<a href="28-YourAccount-PersonalInformation.html#" class="title">UNCATEGORIZED</a>
-				<a href="28-YourAccount-PersonalInformation.html#">Settings</a>
+				<a href="educationandemployement.jsp#" class="title">UNCATEGORIZED</a>
+				<a href="educationandemployement.jsp#">Settings</a>
 			</div>
 
 			<ul class="chat-users">
@@ -808,7 +781,7 @@
 					</div>
 
 					<div class="author-status">
-						<a href="28-YourAccount-PersonalInformation.html#" class="h6 author-name">Bruce Peterson</a>
+						<a href="educationandemployement.jsp#" class="h6 author-name">Bruce Peterson</a>
 						<span class="status">ONLINE</span>
 					</div>
 
@@ -840,7 +813,7 @@
 					</div>
 
 					<div class="author-status">
-						<a href="28-YourAccount-PersonalInformation.html#" class="h6 author-name">Chris Greyson</a>
+						<a href="educationandemployement.jsp#" class="h6 author-name">Chris Greyson</a>
 						<span class="status">AWAY</span>
 					</div>
 
@@ -871,7 +844,7 @@
 					</div>
 
 					<div class="author-status">
-						<a href="28-YourAccount-PersonalInformation.html#" class="h6 author-name">Nicholas Grisom</a>
+						<a href="educationandemployement.jsp#" class="h6 author-name">Nicholas Grisom</a>
 						<span class="status">INVISIBLE</span>
 					</div>
 
@@ -901,7 +874,7 @@
 					</div>
 
 					<div class="author-status">
-						<a href="28-YourAccount-PersonalInformation.html#" class="h6 author-name">Chris Greyson</a>
+						<a href="educationandemployement.jsp#" class="h6 author-name">Chris Greyson</a>
 						<span class="status">AWAY</span>
 					</div>
 
@@ -931,7 +904,7 @@
 					</div>
 
 					<div class="author-status">
-						<a href="28-YourAccount-PersonalInformation.html#" class="h6 author-name">Bruce Peterson</a>
+						<a href="educationandemployement.jsp#" class="h6 author-name">Bruce Peterson</a>
 						<span class="status">ONLINE</span>
 					</div>
 
@@ -962,16 +935,16 @@
 				<input class="form-control" placeholder="Search Friends..." value="" type="text">
 			</form>
 
-			<a href="29YourAccountAccountSettings.jsp" class="settings">
+			<a href="editprofile.jsp" class="settings">
 				<svg class="olymp-settings-icon"><use xlink:href="svg-icons/sprites/icons.svg#olymp-settings-icon"></use></svg>
 			</a>
 
-			<a href="28-YourAccount-PersonalInformation.html#" class="js-sidebar-open">
+			<a href="educationandemployement.jsp#" class="js-sidebar-open">
 				<svg class="olymp-close-icon"><use xlink:href="svg-icons/sprites/icons.svg#olymp-close-icon"></use></svg>
 			</a>
 		</div>
 
-		<a href="28-YourAccount-PersonalInformation.html#" class="olympus-chat inline-items js-chat-open">
+		<a href="educationandemployement.jsp#" class="olympus-chat inline-items js-chat-open">
 
 			<h6 class="olympus-chat-title">OLYMPUS CHAT</h6>
 			<svg class="olymp-chat---messages-icon"><use xlink:href="svg-icons/sprites/icons.svg#olymp-chat---messages-icon"></use></svg>
@@ -988,7 +961,7 @@
 <div class="fixed-sidebar right fixed-sidebar-responsive" id="sidebar-right-responsive">
 
 	<div class="fixed-sidebar-right sidebar--small">
-		<a href="28-YourAccount-PersonalInformation.html#" class="js-sidebar-open">
+		<a href="educationandemployement.jsp#" class="js-sidebar-open">
 			<svg class="olymp-menu-icon"><use xlink:href="svg-icons/sprites/icons.svg#olymp-menu-icon"></use></svg>
 			<svg class="olymp-close-icon"><use xlink:href="svg-icons/sprites/icons.svg#olymp-close-icon"></use></svg>
 		</a>
@@ -998,8 +971,8 @@
 		<div class="mCustomScrollbar" data-mcs-theme="dark">
 
 			<div class="ui-block-title ui-block-title-small">
-				<a href="28-YourAccount-PersonalInformation.html#" class="title">Close Friends</a>
-				<a href="28-YourAccount-PersonalInformation.html#">Settings</a>
+				<a href="educationandemployement.jsp#" class="title">Close Friends</a>
+				<a href="educationandemployement.jsp#">Settings</a>
 			</div>
 
 			<ul class="chat-users">
@@ -1011,7 +984,7 @@
 					</div>
 
 					<div class="author-status">
-						<a href="28-YourAccount-PersonalInformation.html#" class="h6 author-name">Carol Summers</a>
+						<a href="educationandemployement.jsp#" class="h6 author-name">Carol Summers</a>
 						<span class="status">ONLINE</span>
 					</div>
 
@@ -1042,7 +1015,7 @@
 					</div>
 
 					<div class="author-status">
-						<a href="28-YourAccount-PersonalInformation.html#" class="h6 author-name">Mathilda Brinker</a>
+						<a href="educationandemployement.jsp#" class="h6 author-name">Mathilda Brinker</a>
 						<span class="status">AT WORK!</span>
 					</div>
 
@@ -1075,7 +1048,7 @@
 					</div>
 
 					<div class="author-status">
-						<a href="28-YourAccount-PersonalInformation.html#" class="h6 author-name">Carol Summers</a>
+						<a href="educationandemployement.jsp#" class="h6 author-name">Carol Summers</a>
 						<span class="status">ONLINE</span>
 					</div>
 
@@ -1109,7 +1082,7 @@
 					</div>
 
 					<div class="author-status">
-						<a href="28-YourAccount-PersonalInformation.html#" class="h6 author-name">Michael Maximoff</a>
+						<a href="educationandemployement.jsp#" class="h6 author-name">Michael Maximoff</a>
 						<span class="status">AWAY</span>
 					</div>
 
@@ -1143,7 +1116,7 @@
 					</div>
 
 					<div class="author-status">
-						<a href="28-YourAccount-PersonalInformation.html#" class="h6 author-name">Rachel Howlett</a>
+						<a href="educationandemployement.jsp#" class="h6 author-name">Rachel Howlett</a>
 						<span class="status">OFFLINE</span>
 					</div>
 
@@ -1171,8 +1144,8 @@
 
 
 			<div class="ui-block-title ui-block-title-small">
-				<a href="28-YourAccount-PersonalInformation.html#" class="title">MY FAMILY</a>
-				<a href="28-YourAccount-PersonalInformation.html#">Settings</a>
+				<a href="educationandemployement.jsp#" class="title">MY FAMILY</a>
+				<a href="educationandemployement.jsp#">Settings</a>
 			</div>
 
 			<ul class="chat-users">
@@ -1184,7 +1157,7 @@
 					</div>
 
 					<div class="author-status">
-						<a href="28-YourAccount-PersonalInformation.html#" class="h6 author-name">Sarah Hetfield</a>
+						<a href="educationandemployement.jsp#" class="h6 author-name">Sarah Hetfield</a>
 						<span class="status">ONLINE</span>
 					</div>
 
@@ -1210,8 +1183,8 @@
 
 
 			<div class="ui-block-title ui-block-title-small">
-				<a href="28-YourAccount-PersonalInformation.html#" class="title">UNCATEGORIZED</a>
-				<a href="28-YourAccount-PersonalInformation.html#">Settings</a>
+				<a href="educationandemployement.jsp#" class="title">UNCATEGORIZED</a>
+				<a href="educationandemployement.jsp#">Settings</a>
 			</div>
 
 			<ul class="chat-users">
@@ -1223,7 +1196,7 @@
 					</div>
 
 					<div class="author-status">
-						<a href="28-YourAccount-PersonalInformation.html#" class="h6 author-name">Bruce Peterson</a>
+						<a href="educationandemployement.jsp#" class="h6 author-name">Bruce Peterson</a>
 						<span class="status">ONLINE</span>
 					</div>
 
@@ -1255,7 +1228,7 @@
 					</div>
 
 					<div class="author-status">
-						<a href="28-YourAccount-PersonalInformation.html#" class="h6 author-name">Chris Greyson</a>
+						<a href="educationandemployement.jsp#" class="h6 author-name">Chris Greyson</a>
 						<span class="status">AWAY</span>
 					</div>
 
@@ -1286,7 +1259,7 @@
 					</div>
 
 					<div class="author-status">
-						<a href="28-YourAccount-PersonalInformation.html#" class="h6 author-name">Nicholas Grisom</a>
+						<a href="educationandemployement.jsp#" class="h6 author-name">Nicholas Grisom</a>
 						<span class="status">INVISIBLE</span>
 					</div>
 
@@ -1316,7 +1289,7 @@
 					</div>
 
 					<div class="author-status">
-						<a href="28-YourAccount-PersonalInformation.html#" class="h6 author-name">Chris Greyson</a>
+						<a href="educationandemployement.jsp#" class="h6 author-name">Chris Greyson</a>
 						<span class="status">AWAY</span>
 					</div>
 
@@ -1346,7 +1319,7 @@
 					</div>
 
 					<div class="author-status">
-						<a href="28-YourAccount-PersonalInformation.html#" class="h6 author-name">Bruce Peterson</a>
+						<a href="educationandemployement.jsp#" class="h6 author-name">Bruce Peterson</a>
 						<span class="status">ONLINE</span>
 					</div>
 
@@ -1377,16 +1350,16 @@
 				<input class="form-control" placeholder="Search Friends..." value="" type="text">
 			</form>
 
-			<a href="29YourAccountAccountSettings.jsp" class="settings">
+			<a href="editprofile.jsp" class="settings">
 				<svg class="olymp-settings-icon"><use xlink:href="svg-icons/sprites/icons.svg#olymp-settings-icon"></use></svg>
 			</a>
 
-			<a href="28-YourAccount-PersonalInformation.html#" class="js-sidebar-open">
+			<a href="educationandemployement.jsp#" class="js-sidebar-open">
 				<svg class="olymp-close-icon"><use xlink:href="svg-icons/sprites/icons.svg#olymp-close-icon"></use></svg>
 			</a>
 		</div>
 
-		<a href="28-YourAccount-PersonalInformation.html#" class="olympus-chat inline-items js-chat-open">
+		<a href="educationandemployement.jsp#" class="olympus-chat inline-items js-chat-open">
 
 			<h6 class="olympus-chat-title">OLYMPUS CHAT</h6>
 			<svg class="olymp-chat---messages-icon"><use xlink:href="svg-icons/sprites/icons.svg#olymp-chat---messages-icon"></use></svg>
@@ -1416,7 +1389,7 @@
 			</div>
 		</form>
 
-		<a href="28-YourAccount-PersonalInformation.html#" class="link-find-friend">Find Friends</a>
+		<a href="educationandemployement.jsp#" class="link-find-friend">Find Friends</a>
 
 		<div class="control-block">
 
@@ -1427,8 +1400,8 @@
 				<div class="more-dropdown more-with-triangle triangle-top-center">
 					<div class="ui-block-title ui-block-title-small">
 						<h6 class="title">FRIEND REQUESTS</h6>
-						<a href="28-YourAccount-PersonalInformation.html#">Find Friends</a>
-						<a href="28-YourAccount-PersonalInformation.html#">Settings</a>
+						<a href="educationandemployement.jsp#">Find Friends</a>
+						<a href="educationandemployement.jsp#">Settings</a>
 					</div>
 
 					<div class="mCustomScrollbar" data-mcs-theme="dark">
@@ -1438,17 +1411,17 @@
 									<img src="img/avatar55-sm.jpg" alt="author">
 								</div>
 								<div class="notification-event">
-									<a href="28-YourAccount-PersonalInformation.html#" class="h6 notification-friend">Tamara Romanoff</a>
+									<a href="educationandemployement.jsp#" class="h6 notification-friend">Tamara Romanoff</a>
 									<span class="chat-message-item">Mutual Friend: Sarah Hetfield</span>
 								</div>
 								<span class="notification-icon">
-									<a href="28-YourAccount-PersonalInformation.html#" class="accept-request">
+									<a href="educationandemployement.jsp#" class="accept-request">
 										<span class="icon-add without-text">
 											<svg class="olymp-happy-face-icon"><use xlink:href="svg-icons/sprites/icons.svg#olymp-happy-face-icon"></use></svg>
 										</span>
 									</a>
 
-									<a href="28-YourAccount-PersonalInformation.html#" class="accept-request request-del">
+									<a href="educationandemployement.jsp#" class="accept-request request-del">
 										<span class="icon-minus">
 											<svg class="olymp-happy-face-icon"><use xlink:href="svg-icons/sprites/icons.svg#olymp-happy-face-icon"></use></svg>
 										</span>
@@ -1466,17 +1439,17 @@
 									<img src="img/avatar56-sm.jpg" alt="author">
 								</div>
 								<div class="notification-event">
-									<a href="28-YourAccount-PersonalInformation.html#" class="h6 notification-friend">Tony Stevens</a>
+									<a href="educationandemployement.jsp#" class="h6 notification-friend">Tony Stevens</a>
 									<span class="chat-message-item">4 Friends in Common</span>
 								</div>
 								<span class="notification-icon">
-									<a href="28-YourAccount-PersonalInformation.html#" class="accept-request">
+									<a href="educationandemployement.jsp#" class="accept-request">
 										<span class="icon-add without-text">
 											<svg class="olymp-happy-face-icon"><use xlink:href="svg-icons/sprites/icons.svg#olymp-happy-face-icon"></use></svg>
 										</span>
 									</a>
 
-									<a href="28-YourAccount-PersonalInformation.html#" class="accept-request request-del">
+									<a href="educationandemployement.jsp#" class="accept-request request-del">
 										<span class="icon-minus">
 											<svg class="olymp-happy-face-icon"><use xlink:href="svg-icons/sprites/icons.svg#olymp-happy-face-icon"></use></svg>
 										</span>
@@ -1494,7 +1467,7 @@
 									<img src="img/avatar57-sm.jpg" alt="author">
 								</div>
 								<div class="notification-event">
-									You and <a href="28-YourAccount-PersonalInformation.html#" class="h6 notification-friend">Mary Jane Stark</a> just became friends. Write on <a href="28-YourAccount-PersonalInformation.html#" class="notification-link">her wall</a>.
+									You and <a href="educationandemployement.jsp#" class="h6 notification-friend">Mary Jane Stark</a> just became friends. Write on <a href="educationandemployement.jsp#" class="notification-link">her wall</a>.
 								</div>
 								<span class="notification-icon">
 									<svg class="olymp-happy-face-icon"><use xlink:href="svg-icons/sprites/icons.svg#olymp-happy-face-icon"></use></svg>
@@ -1511,17 +1484,17 @@
 									<img src="img/avatar58-sm.jpg" alt="author">
 								</div>
 								<div class="notification-event">
-									<a href="28-YourAccount-PersonalInformation.html#" class="h6 notification-friend">Stagg Clothing</a>
+									<a href="educationandemployement.jsp#" class="h6 notification-friend">Stagg Clothing</a>
 									<span class="chat-message-item">9 Friends in Common</span>
 								</div>
 								<span class="notification-icon">
-									<a href="28-YourAccount-PersonalInformation.html#" class="accept-request">
+									<a href="educationandemployement.jsp#" class="accept-request">
 										<span class="icon-add without-text">
 											<svg class="olymp-happy-face-icon"><use xlink:href="svg-icons/sprites/icons.svg#olymp-happy-face-icon"></use></svg>
 										</span>
 									</a>
 
-									<a href="28-YourAccount-PersonalInformation.html#" class="accept-request request-del">
+									<a href="educationandemployement.jsp#" class="accept-request request-del">
 										<span class="icon-minus">
 											<svg class="olymp-happy-face-icon"><use xlink:href="svg-icons/sprites/icons.svg#olymp-happy-face-icon"></use></svg>
 										</span>
@@ -1537,7 +1510,7 @@
 						</ul>
 					</div>
 
-					<a href="28-YourAccount-PersonalInformation.html#" class="view-all bg-blue">Check all your Events</a>
+					<a href="educationandemployement.jsp#" class="view-all bg-blue">Check all your Events</a>
 				</div>
 			</div>
 
@@ -1548,8 +1521,8 @@
 				<div class="more-dropdown more-with-triangle triangle-top-center">
 					<div class="ui-block-title ui-block-title-small">
 						<h6 class="title">Chat / Messages</h6>
-						<a href="28-YourAccount-PersonalInformation.html#">Mark all as read</a>
-						<a href="28-YourAccount-PersonalInformation.html#">Settings</a>
+						<a href="educationandemployement.jsp#">Mark all as read</a>
+						<a href="educationandemployement.jsp#">Settings</a>
 					</div>
 
 					<div class="mCustomScrollbar" data-mcs-theme="dark">
@@ -1559,7 +1532,7 @@
 									<img src="img/avatar59-sm.jpg" alt="author">
 								</div>
 								<div class="notification-event">
-									<a href="28-YourAccount-PersonalInformation.html#" class="h6 notification-friend">Diana Jameson</a>
+									<a href="educationandemployement.jsp#" class="h6 notification-friend">Diana Jameson</a>
 									<span class="chat-message-item">Hi James! It’s Diana, I just wanted to let you know that we have to reschedule...</span>
 									<span class="notification-date"><time class="entry-date updated" datetime="2004-07-24T18:18">4 hours ago</time></span>
 								</div>
@@ -1576,7 +1549,7 @@
 									<img src="img/avatar60-sm.jpg" alt="author">
 								</div>
 								<div class="notification-event">
-									<a href="28-YourAccount-PersonalInformation.html#" class="h6 notification-friend">Jake Parker</a>
+									<a href="educationandemployement.jsp#" class="h6 notification-friend">Jake Parker</a>
 									<span class="chat-message-item">Great, I’ll see you tomorrow!.</span>
 									<span class="notification-date"><time class="entry-date updated" datetime="2004-07-24T18:18">4 hours ago</time></span>
 								</div>
@@ -1593,7 +1566,7 @@
 									<img src="img/avatar61-sm.jpg" alt="author">
 								</div>
 								<div class="notification-event">
-									<a href="28-YourAccount-PersonalInformation.html#" class="h6 notification-friend">Elaine Dreyfuss</a>
+									<a href="educationandemployement.jsp#" class="h6 notification-friend">Elaine Dreyfuss</a>
 									<span class="chat-message-item">We’ll have to check that at the office and see if the client is on board with...</span>
 									<span class="notification-date"><time class="entry-date updated" datetime="2004-07-24T18:18">Yesterday at 9:56pm</time></span>
 								</div>
@@ -1613,7 +1586,7 @@
 									<img src="img/avatar10-sm.jpg" alt="author">
 								</div>
 								<div class="notification-event">
-									<a href="28-YourAccount-PersonalInformation.html#" class="h6 notification-friend">You, Faye, Ed &amp; Jet +3</a>
+									<a href="educationandemployement.jsp#" class="h6 notification-friend">You, Faye, Ed &amp; Jet +3</a>
 									<span class="last-message-author">Ed:</span>
 									<span class="chat-message-item">Yeah! Seems fine by me!</span>
 									<span class="notification-date"><time class="entry-date updated" datetime="2004-07-24T18:18">March 16th at 10:23am</time></span>
@@ -1628,7 +1601,7 @@
 						</ul>
 					</div>
 
-					<a href="28-YourAccount-PersonalInformation.html#" class="view-all bg-purple">View All Messages</a>
+					<a href="educationandemployement.jsp#" class="view-all bg-purple">View All Messages</a>
 				</div>
 			</div>
 
@@ -1640,8 +1613,8 @@
 				<div class="more-dropdown more-with-triangle triangle-top-center">
 					<div class="ui-block-title ui-block-title-small">
 						<h6 class="title">Notifications</h6>
-						<a href="28-YourAccount-PersonalInformation.html#">Mark all as read</a>
-						<a href="28-YourAccount-PersonalInformation.html#">Settings</a>
+						<a href="educationandemployement.jsp#">Mark all as read</a>
+						<a href="educationandemployement.jsp#">Settings</a>
 					</div>
 
 					<div class="mCustomScrollbar" data-mcs-theme="dark">
@@ -1651,7 +1624,7 @@
 									<img src="img/avatar62-sm.jpg" alt="author">
 								</div>
 								<div class="notification-event">
-									<div><a href="28-YourAccount-PersonalInformation.html#" class="h6 notification-friend">Mathilda Brinker</a> commented on your new <a href="28-YourAccount-PersonalInformation.html#" class="notification-link">profile status</a>.</div>
+									<div><a href="educationandemployement.jsp#" class="h6 notification-friend">Mathilda Brinker</a> commented on your new <a href="educationandemployement.jsp#" class="notification-link">profile status</a>.</div>
 									<span class="notification-date"><time class="entry-date updated" datetime="2004-07-24T18:18">4 hours ago</time></span>
 								</div>
 									<span class="notification-icon">
@@ -1669,7 +1642,7 @@
 									<img src="img/avatar63-sm.jpg" alt="author">
 								</div>
 								<div class="notification-event">
-									<div>You and <a href="28-YourAccount-PersonalInformation.html#" class="h6 notification-friend">Nicholas Grissom</a> just became friends. Write on <a href="28-YourAccount-PersonalInformation.html#" class="notification-link">his wall</a>.</div>
+									<div>You and <a href="educationandemployement.jsp#" class="h6 notification-friend">Nicholas Grissom</a> just became friends. Write on <a href="educationandemployement.jsp#" class="notification-link">his wall</a>.</div>
 									<span class="notification-date"><time class="entry-date updated" datetime="2004-07-24T18:18">9 hours ago</time></span>
 								</div>
 									<span class="notification-icon">
@@ -1687,7 +1660,7 @@
 									<img src="img/avatar64-sm.jpg" alt="author">
 								</div>
 								<div class="notification-event">
-									<div><a href="28-YourAccount-PersonalInformation.html#" class="h6 notification-friend">Sarah Hetfield</a> commented on your <a href="28-YourAccount-PersonalInformation.html#" class="notification-link">photo</a>.</div>
+									<div><a href="educationandemployement.jsp#" class="h6 notification-friend">Sarah Hetfield</a> commented on your <a href="educationandemployement.jsp#" class="notification-link">photo</a>.</div>
 									<span class="notification-date"><time class="entry-date updated" datetime="2004-07-24T18:18">Yesterday at 5:32am</time></span>
 								</div>
 									<span class="notification-icon">
@@ -1710,7 +1683,7 @@
 									<img src="img/avatar65-sm.jpg" alt="author">
 								</div>
 								<div class="notification-event">
-									<div><a href="28-YourAccount-PersonalInformation.html#" class="h6 notification-friend">Green Goo Rock</a> invited you to attend to his event Goo in <a href="28-YourAccount-PersonalInformation.html#" class="notification-link">Gotham Bar</a>.</div>
+									<div><a href="educationandemployement.jsp#" class="h6 notification-friend">Green Goo Rock</a> invited you to attend to his event Goo in <a href="educationandemployement.jsp#" class="notification-link">Gotham Bar</a>.</div>
 									<span class="notification-date"><time class="entry-date updated" datetime="2004-07-24T18:18">March 5th at 6:43pm</time></span>
 								</div>
 									<span class="notification-icon">
@@ -1728,7 +1701,7 @@
 									<img src="img/avatar66-sm.jpg" alt="author">
 								</div>
 								<div class="notification-event">
-									<div><a href="28-YourAccount-PersonalInformation.html#" class="h6 notification-friend">James Summers</a> commented on your new <a href="28-YourAccount-PersonalInformation.html#" class="notification-link">profile status</a>.</div>
+									<div><a href="educationandemployement.jsp#" class="h6 notification-friend">James Summers</a> commented on your new <a href="educationandemployement.jsp#" class="notification-link">profile status</a>.</div>
 									<span class="notification-date"><time class="entry-date updated" datetime="2004-07-24T18:18">March 2nd at 8:29pm</time></span>
 								</div>
 									<span class="notification-icon">
@@ -1743,7 +1716,7 @@
 						</ul>
 					</div>
 
-					<a href="28-YourAccount-PersonalInformation.html#" class="view-all bg-primary">View All Notifications</a>
+					<a href="educationandemployement.jsp#" class="view-all bg-primary">View All Notifications</a>
 				</div>
 			</div>
 
@@ -1759,7 +1732,7 @@
 
 							<ul class="account-settings">
 								<li>
-									<a href="29YourAccountAccountSettings.jsp">
+									<a href="editprofile.jsp">
 
 										<svg class="olymp-menu-icon"><use xlink:href="svg-icons/sprites/icons.svg#olymp-menu-icon"></use></svg>
 
@@ -1774,7 +1747,7 @@
 									</a>
 								</li>
 								<li>
-									<a href="28-YourAccount-PersonalInformation.html#">
+									<a href="educationandemployement.jsp#">
 										<svg class="olymp-logout-icon"><use xlink:href="svg-icons/sprites/icons.svg#olymp-logout-icon"></use></svg>
 
 										<span>Log Out</span>
@@ -1788,26 +1761,26 @@
 
 							<ul class="chat-settings">
 								<li>
-									<a href="28-YourAccount-PersonalInformation.html#">
+									<a href="educationandemployement.jsp#">
 										<span class="icon-status online"></span>
 										<span>Online</span>
 									</a>
 								</li>
 								<li>
-									<a href="28-YourAccount-PersonalInformation.html#">
+									<a href="educationandemployement.jsp#">
 										<span class="icon-status away"></span>
 										<span>Away</span>
 									</a>
 								</li>
 								<li>
-									<a href="28-YourAccount-PersonalInformation.html#">
+									<a href="educationandemployement.jsp#">
 										<span class="icon-status disconected"></span>
 										<span>Disconnected</span>
 									</a>
 								</li>
 
 								<li>
-									<a href="28-YourAccount-PersonalInformation.html#">
+									<a href="educationandemployement.jsp#">
 										<span class="icon-status status-invisible"></span>
 										<span>Invisible</span>
 									</a>
@@ -1832,22 +1805,22 @@
 
 							<ul>
 								<li>
-									<a href="28-YourAccount-PersonalInformation.html#">
+									<a href="educationandemployement.jsp#">
 										<span>Terms and Conditions</span>
 									</a>
 								</li>
 								<li>
-									<a href="28-YourAccount-PersonalInformation.html#">
+									<a href="educationandemployement.jsp#">
 										<span>FAQs</span>
 									</a>
 								</li>
 								<li>
-									<a href="28-YourAccount-PersonalInformation.html#">
+									<a href="educationandemployement.jsp#">
 										<span>Careers</span>
 									</a>
 								</li>
 								<li>
-									<a href="28-YourAccount-PersonalInformation.html#">
+									<a href="educationandemployement.jsp#">
 										<span>Contact</span>
 									</a>
 								</li>
@@ -1856,7 +1829,7 @@
 
 					</div>
 				</div>
-				<a href="02ProfilePage.jsp" class="author-name fn">
+				<a href="profilepage.jsp" class="author-name fn">
 					<div class="author-title">
 						James Spiegel <svg class="olymp-dropdown-arrow-icon"><use xlink:href="svg-icons/sprites/icons.svg#olymp-dropdown-arrow-icon"></use></svg>
 					</div>
@@ -1879,7 +1852,7 @@
 	<div class="header-content-wrapper">
 		<ul class="nav nav-tabs mobile-app-tabs" role="tablist">
 			<li class="nav-item">
-				<a class="nav-link" data-toggle="tab" href="28-YourAccount-PersonalInformation.html#request" role="tab">
+				<a class="nav-link" data-toggle="tab" href="educationandemployement.jsp#request" role="tab">
 					<div class="control-icon has-items">
 						<svg class="olymp-happy-face-icon"><use xlink:href="svg-icons/sprites/icons.svg#olymp-happy-face-icon"></use></svg>
 						<div class="label-avatar bg-blue">6</div>
@@ -1888,7 +1861,7 @@
 			</li>
 
 			<li class="nav-item">
-				<a class="nav-link" data-toggle="tab" href="28-YourAccount-PersonalInformation.html#chat" role="tab">
+				<a class="nav-link" data-toggle="tab" href="educationandemployement.jsp#chat" role="tab">
 					<div class="control-icon has-items">
 						<svg class="olymp-chat---messages-icon"><use xlink:href="svg-icons/sprites/icons.svg#olymp-chat---messages-icon"></use></svg>
 						<div class="label-avatar bg-purple">2</div>
@@ -1897,7 +1870,7 @@
 			</li>
 
 			<li class="nav-item">
-				<a class="nav-link" data-toggle="tab" href="28-YourAccount-PersonalInformation.html#notification" role="tab">
+				<a class="nav-link" data-toggle="tab" href="educationandemployement.jsp#notification" role="tab">
 					<div class="control-icon has-items">
 						<svg class="olymp-thunder-icon"><use xlink:href="svg-icons/sprites/icons.svg#olymp-thunder-icon"></use></svg>
 						<div class="label-avatar bg-primary">8</div>
@@ -1906,7 +1879,7 @@
 			</li>
 
 			<li class="nav-item">
-				<a class="nav-link" data-toggle="tab" href="28-YourAccount-PersonalInformation.html#search" role="tab">
+				<a class="nav-link" data-toggle="tab" href="educationandemployement.jsp#search" role="tab">
 					<svg class="olymp-magnifying-glass-icon"><use xlink:href="svg-icons/sprites/icons.svg#olymp-magnifying-glass-icon"></use></svg>
 					<svg class="olymp-close-icon"><use xlink:href="svg-icons/sprites/icons.svg#olymp-close-icon"></use></svg>
 				</a>
@@ -1922,8 +1895,8 @@
 			<div class="mCustomScrollbar" data-mcs-theme="dark">
 				<div class="ui-block-title ui-block-title-small">
 					<h6 class="title">FRIEND REQUESTS</h6>
-					<a href="28-YourAccount-PersonalInformation.html#">Find Friends</a>
-					<a href="28-YourAccount-PersonalInformation.html#">Settings</a>
+					<a href="educationandemployement.jsp#">Find Friends</a>
+					<a href="educationandemployement.jsp#">Settings</a>
 				</div>
 				<ul class="notification-list friend-requests">
 					<li>
@@ -1931,17 +1904,17 @@
 							<img src="img/avatar55-sm.jpg" alt="author">
 						</div>
 						<div class="notification-event">
-							<a href="28-YourAccount-PersonalInformation.html#" class="h6 notification-friend">Tamara Romanoff</a>
+							<a href="educationandemployement.jsp#" class="h6 notification-friend">Tamara Romanoff</a>
 							<span class="chat-message-item">Mutual Friend: Sarah Hetfield</span>
 						</div>
 									<span class="notification-icon">
-										<a href="28-YourAccount-PersonalInformation.html#" class="accept-request">
+										<a href="educationandemployement.jsp#" class="accept-request">
 											<span class="icon-add without-text">
 												<svg class="olymp-happy-face-icon"><use xlink:href="svg-icons/sprites/icons.svg#olymp-happy-face-icon"></use></svg>
 											</span>
 										</a>
 
-										<a href="28-YourAccount-PersonalInformation.html#" class="accept-request request-del">
+										<a href="educationandemployement.jsp#" class="accept-request request-del">
 											<span class="icon-minus">
 												<svg class="olymp-happy-face-icon"><use xlink:href="svg-icons/sprites/icons.svg#olymp-happy-face-icon"></use></svg>
 											</span>
@@ -1958,17 +1931,17 @@
 							<img src="img/avatar56-sm.jpg" alt="author">
 						</div>
 						<div class="notification-event">
-							<a href="28-YourAccount-PersonalInformation.html#" class="h6 notification-friend">Tony Stevens</a>
+							<a href="educationandemployement.jsp#" class="h6 notification-friend">Tony Stevens</a>
 							<span class="chat-message-item">4 Friends in Common</span>
 						</div>
 									<span class="notification-icon">
-										<a href="28-YourAccount-PersonalInformation.html#" class="accept-request">
+										<a href="educationandemployement.jsp#" class="accept-request">
 											<span class="icon-add without-text">
 												<svg class="olymp-happy-face-icon"><use xlink:href="svg-icons/sprites/icons.svg#olymp-happy-face-icon"></use></svg>
 											</span>
 										</a>
 
-										<a href="28-YourAccount-PersonalInformation.html#" class="accept-request request-del">
+										<a href="educationandemployement.jsp#" class="accept-request request-del">
 											<span class="icon-minus">
 												<svg class="olymp-happy-face-icon"><use xlink:href="svg-icons/sprites/icons.svg#olymp-happy-face-icon"></use></svg>
 											</span>
@@ -1985,7 +1958,7 @@
 							<img src="img/avatar57-sm.jpg" alt="author">
 						</div>
 						<div class="notification-event">
-							You and <a href="28-YourAccount-PersonalInformation.html#" class="h6 notification-friend">Mary Jane Stark</a> just became friends. Write on <a href="28-YourAccount-PersonalInformation.html#" class="notification-link">her wall</a>.
+							You and <a href="educationandemployement.jsp#" class="h6 notification-friend">Mary Jane Stark</a> just became friends. Write on <a href="educationandemployement.jsp#" class="notification-link">her wall</a>.
 						</div>
 									<span class="notification-icon">
 										<svg class="olymp-happy-face-icon"><use xlink:href="svg-icons/sprites/icons.svg#olymp-happy-face-icon"></use></svg>
@@ -2001,17 +1974,17 @@
 							<img src="img/avatar58-sm.jpg" alt="author">
 						</div>
 						<div class="notification-event">
-							<a href="28-YourAccount-PersonalInformation.html#" class="h6 notification-friend">Stagg Clothing</a>
+							<a href="educationandemployement.jsp#" class="h6 notification-friend">Stagg Clothing</a>
 							<span class="chat-message-item">9 Friends in Common</span>
 						</div>
 									<span class="notification-icon">
-										<a href="28-YourAccount-PersonalInformation.html#" class="accept-request">
+										<a href="educationandemployement.jsp#" class="accept-request">
 											<span class="icon-add without-text">
 												<svg class="olymp-happy-face-icon"><use xlink:href="svg-icons/sprites/icons.svg#olymp-happy-face-icon"></use></svg>
 											</span>
 										</a>
 
-										<a href="28-YourAccount-PersonalInformation.html#" class="accept-request request-del">
+										<a href="educationandemployement.jsp#" class="accept-request request-del">
 											<span class="icon-minus">
 												<svg class="olymp-happy-face-icon"><use xlink:href="svg-icons/sprites/icons.svg#olymp-happy-face-icon"></use></svg>
 											</span>
@@ -2024,7 +1997,7 @@
 						</div>
 					</li>
 				</ul>
-				<a href="28-YourAccount-PersonalInformation.html#" class="view-all bg-blue">Check all your Events</a>
+				<a href="educationandemployement.jsp#" class="view-all bg-blue">Check all your Events</a>
 			</div>
 
 		</div>
@@ -2034,8 +2007,8 @@
 			<div class="mCustomScrollbar" data-mcs-theme="dark">
 				<div class="ui-block-title ui-block-title-small">
 					<h6 class="title">Chat / Messages</h6>
-					<a href="28-YourAccount-PersonalInformation.html#">Mark all as read</a>
-					<a href="28-YourAccount-PersonalInformation.html#">Settings</a>
+					<a href="educationandemployement.jsp#">Mark all as read</a>
+					<a href="educationandemployement.jsp#">Settings</a>
 				</div>
 
 				<ul class="notification-list chat-message">
@@ -2044,7 +2017,7 @@
 							<img src="img/avatar59-sm.jpg" alt="author">
 						</div>
 						<div class="notification-event">
-							<a href="28-YourAccount-PersonalInformation.html#" class="h6 notification-friend">Diana Jameson</a>
+							<a href="educationandemployement.jsp#" class="h6 notification-friend">Diana Jameson</a>
 							<span class="chat-message-item">Hi James! It’s Diana, I just wanted to let you know that we have to reschedule...</span>
 							<span class="notification-date"><time class="entry-date updated" datetime="2004-07-24T18:18">4 hours ago</time></span>
 						</div>
@@ -2061,7 +2034,7 @@
 							<img src="img/avatar60-sm.jpg" alt="author">
 						</div>
 						<div class="notification-event">
-							<a href="28-YourAccount-PersonalInformation.html#" class="h6 notification-friend">Jake Parker</a>
+							<a href="educationandemployement.jsp#" class="h6 notification-friend">Jake Parker</a>
 							<span class="chat-message-item">Great, I’ll see you tomorrow!.</span>
 							<span class="notification-date"><time class="entry-date updated" datetime="2004-07-24T18:18">4 hours ago</time></span>
 						</div>
@@ -2078,7 +2051,7 @@
 							<img src="img/avatar61-sm.jpg" alt="author">
 						</div>
 						<div class="notification-event">
-							<a href="28-YourAccount-PersonalInformation.html#" class="h6 notification-friend">Elaine Dreyfuss</a>
+							<a href="educationandemployement.jsp#" class="h6 notification-friend">Elaine Dreyfuss</a>
 							<span class="chat-message-item">We’ll have to check that at the office and see if the client is on board with...</span>
 							<span class="notification-date"><time class="entry-date updated" datetime="2004-07-24T18:18">Yesterday at 9:56pm</time></span>
 						</div>
@@ -2098,7 +2071,7 @@
 							<img src="img/avatar10-sm.jpg" alt="author">
 						</div>
 						<div class="notification-event">
-							<a href="28-YourAccount-PersonalInformation.html#" class="h6 notification-friend">You, Faye, Ed &amp; Jet +3</a>
+							<a href="educationandemployement.jsp#" class="h6 notification-friend">You, Faye, Ed &amp; Jet +3</a>
 							<span class="last-message-author">Ed:</span>
 							<span class="chat-message-item">Yeah! Seems fine by me!</span>
 							<span class="notification-date"><time class="entry-date updated" datetime="2004-07-24T18:18">March 16th at 10:23am</time></span>
@@ -2112,7 +2085,7 @@
 					</li>
 				</ul>
 
-				<a href="28-YourAccount-PersonalInformation.html#" class="view-all bg-purple">View All Messages</a>
+				<a href="educationandemployement.jsp#" class="view-all bg-purple">View All Messages</a>
 			</div>
 
 		</div>
@@ -2122,8 +2095,8 @@
 			<div class="mCustomScrollbar" data-mcs-theme="dark">
 				<div class="ui-block-title ui-block-title-small">
 					<h6 class="title">Notifications</h6>
-					<a href="28-YourAccount-PersonalInformation.html#">Mark all as read</a>
-					<a href="28-YourAccount-PersonalInformation.html#">Settings</a>
+					<a href="educationandemployement.jsp#">Mark all as read</a>
+					<a href="educationandemployement.jsp#">Settings</a>
 				</div>
 
 				<ul class="notification-list">
@@ -2132,7 +2105,7 @@
 							<img src="img/avatar62-sm.jpg" alt="author">
 						</div>
 						<div class="notification-event">
-							<div><a href="28-YourAccount-PersonalInformation.html#" class="h6 notification-friend">Mathilda Brinker</a> commented on your new <a href="28-YourAccount-PersonalInformation.html#" class="notification-link">profile status</a>.</div>
+							<div><a href="educationandemployement.jsp#" class="h6 notification-friend">Mathilda Brinker</a> commented on your new <a href="educationandemployement.jsp#" class="notification-link">profile status</a>.</div>
 							<span class="notification-date"><time class="entry-date updated" datetime="2004-07-24T18:18">4 hours ago</time></span>
 						</div>
 										<span class="notification-icon">
@@ -2150,7 +2123,7 @@
 							<img src="img/avatar63-sm.jpg" alt="author">
 						</div>
 						<div class="notification-event">
-							<div>You and <a href="28-YourAccount-PersonalInformation.html#" class="h6 notification-friend">Nicholas Grissom</a> just became friends. Write on <a href="28-YourAccount-PersonalInformation.html#" class="notification-link">his wall</a>.</div>
+							<div>You and <a href="educationandemployement.jsp#" class="h6 notification-friend">Nicholas Grissom</a> just became friends. Write on <a href="educationandemployement.jsp#" class="notification-link">his wall</a>.</div>
 							<span class="notification-date"><time class="entry-date updated" datetime="2004-07-24T18:18">9 hours ago</time></span>
 						</div>
 										<span class="notification-icon">
@@ -2168,7 +2141,7 @@
 							<img src="img/avatar64-sm.jpg" alt="author">
 						</div>
 						<div class="notification-event">
-							<div><a href="28-YourAccount-PersonalInformation.html#" class="h6 notification-friend">Sarah Hetfield</a> commented on your <a href="28-YourAccount-PersonalInformation.html#" class="notification-link">photo</a>.</div>
+							<div><a href="educationandemployement.jsp#" class="h6 notification-friend">Sarah Hetfield</a> commented on your <a href="educationandemployement.jsp#" class="notification-link">photo</a>.</div>
 							<span class="notification-date"><time class="entry-date updated" datetime="2004-07-24T18:18">Yesterday at 5:32am</time></span>
 						</div>
 										<span class="notification-icon">
@@ -2191,7 +2164,7 @@
 							<img src="img/avatar65-sm.jpg" alt="author">
 						</div>
 						<div class="notification-event">
-							<div><a href="28-YourAccount-PersonalInformation.html#" class="h6 notification-friend">Green Goo Rock</a> invited you to attend to his event Goo in <a href="28-YourAccount-PersonalInformation.html#" class="notification-link">Gotham Bar</a>.</div>
+							<div><a href="educationandemployement.jsp#" class="h6 notification-friend">Green Goo Rock</a> invited you to attend to his event Goo in <a href="educationandemployement.jsp#" class="notification-link">Gotham Bar</a>.</div>
 							<span class="notification-date"><time class="entry-date updated" datetime="2004-07-24T18:18">March 5th at 6:43pm</time></span>
 						</div>
 										<span class="notification-icon">
@@ -2209,7 +2182,7 @@
 							<img src="img/avatar66-sm.jpg" alt="author">
 						</div>
 						<div class="notification-event">
-							<div><a href="28-YourAccount-PersonalInformation.html#" class="h6 notification-friend">James Summers</a> commented on your new <a href="28-YourAccount-PersonalInformation.html#" class="notification-link">profile status</a>.</div>
+							<div><a href="educationandemployement.jsp#" class="h6 notification-friend">James Summers</a> commented on your new <a href="educationandemployement.jsp#" class="notification-link">profile status</a>.</div>
 							<span class="notification-date"><time class="entry-date updated" datetime="2004-07-24T18:18">March 2nd at 8:29pm</time></span>
 						</div>
 										<span class="notification-icon">
@@ -2223,7 +2196,7 @@
 					</li>
 				</ul>
 
-				<a href="28-YourAccount-PersonalInformation.html#" class="view-all bg-primary">View All Notifications</a>
+				<a href="educationandemployement.jsp#" class="view-all bg-primary">View All Notifications</a>
 			</div>
 
 		</div>
@@ -2269,7 +2242,6 @@
 
 <!-- ... end Main Header Account -->
 
-
 <!-- Your Account Personal Information -->
 
 <div class="container">
@@ -2277,133 +2249,190 @@
 		<div class="col col-xl-9 order-xl-2 col-lg-9 order-lg-2 col-md-12 order-md-1 col-sm-12 col-12">
 			<div class="ui-block">
 				<div class="ui-block-title">
-					<h6 class="title">Personal Information</h6>
+					<h6 class="title">Your Education History</h6>
 				</div>
 				<div class="ui-block-content">
 
 					
-					<!-- Personal Information Form  -->
+					<!-- Education History Form -->
 					
-					<form action="personalProfile" method="post">
+					<form action="education" method="post">
 						<div class="row">
-					
 							<div class="col col-lg-6 col-md-6 col-sm-12 col-12">
 								<div class="form-group label-floating">
-									<label class="control-label" for="firstName">First Name</label>
-									<input class="form-control" placeholder="" type="text" id="firstName" name="firstName">
-								</div>
-					
-								<div class="form-group label-floating">
-									<label class="control-label" for="email">Your Email</label>
-									<input class="form-control" placeholder="" type="email" id="email" name="email">
-								</div>
-					
-								<div class="form-group date-time-picker label-floating">
-									<label class="control-label" for="birthDay">Your Birthday</label>
-									<input name="datetimepicker" value="10/24/1984" id="birthDay"/>
-									<span class="input-group-addon">
-															<svg class="olymp-month-calendar-icon icon"><use xlink:href="svg-icons/sprites/icons.svg#olymp-month-calendar-icon"></use></svg>
-														</span>
+									<label class="control-label" for="tittle">Title or Place</label>
+									<input class="form-control" placeholder="" type="text" id="tittle" name="tittle">
 								</div>
 							</div>
 					
 							<div class="col col-lg-6 col-md-6 col-sm-12 col-12">
 								<div class="form-group label-floating">
-									<label class="control-label" for="lastName">Last Name</label>
-									<input class="form-control" placeholder="" type="text"  id="lastName" name="lastName">
-								</div>
-					
-								<div class="form-group label-floating">
-									<label class="control-label" for="website">Your Website</label>
-									<input class="form-control" placeholder="" type="text" id="website" name="website">
-								</div>
-					
-					
-								<div class="form-group label-floating is-empty">
-									<label class="control-label" for="phoneNumber">Your Phone Number</label>
-									<input class="form-control" placeholder="" type="text" id="phoneNumber" name="phoneNumber">
+									<label class="control-label" for="time">Period of Time</label>
+									<input class="form-control" placeholder="" type="text" id="time" name="time" >
 								</div>
 							</div>
 					
-							<div class="col col-lg-4 col-md-4 col-sm-12 col-12">
-								<div class="form-group label-floating is-select">
-									<label class="control-label" for="country">Your Country</label>
-									<select class="selectpicker form-control" id="country" name="country">
-										<option value="US">United States</option>
-										<option value="AU">Australia</option>
-									</select>
-								</div>
-							</div>
-							<div class="col col-lg-4 col-md-4 col-sm-12 col-12">
-								<div class="form-group label-floating is-select">
-									<label class="control-label" for="state">Your State / Province</label>
-									<select class="selectpicker form-control" id="state" name="state">
-										<option value="CA">California</option>
-										<option value="TE">Texas</option>
-									</select>
-								</div>
-							</div>
-							<div class="col col-lg-4 col-md-4 col-sm-12 col-12">
-								<div class="form-group label-floating is-select">
-									<label class="control-label" for="city">Your City</label>
-									<select class="selectpicker form-control" id="city" name="city">
-										<option value="SF">San Francisco</option>
-										<option value="NY">New York</option>
-									</select>
-								</div>
-							</div>
-							<div class="col col-lg-6 col-md-6 col-sm-12 col-12">
-								<div class="form-group label-floating">
-									<label class="control-label" for="description">Write a little description about you</label>
-									<textarea class="form-control" id="description" name="description"></textarea>
-								</div>
-
-					
-								<div class="form-group label-floating is-empty">
-									<label class="control-label" for="religion">Religious Belifs</label>
-									<input class="form-control" placeholder="" type="text" name="religion" id="religion">
-								</div>
-							</div>
-							<div class="col col-lg-6 col-md-6 col-sm-12 col-12">
-								<div class="form-group label-floating is-empty">
-									<label class="control-label" for="placeofBirth">Your Birthplace</label>
-									<input class="form-control" placeholder="" type="text" id="placeofBirth" name="placeofBirth">
-								</div>
-					
-								<div class="form-group label-floating">
-									<label class="control-label" for="occupation">Your Occupation</label>
-									<input class="form-control" placeholder="" type="text" value="UI/UX Designer" id="occupation" name="occupation">
-								</div>
-
-					
-								<div class="form-group label-floating">
-									<label class="control-label" for="political">Political Incline</label>
-									<input class="form-control" placeholder="" type="text" id="political" name="political">
-								</div>
-							</div>
 							<div class="col col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
-								<div class="form-group with-icon label-floating">
-									<label class="control-label" for="facebook">Your Facebook Account</label>
-									<input class="form-control" type="text" id="facebook" name="facebook">
-									<i class="fab fa-facebook-f c-facebook" aria-hidden="true"></i>
-								</div>
-								<div class="form-group with-icon label-floating">
-									<label class="control-label" for="twitter">Your Twitter Account</label>
-									<input class="form-control" type="text" id="twitter" name="twitter">
-									<i class="fab fa-twitter c-twitter" aria-hidden="true"></i>
+								<div class="form-group label-floating">
+									<label class="control-label" for="description">Description</label>
+									<textarea class="form-control" placeholder=""  id="description" name="description"></textarea>
 								</div>
 							</div>
+					
 							<div class="col col-lg-6 col-md-6 col-sm-12 col-12">
-								<button class="btn btn-secondary btn-lg full-width" href="02-ProfilePage.html">Restore all Attributes</button>
+								<div class="form-group label-floating">
+									<label class="control-label" for="tittle1">Title or Place</label>
+									<input class="form-control" placeholder="" type="text" id="tittle1" name="tittle1">
+								</div>
 							</div>
+					
+							<div class="col col-lg-6 col-md-6 col-sm-12 col-12">
+								<div class="form-group label-floating">
+									<label class="control-label" for="time1">Period of Time</label>
+									<input class="form-control" placeholder="" type="text" id="time1" name="time1">
+								</div>
+							</div>
+					
+							<div class="col col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+								<div class="form-group label-floating">
+									<label class="control-label" for="description1">Description</label>
+									<textarea class="form-control" placeholder=""  id="description1" name="description1">
+													</textarea>
+								</div>
+							</div>
+					
+							<div class="col col-lg-6 col-md-6 col-sm-12 col-12">
+								<div class="form-group label-floating is-empty">
+									<label class="control-label" for="tittle2">Title or Place</label>
+									<input class="form-control" placeholder="" type="text" id="tittle2" name="tittle2">
+								</div>
+							</div>
+					
+							<div class="col col-lg-6 col-md-6 col-sm-12 col-12">
+								<div class="form-group label-floating is-empty">
+									<label class="control-label" for="time2">Period of Time</label>
+									<input class="form-control" placeholder="" type="text" id="time2" name="time2">
+								</div>
+							</div>
+					
+							<div class="col col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+								<div class="form-group label-floating is-empty">
+									<label class="control-label" for="description2">Description</label>
+									<textarea class="form-control" placeholder=""  id="description2" name="description2">
+													</textarea>
+								</div>
+					
+								<a href="educationandemployement.jsp#" class="add-field">
+									<svg class="olymp-plus-icon"><use xlink:href="svg-icons/sprites/icons.svg#olymp-plus-icon"></use></svg>
+									<span>Add Education Field</span>
+								</a>
+							</div>
+					
+							<div class="col col-lg-6 col-md-6 col-sm-12 col-12">
+								<button class="btn btn-secondary btn-lg full-width">Cancel</button>
+							</div>
+					
 							<div class="col col-lg-6 col-md-6 col-sm-12 col-12">
 								<button class="btn btn-primary btn-lg full-width">Save all Changes</button>
 							</div>
-					
 						</div>
 					</form>
 					
-					<!-- ... end Personal Information Form  -->
+					<!-- ... end Education History Form -->
+				</div>
+			</div>
+			<div class="ui-block">
+				<div class="ui-block-title">
+					<h6 class="title">Your Employement History</h6>
+				</div>
+				<div class="ui-block-content">
+
+					
+					<!-- Employement History Form -->
+					
+					<form action="employment" method="post">
+						<div class="row">
+							<div class="col col-lg-6 col-md-6 col-sm-12 col-12">
+								<div class="form-group label-floating">
+									<label class="control-label" for="jobtittle">Title or Place</label>
+									<input class="form-control" placeholder="" type="text" id="jobtittle" name="jobtittle">
+								</div>
+							</div>
+					
+							<div class="col col-lg-6 col-md-6 col-sm-12 col-12">
+								<div class="form-group label-floating">
+									<label class="control-label" for="jobTime">Period of Time</label>
+									<input class="form-control" placeholder="" type="text" id="jobTime" name="jobTime">
+								</div>
+							</div>
+					
+							<div class="col col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+								<div class="form-group label-floating">
+									<label class="control-label" for="jobDescription">Description</label>
+									<textarea class="form-control" placeholder=""  id="jobDescription" name="jobDescription"></textarea>
+								</div>
+							</div>
+					
+							<div class="col col-lg-6 col-md-6 col-sm-12 col-12">
+								<div class="form-group label-floating">
+									<label class="control-label" for="jobtittle1">Title or Place</label>
+									<input class="form-control" placeholder="" type="text" name="jobtittle1" id="jobtittle1">
+								</div>
+							</div>
+					
+							<div class="col col-lg-6 col-md-6 col-sm-12 col-12">
+								<div class="form-group label-floating">
+									<label class="control-label" for="jobTime1">Period of Time</label>
+									<input class="form-control" placeholder="" type="text" id="jobTime1" value="jobTime1">
+								</div>
+							</div>
+					
+							<div class="col col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+								<div class="form-group label-floating">
+									<label class="control-label" for="jobDescription1">Description</label>
+									<textarea class="form-control" placeholder="" id="jobDescription1" name="jobDescription1" >
+													</textarea>
+								</div>
+							</div>
+					
+							<div class="col col-lg-6 col-md-6 col-sm-12 col-12">
+								<div class="form-group label-floating is-empty">
+									<label class="control-label" for="jobtittle2">Title or Place</label>
+									<input class="form-control" placeholder="" type="text" id="jobtittle2" name="jobtittle2">
+								</div>
+							</div>
+					
+							<div class="col col-lg-6 col-md-6 col-sm-12 col-12">
+								<div class="form-group label-floating is-empty">
+									<label class="control-label" for="jobTime2">Period of Time</label>
+									<input class="form-control" placeholder="" type="text" id="jobTime2" name="jobTime2">
+								</div>
+							</div>
+					
+							<div class="col col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+								<div class="form-group label-floating is-empty">
+									<label class="control-label" for="jobDescription2">Description</label>
+									<textarea class="form-control" placeholder=""  id="jobDescription2" name="jobDescription2">
+													</textarea>
+								</div>
+					
+								<a href="educationandemployement.jsp#" class="add-field">
+									<svg class="olymp-plus-icon"><use xlink:href="svg-icons/sprites/icons.svg#olymp-plus-icon"></use></svg>
+									<span>Add Education Field</span>
+								</a>
+							</div>
+					
+							<div class="col col-lg-6 col-md-6 col-sm-12 col-12">
+								<button class="btn btn-secondary btn-lg full-width">Cancel</button>
+							</div>
+					
+							<div class="col col-lg-6 col-md-6 col-sm-12 col-12">
+								<button class="btn btn-primary btn-lg full-width">Save all Changes</button>
+							</div>
+						</div>
+					</form>
+					
+					<!-- ... end Employement History Form -->
 				</div>
 			</div>
 		</div>
@@ -2422,7 +2451,7 @@
 						<div class="card">
 							<div class="card-header" role="tab" id="headingOne">
 								<h6 class="mb-0">
-									<a data-toggle="collapse" data-parent="#accordion" href="28-YourAccount-PersonalInformation.html#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+									<a data-toggle="collapse" data-parent="#accordion" href="educationandemployement.jsp#collapseOne" aria-expanded="true" aria-controls="collapseOne">
 										Profile Settings
 										<svg class="olymp-dropdown-arrow-icon"><use xlink:href="svg-icons/sprites/icons.svg#olymp-dropdown-arrow-icon"></use></svg>
 									</a>
@@ -2432,19 +2461,19 @@
 							<div id="collapseOne" class="collapse show" role="tabpanel" aria-labelledby="headingOne">
 								<ul class="your-profile-menu">
 									<li>
-										<a href="28-YourAccount-PersonalInformation.html">Personal Information</a>
+										<a href="personalinformation.jsp">Personal Information</a>
 									</li>
 									<li>
-										<a href="29YourAccountAccountSettings.jsp">Account Settings</a>
+										<a href="editprofile.jsp">Account Settings</a>
 									</li>
 									<li>
 										<a href="30-YourAccount-ChangePassword.html">Change Password</a>
 									</li>
 									<li>
-										<a href="31YourAccount-HobbiesAndInterests.html">Hobbies and Interests</a>
+										<a href="hobbiesandinterests.jsp">Hobbies and Interests</a>
 									</li>
 									<li>
-										<a href="32YourAccountEducationAndEmployement.jsp">Education and Employement</a>
+										<a href="educationandemployement.jsp">Education and Employement</a>
 									</li>
 								</ul>
 							</div>
@@ -2453,14 +2482,14 @@
 				
 					<div class="ui-block-title">
 						<a href="33-YourAccount-Notifications.html" class="h6 title">Notifications</a>
-						<a href="28-YourAccount-PersonalInformation.html#" class="items-round-little bg-primary">8</a>
+						<a href="educationandemployement.jsp#" class="items-round-little bg-primary">8</a>
 					</div>
 					<div class="ui-block-title">
 						<a href="34-YourAccount-ChatMessages.html" class="h6 title">Chat / Messages</a>
 					</div>
 					<div class="ui-block-title">
 						<a href="35-YourAccount-FriendsRequests.html" class="h6 title">Friend Requests</a>
-						<a href="28-YourAccount-PersonalInformation.html#" class="items-round-little bg-blue">4</a>
+						<a href="educationandemployement.jsp#" class="items-round-little bg-blue">4</a>
 					</div>
 					<div class="ui-block-title ui-block-title-small">
 						<h6 class="title">FAVOURITE PAGE</h6>
@@ -2540,7 +2569,7 @@
 			<label class="control-label">Press enter to post...</label>
 			<textarea class="form-control" placeholder=""></textarea>
 			<div class="add-options-message">
-				<a href="28-YourAccount-PersonalInformation.html#" class="options-message">
+				<a href="educationandemployement.jsp#" class="options-message">
 					<svg class="olymp-computer-icon"><use xlink:href="svg-icons/sprites/icons.svg#olymp-computer-icon"></use></svg>
 				</a>
 				<div class="options-message smile-block">
@@ -2549,137 +2578,137 @@
 
 					<ul class="more-dropdown more-with-triangle triangle-bottom-right">
 						<li>
-							<a href="28-YourAccount-PersonalInformation.html#">
+							<a href="educationandemployement.jsp#">
 								<img src="img/icon-chat1.png" alt="icon">
 							</a>
 						</li>
 						<li>
-							<a href="28-YourAccount-PersonalInformation.html#">
+							<a href="educationandemployement.jsp#">
 								<img src="img/icon-chat2.png" alt="icon">
 							</a>
 						</li>
 						<li>
-							<a href="28-YourAccount-PersonalInformation.html#">
+							<a href="educationandemployement.jsp#">
 								<img src="img/icon-chat3.png" alt="icon">
 							</a>
 						</li>
 						<li>
-							<a href="28-YourAccount-PersonalInformation.html#">
+							<a href="educationandemployement.jsp#">
 								<img src="img/icon-chat4.png" alt="icon">
 							</a>
 						</li>
 						<li>
-							<a href="28-YourAccount-PersonalInformation.html#">
+							<a href="educationandemployement.jsp#">
 								<img src="img/icon-chat5.png" alt="icon">
 							</a>
 						</li>
 						<li>
-							<a href="28-YourAccount-PersonalInformation.html#">
+							<a href="educationandemployement.jsp#">
 								<img src="img/icon-chat6.png" alt="icon">
 							</a>
 						</li>
 						<li>
-							<a href="28-YourAccount-PersonalInformation.html#">
+							<a href="educationandemployement.jsp#">
 								<img src="img/icon-chat7.png" alt="icon">
 							</a>
 						</li>
 						<li>
-							<a href="28-YourAccount-PersonalInformation.html#">
+							<a href="educationandemployement.jsp#">
 								<img src="img/icon-chat8.png" alt="icon">
 							</a>
 						</li>
 						<li>
-							<a href="28-YourAccount-PersonalInformation.html#">
+							<a href="educationandemployement.jsp#">
 								<img src="img/icon-chat9.png" alt="icon">
 							</a>
 						</li>
 						<li>
-							<a href="28-YourAccount-PersonalInformation.html#">
+							<a href="educationandemployement.jsp#">
 								<img src="img/icon-chat10.png" alt="icon">
 							</a>
 						</li>
 						<li>
-							<a href="28-YourAccount-PersonalInformation.html#">
+							<a href="educationandemployement.jsp#">
 								<img src="img/icon-chat11.png" alt="icon">
 							</a>
 						</li>
 						<li>
-							<a href="28-YourAccount-PersonalInformation.html#">
+							<a href="educationandemployement.jsp#">
 								<img src="img/icon-chat12.png" alt="icon">
 							</a>
 						</li>
 						<li>
-							<a href="28-YourAccount-PersonalInformation.html#">
+							<a href="educationandemployement.jsp#">
 								<img src="img/icon-chat13.png" alt="icon">
 							</a>
 						</li>
 						<li>
-							<a href="28-YourAccount-PersonalInformation.html#">
+							<a href="educationandemployement.jsp#">
 								<img src="img/icon-chat14.png" alt="icon">
 							</a>
 						</li>
 						<li>
-							<a href="28-YourAccount-PersonalInformation.html#">
+							<a href="educationandemployement.jsp#">
 								<img src="img/icon-chat15.png" alt="icon">
 							</a>
 						</li>
 						<li>
-							<a href="28-YourAccount-PersonalInformation.html#">
+							<a href="educationandemployement.jsp#">
 								<img src="img/icon-chat16.png" alt="icon">
 							</a>
 						</li>
 						<li>
-							<a href="28-YourAccount-PersonalInformation.html#">
+							<a href="educationandemployement.jsp#">
 								<img src="img/icon-chat17.png" alt="icon">
 							</a>
 						</li>
 						<li>
-							<a href="28-YourAccount-PersonalInformation.html#">
+							<a href="educationandemployement.jsp#">
 								<img src="img/icon-chat18.png" alt="icon">
 							</a>
 						</li>
 						<li>
-							<a href="28-YourAccount-PersonalInformation.html#">
+							<a href="educationandemployement.jsp#">
 								<img src="img/icon-chat19.png" alt="icon">
 							</a>
 						</li>
 						<li>
-							<a href="28-YourAccount-PersonalInformation.html#">
+							<a href="educationandemployement.jsp#">
 								<img src="img/icon-chat20.png" alt="icon">
 							</a>
 						</li>
 						<li>
-							<a href="28-YourAccount-PersonalInformation.html#">
+							<a href="educationandemployement.jsp#">
 								<img src="img/icon-chat21.png" alt="icon">
 							</a>
 						</li>
 						<li>
-							<a href="28-YourAccount-PersonalInformation.html#">
+							<a href="educationandemployement.jsp#">
 								<img src="img/icon-chat22.png" alt="icon">
 							</a>
 						</li>
 						<li>
-							<a href="28-YourAccount-PersonalInformation.html#">
+							<a href="educationandemployement.jsp#">
 								<img src="img/icon-chat23.png" alt="icon">
 							</a>
 						</li>
 						<li>
-							<a href="28-YourAccount-PersonalInformation.html#">
+							<a href="educationandemployement.jsp#">
 								<img src="img/icon-chat24.png" alt="icon">
 							</a>
 						</li>
 						<li>
-							<a href="28-YourAccount-PersonalInformation.html#">
+							<a href="educationandemployement.jsp#">
 								<img src="img/icon-chat25.png" alt="icon">
 							</a>
 						</li>
 						<li>
-							<a href="28-YourAccount-PersonalInformation.html#">
+							<a href="educationandemployement.jsp#">
 								<img src="img/icon-chat26.png" alt="icon">
 							</a>
 						</li>
 						<li>
-							<a href="28-YourAccount-PersonalInformation.html#">
+							<a href="educationandemployement.jsp#">
 								<img src="img/icon-chat27.png" alt="icon">
 							</a>
 						</li>
@@ -2698,9 +2727,10 @@
 
 
 
-<a class="back-to-top" href="28-YourAccount-PersonalInformation.html#">
+<a class="back-to-top" href="educationandemployement.jsp#">
 	<img src="svg-icons/back-to-top.svg" alt="arrow" class="back-icon">
 </a>
+
 
 
 
