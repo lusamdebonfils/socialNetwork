@@ -20,8 +20,8 @@ public class LoginController extends HttpServlet {
 
         String userName = req.getParameter("email");
         String password = req.getParameter("password");
-        System.out.println("UserName : "+ userName);
-        System.out.println("Password : "+ password);
+//        System.out.println("UserName : "+ userName);
+//        System.out.println("Password : "+ password);
         User currentUser = null;
         List<User> users = dao.findWithUserName(userName);
         if (users.size()>0){
@@ -31,7 +31,7 @@ public class LoginController extends HttpServlet {
                 }
             }
         }
-        System.out.println("currentUser : "+ currentUser);
+        //System.out.println("currentUser : "+ currentUser);
 
         //check user by email/username
         if (currentUser != null){
@@ -51,6 +51,6 @@ public class LoginController extends HttpServlet {
 
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        resp.sendRedirect("profilePage.jsp");
+        resp.sendRedirect("newsFeed");
     }
 }
