@@ -11,8 +11,8 @@
     <title>Login Page</title>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="js/new_user_validation.js" type="text/javascript"></script>
-    <link href="https://stackpath.bootstrapcdn.com/bootswatch/4.3.1/sketchy/bootstrap.min.css" rel="stylesheet"
-          integrity="sha384-N8DsABZCqc1XWbg/bAlIDk7AS/yNzT5fcKzg/TwfmTuUqZhGquVmpb5VvfmLcMzp" crossorigin="anonymous">
+<%--    <link href="https://stackpath.bootstrapcdn.com/bootswatch/4.3.1/simplex/bootstrap.min.css" rel="stylesheet" integrity="sha384-1OYccka9EByiS23wvPFiYHBPRAgU91xYVFb8g8sen6vRiBI5Uko6+B87q8zPGUnA" crossorigin="anonymous">--%>
+    <link href="https://stackpath.bootstrapcdn.com/bootswatch/4.3.1/united/bootstrap.min.css" rel="stylesheet" integrity="sha384-WTtvlZJeRyCiKUtbQ88X1x9uHmKi0eHCbQ8irbzqSLkE0DpAZuixT5yFvgX0CjIu" crossorigin="anonymous">
     <link rel="stylesheet" href="css/login.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
@@ -33,47 +33,55 @@
                 <a href="#" class="fa fa-twitter"></a>
             </div>
             <span>or use your email for registration</span>
-            <%--            <input type="text" placeholder="Name" />--%>
-            <%--            <input type="email" placeholder="Email" />--%>
-            <%--            <input type="password" placeholder="Password" />--%>
-            <%--            <button>Sign Up</button>--%>
+            <div class="container">
+                <div class="row">
+                    <div class="col-6">
+                        <input class="form-control" id="firstName" placeholder="First Name*" type="text" name="firstName" required>
+                    </div>
+                    <div class="col-6">
+                        <input class="form-control" placeholder="Last Name*" type="text" id="lastName" name="lastName" required>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <input class="form-control" placeholder="Your Email*" type="email" id="email" name="email" required>
+                    </div>
 
-            <input class="form-control" id="firstName" placeholder="First Name*" type="text" name="firstName">
+                </div>
+                <div class="row">
+                    <div class="col-6">
+                        <input class="form-control" placeholder="password" type="password" id="password" name="password" required>
 
-            <input class="form-control" placeholder="Last Name*" type="text" id="lastName" name="lastName">
+                    </div>
+                    <div class="col-6">
+                        <input class="form-control" placeholder="confirm password" type="password" id="repeat_password"
+                               name="repeat_password" required>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-6">
+                        <input id="birthDay" name="datetimepicker" type="date" placeholder="Your Birthday*" required/>
 
-            <input class="form-control" placeholder="Your Email*" type="email" id="email" name="email">
-
-            <input class="form-control" placeholder="Your Password*" type="password" id="password" name="password">
-
-            <input class="form-control" placeholder="Repeat Password*" type="password" id="repeat_password"
-                   name="repeat_password">
-
-            <input id="birthDay" name="datetimepicker" value="10/24/1984" placeholder="Your Birthday*"/>
-            <span class="input-group-addon">
-                <svg class="olymp-calendar-icon"><use
-                        xlink:href="svg-icons/sprites/icons.svg#olymp-calendar-icon"></use></svg>
-            </span>
-
-            <select class="selectpicker form-control" id="gender" name="gender">
-                <option value="D" selected>Your Gender*</option>
-                <option value="M">Male</option>
-                <option value="F">Female</option>
-            </select>
-
-
-            <label>
-                <input name="optionsCheckboxes" type="checkbox" id="optionsCheckboxes">
-                I accept the <a href="#">Terms and Conditions</a> of the website
-            </label>
-
-
-            <div class="form-group label-floating" id="errors" style="color: red">
-
+                    </div>
+                    <div class="col-6">
+                        <select class="selectpicker form-control" id="gender" name="gender">
+                            <option value="D" selected>Your Gender*</option>
+                            <option value="M">Male</option>
+                            <option value="F">Female</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <input class="btn btn-primary btn-lg full-width" id="submitButton" type="submit"
+                               value="Complete Registration!"  required>
+                    </div>
+                </div>
             </div>
 
-            <input class="btn btn-primary btn-lg full-width" id="submitButton" type="submit"
-                   value="Complete Registration!">
+<%--            <div class="form-group label-floating" id="errors" style="color: red">--%>
+
+<%--            </div>--%>
 
 
         </form>

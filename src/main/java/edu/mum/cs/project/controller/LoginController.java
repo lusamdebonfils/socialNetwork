@@ -22,21 +22,28 @@ public class LoginController extends HttpServlet {
         String password = req.getParameter("password");
         System.out.println("UserName : "+ userName);
         System.out.println("Password : "+ password);
-//        User currentUser = null;
-//        List<User> users = dao.findWithUserName(userName);
-//        if (users.size()>0){
-//            for (int i=0; i<users.size(); i++){
-//                if (users.get(i).getEmail().equals(userName) && users.get(i).getPassword().equals(password)){
-//                    currentUser = users.get(i);
-//                }
-//            }
-//        }
+        User currentUser = null;
+        List<User> users = dao.findWithUserName(userName);
+        if (users.size()>0){
+            for (int i=0; i<users.size(); i++){
+                if (users.get(i).getEmail().equals(userName) && users.get(i).getPassword().equals(password)){
+                    currentUser = users.get(i);
+                }
+            }
+        }
+        System.out.println("currentUser : "+ currentUser);
+
         //check user by email/username
-        if((userName.equals("admin@gmail.com")) && password.equals("password")){
+        if (currentUser != null){
+            HttpSession session = req.getSession();
+            session.setAttribute("user",currentUser);
+            doGet(req,resp);
+
+        } else if((userName.equals("admin@gmail.com")) && password.equals("password")){
             HttpSession session = req.getSession();
             session.setAttribute("username",userName);
-            //session.setAttribute("admin","admin");
-            doGet(req,resp);
+            resp.sendRedirect("admin");
+
         }else {
             resp.sendRedirect("00login.jsp");
         }
