@@ -1,4 +1,5 @@
-
+<%@ page isELIgnored="false" %>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -2217,32 +2218,68 @@
 					<!-- Tab panes -->
 					<div class="tab-content">
 						<div class="tab-pane active" id="home-1" role="tabpanel" aria-expanded="true">
-							<form>
-								<div class="author-thumb">
-									<img src="img/author-page.jpg" alt="author">
-								</div>
-								<div class="form-group with-icon label-floating is-empty">
-									<label class="control-label">Share what you are thinking here...</label>
-									<textarea class="form-control" placeholder=""></textarea>
-								</div>
-								<div class="add-options-message">
-									<a href="03-Newsfeed.html#" class="options-message" data-toggle="tooltip" data-placement="top"   data-original-title="ADD PHOTOS">
-										<svg class="olymp-camera-icon" data-toggle="modal" data-target="#update-header-photo"><use xlink:href="svg-icons/sprites/icons.svg#olymp-camera-icon"></use></svg>
-									</a>
-									<a href="03-Newsfeed.html#" class="options-message" data-toggle="tooltip" data-placement="top"   data-original-title="TAG YOUR FRIENDS">
-										<svg class="olymp-computer-icon"><use xlink:href="svg-icons/sprites/icons.svg#olymp-computer-icon"></use></svg>
-									</a>
-				
-									<a href="03-Newsfeed.html#" class="options-message" data-toggle="tooltip" data-placement="top"   data-original-title="ADD LOCATION">
-										<svg class="olymp-small-pin-icon"><use xlink:href="svg-icons/sprites/icons.svg#olymp-small-pin-icon"></use></svg>
-									</a>
-				
-									<button class="btn btn-primary btn-md-2">Post Status</button>
-									<button   class="btn btn-md-2 btn-border-think btn-transparent c-grey">Preview</button>
-				
-								</div>
-				
-							</form>
+<%--							<form>--%>
+<%--								<div class="author-thumb">--%>
+<%--									<img src="img/author-page.jpg" alt="author">--%>
+<%--								</div>--%>
+<%--								<div class="form-group with-icon label-floating is-empty">--%>
+<%--									<label class="control-label">Share what you are thinking here...</label>--%>
+<%--									<textarea class="form-control" placeholder=""></textarea>--%>
+<%--								</div>--%>
+<%--								<div class="add-options-message">--%>
+<%--									<a href="03-Newsfeed.html#" class="options-message" data-toggle="tooltip" data-placement="top"   data-original-title="ADD PHOTOS">--%>
+<%--										<svg class="olymp-camera-icon" data-toggle="modal" data-target="#update-header-photo"><use xlink:href="svg-icons/sprites/icons.svg#olymp-camera-icon"></use></svg>--%>
+<%--									</a>--%>
+<%--									<a href="03-Newsfeed.html#" class="options-message" data-toggle="tooltip" data-placement="top"   data-original-title="TAG YOUR FRIENDS">--%>
+<%--										<svg class="olymp-computer-icon"><use xlink:href="svg-icons/sprites/icons.svg#olymp-computer-icon"></use></svg>--%>
+<%--									</a>--%>
+<%--				--%>
+<%--									<a href="03-Newsfeed.html#" class="options-message" data-toggle="tooltip" data-placement="top"   data-original-title="ADD LOCATION">--%>
+<%--										<svg class="olymp-small-pin-icon"><use xlink:href="svg-icons/sprites/icons.svg#olymp-small-pin-icon"></use></svg>--%>
+<%--									</a>--%>
+<%--				--%>
+<%--									<button class="btn btn-primary btn-md-2">Post Status</button>--%>
+<%--									<button   class="btn btn-md-2 btn-border-think btn-transparent c-grey">Preview</button>--%>
+<%--				--%>
+<%--								</div>--%>
+<%--				--%>
+<%--							</form>--%>
+	<form enctype="multipart/form-data" id="postForm" action="postStatus" method="post">
+		<div class="author-thumb">
+			<img src="img/author-page.jpg" alt="author">
+		</div>
+		<div class="form-group with-icon label-floating is-empty">
+			<label class="control-label">Share what you are thinking here...</label>
+			<textarea name="postTextContent" id="textArea" class="form-control" placeholder=""></textarea>
+		</div>
+		<div class="add-options-message">
+			<a href="03-Newsfeed.html#" class="options-message" data-toggle="tooltip" data-placement="top"   data-original-title="ADD PHOTOS">
+				<svg class="olymp-camera-icon" data-toggle="modal" data-target="#update-header-photo"><use xlink:href="svg-icons/sprites/icons.svg#olymp-camera-icon"></use></svg>
+			</a>
+			<a href="03-Newsfeed.html#" class="options-message" data-toggle="tooltip" data-placement="top"   data-original-title="TAG YOUR FRIENDS">
+				<svg class="olymp-computer-icon"><use xlink:href="svg-icons/sprites/icons.svg#olymp-computer-icon"></use></svg>
+			</a>
+
+			<a href="03-Newsfeed.html#" class="options-message" data-toggle="tooltip" data-placement="top"   data-original-title="ADD LOCATION">
+				<svg class="olymp-small-pin-icon"><use xlink:href="svg-icons/sprites/icons.svg#olymp-small-pin-icon"></use></svg>
+			</a>
+			<div class="container">
+				<div class="row">
+					<div class="col-8">
+						<input id="imageField" type="file" name="file" accept="image/*" class="btn btn-md-1 btn-border-think btn-transparent c-grey" value="Upload Photo">
+
+					</div>
+					<div class="col-4">
+						<button type="submit" id="postStatusBtn" class="btn btn-primary btn-md-1">Post Status</button>
+
+					</div>
+
+				</div>
+			</div>
+
+		</div>
+
+	</form>
 						</div>
 				
 						<div class="tab-pane" id="profile-1" role="tabpanel" aria-expanded="true">
@@ -2275,13 +2312,13 @@
 						</div>
 				
 						<div class="tab-pane" id="blog" role="tabpanel" aria-expanded="true">
-							<form enctype="multipart/form-data" id="postForm" action="postStatus" method="post">
+							<form enctype="multipart/form-data" action="postStatus" method="post">
 							<div class="author-thumb">
 									<img src="img/author-page.jpg" alt="author">
 								</div>
 								<div class="form-group with-icon label-floating is-empty">
 									<label class="control-label">Share what you are thinking here...</label>
-									<textarea name="postTextContent" id="textArea" class="form-control" placeholder=""></textarea>
+									<textarea name="postTextContent"  class="form-control" placeholder=""></textarea>
 								</div>
 								<div class="add-options-message">
 									<a href="03-Newsfeed.html#" class="options-message" data-toggle="tooltip" data-placement="top"   data-original-title="ADD PHOTOS">
@@ -2295,8 +2332,7 @@
 										<svg class="olymp-small-pin-icon"><use xlink:href="svg-icons/sprites/icons.svg#olymp-small-pin-icon"></use></svg>
 									</a>
 
-									<button type="submit" id="postStatusBtn" class="btn btn-primary btn-md-1">Post Status</button>
-									<input type="file" name="file" accept="image/*" class="btn btn-md-1 btn-border-think btn-transparent c-grey" value="Upload Photo">
+									<button type="submit"  class="btn btn-primary btn-md-1">Post Status</button>
 
 								</div>
 				
