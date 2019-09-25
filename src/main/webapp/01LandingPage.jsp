@@ -74,7 +74,7 @@
 	<div class="container">
 		<div class="header--standard-wrap">
 
-			<a href="01-LandingPage.html#" class="logo">
+			<a href="01LandingPage.jsp#" class="logo">
 				<div class="img-wrap">
 					<img src="img/logo.png" alt="Olympus">
 					<img src="img/logo-colored-small.png" alt="Olympus" class="logo-colored">
@@ -85,7 +85,7 @@
 				</div>
 			</a>
 
-			<a href="01-LandingPage.html#" class="open-responsive-menu js-open-responsive-menu">
+			<a href="01LandingPage.jsp#" class="open-responsive-menu js-open-responsive-menu">
 				<svg class="olymp-menu-icon"><use xlink:href="svg-icons/sprites/icons.svg#olymp-menu-icon"></use></svg>
 			</a>
 
@@ -93,73 +93,73 @@
 				<div class="mCustomScrollbar">
 					<ul>
 						<li class="nav-item">
-							<a href="01-LandingPage.html#" class="nav-link">Home</a>
+							<a href="01LandingPage.jsp#" class="nav-link">Home</a>
 						</li>
 						<li class="nav-item dropdown">
-							<a class="nav-link dropdown-toggle" data-hover="dropdown" data-toggle="dropdown" href="01-LandingPage.html#" role="button" aria-haspopup="false" aria-expanded="false" tabindex='1'>Profile</a>
+							<a class="nav-link dropdown-toggle" data-hover="dropdown" data-toggle="dropdown" href="01LandingPage.jsp#" role="button" aria-haspopup="false" aria-expanded="false" tabindex='1'>Profile</a>
 							<div class="dropdown-menu">
-								<a class="dropdown-item" href="01-LandingPage.html#">Profile Page</a>
-								<a class="dropdown-item" href="01-LandingPage.html#">Newsfeed</a>
-								<a class="dropdown-item" href="01-LandingPage.html#">Post Versions</a>
+								<a class="dropdown-item" href="01LandingPage.jsp#">Profile Page</a>
+								<a class="dropdown-item" href="01LandingPage.jsp#">Newsfeed</a>
+								<a class="dropdown-item" href="01LandingPage.jsp#">Post Versions</a>
 							</div>
 						</li>
 						<li class="nav-item dropdown dropdown-has-megamenu">
-							<a href="01-LandingPage.html#" class="nav-link dropdown-toggle" data-hover="dropdown" data-toggle="dropdown" role="button" aria-haspopup="false" aria-expanded="false" tabindex='1'>Forums</a>
+							<a href="01LandingPage.jsp#" class="nav-link dropdown-toggle" data-hover="dropdown" data-toggle="dropdown" role="button" aria-haspopup="false" aria-expanded="false" tabindex='1'>Forums</a>
 							<div class="dropdown-menu megamenu">
 								<div class="row">
 									<div class="col col-sm-3">
 										<h6 class="column-tittle">Main Links</h6>
-										<a class="dropdown-item" href="01-LandingPage.html#">Profile Page<span class="tag-label bg-blue-light">new</span></a>
-										<a class="dropdown-item" href="01-LandingPage.html#">Profile Page</a>
-										<a class="dropdown-item" href="01-LandingPage.html#">Profile Page</a>
-										<a class="dropdown-item" href="01-LandingPage.html#">Profile Page</a>
-										<a class="dropdown-item" href="01-LandingPage.html#">Profile Page</a>
-										<a class="dropdown-item" href="01-LandingPage.html#">Profile Page</a>
+										<a class="dropdown-item" href="01LandingPage.jsp#">Profile Page<span class="tag-label bg-blue-light">new</span></a>
+										<a class="dropdown-item" href="01LandingPage.jsp#">Profile Page</a>
+										<a class="dropdown-item" href="01LandingPage.jsp#">Profile Page</a>
+										<a class="dropdown-item" href="01LandingPage.jsp#">Profile Page</a>
+										<a class="dropdown-item" href="01LandingPage.jsp#">Profile Page</a>
+										<a class="dropdown-item" href="01LandingPage.jsp#">Profile Page</a>
 									</div>
 									<div class="col col-sm-3">
 										<h6 class="column-tittle">BuddyPress</h6>
-										<a class="dropdown-item" href="01-LandingPage.html#">Profile Page</a>
-										<a class="dropdown-item" href="01-LandingPage.html#">Profile Page</a>
-										<a class="dropdown-item" href="01-LandingPage.html#">Profile Page<span class="tag-label bg-primary">HOT!</span></a>
-										<a class="dropdown-item" href="01-LandingPage.html#">Profile Page</a>
-										<a class="dropdown-item" href="01-LandingPage.html#">Profile Page</a>
-										<a class="dropdown-item" href="01-LandingPage.html#">Profile Page</a>
+										<a class="dropdown-item" href="01LandingPage.jsp#">Profile Page</a>
+										<a class="dropdown-item" href="01LandingPage.jsp#">Profile Page</a>
+										<a class="dropdown-item" href="01LandingPage.jsp#">Profile Page<span class="tag-label bg-primary">HOT!</span></a>
+										<a class="dropdown-item" href="01LandingPage.jsp#">Profile Page</a>
+										<a class="dropdown-item" href="01LandingPage.jsp#">Profile Page</a>
+										<a class="dropdown-item" href="01LandingPage.jsp#">Profile Page</a>
 									</div>
 									<div class="col col-sm-3">
 										<h6 class="column-tittle">Corporate</h6>
-										<a class="dropdown-item" href="01-LandingPage.html#">Profile Page</a>
-										<a class="dropdown-item" href="01-LandingPage.html#">Profile Page</a>
-										<a class="dropdown-item" href="01-LandingPage.html#">Profile Page</a>
-										<a class="dropdown-item" href="01-LandingPage.html#">Profile Page</a>
-										<a class="dropdown-item" href="01-LandingPage.html#">Profile Page</a>
-										<a class="dropdown-item" href="01-LandingPage.html#">Profile Page</a>
+										<a class="dropdown-item" href="01LandingPage.jsp#">Profile Page</a>
+										<a class="dropdown-item" href="01LandingPage.jsp#">Profile Page</a>
+										<a class="dropdown-item" href="01LandingPage.jsp#">Profile Page</a>
+										<a class="dropdown-item" href="01LandingPage.jsp#">Profile Page</a>
+										<a class="dropdown-item" href="01LandingPage.jsp#">Profile Page</a>
+										<a class="dropdown-item" href="01LandingPage.jsp#">Profile Page</a>
 									</div>
 									<div class="col col-sm-3">
 										<h6 class="column-tittle">Forums</h6>
-										<a class="dropdown-item" href="01-LandingPage.html#">Profile Page</a>
-										<a class="dropdown-item" href="01-LandingPage.html#">Profile Page</a>
-										<a class="dropdown-item" href="01-LandingPage.html#">Profile Page</a>
-										<a class="dropdown-item" href="01-LandingPage.html#">Profile Page</a>
-										<a class="dropdown-item" href="01-LandingPage.html#">Profile Page</a>
-										<a class="dropdown-item" href="01-LandingPage.html#">Profile Page</a>
+										<a class="dropdown-item" href="01LandingPage.jsp#">Profile Page</a>
+										<a class="dropdown-item" href="01LandingPage.jsp#">Profile Page</a>
+										<a class="dropdown-item" href="01LandingPage.jsp#">Profile Page</a>
+										<a class="dropdown-item" href="01LandingPage.jsp#">Profile Page</a>
+										<a class="dropdown-item" href="01LandingPage.jsp#">Profile Page</a>
+										<a class="dropdown-item" href="01LandingPage.jsp#">Profile Page</a>
 									</div>
 								</div>
 							</div>
 						</li>
 						<li class="nav-item">
-							<a href="01-LandingPage.html#" class="nav-link">Terms & Conditions</a>
+							<a href="01LandingPage.jsp#" class="nav-link">Terms & Conditions</a>
 						</li>
 						<li class="nav-item">
-							<a href="01-LandingPage.html#" class="nav-link">Events</a>
+							<a href="01LandingPage.jsp#" class="nav-link">Events</a>
 						</li>
 						<li class="nav-item">
-							<a href="01-LandingPage.html#" class="nav-link">Privacy Policy</a>
+							<a href="01LandingPage.jsp#" class="nav-link">Privacy Policy</a>
 						</li>
 						<li class="close-responsive-menu js-close-responsive-menu">
 							<svg class="olymp-close-icon"><use xlink:href="svg-icons/sprites/icons.svg#olymp-close-icon"></use></svg>
 						</li>
 						<li class="nav-item js-expanded-menu">
-							<a href="01-LandingPage.html#" class="nav-link">
+							<a href="01LandingPage.jsp#" class="nav-link">
 								<svg class="olymp-menu-icon"><use xlink:href="svg-icons/sprites/icons.svg#olymp-menu-icon"></use></svg>
 								<svg class="olymp-close-icon"><use xlink:href="svg-icons/sprites/icons.svg#olymp-close-icon"></use></svg>
 							</a>
@@ -183,7 +183,7 @@
 				<p>We are the best and biggest social network with 5 billion active users all around the world. Share you
 					thoughts, write blog posts, show your favourite music via Stopify, earn badges and much more!
 				</p>
-				<a href="01-LandingPage.html#" class="btn btn-md btn-border c-white">Register Now!</a>
+				<a href="01LandingPage.jsp#" class="btn btn-md btn-border c-white">Register Now!</a>
 			</div>
 		</div>
 
@@ -195,12 +195,12 @@
 				<!-- Nav tabs -->
 				<ul class="nav nav-tabs" role="tablist">
 					<li class="nav-item">
-						<a class="nav-link active" data-toggle="tab" href="01-LandingPage.html#home" role="tab">
+						<a class="nav-link active" data-toggle="tab" href="01LandingPage.jsp#home" role="tab">
 							<svg class="olymp-login-icon"><use xlink:href="svg-icons/sprites/icons.svg#olymp-login-icon"></use></svg>
 						</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" data-toggle="tab" href="01-LandingPage.html#profile" role="tab">
+						<a class="nav-link" data-toggle="tab" href="01LandingPage.jsp#profile" role="tab">
 							<svg class="olymp-register-icon"><use xlink:href="svg-icons/sprites/icons.svg#olymp-register-icon"></use></svg>
 						</a>
 					</li>
@@ -307,19 +307,19 @@
 												Remember Me
 											</label>
 										</div>
-										<a href="01-LandingPage.html#" class="forgot" data-toggle="modal" data-target="#restore-password">Forgot my Password</a>
+										<a href="01LandingPage.jsp#" class="forgot" data-toggle="modal" data-target="#restore-password">Forgot my Password</a>
 									</div>
 			
-									<a href="01-LandingPage.html#" class="btn btn-lg btn-primary full-width">Login</a>
+									<a href="01LandingPage.jsp#" class="btn btn-lg btn-primary full-width">Login</a>
 			
 									<div class="or"></div>
 			
-									<a href="01-LandingPage.html#" class="btn btn-lg bg-facebook full-width btn-icon-left"><i class="fab fa-facebook-f" aria-hidden="true"></i>Login with Facebook</a>
+									<a href="01LandingPage.jsp#" class="btn btn-lg bg-facebook full-width btn-icon-left"><i class="fab fa-facebook-f" aria-hidden="true"></i>Login with Facebook</a>
 			
-									<a href="01-LandingPage.html#" class="btn btn-lg bg-twitter full-width btn-icon-left"><i class="fab fa-twitter" aria-hidden="true"></i>Login with Twitter</a>
+									<a href="01LandingPage.jsp#" class="btn btn-lg bg-twitter full-width btn-icon-left"><i class="fab fa-twitter" aria-hidden="true"></i>Login with Twitter</a>
 			
 			
-									<p>Don’t you have an account? <a href="01-LandingPage.html#">Register Now!</a> it’s really simple and you can start enjoing all the benefits!</p>
+									<p>Don’t you have an account? <a href="01LandingPage.jsp#">Register Now!</a> it’s really simple and you can start enjoing all the benefits!</p>
 								</div>
 							</div>
 						</form>
@@ -336,7 +336,7 @@
 <div class="modal fade" id="restore-password" tabindex="-1" role="dialog" aria-labelledby="restore-password" aria-hidden="true">
 	<div class="modal-dialog window-popup restore-password-popup" role="document">
 		<div class="modal-content">
-			<a href="01-LandingPage.html#" class="close icon-close" data-dismiss="modal" aria-label="Close">
+			<a href="01LandingPage.jsp#" class="close icon-close" data-dismiss="modal" aria-label="Close">
 				<svg class="olymp-close-icon"><use xlink:href="svg-icons/sprites/icons.svg#olymp-close-icon"></use></svg>
 			</a>
 
@@ -378,7 +378,7 @@
 <div class="modal fade" id="main-popup-search" tabindex="-1" role="dialog" aria-labelledby="main-popup-search" aria-hidden="true">
 	<div class="modal-dialog modal-dialog-centered window-popup main-popup-search" role="document">
 		<div class="modal-content">
-			<a href="01-LandingPage.html#" class="close icon-close" data-dismiss="modal" aria-label="Close">
+			<a href="01LandingPage.jsp#" class="close icon-close" data-dismiss="modal" aria-label="Close">
 				<svg class="olymp-close-icon"><use xlink:href="svg-icons/sprites/icons.svg#olymp-close-icon"></use></svg>
 			</a>
 			<div class="modal-body">

@@ -74,7 +74,7 @@
 <div class="fixed-sidebar">
     <div class="fixed-sidebar-left sidebar--small" id="sidebar-left">
 
-        <a href="02-ProfilePage.jsp" class="logo">
+        <a href="02ProfilePage.jsp" class="logo">
             <div class="img-wrap">
                 <img src="img/logo.png" alt="Olympus">
             </div>
@@ -83,7 +83,7 @@
         <div class="mCustomScrollbar" data-mcs-theme="dark">
             <ul class="left-menu">
                 <li>
-                    <a href="05-ProfilePage-About.jsp#" class="js-sidebar-open">
+                    <a href="profilePage.jsp#" class="js-sidebar-open">
                         <svg class="olymp-menu-icon left-menu-icon" data-toggle="tooltip" data-placement="right"
                              data-original-title="OPEN MENU">
                             <use xlink:href="svg-icons/sprites/icons.svg#olymp-menu-icon"></use>
@@ -175,7 +175,7 @@
     </div>
 
     <div class="fixed-sidebar-left sidebar--large" id="sidebar-left-1">
-        <a href="02-ProfilePage.jsp" class="logo">
+        <a href="02ProfilePage.jsp" class="logo">
             <div class="img-wrap">
                 <img src="img/logo.png" alt="Olympus">
             </div>
@@ -187,7 +187,7 @@
         <div class="mCustomScrollbar" data-mcs-theme="dark">
             <ul class="left-menu">
                 <li>
-                    <a href="05-ProfilePage-About.jsp#" class="js-sidebar-open">
+                    <a href="profilePage.jsp#" class="js-sidebar-open">
                         <svg class="olymp-close-icon left-menu-icon">
                             <use xlink:href="svg-icons/sprites/icons.svg#olymp-close-icon"></use>
                         </svg>
@@ -301,7 +301,7 @@
                 </div>
 
                 <span>Complete <a
-                        href="05-ProfilePage-About.jsp#">your profile</a> so people can know more about you!</span>
+                        href="profilePage.jsp#">your profile</a> so people can know more about you!</span>
 
             </div>
         </div>
@@ -316,14 +316,14 @@
 <div class="fixed-sidebar fixed-sidebar-responsive">
 
     <div class="fixed-sidebar-left sidebar--small" id="sidebar-left-responsive">
-        <a href="05-ProfilePage-About.jsp#" class="logo js-sidebar-open">
+        <a href="profilePage.jsp#" class="logo js-sidebar-open">
             <img src="img/logo.png" alt="Olympus">
         </a>
 
     </div>
 
     <div class="fixed-sidebar-left sidebar--large" id="sidebar-left-1-responsive">
-        <a href="05-ProfilePage-About.jsp#" class="logo">
+        <a href="profilePage.jsp#" class="logo">
             <div class="img-wrap">
                 <img src="img/logo.png" alt="Olympus">
             </div>
@@ -340,7 +340,7 @@
                         <img alt="author" src="img/author-page.jpg" class="avatar">
                         <span class="icon-status online"></span>
                     </div>
-                    <a href="02-ProfilePage.jsp" class="author-name fn">
+                    <a href="02ProfilePage.jsp" class="author-name fn">
                         <div class="author-title">
                             James Spiegel
                             <svg class="olymp-dropdown-arrow-icon">
@@ -358,7 +358,7 @@
 
             <ul class="left-menu">
                 <li>
-                    <a href="05-ProfilePage-About.jsp#" class="js-sidebar-open">
+                    <a href="profilePage.jsp#" class="js-sidebar-open">
                         <svg class="olymp-close-icon left-menu-icon">
                             <use xlink:href="svg-icons/sprites/icons.svg#olymp-close-icon"></use>
                         </svg>
@@ -447,7 +447,7 @@
                     </a>
                 </li>
                 <li>
-                    <a href="05-ProfilePage-About.jsp#">
+                    <a href="profilePage.jsp#">
                         <svg class="olymp-manage-widgets-icon left-menu-icon" data-toggle="tooltip"
                              data-placement="right" data-original-title="Manage Widgets">
                             <use xlink:href="svg-icons/sprites/icons.svg#olymp-manage-widgets-icon"></use>
@@ -463,7 +463,7 @@
 
             <ul class="account-settings">
                 <li>
-                    <a href="05-ProfilePage-About.jsp#">
+                    <a href="profilePage.jsp#">
 
                         <svg class="olymp-menu-icon">
                             <use xlink:href="svg-icons/sprites/icons.svg#olymp-menu-icon"></use>
@@ -473,7 +473,7 @@
                     </a>
                 </li>
                 <li>
-                    <a href="05-ProfilePage-About.jsp#">
+                    <a href="profilePage.jsp#">
                         <svg class="olymp-star-icon left-menu-icon" data-toggle="tooltip" data-placement="right"
                              data-original-title="FAV PAGE">
                             <use xlink:href="svg-icons/sprites/icons.svg#olymp-star-icon"></use>
@@ -483,7 +483,7 @@
                     </a>
                 </li>
                 <li>
-                    <a href="05-ProfilePage-About.jsp#">
+                    <a href="profilePage.jsp#">
                         <svg class="olymp-logout-icon">
                             <use xlink:href="svg-icons/sprites/icons.svg#olymp-logout-icon"></use>
                         </svg>
@@ -499,22 +499,22 @@
 
             <ul class="about-olympus">
                 <li>
-                    <a href="05-ProfilePage-About.jsp#">
+                    <a href="profilePage.jsp#">
                         <span>Terms and Conditions</span>
                     </a>
                 </li>
                 <li>
-                    <a href="05-ProfilePage-About.jsp#">
+                    <a href="profilePage.jsp#">
                         <span>FAQs</span>
                     </a>
                 </li>
                 <li>
-                    <a href="05-ProfilePage-About.jsp#">
+                    <a href="profilePage.jsp#">
                         <span>Careers</span>
                     </a>
                 </li>
                 <li>
-                    <a href="05-ProfilePage-About.jsp#">
+                    <a href="profilePage.jsp#">
                         <span>Contact</span>
                     </a>
                 </li>
@@ -545,7 +545,7 @@
             </div>
         </form>
 
-        <a href="05-ProfilePage-About.jsp#" class="link-find-friend">Find Friends</a>
+        <a href="profilePage.jsp#" class="link-find-friend">Find Friends</a>
 
         <div class="control-block">
 
@@ -558,8 +558,8 @@
                 <div class="more-dropdown more-with-triangle triangle-top-center">
                     <div class="ui-block-title ui-block-title-small">
                         <h6 class="title">FRIEND REQUESTS</h6>
-                        <a href="05-ProfilePage-About.jsp#">Find Friends</a>
-                        <a href="05-ProfilePage-About.jsp#">Settings</a>
+                        <a href="profilePage.jsp#">Find Friends</a>
+                        <a href="profilePage.jsp#">Settings</a>
                     </div>
 
                     <div class="mCustomScrollbar" data-mcs-theme="dark">
@@ -569,19 +569,19 @@
                                     <img src="img/avatar55-sm.jpg" alt="author">
                                 </div>
                                 <div class="notification-event">
-                                    <a href="05-ProfilePage-About.jsp#" class="h6 notification-friend">Tamara
+                                    <a href="profilePage.jsp#" class="h6 notification-friend">Tamara
                                         Romanoff</a>
                                     <span class="chat-message-item">Mutual Friend: Sarah Hetfield</span>
                                 </div>
                                 <span class="notification-icon">
-									<a href="05-ProfilePage-About.jsp#" class="accept-request">
+									<a href="profilePage.jsp#" class="accept-request">
 										<span class="icon-add without-text">
 											<svg class="olymp-happy-face-icon"><use
                                                     xlink:href="svg-icons/sprites/icons.svg#olymp-happy-face-icon"></use></svg>
 										</span>
 									</a>
 
-									<a href="05-ProfilePage-About.jsp#" class="accept-request request-del">
+									<a href="profilePage.jsp#" class="accept-request request-del">
 										<span class="icon-minus">
 											<svg class="olymp-happy-face-icon"><use
                                                     xlink:href="svg-icons/sprites/icons.svg#olymp-happy-face-icon"></use></svg>
@@ -602,18 +602,18 @@
                                     <img src="img/avatar56-sm.jpg" alt="author">
                                 </div>
                                 <div class="notification-event">
-                                    <a href="05-ProfilePage-About.jsp#" class="h6 notification-friend">Tony Stevens</a>
+                                    <a href="profilePage.jsp#" class="h6 notification-friend">Tony Stevens</a>
                                     <span class="chat-message-item">4 Friends in Common</span>
                                 </div>
                                 <span class="notification-icon">
-									<a href="05-ProfilePage-About.jsp#" class="accept-request">
+									<a href="profilePage.jsp#" class="accept-request">
 										<span class="icon-add without-text">
 											<svg class="olymp-happy-face-icon"><use
                                                     xlink:href="svg-icons/sprites/icons.svg#olymp-happy-face-icon"></use></svg>
 										</span>
 									</a>
 
-									<a href="05-ProfilePage-About.jsp#" class="accept-request request-del">
+									<a href="profilePage.jsp#" class="accept-request request-del">
 										<span class="icon-minus">
 											<svg class="olymp-happy-face-icon"><use
                                                     xlink:href="svg-icons/sprites/icons.svg#olymp-happy-face-icon"></use></svg>
@@ -634,8 +634,8 @@
                                     <img src="img/avatar57-sm.jpg" alt="author">
                                 </div>
                                 <div class="notification-event">
-                                    You and <a href="05-ProfilePage-About.jsp#" class="h6 notification-friend">Mary Jane
-                                    Stark</a> just became friends. Write on <a href="05-ProfilePage-About.jsp#"
+                                    You and <a href="profilePage.jsp#" class="h6 notification-friend">Mary Jane
+                                    Stark</a> just became friends. Write on <a href="profilePage.jsp#"
                                                                                class="notification-link">her wall</a>.
                                 </div>
                                 <span class="notification-icon">
@@ -658,19 +658,19 @@
                                     <img src="img/avatar58-sm.jpg" alt="author">
                                 </div>
                                 <div class="notification-event">
-                                    <a href="05-ProfilePage-About.jsp#" class="h6 notification-friend">Stagg
+                                    <a href="profilePage.jsp#" class="h6 notification-friend">Stagg
                                         Clothing</a>
                                     <span class="chat-message-item">9 Friends in Common</span>
                                 </div>
                                 <span class="notification-icon">
-									<a href="05-ProfilePage-About.jsp#" class="accept-request">
+									<a href="profilePage.jsp#" class="accept-request">
 										<span class="icon-add without-text">
 											<svg class="olymp-happy-face-icon"><use
                                                     xlink:href="svg-icons/sprites/icons.svg#olymp-happy-face-icon"></use></svg>
 										</span>
 									</a>
 
-									<a href="05-ProfilePage-About.jsp#" class="accept-request request-del">
+									<a href="profilePage.jsp#" class="accept-request request-del">
 										<span class="icon-minus">
 											<svg class="olymp-happy-face-icon"><use
                                                     xlink:href="svg-icons/sprites/icons.svg#olymp-happy-face-icon"></use></svg>
@@ -689,7 +689,7 @@
                         </ul>
                     </div>
 
-                    <a href="05-ProfilePage-About.jsp#" class="view-all bg-blue">Check all your Events</a>
+                    <a href="profilePage.jsp#" class="view-all bg-blue">Check all your Events</a>
                 </div>
             </div>
 
@@ -702,8 +702,8 @@
                 <div class="more-dropdown more-with-triangle triangle-top-center">
                     <div class="ui-block-title ui-block-title-small">
                         <h6 class="title">Chat / Messages</h6>
-                        <a href="05-ProfilePage-About.jsp#">Mark all as read</a>
-                        <a href="05-ProfilePage-About.jsp#">Settings</a>
+                        <a href="profilePage.jsp#">Mark all as read</a>
+                        <a href="profilePage.jsp#">Settings</a>
                     </div>
 
                     <div class="mCustomScrollbar" data-mcs-theme="dark">
@@ -713,7 +713,7 @@
                                     <img src="img/avatar59-sm.jpg" alt="author">
                                 </div>
                                 <div class="notification-event">
-                                    <a href="05-ProfilePage-About.jsp#" class="h6 notification-friend">Diana Jameson</a>
+                                    <a href="profilePage.jsp#" class="h6 notification-friend">Diana Jameson</a>
                                     <span class="chat-message-item">Hi James! It’s Diana, I just wanted to let you know that we have to reschedule...</span>
                                     <span class="notification-date"><time class="entry-date updated"
                                                                           datetime="2004-07-24T18:18">4 hours ago</time></span>
@@ -734,7 +734,7 @@
                                     <img src="img/avatar60-sm.jpg" alt="author">
                                 </div>
                                 <div class="notification-event">
-                                    <a href="05-ProfilePage-About.jsp#" class="h6 notification-friend">Jake Parker</a>
+                                    <a href="profilePage.jsp#" class="h6 notification-friend">Jake Parker</a>
                                     <span class="chat-message-item">Great, I’ll see you tomorrow!.</span>
                                     <span class="notification-date"><time class="entry-date updated"
                                                                           datetime="2004-07-24T18:18">4 hours ago</time></span>
@@ -755,7 +755,7 @@
                                     <img src="img/avatar61-sm.jpg" alt="author">
                                 </div>
                                 <div class="notification-event">
-                                    <a href="05-ProfilePage-About.jsp#" class="h6 notification-friend">Elaine
+                                    <a href="profilePage.jsp#" class="h6 notification-friend">Elaine
                                         Dreyfuss</a>
                                     <span class="chat-message-item">We’ll have to check that at the office and see if the client is on board with...</span>
                                     <span class="notification-date"><time class="entry-date updated"
@@ -780,7 +780,7 @@
                                     <img src="img/avatar10-sm.jpg" alt="author">
                                 </div>
                                 <div class="notification-event">
-                                    <a href="05-ProfilePage-About.jsp#" class="h6 notification-friend">You, Faye, Ed
+                                    <a href="profilePage.jsp#" class="h6 notification-friend">You, Faye, Ed
                                         &amp; Jet +3</a>
                                     <span class="last-message-author">Ed:</span>
                                     <span class="chat-message-item">Yeah! Seems fine by me!</span>
@@ -800,7 +800,7 @@
                         </ul>
                     </div>
 
-                    <a href="05-ProfilePage-About.jsp#" class="view-all bg-purple">View All Messages</a>
+                    <a href="profilePage.jsp#" class="view-all bg-purple">View All Messages</a>
                 </div>
             </div>
 
@@ -814,8 +814,8 @@
                 <div class="more-dropdown more-with-triangle triangle-top-center">
                     <div class="ui-block-title ui-block-title-small">
                         <h6 class="title">Notifications</h6>
-                        <a href="05-ProfilePage-About.jsp#">Mark all as read</a>
-                        <a href="05-ProfilePage-About.jsp#">Settings</a>
+                        <a href="profilePage.jsp#">Mark all as read</a>
+                        <a href="profilePage.jsp#">Settings</a>
                     </div>
 
                     <div class="mCustomScrollbar" data-mcs-theme="dark">
@@ -825,8 +825,8 @@
                                     <img src="img/avatar62-sm.jpg" alt="author">
                                 </div>
                                 <div class="notification-event">
-                                    <div><a href="05-ProfilePage-About.jsp#" class="h6 notification-friend">Mathilda
-                                        Brinker</a> commented on your new <a href="05-ProfilePage-About.jsp#"
+                                    <div><a href="profilePage.jsp#" class="h6 notification-friend">Mathilda
+                                        Brinker</a> commented on your new <a href="profilePage.jsp#"
                                                                              class="notification-link">profile
                                         status</a>.
                                     </div>
@@ -853,8 +853,8 @@
                                     <img src="img/avatar63-sm.jpg" alt="author">
                                 </div>
                                 <div class="notification-event">
-                                    <div>You and <a href="05-ProfilePage-About.jsp#" class="h6 notification-friend">Nicholas
-                                        Grissom</a> just became friends. Write on <a href="05-ProfilePage-About.jsp#"
+                                    <div>You and <a href="profilePage.jsp#" class="h6 notification-friend">Nicholas
+                                        Grissom</a> just became friends. Write on <a href="profilePage.jsp#"
                                                                                      class="notification-link">his
                                         wall</a>.
                                     </div>
@@ -881,8 +881,8 @@
                                     <img src="img/avatar64-sm.jpg" alt="author">
                                 </div>
                                 <div class="notification-event">
-                                    <div><a href="05-ProfilePage-About.jsp#" class="h6 notification-friend">Sarah
-                                        Hetfield</a> commented on your <a href="05-ProfilePage-About.jsp#"
+                                    <div><a href="profilePage.jsp#" class="h6 notification-friend">Sarah
+                                        Hetfield</a> commented on your <a href="profilePage.jsp#"
                                                                           class="notification-link">photo</a>.
                                     </div>
                                     <span class="notification-date"><time class="entry-date updated"
@@ -913,9 +913,9 @@
                                     <img src="img/avatar65-sm.jpg" alt="author">
                                 </div>
                                 <div class="notification-event">
-                                    <div><a href="05-ProfilePage-About.jsp#" class="h6 notification-friend">Green Goo
+                                    <div><a href="profilePage.jsp#" class="h6 notification-friend">Green Goo
                                         Rock</a> invited you to attend to his event Goo in <a
-                                            href="05-ProfilePage-About.jsp#" class="notification-link">Gotham Bar</a>.
+                                            href="profilePage.jsp#" class="notification-link">Gotham Bar</a>.
                                     </div>
                                     <span class="notification-date"><time class="entry-date updated"
                                                                           datetime="2004-07-24T18:18">March 5th at 6:43pm</time></span>
@@ -940,8 +940,8 @@
                                     <img src="img/avatar66-sm.jpg" alt="author">
                                 </div>
                                 <div class="notification-event">
-                                    <div><a href="05-ProfilePage-About.jsp#" class="h6 notification-friend">James
-                                        Summers</a> commented on your new <a href="05-ProfilePage-About.jsp#"
+                                    <div><a href="profilePage.jsp#" class="h6 notification-friend">James
+                                        Summers</a> commented on your new <a href="profilePage.jsp#"
                                                                              class="notification-link">profile
                                         status</a>.
                                     </div>
@@ -965,7 +965,7 @@
                         </ul>
                     </div>
 
-                    <a href="05-ProfilePage-About.jsp#" class="view-all bg-primary">View All Notifications</a>
+                    <a href="profilePage.jsp#" class="view-all bg-primary">View All Notifications</a>
                 </div>
             </div>
 
@@ -981,7 +981,7 @@
 
                             <ul class="account-settings">
                                 <li>
-                                    <a href="29-YourAccount-AccountSettings.jsp">
+                                    <a href="29YourAccountAccountSettings.jsp">
 
                                         <svg class="olymp-menu-icon">
                                             <use xlink:href="svg-icons/sprites/icons.svg#olymp-menu-icon"></use>
@@ -1001,7 +1001,7 @@
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="05-ProfilePage-About.jsp#">
+                                    <a href="profilePage.jsp#">
                                         <svg class="olymp-logout-icon">
                                             <use xlink:href="svg-icons/sprites/icons.svg#olymp-logout-icon"></use>
                                         </svg>
@@ -1017,26 +1017,26 @@
 
                             <ul class="chat-settings">
                                 <li>
-                                    <a href="05-ProfilePage-About.jsp#">
+                                    <a href="profilePage.jsp#">
                                         <span class="icon-status online"></span>
                                         <span>Online</span>
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="05-ProfilePage-About.jsp#">
+                                    <a href="profilePage.jsp#">
                                         <span class="icon-status away"></span>
                                         <span>Away</span>
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="05-ProfilePage-About.jsp#">
+                                    <a href="profilePage.jsp#">
                                         <span class="icon-status disconected"></span>
                                         <span>Disconnected</span>
                                     </a>
                                 </li>
 
                                 <li>
-                                    <a href="05-ProfilePage-About.jsp#">
+                                    <a href="profilePage.jsp#">
                                         <span class="icon-status status-invisible"></span>
                                         <span>Invisible</span>
                                     </a>
@@ -1063,22 +1063,22 @@
 
                             <ul>
                                 <li>
-                                    <a href="05-ProfilePage-About.jsp#">
+                                    <a href="profilePage.jsp#">
                                         <span>Terms and Conditions</span>
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="05-ProfilePage-About.jsp#">
+                                    <a href="profilePage.jsp#">
                                         <span>FAQs</span>
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="05-ProfilePage-About.jsp#">
+                                    <a href="profilePage.jsp#">
                                         <span>Careers</span>
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="05-ProfilePage-About.jsp#">
+                                    <a href="profilePage.jsp#">
                                         <span>Contact</span>
                                     </a>
                                 </li>
@@ -1087,7 +1087,7 @@
 
                     </div>
                 </div>
-                <a href="02-ProfilePage.jsp" class="author-name fn">
+                <a href="02ProfilePage.jsp" class="author-name fn">
                     <div class="author-title">
                         James Spiegel
                         <svg class="olymp-dropdown-arrow-icon">
@@ -1113,7 +1113,7 @@
     <div class="header-content-wrapper">
         <ul class="nav nav-tabs mobile-app-tabs" role="tablist">
             <li class="nav-item">
-                <a class="nav-link" data-toggle="tab" href="05-ProfilePage-About.jsp#request" role="tab">
+                <a class="nav-link" data-toggle="tab" href="profilePage.jsp#request" role="tab">
                     <div class="control-icon has-items">
                         <svg class="olymp-happy-face-icon">
                             <use xlink:href="svg-icons/sprites/icons.svg#olymp-happy-face-icon"></use>
@@ -1124,7 +1124,7 @@
             </li>
 
             <li class="nav-item">
-                <a class="nav-link" data-toggle="tab" href="05-ProfilePage-About.jsp#chat" role="tab">
+                <a class="nav-link" data-toggle="tab" href="profilePage.jsp#chat" role="tab">
                     <div class="control-icon has-items">
                         <svg class="olymp-chat---messages-icon">
                             <use xlink:href="svg-icons/sprites/icons.svg#olymp-chat---messages-icon"></use>
@@ -1135,7 +1135,7 @@
             </li>
 
             <li class="nav-item">
-                <a class="nav-link" data-toggle="tab" href="05-ProfilePage-About.jsp#notification" role="tab">
+                <a class="nav-link" data-toggle="tab" href="profilePage.jsp#notification" role="tab">
                     <div class="control-icon has-items">
                         <svg class="olymp-thunder-icon">
                             <use xlink:href="svg-icons/sprites/icons.svg#olymp-thunder-icon"></use>
@@ -1146,7 +1146,7 @@
             </li>
 
             <li class="nav-item">
-                <a class="nav-link" data-toggle="tab" href="05-ProfilePage-About.jsp#search" role="tab">
+                <a class="nav-link" data-toggle="tab" href="profilePage.jsp#search" role="tab">
                     <svg class="olymp-magnifying-glass-icon">
                         <use xlink:href="svg-icons/sprites/icons.svg#olymp-magnifying-glass-icon"></use>
                     </svg>
@@ -1166,8 +1166,8 @@
             <div class="mCustomScrollbar" data-mcs-theme="dark">
                 <div class="ui-block-title ui-block-title-small">
                     <h6 class="title">FRIEND REQUESTS</h6>
-                    <a href="05-ProfilePage-About.jsp#">Find Friends</a>
-                    <a href="05-ProfilePage-About.jsp#">Settings</a>
+                    <a href="profilePage.jsp#">Find Friends</a>
+                    <a href="profilePage.jsp#">Settings</a>
                 </div>
                 <ul class="notification-list friend-requests">
                     <li>
@@ -1175,18 +1175,18 @@
                             <img src="img/avatar55-sm.jpg" alt="author">
                         </div>
                         <div class="notification-event">
-                            <a href="05-ProfilePage-About.jsp#" class="h6 notification-friend">Tamara Romanoff</a>
+                            <a href="profilePage.jsp#" class="h6 notification-friend">Tamara Romanoff</a>
                             <span class="chat-message-item">Mutual Friend: Sarah Hetfield</span>
                         </div>
                         <span class="notification-icon">
-										<a href="05-ProfilePage-About.jsp#" class="accept-request">
+										<a href="profilePage.jsp#" class="accept-request">
 											<span class="icon-add without-text">
 												<svg class="olymp-happy-face-icon"><use
                                                         xlink:href="svg-icons/sprites/icons.svg#olymp-happy-face-icon"></use></svg>
 											</span>
 										</a>
 
-										<a href="05-ProfilePage-About.jsp#" class="accept-request request-del">
+										<a href="profilePage.jsp#" class="accept-request request-del">
 											<span class="icon-minus">
 												<svg class="olymp-happy-face-icon"><use
                                                         xlink:href="svg-icons/sprites/icons.svg#olymp-happy-face-icon"></use></svg>
@@ -1206,18 +1206,18 @@
                             <img src="img/avatar56-sm.jpg" alt="author">
                         </div>
                         <div class="notification-event">
-                            <a href="05-ProfilePage-About.jsp#" class="h6 notification-friend">Tony Stevens</a>
+                            <a href="profilePage.jsp#" class="h6 notification-friend">Tony Stevens</a>
                             <span class="chat-message-item">4 Friends in Common</span>
                         </div>
                         <span class="notification-icon">
-										<a href="05-ProfilePage-About.jsp#" class="accept-request">
+										<a href="profilePage.jsp#" class="accept-request">
 											<span class="icon-add without-text">
 												<svg class="olymp-happy-face-icon"><use
                                                         xlink:href="svg-icons/sprites/icons.svg#olymp-happy-face-icon"></use></svg>
 											</span>
 										</a>
 
-										<a href="05-ProfilePage-About.jsp#" class="accept-request request-del">
+										<a href="profilePage.jsp#" class="accept-request request-del">
 											<span class="icon-minus">
 												<svg class="olymp-happy-face-icon"><use
                                                         xlink:href="svg-icons/sprites/icons.svg#olymp-happy-face-icon"></use></svg>
@@ -1237,8 +1237,8 @@
                             <img src="img/avatar57-sm.jpg" alt="author">
                         </div>
                         <div class="notification-event">
-                            You and <a href="05-ProfilePage-About.jsp#" class="h6 notification-friend">Mary Jane
-                            Stark</a> just became friends. Write on <a href="05-ProfilePage-About.jsp#"
+                            You and <a href="profilePage.jsp#" class="h6 notification-friend">Mary Jane
+                            Stark</a> just became friends. Write on <a href="profilePage.jsp#"
                                                                        class="notification-link">her wall</a>.
                         </div>
                         <span class="notification-icon">
@@ -1260,18 +1260,18 @@
                             <img src="img/avatar58-sm.jpg" alt="author">
                         </div>
                         <div class="notification-event">
-                            <a href="05-ProfilePage-About.jsp#" class="h6 notification-friend">Stagg Clothing</a>
+                            <a href="profilePage.jsp#" class="h6 notification-friend">Stagg Clothing</a>
                             <span class="chat-message-item">9 Friends in Common</span>
                         </div>
                         <span class="notification-icon">
-										<a href="05-ProfilePage-About.jsp#" class="accept-request">
+										<a href="profilePage.jsp#" class="accept-request">
 											<span class="icon-add without-text">
 												<svg class="olymp-happy-face-icon"><use
                                                         xlink:href="svg-icons/sprites/icons.svg#olymp-happy-face-icon"></use></svg>
 											</span>
 										</a>
 
-										<a href="05-ProfilePage-About.jsp#" class="accept-request request-del">
+										<a href="profilePage.jsp#" class="accept-request request-del">
 											<span class="icon-minus">
 												<svg class="olymp-happy-face-icon"><use
                                                         xlink:href="svg-icons/sprites/icons.svg#olymp-happy-face-icon"></use></svg>
@@ -1287,7 +1287,7 @@
                         </div>
                     </li>
                 </ul>
-                <a href="05-ProfilePage-About.jsp#" class="view-all bg-blue">Check all your Events</a>
+                <a href="profilePage.jsp#" class="view-all bg-blue">Check all your Events</a>
             </div>
 
         </div>
@@ -1297,8 +1297,8 @@
             <div class="mCustomScrollbar" data-mcs-theme="dark">
                 <div class="ui-block-title ui-block-title-small">
                     <h6 class="title">Chat / Messages</h6>
-                    <a href="05-ProfilePage-About.jsp#">Mark all as read</a>
-                    <a href="05-ProfilePage-About.jsp#">Settings</a>
+                    <a href="profilePage.jsp#">Mark all as read</a>
+                    <a href="profilePage.jsp#">Settings</a>
                 </div>
 
                 <ul class="notification-list chat-message">
@@ -1307,7 +1307,7 @@
                             <img src="img/avatar59-sm.jpg" alt="author">
                         </div>
                         <div class="notification-event">
-                            <a href="05-ProfilePage-About.jsp#" class="h6 notification-friend">Diana Jameson</a>
+                            <a href="profilePage.jsp#" class="h6 notification-friend">Diana Jameson</a>
                             <span class="chat-message-item">Hi James! It’s Diana, I just wanted to let you know that we have to reschedule...</span>
                             <span class="notification-date"><time class="entry-date updated"
                                                                   datetime="2004-07-24T18:18">4 hours ago</time></span>
@@ -1328,7 +1328,7 @@
                             <img src="img/avatar60-sm.jpg" alt="author">
                         </div>
                         <div class="notification-event">
-                            <a href="05-ProfilePage-About.jsp#" class="h6 notification-friend">Jake Parker</a>
+                            <a href="profilePage.jsp#" class="h6 notification-friend">Jake Parker</a>
                             <span class="chat-message-item">Great, I’ll see you tomorrow!.</span>
                             <span class="notification-date"><time class="entry-date updated"
                                                                   datetime="2004-07-24T18:18">4 hours ago</time></span>
@@ -1349,7 +1349,7 @@
                             <img src="img/avatar61-sm.jpg" alt="author">
                         </div>
                         <div class="notification-event">
-                            <a href="05-ProfilePage-About.jsp#" class="h6 notification-friend">Elaine Dreyfuss</a>
+                            <a href="profilePage.jsp#" class="h6 notification-friend">Elaine Dreyfuss</a>
                             <span class="chat-message-item">We’ll have to check that at the office and see if the client is on board with...</span>
                             <span class="notification-date"><time class="entry-date updated"
                                                                   datetime="2004-07-24T18:18">Yesterday at 9:56pm</time></span>
@@ -1373,7 +1373,7 @@
                             <img src="img/avatar10-sm.jpg" alt="author">
                         </div>
                         <div class="notification-event">
-                            <a href="05-ProfilePage-About.jsp#" class="h6 notification-friend">You, Faye, Ed &amp; Jet
+                            <a href="profilePage.jsp#" class="h6 notification-friend">You, Faye, Ed &amp; Jet
                                 +3</a>
                             <span class="last-message-author">Ed:</span>
                             <span class="chat-message-item">Yeah! Seems fine by me!</span>
@@ -1392,7 +1392,7 @@
                     </li>
                 </ul>
 
-                <a href="05-ProfilePage-About.jsp#" class="view-all bg-purple">View All Messages</a>
+                <a href="profilePage.jsp#" class="view-all bg-purple">View All Messages</a>
             </div>
 
         </div>
@@ -1402,8 +1402,8 @@
             <div class="mCustomScrollbar" data-mcs-theme="dark">
                 <div class="ui-block-title ui-block-title-small">
                     <h6 class="title">Notifications</h6>
-                    <a href="05-ProfilePage-About.jsp#">Mark all as read</a>
-                    <a href="05-ProfilePage-About.jsp#">Settings</a>
+                    <a href="profilePage.jsp#">Mark all as read</a>
+                    <a href="profilePage.jsp#">Settings</a>
                 </div>
 
                 <ul class="notification-list">
@@ -1412,8 +1412,8 @@
                             <img src="img/avatar62-sm.jpg" alt="author">
                         </div>
                         <div class="notification-event">
-                            <div><a href="05-ProfilePage-About.jsp#" class="h6 notification-friend">Mathilda Brinker</a>
-                                commented on your new <a href="05-ProfilePage-About.jsp#" class="notification-link">profile
+                            <div><a href="profilePage.jsp#" class="h6 notification-friend">Mathilda Brinker</a>
+                                commented on your new <a href="profilePage.jsp#" class="notification-link">profile
                                     status</a>.
                             </div>
                             <span class="notification-date"><time class="entry-date updated"
@@ -1439,8 +1439,8 @@
                             <img src="img/avatar63-sm.jpg" alt="author">
                         </div>
                         <div class="notification-event">
-                            <div>You and <a href="05-ProfilePage-About.jsp#" class="h6 notification-friend">Nicholas
-                                Grissom</a> just became friends. Write on <a href="05-ProfilePage-About.jsp#"
+                            <div>You and <a href="profilePage.jsp#" class="h6 notification-friend">Nicholas
+                                Grissom</a> just became friends. Write on <a href="profilePage.jsp#"
                                                                              class="notification-link">his wall</a>.
                             </div>
                             <span class="notification-date"><time class="entry-date updated"
@@ -1466,8 +1466,8 @@
                             <img src="img/avatar64-sm.jpg" alt="author">
                         </div>
                         <div class="notification-event">
-                            <div><a href="05-ProfilePage-About.jsp#" class="h6 notification-friend">Sarah Hetfield</a>
-                                commented on your <a href="05-ProfilePage-About.jsp#"
+                            <div><a href="profilePage.jsp#" class="h6 notification-friend">Sarah Hetfield</a>
+                                commented on your <a href="profilePage.jsp#"
                                                      class="notification-link">photo</a>.
                             </div>
                             <span class="notification-date"><time class="entry-date updated"
@@ -1498,8 +1498,8 @@
                             <img src="img/avatar65-sm.jpg" alt="author">
                         </div>
                         <div class="notification-event">
-                            <div><a href="05-ProfilePage-About.jsp#" class="h6 notification-friend">Green Goo Rock</a>
-                                invited you to attend to his event Goo in <a href="05-ProfilePage-About.jsp#"
+                            <div><a href="profilePage.jsp#" class="h6 notification-friend">Green Goo Rock</a>
+                                invited you to attend to his event Goo in <a href="profilePage.jsp#"
                                                                              class="notification-link">Gotham Bar</a>.
                             </div>
                             <span class="notification-date"><time class="entry-date updated"
@@ -1525,8 +1525,8 @@
                             <img src="img/avatar66-sm.jpg" alt="author">
                         </div>
                         <div class="notification-event">
-                            <div><a href="05-ProfilePage-About.jsp#" class="h6 notification-friend">James Summers</a>
-                                commented on your new <a href="05-ProfilePage-About.jsp#" class="notification-link">profile
+                            <div><a href="profilePage.jsp#" class="h6 notification-friend">James Summers</a>
+                                commented on your new <a href="profilePage.jsp#" class="notification-link">profile
                                     status</a>.
                             </div>
                             <span class="notification-date"><time class="entry-date updated"
@@ -1548,7 +1548,7 @@
                     </li>
                 </ul>
 
-                <a href="05-ProfilePage-About.jsp#" class="view-all bg-primary">View All Notifications</a>
+                <a href="profilePage.jsp#" class="view-all bg-primary">View All Notifications</a>
             </div>
 
         </div>
@@ -1589,17 +1589,17 @@
                             <div class="col col-lg-5 col-md-5 col-sm-12 col-12">
                                 <ul class="profile-menu">
                                     <li>
-                                        <a href="29-YourAccount-AccountSettings.jsp" class="active">Edit Profile</a>
+                                        <a href="29YourAccountAccountSettings.jsp" class="active">Edit Profile</a>
                                     </li>
                                     <li>
                                     <li>
-                                        <a href="02-ProfilePage.jsp" class="active">Timeline</a>
+                                        <a href="02ProfilePage.jsp" class="active">Timeline</a>
                                     </li>
                                     <li>
-                                        <a href="05-ProfilePage-About.jsp">About</a>
+                                        <a href="profilePage.jsp">About</a>
                                     </li>
                                     <li>
-                                        <a href="06-ProfilePage.html">Friends</a>
+                                        <a href="06ProfilePage.html">Friends</a>
                                     </li>
                                 </ul>
                             </div>
@@ -1618,10 +1618,10 @@
                                             </svg>
                                             <ul class="more-dropdown more-with-triangle">
                                                 <li>
-                                                    <a href="05-ProfilePage-About.jsp#">Report Profile</a>
+                                                    <a href="profilePage.jsp#">Report Profile</a>
                                                 </li>
                                                 <li>
-                                                    <a href="05-ProfilePage-About.jsp#">Block Profile</a>
+                                                    <a href="profilePage.jsp#">Block Profile</a>
                                                 </li>
                                             </ul>
                                         </div>
@@ -1637,7 +1637,7 @@
                                 </svg>
                             </a>
 
-                            <a href="05-ProfilePage-About.jsp#" class="btn btn-control bg-purple">
+                            <a href="profilePage.jsp#" class="btn btn-control bg-purple">
                                 <svg class="olymp-chat---messages-icon">
                                     <use xlink:href="svg-icons/sprites/icons.svg#olymp-chat---messages-icon"></use>
                                 </svg>
@@ -1650,26 +1650,26 @@
 
                                 <ul class="more-dropdown more-with-triangle triangle-bottom-right">
                                     <li>
-                                        <a href="05-ProfilePage-About.jsp#" data-toggle="modal"
+                                        <a href="profilePage.jsp#" data-toggle="modal"
                                            data-target="#update-header-photo">Update Profile Photo</a>
                                     </li>
                                     <li>
-                                        <a href="05-ProfilePage-About.jsp#" data-toggle="modal"
+                                        <a href="profilePage.jsp#" data-toggle="modal"
                                            data-target="#update-header-photo">Update Header Photo</a>
                                     </li>
                                     <li>
-                                        <a href="29-YourAccount-AccountSettings.jsp">Account Settings</a>
+                                        <a href="29YourAccountAccountSettings.jsp">Account Settings</a>
                                     </li>
                                 </ul>
                             </div>
                         </div>
                     </div>
                     <div class="top-header-author">
-                        <a href="02-ProfilePage.jsp" class="author-thumb">
+                        <a href="02ProfilePage.jsp" class="author-thumb">
                             <img src="img/author-main1.jpg" alt="author">
                         </a>
                         <div class="author-content">
-                            <a href="02-ProfilePage.jsp" class="h4 author-name">James Spiegel</a>
+                            <a href="02ProfilePage.jsp" class="h4 author-name">James Spiegel</a>
                             <div class="country">${profile.personalInformation.country},
 								${profile.personalInformation.state}, ${profile.personalInformation.city}</div>
                         </div>
@@ -1688,7 +1688,7 @@
             <div class="ui-block">
                 <div class="ui-block-title">
                     <h6 class="title">Hobbies and Interests</h6>
-                    <a href="05-ProfilePage-About.jsp#" class="more">
+                    <a href="profilePage.jsp#" class="more">
                         <svg class="olymp-three-dots-icon">
                             <use xlink:href="svg-icons/sprites/icons.svg#olymp-three-dots-icon"></use>
                         </svg>
@@ -1758,7 +1758,7 @@
             <div class="ui-block">
                 <div class="ui-block-title">
                     <h6 class="title">Education and Employement</h6>
-                    <a href="05-ProfilePage-About.jsp#" class="more">
+                    <a href="profilePage.jsp#" class="more">
                         <svg class="olymp-three-dots-icon">
                             <use xlink:href="svg-icons/sprites/icons.svg#olymp-three-dots-icon"></use>
                         </svg>
@@ -1826,7 +1826,7 @@
             <div class="ui-block">
                 <div class="ui-block-title">
                     <h6 class="title">Personal Info</h6>
-                    <a href="05-ProfilePage-About.jsp#" class="more">
+                    <a href="profilePage.jsp#" class="more">
                         <svg class="olymp-three-dots-icon">
                             <use xlink:href="svg-icons/sprites/icons.svg#olymp-three-dots-icon"></use>
                         </svg>
@@ -1869,7 +1869,7 @@
                         </li>
                         <li>
                             <span class="title">Email:</span>
-                            <a href="05-ProfilePage-About.jsp#" class="text">${user.email}</a>
+                            <a href="profilePage.jsp#" class="text">${user.email}</a>
                         </li>
                         <li>
                             <span class="title">Website:</span>
@@ -1920,7 +1920,7 @@
      aria-hidden="true">
     <div class="modal-dialog window-popup update-header-photo" role="document">
         <div class="modal-content">
-            <a href="05-ProfilePage-About.jsp#" class="close icon-close" data-dismiss="modal" aria-label="Close">
+            <a href="profilePage.jsp#" class="close icon-close" data-dismiss="modal" aria-label="Close">
                 <svg class="olymp-close-icon">
                     <use xlink:href="svg-icons/sprites/icons.svg#olymp-close-icon"></use>
                 </svg>
@@ -1931,7 +1931,7 @@
             </div>
 
             <div class="modal-body">
-                <a href="05-ProfilePage-About.jsp#" class="upload-photo-item">
+                <a href="profilePage.jsp#" class="upload-photo-item">
                     <svg class="olymp-computer-icon">
                         <use xlink:href="svg-icons/sprites/icons.svg#olymp-computer-icon"></use>
                     </svg>
@@ -1940,7 +1940,7 @@
                     <span>Browse your computer.</span>
                 </a>
 
-                <a href="05-ProfilePage-About.jsp#" class="upload-photo-item" data-toggle="modal"
+                <a href="profilePage.jsp#" class="upload-photo-item" data-toggle="modal"
                    data-target="#choose-from-my-photo">
 
                     <svg class="olymp-photos-icon">
@@ -1965,7 +1965,7 @@
     <div class="modal-dialog window-popup choose-from-my-photo" role="document">
 
         <div class="modal-content">
-            <a href="05-ProfilePage-About.jsp#" class="close icon-close" data-dismiss="modal" aria-label="Close">
+            <a href="profilePage.jsp#" class="close icon-close" data-dismiss="modal" aria-label="Close">
                 <svg class="olymp-close-icon">
                     <use xlink:href="svg-icons/sprites/icons.svg#olymp-close-icon"></use>
                 </svg>
@@ -1976,7 +1976,7 @@
                 <!-- Nav tabs -->
                 <ul class="nav nav-tabs" role="tablist">
                     <li class="nav-item">
-                        <a class="nav-link active" data-toggle="tab" href="05-ProfilePage-About.jsp#home" role="tab"
+                        <a class="nav-link active" data-toggle="tab" href="profilePage.jsp#home" role="tab"
                            aria-expanded="true">
                             <svg class="olymp-photos-icon">
                                 <use xlink:href="svg-icons/sprites/icons.svg#olymp-photos-icon"></use>
@@ -1984,7 +1984,7 @@
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" data-toggle="tab" href="05-ProfilePage-About.jsp#profile" role="tab"
+                        <a class="nav-link" data-toggle="tab" href="profilePage.jsp#profile" role="tab"
                            aria-expanded="false">
                             <svg class="olymp-albums-icon">
                                 <use xlink:href="svg-icons/sprites/icons.svg#olymp-albums-icon"></use>
@@ -2075,8 +2075,8 @@
                         </div>
 
 
-                        <a href="05-ProfilePage-About.jsp#" class="btn btn-secondary btn-lg btn--half-width">Cancel</a>
-                        <a href="05-ProfilePage-About.jsp#" class="btn btn-primary btn-lg btn--half-width">Confirm
+                        <a href="profilePage.jsp#" class="btn btn-secondary btn-lg btn--half-width">Cancel</a>
+                        <a href="profilePage.jsp#" class="btn btn-primary btn-lg btn--half-width">Confirm
                             Photo</a>
 
                     </div>
@@ -2086,7 +2086,7 @@
                             <figure>
                                 <img src="img/choose-photo10.jpg" alt="photo">
                                 <figcaption>
-                                    <a href="05-ProfilePage-About.jsp#">South America Vacations</a>
+                                    <a href="profilePage.jsp#">South America Vacations</a>
                                     <span>Last Added: 2 hours ago</span>
                                 </figcaption>
                             </figure>
@@ -2095,7 +2095,7 @@
                             <figure>
                                 <img src="img/choose-photo11.jpg" alt="photo">
                                 <figcaption>
-                                    <a href="05-ProfilePage-About.jsp#">Photoshoot Summer 2016</a>
+                                    <a href="profilePage.jsp#">Photoshoot Summer 2016</a>
                                     <span>Last Added: 5 weeks ago</span>
                                 </figcaption>
                             </figure>
@@ -2104,7 +2104,7 @@
                             <figure>
                                 <img src="img/choose-photo12.jpg" alt="photo">
                                 <figcaption>
-                                    <a href="05-ProfilePage-About.jsp#">Amazing Street Food</a>
+                                    <a href="profilePage.jsp#">Amazing Street Food</a>
                                     <span>Last Added: 6 mins ago</span>
                                 </figcaption>
                             </figure>
@@ -2114,7 +2114,7 @@
                             <figure>
                                 <img src="img/choose-photo13.jpg" alt="photo">
                                 <figcaption>
-                                    <a href="05-ProfilePage-About.jsp#">Graffity & Street Art</a>
+                                    <a href="profilePage.jsp#">Graffity & Street Art</a>
                                     <span>Last Added: 16 hours ago</span>
                                 </figcaption>
                             </figure>
@@ -2123,7 +2123,7 @@
                             <figure>
                                 <img src="img/choose-photo14.jpg" alt="photo">
                                 <figcaption>
-                                    <a href="05-ProfilePage-About.jsp#">Amazing Landscapes</a>
+                                    <a href="profilePage.jsp#">Amazing Landscapes</a>
                                     <span>Last Added: 13 mins ago</span>
                                 </figcaption>
                             </figure>
@@ -2132,15 +2132,15 @@
                             <figure>
                                 <img src="img/choose-photo15.jpg" alt="photo">
                                 <figcaption>
-                                    <a href="05-ProfilePage-About.jsp#">The Majestic Canyon</a>
+                                    <a href="profilePage.jsp#">The Majestic Canyon</a>
                                     <span>Last Added: 57 mins ago</span>
                                 </figcaption>
                             </figure>
                         </div>
 
 
-                        <a href="05-ProfilePage-About.jsp#" class="btn btn-secondary btn-lg btn--half-width">Cancel</a>
-                        <a href="05-ProfilePage-About.jsp#" class="btn btn-primary btn-lg disabled btn--half-width">Confirm
+                        <a href="profilePage.jsp#" class="btn btn-secondary btn-lg btn--half-width">Cancel</a>
+                        <a href="profilePage.jsp#" class="btn btn-primary btn-lg disabled btn--half-width">Confirm
                             Photo</a>
                     </div>
                 </div>
@@ -2153,7 +2153,7 @@
 <!-- ... end Window-popup Choose from my Photo -->
 
 
-<a class="back-to-top" href="05-ProfilePage-About.jsp#">
+<a class="back-to-top" href="profilePage.jsp#">
     <img src="svg-icons/back-to-top.svg" alt="arrow" class="back-icon">
 </a>
 
@@ -2221,7 +2221,7 @@
                     <label class="control-label">Press enter to post...</label>
                     <textarea class="form-control" placeholder=""></textarea>
                     <div class="add-options-message">
-                        <a href="05-ProfilePage-About.jsp#" class="options-message">
+                        <a href="profilePage.jsp#" class="options-message">
                             <svg class="olymp-computer-icon">
                                 <use xlink:href="svg-icons/sprites/icons.svg#olymp-computer-icon"></use>
                             </svg>
@@ -2234,137 +2234,137 @@
 
                             <ul class="more-dropdown more-with-triangle triangle-bottom-right">
                                 <li>
-                                    <a href="05-ProfilePage-About.jsp#">
+                                    <a href="profilePage.jsp#">
                                         <img src="img/icon-chat1.png" alt="icon">
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="05-ProfilePage-About.jsp#">
+                                    <a href="profilePage.jsp#">
                                         <img src="img/icon-chat2.png" alt="icon">
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="05-ProfilePage-About.jsp#">
+                                    <a href="profilePage.jsp#">
                                         <img src="img/icon-chat3.png" alt="icon">
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="05-ProfilePage-About.jsp#">
+                                    <a href="profilePage.jsp#">
                                         <img src="img/icon-chat4.png" alt="icon">
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="05-ProfilePage-About.jsp#">
+                                    <a href="profilePage.jsp#">
                                         <img src="img/icon-chat5.png" alt="icon">
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="05-ProfilePage-About.jsp#">
+                                    <a href="profilePage.jsp#">
                                         <img src="img/icon-chat6.png" alt="icon">
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="05-ProfilePage-About.jsp#">
+                                    <a href="profilePage.jsp#">
                                         <img src="img/icon-chat7.png" alt="icon">
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="05-ProfilePage-About.jsp#">
+                                    <a href="profilePage.jsp#">
                                         <img src="img/icon-chat8.png" alt="icon">
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="05-ProfilePage-About.jsp#">
+                                    <a href="profilePage.jsp#">
                                         <img src="img/icon-chat9.png" alt="icon">
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="05-ProfilePage-About.jsp#">
+                                    <a href="profilePage.jsp#">
                                         <img src="img/icon-chat10.png" alt="icon">
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="05-ProfilePage-About.jsp#">
+                                    <a href="profilePage.jsp#">
                                         <img src="img/icon-chat11.png" alt="icon">
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="05-ProfilePage-About.jsp#">
+                                    <a href="profilePage.jsp#">
                                         <img src="img/icon-chat12.png" alt="icon">
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="05-ProfilePage-About.jsp#">
+                                    <a href="profilePage.jsp#">
                                         <img src="img/icon-chat13.png" alt="icon">
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="05-ProfilePage-About.jsp#">
+                                    <a href="profilePage.jsp#">
                                         <img src="img/icon-chat14.png" alt="icon">
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="05-ProfilePage-About.jsp#">
+                                    <a href="profilePage.jsp#">
                                         <img src="img/icon-chat15.png" alt="icon">
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="05-ProfilePage-About.jsp#">
+                                    <a href="profilePage.jsp#">
                                         <img src="img/icon-chat16.png" alt="icon">
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="05-ProfilePage-About.jsp#">
+                                    <a href="profilePage.jsp#">
                                         <img src="img/icon-chat17.png" alt="icon">
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="05-ProfilePage-About.jsp#">
+                                    <a href="profilePage.jsp#">
                                         <img src="img/icon-chat18.png" alt="icon">
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="05-ProfilePage-About.jsp#">
+                                    <a href="profilePage.jsp#">
                                         <img src="img/icon-chat19.png" alt="icon">
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="05-ProfilePage-About.jsp#">
+                                    <a href="profilePage.jsp#">
                                         <img src="img/icon-chat20.png" alt="icon">
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="05-ProfilePage-About.jsp#">
+                                    <a href="profilePage.jsp#">
                                         <img src="img/icon-chat21.png" alt="icon">
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="05-ProfilePage-About.jsp#">
+                                    <a href="profilePage.jsp#">
                                         <img src="img/icon-chat22.png" alt="icon">
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="05-ProfilePage-About.jsp#">
+                                    <a href="profilePage.jsp#">
                                         <img src="img/icon-chat23.png" alt="icon">
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="05-ProfilePage-About.jsp#">
+                                    <a href="profilePage.jsp#">
                                         <img src="img/icon-chat24.png" alt="icon">
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="05-ProfilePage-About.jsp#">
+                                    <a href="profilePage.jsp#">
                                         <img src="img/icon-chat25.png" alt="icon">
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="05-ProfilePage-About.jsp#">
+                                    <a href="profilePage.jsp#">
                                         <img src="img/icon-chat26.png" alt="icon">
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="05-ProfilePage-About.jsp#">
+                                    <a href="profilePage.jsp#">
                                         <img src="img/icon-chat27.png" alt="icon">
                                     </a>
                                 </li>

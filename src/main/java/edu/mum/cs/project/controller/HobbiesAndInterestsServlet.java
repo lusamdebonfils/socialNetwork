@@ -20,7 +20,7 @@ public class HobbiesAndInterestsServlet extends HttpServlet {
     protected void doGet(HttpServletRequest req, HttpServletResponse resp)
             throws ServletException, IOException
     {
-        RequestDispatcher requestDispatcher = req.getRequestDispatcher("29-YourAccount-AccountSettings.jsp");
+        RequestDispatcher requestDispatcher = req.getRequestDispatcher("29YourAccountAccountSettings.jsp");
         requestDispatcher.forward(req,resp);
     }
 
