@@ -16,11 +16,12 @@ public class User {
     private String password;
     private LocalDate dateOfBirth;
     private LocalDate dateOfRegistration;
-    @OneToMany
+    private String gender;
+    @OneToMany(cascade = {CascadeType.ALL})
     private List<Post> postList = new ArrayList<>();;
-    @OneToMany
+    @OneToMany(cascade = {CascadeType.ALL})
     private List<User> followingList = new ArrayList<>();;
-    @OneToOne
+    @OneToOne(cascade = {CascadeType.ALL})
     private Profile profile = new Profile();
 
 
@@ -28,7 +29,7 @@ public class User {
     }
 
     public User(String firstName, String lastName, String email, String password,
-                LocalDate dateOfBirth, LocalDate dateOfRegistration) {
+                LocalDate dateOfBirth, LocalDate dateOfRegistration, String gender) {
         this.id = id;
         this.firstName = firstName;
         this.lastName = lastName;
@@ -36,6 +37,7 @@ public class User {
         this.password = password;
         this.dateOfBirth = dateOfBirth;
         this.dateOfRegistration = dateOfRegistration;
+        this.gender = gender;
     }
 
     public Long getId() {
@@ -118,18 +120,28 @@ public class User {
         this.profile = profile;
     }
 
+    public String getGender() {
+        return gender;
+    }
+
+    public void setGender(String gender) {
+        this.gender = gender;
+    }
+
     @Override
     public String toString() {
         return "User{" +
-                "id='" + id + '\'' +
-                ", finalName='" + firstName + '\'' +
+                "id=" + id +
+                ", firstName='" + firstName + '\'' +
                 ", lastName='" + lastName + '\'' +
                 ", email='" + email + '\'' +
                 ", password='" + password + '\'' +
                 ", dateOfBirth=" + dateOfBirth +
                 ", dateOfRegistration=" + dateOfRegistration +
+                ", gender='" + gender + '\'' +
                 ", postList=" + postList +
                 ", followingList=" + followingList +
+                ", profile=" + profile +
                 '}';
     }
 }

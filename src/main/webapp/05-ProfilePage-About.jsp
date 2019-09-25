@@ -1704,19 +1704,23 @@
                             <ul class="widget w-personal-info item-block">
                                 <li>
                                     <span class="title">Hobbies:</span>
-                                    <span class="text">${profile.hobbiesAndInterest.hobbies}</span>
+                                    <span class="text">${user}</span>
+                                </li>
+                                <li>
+                                    <span class="title">Hobbies:</span>
+                                    <span class="text">${user.profile.hobbiesAndInterest.hobbies}</span>
                                 </li>
                                 <li>
                                     <span class="title">Favourite TV Shows:</span>
-                                    <span class="text">${profile.hobbiesAndInterest.tvShows}</span>
+                                    <span class="text">${user.profile.hobbiesAndInterest.tvShows}</span>
                                 </li>
                                 <li>
                                     <span class="title">Favourite Movies:</span>
-                                    <span class="text">${profile.hobbiesAndInterest.movies} </span>
+                                    <span class="text">${user.profile.hobbiesAndInterest.movies} </span>
                                 </li>
                                 <li>
                                     <span class="title">Favourite Games:</span>
-                                    <span class="text">${profile.hobbiesAndInterest.games}</span>
+                                    <span class="text">${user.profile.hobbiesAndInterest.games}</span>
                                 </li>
                             </ul>
 
@@ -1730,19 +1734,19 @@
                             <ul class="widget w-personal-info item-block">
                                 <li>
                                     <span class="title">Favourite Music Bands / Artists:</span>
-                                    <span class="text">${profile.hobbiesAndInterest.music}</span>
+                                    <span class="text">${user.profile.hobbiesAndInterest.music}</span>
                                 </li>
                                 <li>
                                     <span class="title">Favourite Books:</span>
-                                    <span class="text">${profile.hobbiesAndInterest.books}</span>
+                                    <span class="text">${user.profile.hobbiesAndInterest.books}</span>
                                 </li>
                                 <li>
                                     <span class="title">Favourite Writers:</span>
-                                    <span class="text">${profile.hobbiesAndInterest.writers}</span>
+                                    <span class="text">${user.profile.hobbiesAndInterest.writers}</span>
                                 </li>
                                 <li>
                                     <span class="title">Other Interests:</span>
-                                    <span class="text">${profile.hobbiesAndInterest.others}</span>
+                                    <span class="text">${user.profile.hobbiesAndInterest.others}</span>
                                 </li>
                             </ul>
 
@@ -1769,19 +1773,19 @@
 
                             <ul class="widget w-personal-info item-block">
                                 <li>
-                                    <span class="title">${profile.education[0].tittle}</span>
-                                    <span class="date">${profile.education[0].period}</span>
-                                    <span class="text">${profile.education[0].description}</span>
+                                    <span class="title">${user.profile.education[0].tittle}</span>
+                                    <span class="date">${user.profile.education[0].period}</span>
+                                    <span class="text">${user.profile.education[0].description}</span>
                                 </li>
                                 <li>
-                                    <span class="title">${profile.education[1].tittle}</span>
-                                    <span class="date">${profile.education[1].period}</span>
-                                    <span class="text">${profile.education[1].description}</span>
+                                    <span class="title">${user.profile.education[1].tittle}</span>
+                                    <span class="date">${user.profile.education[1].period}</span>
+                                    <span class="text">${user.profile.education[1].description}</span>
                                 </li>
                                 <li>
-                                    <span class="title">${profile.education[2].tittle} </span>
-                                    <span class="date">${profile.education[2].period}</span>
-                                    <span class="text">${profile.education[2].description}</span>
+                                    <span class="title">${user.profile.education[2].tittle} </span>
+                                    <span class="date">${user.profile.education[2].period}</span>
+                                    <span class="text">${user.profile.education[2].description}</span>
                                 </li>
                             </ul>
 
@@ -1795,19 +1799,19 @@
 
                             <ul class="widget w-personal-info item-block">
                                 <li>
-                                    <span class="title">${profile.employment[0].tittle}</span>
-                                    <span class="date">${profile.employment[0].period}</span>
-                                    <span class="text">${profile.employment[0].description}</span>
+                                    <span class="title">${user.profile.employment[0].tittle}</span>
+                                    <span class="date">${user.profile.employment[0].period}</span>
+                                    <span class="text">${user.profile.employment[0].description}</span>
                                 </li>
                                 <li>
-                                    <span class="title">${profile.employment[1].tittle}</span>
-                                    <span class="date">${profile.employment[1].period}</span>
-                                    <span class="text">${profile.employment[1].description}</span>
+                                    <span class="title">${user.profile.employment[1].tittle}</span>
+                                    <span class="date">${user.profile.employment[1].period}</span>
+                                    <span class="text">${user.profile.employment[1].description}</span>
                                 </li>
                                 <li>
-                                    <span class="title">${profile.employment[2].tittle}</span>
-                                    <span class="date">${profile.employment[2].period}</span>
-                                    <span class="text">${profile.employment[2].description}</span>
+                                    <span class="title">${user.profile.employment[2].tittle}</span>
+                                    <span class="date">${user.profile.employment[2].period}</span>
+                                    <span class="text">${user.profile.employment[2].description}</span>
                                 </li>
                             </ul>
 
@@ -1836,24 +1840,24 @@
                     <ul class="widget w-personal-info">
                         <li>
                             <span class="title">About Me:</span>
-                            <span class="text">${profile.personalInformation.aboutMe}</span>
+                            <span class="text">${user.profile.personalInformation.aboutMe}</span>
                         </li>
                         <li>
                             <span class="title">Birthday:</span>
-                            <span class="text">${profile.user.dateOfBirth}</span>
+                            <span class="text">${user.profile.user.dateOfBirth}</span>
                         </li>
                         <li>
                             <span class="title">Birthplace:</span>
-                            <span class="text">${profile.personalInformation.birthplace}</span>
+                            <span class="text">${user.profile.personalInformation.birthplace}</span>
                         </li>
                         <li>
                             <span class="title">Lives in:</span>
-                            <span class="text">${profile.personalInformation.country} ,
+                            <span class="text">${user.profile.personalInformation.country} ,
 								${profile.personalInformation.state} , ${profile.personalInformation.city}</span>
                         </li>
                         <li>
                             <span class="title">Occupation:</span>
-                            <span class="text">${profile.personalInformation.occupation}</span>
+                            <span class="text">${user.profile.personalInformation.occupation}</span>
                         </li>
                         <li>
                             <span class="title">Joined:</span>
@@ -1861,28 +1865,28 @@
                         </li>
                         <li>
                             <span class="title">Gender:</span>
-                            <span class="text">Change this date please!!!!!!!!!!!!!!</span>
+                            <span class="text">user.gender</span>
                         </li>
                         <li>
                             <span class="title">Email:</span>
-                            <a href="05-ProfilePage-About.jsp#" class="text">${profile.user.email}</a>
+                            <a href="05-ProfilePage-About.jsp#" class="text">${user.email}</a>
                         </li>
                         <li>
                             <span class="title">Website:</span>
-                            <a href="${profile.personalInformation.website}"
-                               class="text">${profile.personalInformation.website}</a>
+                            <a href="${user.profile.personalInformation.website}"
+                               class="text">${user.profile.personalInformation.website}</a>
                         </li>
                         <li>
                             <span class="title">Phone Number:</span>
-                            <span class="text">${profile.personalInformation.phoneNumber}</span>
+                            <span class="text">${user.profile.personalInformation.phoneNumber}</span>
                         </li>
                         <li>
                             <span class="title">Religious Beliefs:</span>
-                            <span class="text">${profile.personalInformation.religion}</span>
+                            <span class="text">${user.profile.personalInformation.religion}</span>
                         </li>
                         <li>
                             <span class="title">Political Incline:</span>
-                            <span class="text">${profile.personalInformation.political}</span>
+                            <span class="text">${user.profile.personalInformation.political}</span>
                         </li>
                     </ul>
 
@@ -1891,11 +1895,11 @@
 
                     <div class="widget w-socials">
                         <h6 class="title">Other Social Networks:</h6>
-                        <a href="${profile.personalInformation.facebookAccount}" class="social-item bg-facebook">
+                        <a href="${user.profile.personalInformation.facebookAccount}" class="social-item bg-facebook">
                             <i class="fab fa-facebook-f" aria-hidden="true"></i>
                             Facebook
                         </a>
-                        <a href="${profile.personalInformation.twitterAccount}" class="social-item bg-twitter">
+                        <a href="${user.profile.personalInformation.twitterAccount}" class="social-item bg-twitter">
                             <i class="fab fa-twitter" aria-hidden="true"></i>
                             Twitter
                         </a>

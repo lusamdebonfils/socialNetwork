@@ -11,13 +11,13 @@ public class Profile {
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
 
-    @OneToOne
-    private HobbiesAndInterest hobbiesAndInterest;
-    @OneToOne
-    private PersonalInformation personalInformation;
-    @OneToMany
+    @OneToOne(cascade = {CascadeType.ALL})
+    private HobbiesAndInterest hobbiesAndInterest = new HobbiesAndInterest();
+    @OneToOne(cascade = {CascadeType.ALL})
+    private PersonalInformation personalInformation = new PersonalInformation();
+    @OneToMany(cascade = {CascadeType.ALL})
     private List<Employment> employment = new ArrayList<>();
-    @OneToMany
+    @OneToMany(cascade = {CascadeType.ALL})
     private List<Education> education = new ArrayList<>();
 
     public Profile(HobbiesAndInterest hobbiesAndInterest, PersonalInformation personalInformation) {

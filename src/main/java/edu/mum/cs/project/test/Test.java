@@ -12,8 +12,8 @@ public class Test {
 
     public static void main(String[] args){
         Dao<User> userDao = new UserDao();
-        User user  = new User("Moses ", "Niyonshuti", "niyo@mum.edu", "String password",
-                LocalDate.of(2010, 2,1), LocalDate.now());
+//        User user  = new User("Moses ", "Niyonshuti", "niyo@mum.edu", "String password",
+//                LocalDate.of(2010, 2,1), LocalDate.now());
         //userDao.create(user);
         List<User> allUsers = userDao.findAll();
         System.out.println(allUsers);

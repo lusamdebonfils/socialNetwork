@@ -1,6 +1,9 @@
 package edu.mum.cs.project.controller;
 
+import edu.mum.cs.project.dao.Dao;
+import edu.mum.cs.project.dao.implementation.UserDao;
 import edu.mum.cs.project.model.HobbiesAndInterest;
+import edu.mum.cs.project.model.User;
 
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
@@ -12,6 +15,8 @@ import java.io.IOException;
 
 @WebServlet("/hobbies")
 public class HobbiesAndInterestsServlet extends HttpServlet {
+    Dao<User> userDao = new UserDao();
+
     protected void doGet(HttpServletRequest req, HttpServletResponse resp)
             throws ServletException, IOException
     {
@@ -33,6 +38,9 @@ public class HobbiesAndInterestsServlet extends HttpServlet {
 
         HobbiesAndInterest hobbiesAndInterest = new HobbiesAndInterest(hobbies, tvShows, movies, games, music, books, writers, others);
             System.out.println(hobbiesAndInterest);
+            User user = (User) req.getSession().getAttribute("user");
+            user.getProfile().setHobbiesAndInterest(hobbiesAndInterest);
+            userDao.create(user);
         resp.sendRedirect("hobbies");
     }
 
