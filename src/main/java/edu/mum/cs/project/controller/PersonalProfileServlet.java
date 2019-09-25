@@ -1,5 +1,7 @@
 package edu.mum.cs.project.controller;
 
+import edu.mum.cs.project.dao.Dao;
+import edu.mum.cs.project.dao.implementation.UserDao;
 import edu.mum.cs.project.model.PersonalInformation;
 import edu.mum.cs.project.model.User;
 
@@ -13,9 +15,9 @@ import java.io.IOException;
 
 @WebServlet("/personalProfile")
 public class PersonalProfileServlet extends HttpServlet {
-
+    Dao<User> userDao = new UserDao();
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        RequestDispatcher requestDispatcher = req.getRequestDispatcher("29YourAccountAccountSettings.jsp");
+        RequestDispatcher requestDispatcher = req.getRequestDispatcher("editprofile.jsp");
         requestDispatcher.forward(req, resp);
     }
 
@@ -39,6 +41,11 @@ public class PersonalProfileServlet extends HttpServlet {
                 , occupation, religion, political, facebookAccount, twitterAccount, phoneNumber);
         System.out.println(personalInformation);
         resp.sendRedirect("personalProfile");
+
+        User user = (User) req.getSession().getAttribute("user");
+        user.getProfile().setPersonalInformation(personalInformation);
+        System.out.println(user);
+        userDao.update(user);
 
     }
 }

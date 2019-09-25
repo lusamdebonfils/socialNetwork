@@ -1,6 +1,9 @@
 package edu.mum.cs.project.controller;
 
+import edu.mum.cs.project.dao.Dao;
+import edu.mum.cs.project.dao.implementation.UserDao;
 import edu.mum.cs.project.model.Employment;
+import edu.mum.cs.project.model.User;
 
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
@@ -12,6 +15,7 @@ import java.io.IOException;
 
 @WebServlet("/employment")
 public class EmploymentServlet extends HttpServlet {
+    Dao<User> userDao = new UserDao();
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         String tittle = req.getParameter("jobtittle");
@@ -33,12 +37,18 @@ public class EmploymentServlet extends HttpServlet {
         System.out.println(employment1);
         System.out.println(employment2);
 
+        User user = (User) req.getSession().getAttribute("user");
+        user.getProfile().getEmployment().add(employment);
+        user.getProfile().getEmployment().add(employment1);
+        user.getProfile().getEmployment().add(employment2);
+
+        userDao.update(user);
         resp.sendRedirect("employment");
     }
 
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        RequestDispatcher requestDispatcher = req.getRequestDispatcher("29YourAccountAccountSettings.jsp");
+        RequestDispatcher requestDispatcher = req.getRequestDispatcher("editprofile.jsp");
         requestDispatcher.forward(req,resp);
     }
 }
