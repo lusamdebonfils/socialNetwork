@@ -3,7 +3,9 @@ package edu.mum.cs.project.controller;
 
 import com.google.gson.Gson;
 import edu.mum.cs.project.dao.implementation.PostDao;
+import edu.mum.cs.project.dao.implementation.UserDao;
 import edu.mum.cs.project.model.Post;
+import edu.mum.cs.project.model.User;
 import org.apache.commons.fileupload.FileItem;
 import org.apache.commons.fileupload.disk.DiskFileItemFactory;
 import org.apache.commons.fileupload.servlet.ServletFileUpload;
@@ -25,9 +27,9 @@ import java.util.Map;
 
 @WebServlet("/postStatus")
 public class PostStatus extends HttpServlet {
-    private final String UPLOAD_DIRECTORY = "C:/Users/610096/Desktop/Desktop/zinu/socialNetwork/src/main/webapp/files";
+    private final String UPLOAD_DIRECTORY = "C:/Users/Zinash Negga/Desktop/Wap/socialNetwork/src/main/webapp/files";
 
-    PostDao dao = new PostDao();
+    UserDao dao = new UserDao();
 
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         req.getRequestDispatcher("newsFeed").forward(req,resp);
@@ -88,7 +90,9 @@ public class PostStatus extends HttpServlet {
         session.setAttribute("posts", posts);
 
         out.write(myPost);
-
+        User user = (User) session.getAttribute("user");
+        user.getPostList().add(post);
+        dao.update(user);
         //doGet(req,resp);
 
     }

@@ -5,7 +5,7 @@ $(function(){
          '\t\t\t\t\t\t<div class="post__author author vcard inline-items">\n' +
          '\t\t\t\t\t\t\t<img src="img/avatar3-sm.jpg" alt="author">\n' +
          '\t\t\t\t\t\t\t\t<div class="author-date">\n' +
-         '\t\t\t\t\t\t\t\t<a class="h6 post__author-name fn" href="03-Newsfeed.html#">Sarah Hetfield</a>\n' +
+         '\t\t\t\t\t\t\t\t<a class="h6 post__author-name fn" href="03-Newsfeed.html#">Kedi Kebba</a>\n' +
          '\t\t\t\t\t\t\t\t<div class="post__date">\n' +
          '\t\t\t\t\t\t\t\t\t<time class="published" datetime="2004-07-24T18:18"></time>\n' +
          '\t\t\t\t\t\t\t\t</div>\n' +

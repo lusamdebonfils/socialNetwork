@@ -29,6 +29,7 @@
 		});
 	</script>
 
+
 </head>
 
 <body class="page-has-left-panels page-has-right-panels">
@@ -1341,7 +1342,9 @@
 			</div>
 		</form>
 
-		<a href="dashboard.jsp#" class="link-find-friend">Find Friends</a>
+		<a href="manageposts" class="link-find-friend" style="font-size: 1em; font-weight: bolder">Manage Posts</a>
+
+		<a href="deactivate" class="link-find-friend" style="font-size: 1em; font-weight: bolder">Manage Accounts</a>
 
 		<div class="control-block">
 
@@ -1352,8 +1355,8 @@
 				<div class="more-dropdown more-with-triangle triangle-top-center">
 					<div class="ui-block-title ui-block-title-small">
 						<h6 class="title">FRIEND REQUESTS</h6>
-						<a href="dashboard.jsp#">Find Friends</a>
-						<a href="dashboard.jsp#">Settings</a>
+						<a href="dashboard.jsp#" style="font-size: 3em; font-weight: bolder">Manage Posts</a>
+						<a href="manageposts">Settings</a>
 					</div>
 
 					<div class="mCustomScrollbar" data-mcs-theme="dark">
