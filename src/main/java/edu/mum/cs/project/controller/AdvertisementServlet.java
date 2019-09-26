@@ -1,5 +1,6 @@
 package edu.mum.cs.project.controller;
 
+import edu.mum.cs.project.dao.implementation.AdsDao;
 import edu.mum.cs.project.model.Advertisement;
 
 import javax.servlet.ServletException;
@@ -15,12 +16,14 @@ import java.util.List;
 
 @WebServlet("/advertisment")
 public class AdvertisementServlet extends HttpServlet {
+
+    AdsDao dao = new AdsDao();
+
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 
-        //temporary list.
-
-        List<Advertisement> listOfAds = new ArrayList<>();
+        //temporary In memory list.
+        //
 
         String addDesc = req.getParameter("addDesc");
 
@@ -32,11 +35,8 @@ public class AdvertisementServlet extends HttpServlet {
 
         Advertisement newAd = new Advertisement(addsdate,addDesc,adsImsageLocation,company);
 
-        listOfAds.add(newAd);
-        System.out.println("List of Running Adds"+ listOfAds);
-
-        HttpSession session = req.getSession();
-        session.setAttribute("listOfAds", listOfAds);
+        //Saving new Add to Dao
+        dao.create(newAd);
 
         doGet(req, resp);
     }
@@ -44,6 +44,9 @@ public class AdvertisementServlet extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 
+        List<Advertisement> listOfAds = dao.findAll();
+        HttpSession session = req.getSession();
+        session.setAttribute("listOfAds", listOfAds);
         resp.sendRedirect("adspage.jsp");
 
     }

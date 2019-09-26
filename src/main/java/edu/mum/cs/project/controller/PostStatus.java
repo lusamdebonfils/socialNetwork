@@ -2,6 +2,7 @@ package edu.mum.cs.project.controller;
 
 
 import com.google.gson.Gson;
+import edu.mum.cs.project.dao.implementation.PostDao;
 import edu.mum.cs.project.model.Post;
 import org.apache.commons.fileupload.FileItem;
 import org.apache.commons.fileupload.disk.DiskFileItemFactory;
@@ -25,8 +26,8 @@ import java.util.Map;
 @WebServlet("/postStatus")
 public class PostStatus extends HttpServlet {
     private final String UPLOAD_DIRECTORY = "C:/Users/610096/Desktop/Desktop/zinu/socialNetwork/src/main/webapp/files";
-    List<Post> posts = new ArrayList<>();
 
+    PostDao dao = new PostDao();
 
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 
@@ -75,6 +76,8 @@ public class PostStatus extends HttpServlet {
 
         String postContent = parameters.get("postTextContent");
         Post post = new Post(LocalDate.now(),postContent, filename,true);
+        //dao.create(post);
+        List<Post> posts = new ArrayList<>();
         posts.add(post);
         System.out.println("Current Post" + post);
         Gson gn = new Gson();

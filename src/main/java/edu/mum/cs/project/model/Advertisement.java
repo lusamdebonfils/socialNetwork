@@ -17,6 +17,7 @@ public class Advertisement {
     private String adsTextContent;
     private String adsImsageLocation;
     private String company;
+    private Boolean published = true;
 
     public Advertisement() {
     }
@@ -26,6 +27,14 @@ public class Advertisement {
         this.adsTextContent = adsTextContent;
         this.adsImsageLocation = adsImsageLocation;
         this.company = company;
+    }
+
+    public Boolean getPublished() {
+        return published;
+    }
+
+    public void setPublished(Boolean published) {
+        this.published = published;
     }
 
     public String getCompany() {
