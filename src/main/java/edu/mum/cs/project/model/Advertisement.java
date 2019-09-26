@@ -15,8 +15,33 @@ public class Advertisement {
 //    private List<String> adPictures;
     private LocalDate dateOfPostingAdd;
     private String adsTextContent;
+    private String adsImsageLocation;
+    private String company;
 
     public Advertisement() {
+    }
+
+    public Advertisement(LocalDate dateOfPostingAdd, String adsTextContent, String adsImsageLocation, String company) {
+        this.dateOfPostingAdd = dateOfPostingAdd;
+        this.adsTextContent = adsTextContent;
+        this.adsImsageLocation = adsImsageLocation;
+        this.company = company;
+    }
+
+    public String getCompany() {
+        return company;
+    }
+
+    public void setCompany(String company) {
+        this.company = company;
+    }
+
+    public String getAdsImsageLocation() {
+        return adsImsageLocation;
+    }
+
+    public void setAdsImsageLocation(String adsImsageLocation) {
+        this.adsImsageLocation = adsImsageLocation;
     }
 
     public Long getId() {
@@ -41,5 +66,16 @@ public class Advertisement {
 
     public void setAdsTextContent(String adsTextContent) {
         this.adsTextContent = adsTextContent;
+    }
+
+    @Override
+    public String toString() {
+        return "Advertisement{" +
+                "id=" + id +
+                ", dateOfPostingAdd=" + dateOfPostingAdd +
+                ", adsTextContent='" + adsTextContent + '\'' +
+                ", adsImsageLocation='" + adsImsageLocation + '\'' +
+                ", company='" + company + '\'' +
+                '}';
     }
 }

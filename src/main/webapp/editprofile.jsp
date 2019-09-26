@@ -1,3 +1,4 @@
+<%@ page isELIgnored="false" %>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -172,7 +173,7 @@
 					</a>
 				</li>
 				<li>
-					<a href="26-Statistics.html">
+					<a href="dashboard.jsp">
 						<svg class="olymp-stats-icon left-menu-icon"  data-toggle="tooltip" data-placement="right"   data-original-title="Account Stats"><use xlink:href="svg-icons/sprites/icons.svg#olymp-stats-icon"></use></svg>
 					</a>
 				</li>
@@ -252,7 +253,7 @@
 					</a>
 				</li>
 				<li>
-					<a href="26-Statistics.html">
+					<a href="dashboard.jsp">
 						<svg class="olymp-stats-icon left-menu-icon"  data-toggle="tooltip" data-placement="right"   data-original-title="Account Stats"><use xlink:href="svg-icons/sprites/icons.svg#olymp-stats-icon"></use></svg>
 						<span class="left-menu-title">Account Stats</span>
 					</a>
