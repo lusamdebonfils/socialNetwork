@@ -417,7 +417,7 @@
 					</a>
 				</li>
 				<li>
-					<a href="educationandemployement.jsp#">
+					<a href="logout">
 						<svg class="olymp-logout-icon"><use xlink:href="svg-icons/sprites/icons.svg#olymp-logout-icon"></use></svg>
 
 						<span>Log Out</span>
@@ -1747,7 +1747,7 @@
 									</a>
 								</li>
 								<li>
-									<a href="educationandemployement.jsp#">
+									<a href="logout">
 										<svg class="olymp-logout-icon"><use xlink:href="svg-icons/sprites/icons.svg#olymp-logout-icon"></use></svg>
 
 										<span>Log Out</span>

@@ -10,7 +10,7 @@ import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 import java.io.IOException;
 
-@WebFilter(filterName = "AppFilter", urlPatterns = { "/*" })
+//@WebFilter(filterName = "AppFilter", urlPatterns = { "/*" })
 public class AppFilter implements Filter {
 
 

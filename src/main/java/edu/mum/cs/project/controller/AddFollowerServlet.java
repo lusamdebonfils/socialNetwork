@@ -38,7 +38,6 @@ public class AddFollowerServlet extends HttpServlet {
 
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        RequestDispatcher requestDispatcher = req.getRequestDispatcher("myfriends.jsp");
         HttpSession session = req.getSession();
         User currentUser = (User) session.getAttribute("user");
 
@@ -46,6 +45,7 @@ public class AddFollowerServlet extends HttpServlet {
         System.out.println(currentUser.getFollowingList());
 
         req.setAttribute("myFollowers", myFollowers);
+        RequestDispatcher requestDispatcher = req.getRequestDispatcher("myfriends.jsp");
         requestDispatcher.forward(req, resp);
     }
 }
