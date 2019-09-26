@@ -1,6 +1,9 @@
 package edu.mum.cs.project.controller;
 
+import edu.mum.cs.project.dao.Dao;
+import edu.mum.cs.project.dao.implementation.UserDao;
 import edu.mum.cs.project.model.Education;
+import edu.mum.cs.project.model.User;
 
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
@@ -12,10 +15,10 @@ import java.io.IOException;
 
 @WebServlet("/education")
 public class EducationServlet extends HttpServlet {
-
+    Dao<User> userDao = new UserDao();
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        RequestDispatcher requestDispatcher = req.getRequestDispatcher("29YourAccountAccountSettings.jsp");
+        RequestDispatcher requestDispatcher = req.getRequestDispatcher("editprofile.jsp");
         requestDispatcher.forward(req,resp);
     }
 
@@ -40,6 +43,14 @@ public class EducationServlet extends HttpServlet {
         System.out.println(education1);
         System.out.println(education2);
 
+        User user = (User) req.getSession().getAttribute("user");
+        System.out.println(user);
+        user.getProfile().getEducation().add(education);
+        user.getProfile().getEducation().add(education1);
+        user.getProfile().getEducation().add(education2);
+        userDao.update(user);
         resp.sendRedirect("education");
+
+
     }
 }

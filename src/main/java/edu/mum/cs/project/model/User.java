@@ -18,9 +18,9 @@ public class User {
     private LocalDate dateOfRegistration;
     private String gender;
     @OneToMany(cascade = {CascadeType.ALL})
-    private List<Post> postList = new ArrayList<>();;
+    private List<Post> postList = new ArrayList<>();
     @OneToMany(cascade = {CascadeType.ALL})
-    private List<User> followingList = new ArrayList<>();;
+    private List<User> followingList = new ArrayList<>();
     @OneToOne(cascade = {CascadeType.ALL})
     private Profile profile = new Profile();
 

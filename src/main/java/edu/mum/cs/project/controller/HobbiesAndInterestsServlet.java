@@ -20,7 +20,7 @@ public class HobbiesAndInterestsServlet extends HttpServlet {
     protected void doGet(HttpServletRequest req, HttpServletResponse resp)
             throws ServletException, IOException
     {
-        RequestDispatcher requestDispatcher = req.getRequestDispatcher("29YourAccountAccountSettings.jsp");
+        RequestDispatcher requestDispatcher = req.getRequestDispatcher("editprofile.jsp");
         requestDispatcher.forward(req,resp);
     }
 
@@ -38,10 +38,12 @@ public class HobbiesAndInterestsServlet extends HttpServlet {
 
         HobbiesAndInterest hobbiesAndInterest = new HobbiesAndInterest(hobbies, tvShows, movies, games, music, books, writers, others);
             System.out.println(hobbiesAndInterest);
+
             User user = (User) req.getSession().getAttribute("user");
             user.getProfile().setHobbiesAndInterest(hobbiesAndInterest);
-            userDao.create(user);
-        resp.sendRedirect("hobbies");
+            System.out.println(user);
+            userDao.update(user);
+            resp.sendRedirect("hobbies");
     }
 
 

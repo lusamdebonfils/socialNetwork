@@ -1,14 +1,14 @@
+<%@ page isELIgnored="false" %>
 <!DOCTYPE html>
 <html lang="en">
 <head>
 
-	<title>Your Account - Personal Information</title>
+	<title>Statistics</title>
 
 	<!-- Required meta tags always come first -->
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta http-equiv="x-ua-compatible" content="ie=edge">
-
 
 	<!-- Bootstrap CSS -->
 	<link rel="stylesheet" type="text/css" href="Bootstrap/dist/css/bootstrap-reboot.css">
@@ -29,8 +29,8 @@
 		});
 	</script>
 
-
 </head>
+
 <body class="page-has-left-panels page-has-right-panels">
 
 
@@ -61,81 +61,6 @@
 </div>
 
 <!-- ... end Preloader -->
-<!-- Profile Settings Responsive -->
-
-<div class="profile-settings-responsive">
-
-	<a href="28-YourAccount-PersonalInformation.html#" class="js-profile-settings-open profile-settings-open">
-		<i class="fa fa-angle-right" aria-hidden="true"></i>
-		<i class="fa fa-angle-left" aria-hidden="true"></i>
-	</a>
-	<div class="mCustomScrollbar" data-mcs-theme="dark">
-		<div class="ui-block">
-			<div class="your-profile">
-				<div class="ui-block-title ui-block-title-small">
-					<h6 class="title">Your PROFILE</h6>
-				</div>
-
-				<div id="accordion1" role="tablist" aria-multiselectable="true">
-					<div class="card">
-						<div class="card-header" role="tab" id="headingOne-1">
-							<h6 class="mb-0">
-								<a data-toggle="collapse" data-parent="#accordion" href="28-YourAccount-PersonalInformation.html#collapseOne-1" aria-expanded="true" aria-controls="collapseOne">
-									Profile Settings
-									<svg class="olymp-dropdown-arrow-icon"><use xlink:href="svg-icons/sprites/icons.svg#olymp-dropdown-arrow-icon"></use></svg>
-								</a>
-							</h6>
-						</div>
-
-						<div id="collapseOne-1" class="collapse show" role="tabpanel" aria-labelledby="headingOne">
-							<ul class="your-profile-menu">
-								<li>
-									<a href="28-YourAccount-PersonalInformation.html">Personal Information</a>
-								</li>
-								<li>
-									<a href="29YourAccountAccountSettings.jsp">Account Settings</a>
-								</li>
-								<li>
-									<a href="30-YourAccount-ChangePassword.html">Change Password</a>
-								</li>
-								<li>
-									<a href="31YourAccount-HobbiesAndInterests.html">Hobbies and Interests</a>
-								</li>
-								<li>
-									<a href="32YourAccountEducationAndEmployement.jsp">Education and Employement</a>
-								</li>
-							</ul>
-						</div>
-					</div>
-				</div>
-
-
-				<div class="ui-block-title">
-					<a href="33-YourAccount-Notifications.html" class="h6 title">Notifications</a>
-					<a href="28-YourAccount-PersonalInformation.html#" class="items-round-little bg-primary">8</a>
-				</div>
-				<div class="ui-block-title">
-					<a href="34-YourAccount-ChatMessages.html" class="h6 title">Chat / Messages</a>
-				</div>
-				<div class="ui-block-title">
-					<a href="35-YourAccount-FriendsRequests.html" class="h6 title">Friend Requests</a>
-					<a href="28-YourAccount-PersonalInformation.html#" class="items-round-little bg-blue">4</a>
-				</div>
-				<div class="ui-block-title ui-block-title-small">
-					<h6 class="title">FAVOURITE PAGE</h6>
-				</div>
-				<div class="ui-block-title">
-					<a href="36-FavPage-SettingsAndCreatePopup.html" class="h6 title">Create Fav Page</a>
-				</div>
-				<div class="ui-block-title">
-					<a href="36-FavPage-SettingsAndCreatePopup.html" class="h6 title">Fav Page Settings</a>
-				</div>
-			</div>
-		</div>
-	</div>
-</div>
-
-<!-- ... end Profile Settings Responsive -->
 
 
 <!-- Fixed Sidebar Left -->
@@ -143,7 +68,7 @@
 <div class="fixed-sidebar">
 	<div class="fixed-sidebar-left sidebar--small" id="sidebar-left">
 
-		<a href="02ProfilePage.jsp" class="logo">
+		<a href="profilepage.jsp" class="logo">
 			<div class="img-wrap">
 				<img src="img/logo.png" alt="Olympus">
 			</div>
@@ -152,7 +77,7 @@
 		<div class="mCustomScrollbar" data-mcs-theme="dark">
 			<ul class="left-menu">
 				<li>
-					<a href="28-YourAccount-PersonalInformation.html#" class="js-sidebar-open">
+					<a href="dashboard.jsp#" class="js-sidebar-open">
 						<svg class="olymp-menu-icon left-menu-icon"  data-toggle="tooltip" data-placement="right"   data-original-title="OPEN MENU"><use xlink:href="svg-icons/sprites/icons.svg#olymp-menu-icon"></use></svg>
 					</a>
 				</li>
@@ -197,7 +122,7 @@
 					</a>
 				</li>
 				<li>
-					<a href="26-Statistics.html">
+					<a href="dashboard.jsp">
 						<svg class="olymp-stats-icon left-menu-icon"  data-toggle="tooltip" data-placement="right"   data-original-title="Account Stats"><use xlink:href="svg-icons/sprites/icons.svg#olymp-stats-icon"></use></svg>
 					</a>
 				</li>
@@ -211,7 +136,7 @@
 	</div>
 
 	<div class="fixed-sidebar-left sidebar--large" id="sidebar-left-1">
-		<a href="02ProfilePage.jsp" class="logo">
+		<a href="profilepage.jsp" class="logo">
 			<div class="img-wrap">
 				<img src="img/logo.png" alt="Olympus">
 			</div>
@@ -223,7 +148,7 @@
 		<div class="mCustomScrollbar" data-mcs-theme="dark">
 			<ul class="left-menu">
 				<li>
-					<a href="28-YourAccount-PersonalInformation.html#" class="js-sidebar-open">
+					<a href="dashboard.jsp#" class="js-sidebar-open">
 						<svg class="olymp-close-icon left-menu-icon"><use xlink:href="svg-icons/sprites/icons.svg#olymp-close-icon"></use></svg>
 						<span class="left-menu-title">Collapse Menu</span>
 					</a>
@@ -277,7 +202,7 @@
 					</a>
 				</li>
 				<li>
-					<a href="26-Statistics.html">
+					<a href="dashboard.jsp">
 						<svg class="olymp-stats-icon left-menu-icon"  data-toggle="tooltip" data-placement="right"   data-original-title="Account Stats"><use xlink:href="svg-icons/sprites/icons.svg#olymp-stats-icon"></use></svg>
 						<span class="left-menu-title">Account Stats</span>
 					</a>
@@ -302,7 +227,7 @@
 					</div>
 				</div>
 
-				<span>Complete <a href="28-YourAccount-PersonalInformation.html#">your profile</a> so people can know more about you!</span>
+				<span>Complete <a href="dashboard.jsp#">your profile</a> so people can know more about you!</span>
 
 			</div>
 		</div>
@@ -317,14 +242,14 @@
 <div class="fixed-sidebar fixed-sidebar-responsive">
 
 	<div class="fixed-sidebar-left sidebar--small" id="sidebar-left-responsive">
-		<a href="28-YourAccount-PersonalInformation.html#" class="logo js-sidebar-open">
+		<a href="dashboard.jsp#" class="logo js-sidebar-open">
 			<img src="img/logo.png" alt="Olympus">
 		</a>
 
 	</div>
 
 	<div class="fixed-sidebar-left sidebar--large" id="sidebar-left-1-responsive">
-		<a href="28-YourAccount-PersonalInformation.html#" class="logo">
+		<a href="dashboard.jsp#" class="logo">
 			<div class="img-wrap">
 				<img src="img/logo.png" alt="Olympus">
 			</div>
@@ -341,7 +266,7 @@
 						<img alt="author" src="img/author-page.jpg" class="avatar">
 						<span class="icon-status online"></span>
 					</div>
-					<a href="02ProfilePage.jsp" class="author-name fn">
+					<a href="profilepage.jsp" class="author-name fn">
 						<div class="author-title">
 							James Spiegel <svg class="olymp-dropdown-arrow-icon"><use xlink:href="svg-icons/sprites/icons.svg#olymp-dropdown-arrow-icon"></use></svg>
 						</div>
@@ -356,7 +281,7 @@
 
 			<ul class="left-menu">
 				<li>
-					<a href="28-YourAccount-PersonalInformation.html#" class="js-sidebar-open">
+					<a href="dashboard.jsp#" class="js-sidebar-open">
 						<svg class="olymp-close-icon left-menu-icon"><use xlink:href="svg-icons/sprites/icons.svg#olymp-close-icon"></use></svg>
 						<span class="left-menu-title">Collapse Menu</span>
 					</a>
@@ -416,7 +341,7 @@
 					</a>
 				</li>
 				<li>
-					<a href="28-YourAccount-PersonalInformation.html#">
+					<a href="dashboard.jsp#">
 						<svg class="olymp-manage-widgets-icon left-menu-icon"  data-toggle="tooltip" data-placement="right"   data-original-title="Manage Widgets"><use xlink:href="svg-icons/sprites/icons.svg#olymp-manage-widgets-icon"></use></svg>
 						<span class="left-menu-title">Manage Widgets</span>
 					</a>
@@ -429,7 +354,7 @@
 
 			<ul class="account-settings">
 				<li>
-					<a href="28-YourAccount-PersonalInformation.html#">
+					<a href="dashboard.jsp#">
 
 						<svg class="olymp-menu-icon"><use xlink:href="svg-icons/sprites/icons.svg#olymp-menu-icon"></use></svg>
 
@@ -437,14 +362,14 @@
 					</a>
 				</li>
 				<li>
-					<a href="28-YourAccount-PersonalInformation.html#">
+					<a href="dashboard.jsp#">
 						<svg class="olymp-star-icon left-menu-icon"  data-toggle="tooltip" data-placement="right"   data-original-title="FAV PAGE"><use xlink:href="svg-icons/sprites/icons.svg#olymp-star-icon"></use></svg>
 
 						<span>Create Fav Page</span>
 					</a>
 				</li>
 				<li>
-					<a href="28-YourAccount-PersonalInformation.html#">
+					<a href="dashboard.jsp#">
 						<svg class="olymp-logout-icon"><use xlink:href="svg-icons/sprites/icons.svg#olymp-logout-icon"></use></svg>
 
 						<span>Log Out</span>
@@ -458,22 +383,22 @@
 
 			<ul class="about-olympus">
 				<li>
-					<a href="28-YourAccount-PersonalInformation.html#">
+					<a href="dashboard.jsp#">
 						<span>Terms and Conditions</span>
 					</a>
 				</li>
 				<li>
-					<a href="28-YourAccount-PersonalInformation.html#">
+					<a href="dashboard.jsp#">
 						<span>FAQs</span>
 					</a>
 				</li>
 				<li>
-					<a href="28-YourAccount-PersonalInformation.html#">
+					<a href="dashboard.jsp#">
 						<span>Careers</span>
 					</a>
 				</li>
 				<li>
-					<a href="28-YourAccount-PersonalInformation.html#">
+					<a href="dashboard.jsp#">
 						<span>Contact</span>
 					</a>
 				</li>
@@ -567,12 +492,12 @@
 		</div>
 
 		<div class="search-friend inline-items">
-			<a href="28-YourAccount-PersonalInformation.html#" class="js-sidebar-open">
+			<a href="dashboard.jsp#" class="js-sidebar-open">
 				<svg class="olymp-menu-icon"><use xlink:href="svg-icons/sprites/icons.svg#olymp-menu-icon"></use></svg>
 			</a>
 		</div>
 
-		<a href="28-YourAccount-PersonalInformation.html#" class="olympus-chat inline-items js-chat-open">
+		<a href="dashboard.jsp#" class="olympus-chat inline-items js-chat-open">
 			<svg class="olymp-chat---messages-icon"><use xlink:href="svg-icons/sprites/icons.svg#olymp-chat---messages-icon"></use></svg>
 		</a>
 
@@ -583,8 +508,8 @@
 		<div class="mCustomScrollbar" data-mcs-theme="dark">
 
 			<div class="ui-block-title ui-block-title-small">
-				<a href="28-YourAccount-PersonalInformation.html#" class="title">Close Friends</a>
-				<a href="28-YourAccount-PersonalInformation.html#">Settings</a>
+				<a href="dashboard.jsp#" class="title">Close Friends</a>
+				<a href="dashboard.jsp#">Settings</a>
 			</div>
 
 			<ul class="chat-users">
@@ -596,7 +521,7 @@
 					</div>
 
 					<div class="author-status">
-						<a href="28-YourAccount-PersonalInformation.html#" class="h6 author-name">Carol Summers</a>
+						<a href="dashboard.jsp#" class="h6 author-name">Carol Summers</a>
 						<span class="status">ONLINE</span>
 					</div>
 
@@ -627,7 +552,7 @@
 					</div>
 
 					<div class="author-status">
-						<a href="28-YourAccount-PersonalInformation.html#" class="h6 author-name">Mathilda Brinker</a>
+						<a href="dashboard.jsp#" class="h6 author-name">Mathilda Brinker</a>
 						<span class="status">AT WORK!</span>
 					</div>
 
@@ -660,7 +585,7 @@
 					</div>
 
 					<div class="author-status">
-						<a href="28-YourAccount-PersonalInformation.html#" class="h6 author-name">Carol Summers</a>
+						<a href="dashboard.jsp#" class="h6 author-name">Carol Summers</a>
 						<span class="status">ONLINE</span>
 					</div>
 
@@ -694,7 +619,7 @@
 					</div>
 
 					<div class="author-status">
-						<a href="28-YourAccount-PersonalInformation.html#" class="h6 author-name">Michael Maximoff</a>
+						<a href="dashboard.jsp#" class="h6 author-name">Michael Maximoff</a>
 						<span class="status">AWAY</span>
 					</div>
 
@@ -728,7 +653,7 @@
 					</div>
 
 					<div class="author-status">
-						<a href="28-YourAccount-PersonalInformation.html#" class="h6 author-name">Rachel Howlett</a>
+						<a href="dashboard.jsp#" class="h6 author-name">Rachel Howlett</a>
 						<span class="status">OFFLINE</span>
 					</div>
 
@@ -756,8 +681,8 @@
 
 
 			<div class="ui-block-title ui-block-title-small">
-				<a href="28-YourAccount-PersonalInformation.html#" class="title">MY FAMILY</a>
-				<a href="28-YourAccount-PersonalInformation.html#">Settings</a>
+				<a href="dashboard.jsp#" class="title">MY FAMILY</a>
+				<a href="dashboard.jsp#">Settings</a>
 			</div>
 
 			<ul class="chat-users">
@@ -769,7 +694,7 @@
 					</div>
 
 					<div class="author-status">
-						<a href="28-YourAccount-PersonalInformation.html#" class="h6 author-name">Sarah Hetfield</a>
+						<a href="dashboard.jsp#" class="h6 author-name">Sarah Hetfield</a>
 						<span class="status">ONLINE</span>
 					</div>
 
@@ -795,8 +720,8 @@
 
 
 			<div class="ui-block-title ui-block-title-small">
-				<a href="28-YourAccount-PersonalInformation.html#" class="title">UNCATEGORIZED</a>
-				<a href="28-YourAccount-PersonalInformation.html#">Settings</a>
+				<a href="dashboard.jsp#" class="title">UNCATEGORIZED</a>
+				<a href="dashboard.jsp#">Settings</a>
 			</div>
 
 			<ul class="chat-users">
@@ -808,7 +733,7 @@
 					</div>
 
 					<div class="author-status">
-						<a href="28-YourAccount-PersonalInformation.html#" class="h6 author-name">Bruce Peterson</a>
+						<a href="dashboard.jsp#" class="h6 author-name">Bruce Peterson</a>
 						<span class="status">ONLINE</span>
 					</div>
 
@@ -840,7 +765,7 @@
 					</div>
 
 					<div class="author-status">
-						<a href="28-YourAccount-PersonalInformation.html#" class="h6 author-name">Chris Greyson</a>
+						<a href="dashboard.jsp#" class="h6 author-name">Chris Greyson</a>
 						<span class="status">AWAY</span>
 					</div>
 
@@ -871,7 +796,7 @@
 					</div>
 
 					<div class="author-status">
-						<a href="28-YourAccount-PersonalInformation.html#" class="h6 author-name">Nicholas Grisom</a>
+						<a href="dashboard.jsp#" class="h6 author-name">Nicholas Grisom</a>
 						<span class="status">INVISIBLE</span>
 					</div>
 
@@ -901,7 +826,7 @@
 					</div>
 
 					<div class="author-status">
-						<a href="28-YourAccount-PersonalInformation.html#" class="h6 author-name">Chris Greyson</a>
+						<a href="dashboard.jsp#" class="h6 author-name">Chris Greyson</a>
 						<span class="status">AWAY</span>
 					</div>
 
@@ -931,7 +856,7 @@
 					</div>
 
 					<div class="author-status">
-						<a href="28-YourAccount-PersonalInformation.html#" class="h6 author-name">Bruce Peterson</a>
+						<a href="dashboard.jsp#" class="h6 author-name">Bruce Peterson</a>
 						<span class="status">ONLINE</span>
 					</div>
 
@@ -962,16 +887,16 @@
 				<input class="form-control" placeholder="Search Friends..." value="" type="text">
 			</form>
 
-			<a href="29YourAccountAccountSettings.jsp" class="settings">
+			<a href="editprofile.jsp" class="settings">
 				<svg class="olymp-settings-icon"><use xlink:href="svg-icons/sprites/icons.svg#olymp-settings-icon"></use></svg>
 			</a>
 
-			<a href="28-YourAccount-PersonalInformation.html#" class="js-sidebar-open">
+			<a href="dashboard.jsp#" class="js-sidebar-open">
 				<svg class="olymp-close-icon"><use xlink:href="svg-icons/sprites/icons.svg#olymp-close-icon"></use></svg>
 			</a>
 		</div>
 
-		<a href="28-YourAccount-PersonalInformation.html#" class="olympus-chat inline-items js-chat-open">
+		<a href="dashboard.jsp#" class="olympus-chat inline-items js-chat-open">
 
 			<h6 class="olympus-chat-title">OLYMPUS CHAT</h6>
 			<svg class="olymp-chat---messages-icon"><use xlink:href="svg-icons/sprites/icons.svg#olymp-chat---messages-icon"></use></svg>
@@ -988,7 +913,7 @@
 <div class="fixed-sidebar right fixed-sidebar-responsive" id="sidebar-right-responsive">
 
 	<div class="fixed-sidebar-right sidebar--small">
-		<a href="28-YourAccount-PersonalInformation.html#" class="js-sidebar-open">
+		<a href="dashboard.jsp#" class="js-sidebar-open">
 			<svg class="olymp-menu-icon"><use xlink:href="svg-icons/sprites/icons.svg#olymp-menu-icon"></use></svg>
 			<svg class="olymp-close-icon"><use xlink:href="svg-icons/sprites/icons.svg#olymp-close-icon"></use></svg>
 		</a>
@@ -998,8 +923,8 @@
 		<div class="mCustomScrollbar" data-mcs-theme="dark">
 
 			<div class="ui-block-title ui-block-title-small">
-				<a href="28-YourAccount-PersonalInformation.html#" class="title">Close Friends</a>
-				<a href="28-YourAccount-PersonalInformation.html#">Settings</a>
+				<a href="dashboard.jsp#" class="title">Close Friends</a>
+				<a href="dashboard.jsp#">Settings</a>
 			</div>
 
 			<ul class="chat-users">
@@ -1011,7 +936,7 @@
 					</div>
 
 					<div class="author-status">
-						<a href="28-YourAccount-PersonalInformation.html#" class="h6 author-name">Carol Summers</a>
+						<a href="dashboard.jsp#" class="h6 author-name">Carol Summers</a>
 						<span class="status">ONLINE</span>
 					</div>
 
@@ -1042,7 +967,7 @@
 					</div>
 
 					<div class="author-status">
-						<a href="28-YourAccount-PersonalInformation.html#" class="h6 author-name">Mathilda Brinker</a>
+						<a href="dashboard.jsp#" class="h6 author-name">Mathilda Brinker</a>
 						<span class="status">AT WORK!</span>
 					</div>
 
@@ -1075,7 +1000,7 @@
 					</div>
 
 					<div class="author-status">
-						<a href="28-YourAccount-PersonalInformation.html#" class="h6 author-name">Carol Summers</a>
+						<a href="dashboard.jsp#" class="h6 author-name">Carol Summers</a>
 						<span class="status">ONLINE</span>
 					</div>
 
@@ -1109,7 +1034,7 @@
 					</div>
 
 					<div class="author-status">
-						<a href="28-YourAccount-PersonalInformation.html#" class="h6 author-name">Michael Maximoff</a>
+						<a href="dashboard.jsp#" class="h6 author-name">Michael Maximoff</a>
 						<span class="status">AWAY</span>
 					</div>
 
@@ -1143,7 +1068,7 @@
 					</div>
 
 					<div class="author-status">
-						<a href="28-YourAccount-PersonalInformation.html#" class="h6 author-name">Rachel Howlett</a>
+						<a href="dashboard.jsp#" class="h6 author-name">Rachel Howlett</a>
 						<span class="status">OFFLINE</span>
 					</div>
 
@@ -1171,8 +1096,8 @@
 
 
 			<div class="ui-block-title ui-block-title-small">
-				<a href="28-YourAccount-PersonalInformation.html#" class="title">MY FAMILY</a>
-				<a href="28-YourAccount-PersonalInformation.html#">Settings</a>
+				<a href="dashboard.jsp#" class="title">MY FAMILY</a>
+				<a href="dashboard.jsp#">Settings</a>
 			</div>
 
 			<ul class="chat-users">
@@ -1184,7 +1109,7 @@
 					</div>
 
 					<div class="author-status">
-						<a href="28-YourAccount-PersonalInformation.html#" class="h6 author-name">Sarah Hetfield</a>
+						<a href="dashboard.jsp#" class="h6 author-name">Sarah Hetfield</a>
 						<span class="status">ONLINE</span>
 					</div>
 
@@ -1210,8 +1135,8 @@
 
 
 			<div class="ui-block-title ui-block-title-small">
-				<a href="28-YourAccount-PersonalInformation.html#" class="title">UNCATEGORIZED</a>
-				<a href="28-YourAccount-PersonalInformation.html#">Settings</a>
+				<a href="dashboard.jsp#" class="title">UNCATEGORIZED</a>
+				<a href="dashboard.jsp#">Settings</a>
 			</div>
 
 			<ul class="chat-users">
@@ -1223,7 +1148,7 @@
 					</div>
 
 					<div class="author-status">
-						<a href="28-YourAccount-PersonalInformation.html#" class="h6 author-name">Bruce Peterson</a>
+						<a href="dashboard.jsp#" class="h6 author-name">Bruce Peterson</a>
 						<span class="status">ONLINE</span>
 					</div>
 
@@ -1255,7 +1180,7 @@
 					</div>
 
 					<div class="author-status">
-						<a href="28-YourAccount-PersonalInformation.html#" class="h6 author-name">Chris Greyson</a>
+						<a href="dashboard.jsp#" class="h6 author-name">Chris Greyson</a>
 						<span class="status">AWAY</span>
 					</div>
 
@@ -1286,7 +1211,7 @@
 					</div>
 
 					<div class="author-status">
-						<a href="28-YourAccount-PersonalInformation.html#" class="h6 author-name">Nicholas Grisom</a>
+						<a href="dashboard.jsp#" class="h6 author-name">Nicholas Grisom</a>
 						<span class="status">INVISIBLE</span>
 					</div>
 
@@ -1316,7 +1241,7 @@
 					</div>
 
 					<div class="author-status">
-						<a href="28-YourAccount-PersonalInformation.html#" class="h6 author-name">Chris Greyson</a>
+						<a href="dashboard.jsp#" class="h6 author-name">Chris Greyson</a>
 						<span class="status">AWAY</span>
 					</div>
 
@@ -1346,7 +1271,7 @@
 					</div>
 
 					<div class="author-status">
-						<a href="28-YourAccount-PersonalInformation.html#" class="h6 author-name">Bruce Peterson</a>
+						<a href="dashboard.jsp#" class="h6 author-name">Bruce Peterson</a>
 						<span class="status">ONLINE</span>
 					</div>
 
@@ -1377,16 +1302,16 @@
 				<input class="form-control" placeholder="Search Friends..." value="" type="text">
 			</form>
 
-			<a href="29YourAccountAccountSettings.jsp" class="settings">
+			<a href="editprofile.jsp" class="settings">
 				<svg class="olymp-settings-icon"><use xlink:href="svg-icons/sprites/icons.svg#olymp-settings-icon"></use></svg>
 			</a>
 
-			<a href="28-YourAccount-PersonalInformation.html#" class="js-sidebar-open">
+			<a href="dashboard.jsp#" class="js-sidebar-open">
 				<svg class="olymp-close-icon"><use xlink:href="svg-icons/sprites/icons.svg#olymp-close-icon"></use></svg>
 			</a>
 		</div>
 
-		<a href="28-YourAccount-PersonalInformation.html#" class="olympus-chat inline-items js-chat-open">
+		<a href="dashboard.jsp#" class="olympus-chat inline-items js-chat-open">
 
 			<h6 class="olympus-chat-title">OLYMPUS CHAT</h6>
 			<svg class="olymp-chat---messages-icon"><use xlink:href="svg-icons/sprites/icons.svg#olymp-chat---messages-icon"></use></svg>
@@ -1403,7 +1328,7 @@
 <header class="header" id="site-header">
 
 	<div class="page-title">
-		<h6>your account</h6>
+		<h6>statistics</h6>
 	</div>
 
 	<div class="header-content-wrapper">
@@ -1416,7 +1341,7 @@
 			</div>
 		</form>
 
-		<a href="28-YourAccount-PersonalInformation.html#" class="link-find-friend">Find Friends</a>
+		<a href="dashboard.jsp#" class="link-find-friend">Find Friends</a>
 
 		<div class="control-block">
 
@@ -1427,8 +1352,8 @@
 				<div class="more-dropdown more-with-triangle triangle-top-center">
 					<div class="ui-block-title ui-block-title-small">
 						<h6 class="title">FRIEND REQUESTS</h6>
-						<a href="28-YourAccount-PersonalInformation.html#">Find Friends</a>
-						<a href="28-YourAccount-PersonalInformation.html#">Settings</a>
+						<a href="dashboard.jsp#">Find Friends</a>
+						<a href="dashboard.jsp#">Settings</a>
 					</div>
 
 					<div class="mCustomScrollbar" data-mcs-theme="dark">
@@ -1438,17 +1363,17 @@
 									<img src="img/avatar55-sm.jpg" alt="author">
 								</div>
 								<div class="notification-event">
-									<a href="28-YourAccount-PersonalInformation.html#" class="h6 notification-friend">Tamara Romanoff</a>
+									<a href="dashboard.jsp#" class="h6 notification-friend">Tamara Romanoff</a>
 									<span class="chat-message-item">Mutual Friend: Sarah Hetfield</span>
 								</div>
 								<span class="notification-icon">
-									<a href="28-YourAccount-PersonalInformation.html#" class="accept-request">
+									<a href="dashboard.jsp#" class="accept-request">
 										<span class="icon-add without-text">
 											<svg class="olymp-happy-face-icon"><use xlink:href="svg-icons/sprites/icons.svg#olymp-happy-face-icon"></use></svg>
 										</span>
 									</a>
 
-									<a href="28-YourAccount-PersonalInformation.html#" class="accept-request request-del">
+									<a href="dashboard.jsp#" class="accept-request request-del">
 										<span class="icon-minus">
 											<svg class="olymp-happy-face-icon"><use xlink:href="svg-icons/sprites/icons.svg#olymp-happy-face-icon"></use></svg>
 										</span>
@@ -1466,17 +1391,17 @@
 									<img src="img/avatar56-sm.jpg" alt="author">
 								</div>
 								<div class="notification-event">
-									<a href="28-YourAccount-PersonalInformation.html#" class="h6 notification-friend">Tony Stevens</a>
+									<a href="dashboard.jsp#" class="h6 notification-friend">Tony Stevens</a>
 									<span class="chat-message-item">4 Friends in Common</span>
 								</div>
 								<span class="notification-icon">
-									<a href="28-YourAccount-PersonalInformation.html#" class="accept-request">
+									<a href="dashboard.jsp#" class="accept-request">
 										<span class="icon-add without-text">
 											<svg class="olymp-happy-face-icon"><use xlink:href="svg-icons/sprites/icons.svg#olymp-happy-face-icon"></use></svg>
 										</span>
 									</a>
 
-									<a href="28-YourAccount-PersonalInformation.html#" class="accept-request request-del">
+									<a href="dashboard.jsp#" class="accept-request request-del">
 										<span class="icon-minus">
 											<svg class="olymp-happy-face-icon"><use xlink:href="svg-icons/sprites/icons.svg#olymp-happy-face-icon"></use></svg>
 										</span>
@@ -1494,7 +1419,7 @@
 									<img src="img/avatar57-sm.jpg" alt="author">
 								</div>
 								<div class="notification-event">
-									You and <a href="28-YourAccount-PersonalInformation.html#" class="h6 notification-friend">Mary Jane Stark</a> just became friends. Write on <a href="28-YourAccount-PersonalInformation.html#" class="notification-link">her wall</a>.
+									You and <a href="dashboard.jsp#" class="h6 notification-friend">Mary Jane Stark</a> just became friends. Write on <a href="dashboard.jsp#" class="notification-link">her wall</a>.
 								</div>
 								<span class="notification-icon">
 									<svg class="olymp-happy-face-icon"><use xlink:href="svg-icons/sprites/icons.svg#olymp-happy-face-icon"></use></svg>
@@ -1511,17 +1436,17 @@
 									<img src="img/avatar58-sm.jpg" alt="author">
 								</div>
 								<div class="notification-event">
-									<a href="28-YourAccount-PersonalInformation.html#" class="h6 notification-friend">Stagg Clothing</a>
+									<a href="dashboard.jsp#" class="h6 notification-friend">Stagg Clothing</a>
 									<span class="chat-message-item">9 Friends in Common</span>
 								</div>
 								<span class="notification-icon">
-									<a href="28-YourAccount-PersonalInformation.html#" class="accept-request">
+									<a href="dashboard.jsp#" class="accept-request">
 										<span class="icon-add without-text">
 											<svg class="olymp-happy-face-icon"><use xlink:href="svg-icons/sprites/icons.svg#olymp-happy-face-icon"></use></svg>
 										</span>
 									</a>
 
-									<a href="28-YourAccount-PersonalInformation.html#" class="accept-request request-del">
+									<a href="dashboard.jsp#" class="accept-request request-del">
 										<span class="icon-minus">
 											<svg class="olymp-happy-face-icon"><use xlink:href="svg-icons/sprites/icons.svg#olymp-happy-face-icon"></use></svg>
 										</span>
@@ -1537,7 +1462,7 @@
 						</ul>
 					</div>
 
-					<a href="28-YourAccount-PersonalInformation.html#" class="view-all bg-blue">Check all your Events</a>
+					<a href="dashboard.jsp#" class="view-all bg-blue">Check all your Events</a>
 				</div>
 			</div>
 
@@ -1548,8 +1473,8 @@
 				<div class="more-dropdown more-with-triangle triangle-top-center">
 					<div class="ui-block-title ui-block-title-small">
 						<h6 class="title">Chat / Messages</h6>
-						<a href="28-YourAccount-PersonalInformation.html#">Mark all as read</a>
-						<a href="28-YourAccount-PersonalInformation.html#">Settings</a>
+						<a href="dashboard.jsp#">Mark all as read</a>
+						<a href="dashboard.jsp#">Settings</a>
 					</div>
 
 					<div class="mCustomScrollbar" data-mcs-theme="dark">
@@ -1559,7 +1484,7 @@
 									<img src="img/avatar59-sm.jpg" alt="author">
 								</div>
 								<div class="notification-event">
-									<a href="28-YourAccount-PersonalInformation.html#" class="h6 notification-friend">Diana Jameson</a>
+									<a href="dashboard.jsp#" class="h6 notification-friend">Diana Jameson</a>
 									<span class="chat-message-item">Hi James! It’s Diana, I just wanted to let you know that we have to reschedule...</span>
 									<span class="notification-date"><time class="entry-date updated" datetime="2004-07-24T18:18">4 hours ago</time></span>
 								</div>
@@ -1576,7 +1501,7 @@
 									<img src="img/avatar60-sm.jpg" alt="author">
 								</div>
 								<div class="notification-event">
-									<a href="28-YourAccount-PersonalInformation.html#" class="h6 notification-friend">Jake Parker</a>
+									<a href="dashboard.jsp#" class="h6 notification-friend">Jake Parker</a>
 									<span class="chat-message-item">Great, I’ll see you tomorrow!.</span>
 									<span class="notification-date"><time class="entry-date updated" datetime="2004-07-24T18:18">4 hours ago</time></span>
 								</div>
@@ -1593,7 +1518,7 @@
 									<img src="img/avatar61-sm.jpg" alt="author">
 								</div>
 								<div class="notification-event">
-									<a href="28-YourAccount-PersonalInformation.html#" class="h6 notification-friend">Elaine Dreyfuss</a>
+									<a href="dashboard.jsp#" class="h6 notification-friend">Elaine Dreyfuss</a>
 									<span class="chat-message-item">We’ll have to check that at the office and see if the client is on board with...</span>
 									<span class="notification-date"><time class="entry-date updated" datetime="2004-07-24T18:18">Yesterday at 9:56pm</time></span>
 								</div>
@@ -1613,7 +1538,7 @@
 									<img src="img/avatar10-sm.jpg" alt="author">
 								</div>
 								<div class="notification-event">
-									<a href="28-YourAccount-PersonalInformation.html#" class="h6 notification-friend">You, Faye, Ed &amp; Jet +3</a>
+									<a href="dashboard.jsp#" class="h6 notification-friend">You, Faye, Ed &amp; Jet +3</a>
 									<span class="last-message-author">Ed:</span>
 									<span class="chat-message-item">Yeah! Seems fine by me!</span>
 									<span class="notification-date"><time class="entry-date updated" datetime="2004-07-24T18:18">March 16th at 10:23am</time></span>
@@ -1628,7 +1553,7 @@
 						</ul>
 					</div>
 
-					<a href="28-YourAccount-PersonalInformation.html#" class="view-all bg-purple">View All Messages</a>
+					<a href="dashboard.jsp#" class="view-all bg-purple">View All Messages</a>
 				</div>
 			</div>
 
@@ -1640,8 +1565,8 @@
 				<div class="more-dropdown more-with-triangle triangle-top-center">
 					<div class="ui-block-title ui-block-title-small">
 						<h6 class="title">Notifications</h6>
-						<a href="28-YourAccount-PersonalInformation.html#">Mark all as read</a>
-						<a href="28-YourAccount-PersonalInformation.html#">Settings</a>
+						<a href="dashboard.jsp#">Mark all as read</a>
+						<a href="dashboard.jsp#">Settings</a>
 					</div>
 
 					<div class="mCustomScrollbar" data-mcs-theme="dark">
@@ -1651,7 +1576,7 @@
 									<img src="img/avatar62-sm.jpg" alt="author">
 								</div>
 								<div class="notification-event">
-									<div><a href="28-YourAccount-PersonalInformation.html#" class="h6 notification-friend">Mathilda Brinker</a> commented on your new <a href="28-YourAccount-PersonalInformation.html#" class="notification-link">profile status</a>.</div>
+									<div><a href="dashboard.jsp#" class="h6 notification-friend">Mathilda Brinker</a> commented on your new <a href="dashboard.jsp#" class="notification-link">profile status</a>.</div>
 									<span class="notification-date"><time class="entry-date updated" datetime="2004-07-24T18:18">4 hours ago</time></span>
 								</div>
 									<span class="notification-icon">
@@ -1669,7 +1594,7 @@
 									<img src="img/avatar63-sm.jpg" alt="author">
 								</div>
 								<div class="notification-event">
-									<div>You and <a href="28-YourAccount-PersonalInformation.html#" class="h6 notification-friend">Nicholas Grissom</a> just became friends. Write on <a href="28-YourAccount-PersonalInformation.html#" class="notification-link">his wall</a>.</div>
+									<div>You and <a href="dashboard.jsp#" class="h6 notification-friend">Nicholas Grissom</a> just became friends. Write on <a href="dashboard.jsp#" class="notification-link">his wall</a>.</div>
 									<span class="notification-date"><time class="entry-date updated" datetime="2004-07-24T18:18">9 hours ago</time></span>
 								</div>
 									<span class="notification-icon">
@@ -1687,7 +1612,7 @@
 									<img src="img/avatar64-sm.jpg" alt="author">
 								</div>
 								<div class="notification-event">
-									<div><a href="28-YourAccount-PersonalInformation.html#" class="h6 notification-friend">Sarah Hetfield</a> commented on your <a href="28-YourAccount-PersonalInformation.html#" class="notification-link">photo</a>.</div>
+									<div><a href="dashboard.jsp#" class="h6 notification-friend">Sarah Hetfield</a> commented on your <a href="dashboard.jsp#" class="notification-link">photo</a>.</div>
 									<span class="notification-date"><time class="entry-date updated" datetime="2004-07-24T18:18">Yesterday at 5:32am</time></span>
 								</div>
 									<span class="notification-icon">
@@ -1710,7 +1635,7 @@
 									<img src="img/avatar65-sm.jpg" alt="author">
 								</div>
 								<div class="notification-event">
-									<div><a href="28-YourAccount-PersonalInformation.html#" class="h6 notification-friend">Green Goo Rock</a> invited you to attend to his event Goo in <a href="28-YourAccount-PersonalInformation.html#" class="notification-link">Gotham Bar</a>.</div>
+									<div><a href="dashboard.jsp#" class="h6 notification-friend">Green Goo Rock</a> invited you to attend to his event Goo in <a href="dashboard.jsp#" class="notification-link">Gotham Bar</a>.</div>
 									<span class="notification-date"><time class="entry-date updated" datetime="2004-07-24T18:18">March 5th at 6:43pm</time></span>
 								</div>
 									<span class="notification-icon">
@@ -1728,7 +1653,7 @@
 									<img src="img/avatar66-sm.jpg" alt="author">
 								</div>
 								<div class="notification-event">
-									<div><a href="28-YourAccount-PersonalInformation.html#" class="h6 notification-friend">James Summers</a> commented on your new <a href="28-YourAccount-PersonalInformation.html#" class="notification-link">profile status</a>.</div>
+									<div><a href="dashboard.jsp#" class="h6 notification-friend">James Summers</a> commented on your new <a href="dashboard.jsp#" class="notification-link">profile status</a>.</div>
 									<span class="notification-date"><time class="entry-date updated" datetime="2004-07-24T18:18">March 2nd at 8:29pm</time></span>
 								</div>
 									<span class="notification-icon">
@@ -1743,7 +1668,7 @@
 						</ul>
 					</div>
 
-					<a href="28-YourAccount-PersonalInformation.html#" class="view-all bg-primary">View All Notifications</a>
+					<a href="dashboard.jsp#" class="view-all bg-primary">View All Notifications</a>
 				</div>
 			</div>
 
@@ -1759,7 +1684,7 @@
 
 							<ul class="account-settings">
 								<li>
-									<a href="29YourAccountAccountSettings.jsp">
+									<a href="editprofile.jsp">
 
 										<svg class="olymp-menu-icon"><use xlink:href="svg-icons/sprites/icons.svg#olymp-menu-icon"></use></svg>
 
@@ -1774,7 +1699,7 @@
 									</a>
 								</li>
 								<li>
-									<a href="28-YourAccount-PersonalInformation.html#">
+									<a href="dashboard.jsp#">
 										<svg class="olymp-logout-icon"><use xlink:href="svg-icons/sprites/icons.svg#olymp-logout-icon"></use></svg>
 
 										<span>Log Out</span>
@@ -1788,26 +1713,26 @@
 
 							<ul class="chat-settings">
 								<li>
-									<a href="28-YourAccount-PersonalInformation.html#">
+									<a href="dashboard.jsp#">
 										<span class="icon-status online"></span>
 										<span>Online</span>
 									</a>
 								</li>
 								<li>
-									<a href="28-YourAccount-PersonalInformation.html#">
+									<a href="dashboard.jsp#">
 										<span class="icon-status away"></span>
 										<span>Away</span>
 									</a>
 								</li>
 								<li>
-									<a href="28-YourAccount-PersonalInformation.html#">
+									<a href="dashboard.jsp#">
 										<span class="icon-status disconected"></span>
 										<span>Disconnected</span>
 									</a>
 								</li>
 
 								<li>
-									<a href="28-YourAccount-PersonalInformation.html#">
+									<a href="dashboard.jsp#">
 										<span class="icon-status status-invisible"></span>
 										<span>Invisible</span>
 									</a>
@@ -1832,22 +1757,22 @@
 
 							<ul>
 								<li>
-									<a href="28-YourAccount-PersonalInformation.html#">
+									<a href="dashboard.jsp#">
 										<span>Terms and Conditions</span>
 									</a>
 								</li>
 								<li>
-									<a href="28-YourAccount-PersonalInformation.html#">
+									<a href="dashboard.jsp#">
 										<span>FAQs</span>
 									</a>
 								</li>
 								<li>
-									<a href="28-YourAccount-PersonalInformation.html#">
+									<a href="dashboard.jsp#">
 										<span>Careers</span>
 									</a>
 								</li>
 								<li>
-									<a href="28-YourAccount-PersonalInformation.html#">
+									<a href="dashboard.jsp#">
 										<span>Contact</span>
 									</a>
 								</li>
@@ -1856,7 +1781,7 @@
 
 					</div>
 				</div>
-				<a href="02ProfilePage.jsp" class="author-name fn">
+				<a href="profilepage.jsp" class="author-name fn">
 					<div class="author-title">
 						James Spiegel <svg class="olymp-dropdown-arrow-icon"><use xlink:href="svg-icons/sprites/icons.svg#olymp-dropdown-arrow-icon"></use></svg>
 					</div>
@@ -1879,7 +1804,7 @@
 	<div class="header-content-wrapper">
 		<ul class="nav nav-tabs mobile-app-tabs" role="tablist">
 			<li class="nav-item">
-				<a class="nav-link" data-toggle="tab" href="28-YourAccount-PersonalInformation.html#request" role="tab">
+				<a class="nav-link" data-toggle="tab" href="dashboard.jsp#request" role="tab">
 					<div class="control-icon has-items">
 						<svg class="olymp-happy-face-icon"><use xlink:href="svg-icons/sprites/icons.svg#olymp-happy-face-icon"></use></svg>
 						<div class="label-avatar bg-blue">6</div>
@@ -1888,7 +1813,7 @@
 			</li>
 
 			<li class="nav-item">
-				<a class="nav-link" data-toggle="tab" href="28-YourAccount-PersonalInformation.html#chat" role="tab">
+				<a class="nav-link" data-toggle="tab" href="dashboard.jsp#chat" role="tab">
 					<div class="control-icon has-items">
 						<svg class="olymp-chat---messages-icon"><use xlink:href="svg-icons/sprites/icons.svg#olymp-chat---messages-icon"></use></svg>
 						<div class="label-avatar bg-purple">2</div>
@@ -1897,7 +1822,7 @@
 			</li>
 
 			<li class="nav-item">
-				<a class="nav-link" data-toggle="tab" href="28-YourAccount-PersonalInformation.html#notification" role="tab">
+				<a class="nav-link" data-toggle="tab" href="dashboard.jsp#notification" role="tab">
 					<div class="control-icon has-items">
 						<svg class="olymp-thunder-icon"><use xlink:href="svg-icons/sprites/icons.svg#olymp-thunder-icon"></use></svg>
 						<div class="label-avatar bg-primary">8</div>
@@ -1906,7 +1831,7 @@
 			</li>
 
 			<li class="nav-item">
-				<a class="nav-link" data-toggle="tab" href="28-YourAccount-PersonalInformation.html#search" role="tab">
+				<a class="nav-link" data-toggle="tab" href="dashboard.jsp#search" role="tab">
 					<svg class="olymp-magnifying-glass-icon"><use xlink:href="svg-icons/sprites/icons.svg#olymp-magnifying-glass-icon"></use></svg>
 					<svg class="olymp-close-icon"><use xlink:href="svg-icons/sprites/icons.svg#olymp-close-icon"></use></svg>
 				</a>
@@ -1922,8 +1847,8 @@
 			<div class="mCustomScrollbar" data-mcs-theme="dark">
 				<div class="ui-block-title ui-block-title-small">
 					<h6 class="title">FRIEND REQUESTS</h6>
-					<a href="28-YourAccount-PersonalInformation.html#">Find Friends</a>
-					<a href="28-YourAccount-PersonalInformation.html#">Settings</a>
+					<a href="dashboard.jsp#">Find Friends</a>
+					<a href="dashboard.jsp#">Settings</a>
 				</div>
 				<ul class="notification-list friend-requests">
 					<li>
@@ -1931,17 +1856,17 @@
 							<img src="img/avatar55-sm.jpg" alt="author">
 						</div>
 						<div class="notification-event">
-							<a href="28-YourAccount-PersonalInformation.html#" class="h6 notification-friend">Tamara Romanoff</a>
+							<a href="dashboard.jsp#" class="h6 notification-friend">Tamara Romanoff</a>
 							<span class="chat-message-item">Mutual Friend: Sarah Hetfield</span>
 						</div>
 									<span class="notification-icon">
-										<a href="28-YourAccount-PersonalInformation.html#" class="accept-request">
+										<a href="dashboard.jsp#" class="accept-request">
 											<span class="icon-add without-text">
 												<svg class="olymp-happy-face-icon"><use xlink:href="svg-icons/sprites/icons.svg#olymp-happy-face-icon"></use></svg>
 											</span>
 										</a>
 
-										<a href="28-YourAccount-PersonalInformation.html#" class="accept-request request-del">
+										<a href="dashboard.jsp#" class="accept-request request-del">
 											<span class="icon-minus">
 												<svg class="olymp-happy-face-icon"><use xlink:href="svg-icons/sprites/icons.svg#olymp-happy-face-icon"></use></svg>
 											</span>
@@ -1958,17 +1883,17 @@
 							<img src="img/avatar56-sm.jpg" alt="author">
 						</div>
 						<div class="notification-event">
-							<a href="28-YourAccount-PersonalInformation.html#" class="h6 notification-friend">Tony Stevens</a>
+							<a href="dashboard.jsp#" class="h6 notification-friend">Tony Stevens</a>
 							<span class="chat-message-item">4 Friends in Common</span>
 						</div>
 									<span class="notification-icon">
-										<a href="28-YourAccount-PersonalInformation.html#" class="accept-request">
+										<a href="dashboard.jsp#" class="accept-request">
 											<span class="icon-add without-text">
 												<svg class="olymp-happy-face-icon"><use xlink:href="svg-icons/sprites/icons.svg#olymp-happy-face-icon"></use></svg>
 											</span>
 										</a>
 
-										<a href="28-YourAccount-PersonalInformation.html#" class="accept-request request-del">
+										<a href="dashboard.jsp#" class="accept-request request-del">
 											<span class="icon-minus">
 												<svg class="olymp-happy-face-icon"><use xlink:href="svg-icons/sprites/icons.svg#olymp-happy-face-icon"></use></svg>
 											</span>
@@ -1985,7 +1910,7 @@
 							<img src="img/avatar57-sm.jpg" alt="author">
 						</div>
 						<div class="notification-event">
-							You and <a href="28-YourAccount-PersonalInformation.html#" class="h6 notification-friend">Mary Jane Stark</a> just became friends. Write on <a href="28-YourAccount-PersonalInformation.html#" class="notification-link">her wall</a>.
+							You and <a href="dashboard.jsp#" class="h6 notification-friend">Mary Jane Stark</a> just became friends. Write on <a href="dashboard.jsp#" class="notification-link">her wall</a>.
 						</div>
 									<span class="notification-icon">
 										<svg class="olymp-happy-face-icon"><use xlink:href="svg-icons/sprites/icons.svg#olymp-happy-face-icon"></use></svg>
@@ -2001,17 +1926,17 @@
 							<img src="img/avatar58-sm.jpg" alt="author">
 						</div>
 						<div class="notification-event">
-							<a href="28-YourAccount-PersonalInformation.html#" class="h6 notification-friend">Stagg Clothing</a>
+							<a href="dashboard.jsp#" class="h6 notification-friend">Stagg Clothing</a>
 							<span class="chat-message-item">9 Friends in Common</span>
 						</div>
 									<span class="notification-icon">
-										<a href="28-YourAccount-PersonalInformation.html#" class="accept-request">
+										<a href="dashboard.jsp#" class="accept-request">
 											<span class="icon-add without-text">
 												<svg class="olymp-happy-face-icon"><use xlink:href="svg-icons/sprites/icons.svg#olymp-happy-face-icon"></use></svg>
 											</span>
 										</a>
 
-										<a href="28-YourAccount-PersonalInformation.html#" class="accept-request request-del">
+										<a href="dashboard.jsp#" class="accept-request request-del">
 											<span class="icon-minus">
 												<svg class="olymp-happy-face-icon"><use xlink:href="svg-icons/sprites/icons.svg#olymp-happy-face-icon"></use></svg>
 											</span>
@@ -2024,7 +1949,7 @@
 						</div>
 					</li>
 				</ul>
-				<a href="28-YourAccount-PersonalInformation.html#" class="view-all bg-blue">Check all your Events</a>
+				<a href="dashboard.jsp#" class="view-all bg-blue">Check all your Events</a>
 			</div>
 
 		</div>
@@ -2034,8 +1959,8 @@
 			<div class="mCustomScrollbar" data-mcs-theme="dark">
 				<div class="ui-block-title ui-block-title-small">
 					<h6 class="title">Chat / Messages</h6>
-					<a href="28-YourAccount-PersonalInformation.html#">Mark all as read</a>
-					<a href="28-YourAccount-PersonalInformation.html#">Settings</a>
+					<a href="dashboard.jsp#">Mark all as read</a>
+					<a href="dashboard.jsp#">Settings</a>
 				</div>
 
 				<ul class="notification-list chat-message">
@@ -2044,7 +1969,7 @@
 							<img src="img/avatar59-sm.jpg" alt="author">
 						</div>
 						<div class="notification-event">
-							<a href="28-YourAccount-PersonalInformation.html#" class="h6 notification-friend">Diana Jameson</a>
+							<a href="dashboard.jsp#" class="h6 notification-friend">Diana Jameson</a>
 							<span class="chat-message-item">Hi James! It’s Diana, I just wanted to let you know that we have to reschedule...</span>
 							<span class="notification-date"><time class="entry-date updated" datetime="2004-07-24T18:18">4 hours ago</time></span>
 						</div>
@@ -2061,7 +1986,7 @@
 							<img src="img/avatar60-sm.jpg" alt="author">
 						</div>
 						<div class="notification-event">
-							<a href="28-YourAccount-PersonalInformation.html#" class="h6 notification-friend">Jake Parker</a>
+							<a href="dashboard.jsp#" class="h6 notification-friend">Jake Parker</a>
 							<span class="chat-message-item">Great, I’ll see you tomorrow!.</span>
 							<span class="notification-date"><time class="entry-date updated" datetime="2004-07-24T18:18">4 hours ago</time></span>
 						</div>
@@ -2078,7 +2003,7 @@
 							<img src="img/avatar61-sm.jpg" alt="author">
 						</div>
 						<div class="notification-event">
-							<a href="28-YourAccount-PersonalInformation.html#" class="h6 notification-friend">Elaine Dreyfuss</a>
+							<a href="dashboard.jsp#" class="h6 notification-friend">Elaine Dreyfuss</a>
 							<span class="chat-message-item">We’ll have to check that at the office and see if the client is on board with...</span>
 							<span class="notification-date"><time class="entry-date updated" datetime="2004-07-24T18:18">Yesterday at 9:56pm</time></span>
 						</div>
@@ -2098,7 +2023,7 @@
 							<img src="img/avatar10-sm.jpg" alt="author">
 						</div>
 						<div class="notification-event">
-							<a href="28-YourAccount-PersonalInformation.html#" class="h6 notification-friend">You, Faye, Ed &amp; Jet +3</a>
+							<a href="dashboard.jsp#" class="h6 notification-friend">You, Faye, Ed &amp; Jet +3</a>
 							<span class="last-message-author">Ed:</span>
 							<span class="chat-message-item">Yeah! Seems fine by me!</span>
 							<span class="notification-date"><time class="entry-date updated" datetime="2004-07-24T18:18">March 16th at 10:23am</time></span>
@@ -2112,7 +2037,7 @@
 					</li>
 				</ul>
 
-				<a href="28-YourAccount-PersonalInformation.html#" class="view-all bg-purple">View All Messages</a>
+				<a href="dashboard.jsp#" class="view-all bg-purple">View All Messages</a>
 			</div>
 
 		</div>
@@ -2122,8 +2047,8 @@
 			<div class="mCustomScrollbar" data-mcs-theme="dark">
 				<div class="ui-block-title ui-block-title-small">
 					<h6 class="title">Notifications</h6>
-					<a href="28-YourAccount-PersonalInformation.html#">Mark all as read</a>
-					<a href="28-YourAccount-PersonalInformation.html#">Settings</a>
+					<a href="dashboard.jsp#">Mark all as read</a>
+					<a href="dashboard.jsp#">Settings</a>
 				</div>
 
 				<ul class="notification-list">
@@ -2132,7 +2057,7 @@
 							<img src="img/avatar62-sm.jpg" alt="author">
 						</div>
 						<div class="notification-event">
-							<div><a href="28-YourAccount-PersonalInformation.html#" class="h6 notification-friend">Mathilda Brinker</a> commented on your new <a href="28-YourAccount-PersonalInformation.html#" class="notification-link">profile status</a>.</div>
+							<div><a href="dashboard.jsp#" class="h6 notification-friend">Mathilda Brinker</a> commented on your new <a href="dashboard.jsp#" class="notification-link">profile status</a>.</div>
 							<span class="notification-date"><time class="entry-date updated" datetime="2004-07-24T18:18">4 hours ago</time></span>
 						</div>
 										<span class="notification-icon">
@@ -2150,7 +2075,7 @@
 							<img src="img/avatar63-sm.jpg" alt="author">
 						</div>
 						<div class="notification-event">
-							<div>You and <a href="28-YourAccount-PersonalInformation.html#" class="h6 notification-friend">Nicholas Grissom</a> just became friends. Write on <a href="28-YourAccount-PersonalInformation.html#" class="notification-link">his wall</a>.</div>
+							<div>You and <a href="dashboard.jsp#" class="h6 notification-friend">Nicholas Grissom</a> just became friends. Write on <a href="dashboard.jsp#" class="notification-link">his wall</a>.</div>
 							<span class="notification-date"><time class="entry-date updated" datetime="2004-07-24T18:18">9 hours ago</time></span>
 						</div>
 										<span class="notification-icon">
@@ -2168,7 +2093,7 @@
 							<img src="img/avatar64-sm.jpg" alt="author">
 						</div>
 						<div class="notification-event">
-							<div><a href="28-YourAccount-PersonalInformation.html#" class="h6 notification-friend">Sarah Hetfield</a> commented on your <a href="28-YourAccount-PersonalInformation.html#" class="notification-link">photo</a>.</div>
+							<div><a href="dashboard.jsp#" class="h6 notification-friend">Sarah Hetfield</a> commented on your <a href="dashboard.jsp#" class="notification-link">photo</a>.</div>
 							<span class="notification-date"><time class="entry-date updated" datetime="2004-07-24T18:18">Yesterday at 5:32am</time></span>
 						</div>
 										<span class="notification-icon">
@@ -2191,7 +2116,7 @@
 							<img src="img/avatar65-sm.jpg" alt="author">
 						</div>
 						<div class="notification-event">
-							<div><a href="28-YourAccount-PersonalInformation.html#" class="h6 notification-friend">Green Goo Rock</a> invited you to attend to his event Goo in <a href="28-YourAccount-PersonalInformation.html#" class="notification-link">Gotham Bar</a>.</div>
+							<div><a href="dashboard.jsp#" class="h6 notification-friend">Green Goo Rock</a> invited you to attend to his event Goo in <a href="dashboard.jsp#" class="notification-link">Gotham Bar</a>.</div>
 							<span class="notification-date"><time class="entry-date updated" datetime="2004-07-24T18:18">March 5th at 6:43pm</time></span>
 						</div>
 										<span class="notification-icon">
@@ -2209,7 +2134,7 @@
 							<img src="img/avatar66-sm.jpg" alt="author">
 						</div>
 						<div class="notification-event">
-							<div><a href="28-YourAccount-PersonalInformation.html#" class="h6 notification-friend">James Summers</a> commented on your new <a href="28-YourAccount-PersonalInformation.html#" class="notification-link">profile status</a>.</div>
+							<div><a href="dashboard.jsp#" class="h6 notification-friend">James Summers</a> commented on your new <a href="dashboard.jsp#" class="notification-link">profile status</a>.</div>
 							<span class="notification-date"><time class="entry-date updated" datetime="2004-07-24T18:18">March 2nd at 8:29pm</time></span>
 						</div>
 										<span class="notification-icon">
@@ -2223,7 +2148,7 @@
 					</li>
 				</ul>
 
-				<a href="28-YourAccount-PersonalInformation.html#" class="view-all bg-primary">View All Notifications</a>
+				<a href="dashboard.jsp#" class="view-all bg-primary">View All Notifications</a>
 			</div>
 
 		</div>
@@ -2248,239 +2173,581 @@
 <!-- ... end Responsive Header-BP -->
 <div class="header-spacer header-spacer-small"></div>
 
-<!-- Main Header Account -->
+
+<!-- Main Header Groups -->
 
 <div class="main-header">
-	<div class="content-bg-wrap bg-account"></div>
+	<div class="content-bg-wrap bg-group"></div>
 	<div class="container">
 		<div class="row">
 			<div class="col col-lg-8 m-auto col-md-8 col-sm-12 col-12">
 				<div class="main-header-content">
-					<h1>Your Account Dashboard</h1>
-					<p>Welcome to your account dashboard! Here you’ll find everything you need to change your profile
-	information, settings, read notifications and requests, view your latest messages, change your pasword and much
-	more! Also you can create or manage your own favourite page, have fun!</p>
+					<h1>Stats and Analytics</h1>
+					<p>Welcome to your stats and analytics dashboard! Here you’l see all your profile stats like: visits,
+	 new friends, average comments, likes, social media reach, annual graphs, and much more!</p>
 				</div>
 			</div>
 		</div>
 	</div>
-	<img class="img-bottom" src="img/account-bottom.png" alt="friends">
+
+	<img class="img-bottom" src="img/group-bottom.png" alt="friends">
 </div>
 
-<!-- ... end Main Header Account -->
-
-
-<!-- Your Account Personal Information -->
+<!-- ... end Main Header Groups -->
 
 <div class="container">
 	<div class="row">
-		<div class="col col-xl-9 order-xl-2 col-lg-9 order-lg-2 col-md-12 order-md-1 col-sm-12 col-12">
+
+		<div class="col col-xl-3 order-xl-3 col-lg-6 order-lg-3 col-md-6 col-sm-12 col-12">
 			<div class="ui-block">
-				<div class="ui-block-title">
-					<h6 class="title">Personal Information</h6>
-				</div>
 				<div class="ui-block-content">
+					<ul class="statistics-list-count">
+						<li>
+							<div class="points">
+								<span>
+									Number of Running Ads
+								</span>
+							</div>
+							<div class="count-stat">28.432
+								<span class="indicator positive"></span>
+								<button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#myModal"><i class="fas fa-plus-circle"></i> New Add</button>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<!-- Modal -->
+		<div id="myModal" class="modal fade" role="dialog">
+			<form action="advertisment" method="post">
+			<div class="modal-dialog" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h5 class="modal-title" id="exampleModalLabel">Create New Advertisement</h5>
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true">&times;</span>
+						</button>
+					</div>
+					<div class="modal-body">
 
-					
-					<!-- Personal Information Form  -->
-					
-					<form action="personalProfile" method="post">
-						<div class="row">
-					
-							<div class="col col-lg-6 col-md-6 col-sm-12 col-12">
-								<div class="form-group label-floating">
-									<label class="control-label" for="firstName">First Name</label>
-									<input class="form-control" placeholder="" type="text" id="firstName" name="firstName">
-								</div>
-					
-								<div class="form-group label-floating">
-									<label class="control-label" for="email">Your Email</label>
-									<input class="form-control" placeholder="" type="email" id="email" name="email">
-								</div>
-					
-								<div class="form-group date-time-picker label-floating">
-									<label class="control-label" for="birthDay">Your Birthday</label>
-									<input name="datetimepicker" value="10/24/1984" id="birthDay"/>
-									<span class="input-group-addon">
-															<svg class="olymp-month-calendar-icon icon"><use xlink:href="svg-icons/sprites/icons.svg#olymp-month-calendar-icon"></use></svg>
-														</span>
-								</div>
+							<div class="form-group">
+								<label for="company" class="col-form-label">Company</label>
+								<input type="text" class="form-control" id="company" name="company">
 							</div>
-					
-							<div class="col col-lg-6 col-md-6 col-sm-12 col-12">
-								<div class="form-group label-floating">
-									<label class="control-label" for="lastName">Last Name</label>
-									<input class="form-control" placeholder="" type="text"  id="lastName" name="lastName">
-								</div>
-					
-								<div class="form-group label-floating">
-									<label class="control-label" for="website">Your Website</label>
-									<input class="form-control" placeholder="" type="text" id="website" name="website">
-								</div>
-					
-					
-								<div class="form-group label-floating is-empty">
-									<label class="control-label" for="phoneNumber">Your Phone Number</label>
-									<input class="form-control" placeholder="" type="text" id="phoneNumber" name="phoneNumber">
-								</div>
+							<div class="form-group">
+								<label for="addURL" class="col-form-label">Add URL</label>
+								<input type="text" class="form-control" id="addURL" name="addURL">
 							</div>
-					
-							<div class="col col-lg-4 col-md-4 col-sm-12 col-12">
-								<div class="form-group label-floating is-select">
-									<label class="control-label" for="country">Your Country</label>
-									<select class="selectpicker form-control" id="country" name="country">
-										<option value="US">United States</option>
-										<option value="AU">Australia</option>
-									</select>
-								</div>
+							<div class="form-group">
+								<label for="addDesc" class="col-form-label">Text Description</label>
+								<textarea class="form-control" id="addDesc" name="addDesc"></textarea>
 							</div>
-							<div class="col col-lg-4 col-md-4 col-sm-12 col-12">
-								<div class="form-group label-floating is-select">
-									<label class="control-label" for="state">Your State / Province</label>
-									<select class="selectpicker form-control" id="state" name="state">
-										<option value="CA">California</option>
-										<option value="TE">Texas</option>
-									</select>
-								</div>
-							</div>
-							<div class="col col-lg-4 col-md-4 col-sm-12 col-12">
-								<div class="form-group label-floating is-select">
-									<label class="control-label" for="city">Your City</label>
-									<select class="selectpicker form-control" id="city" name="city">
-										<option value="SF">San Francisco</option>
-										<option value="NY">New York</option>
-									</select>
-								</div>
-							</div>
-							<div class="col col-lg-6 col-md-6 col-sm-12 col-12">
-								<div class="form-group label-floating">
-									<label class="control-label" for="description">Write a little description about you</label>
-									<textarea class="form-control" id="description" name="description"></textarea>
-								</div>
 
-					
-								<div class="form-group label-floating is-empty">
-									<label class="control-label" for="religion">Religious Belifs</label>
-									<input class="form-control" placeholder="" type="text" name="religion" id="religion">
+					</div>
+					<div class="modal-footer">
+						<div class="container">
+							<div class="row">
+								<div class="col-6">
+									<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+								</div>
+								<div class="col-6">
+									<input type="submit" class="btn btn-primary" value="Save Advert"/>
 								</div>
 							</div>
-							<div class="col col-lg-6 col-md-6 col-sm-12 col-12">
-								<div class="form-group label-floating is-empty">
-									<label class="control-label" for="placeofBirth">Your Birthplace</label>
-									<input class="form-control" placeholder="" type="text" id="placeofBirth" name="placeofBirth">
-								</div>
-					
-								<div class="form-group label-floating">
-									<label class="control-label" for="occupation">Your Occupation</label>
-									<input class="form-control" placeholder="" type="text" value="UI/UX Designer" id="occupation" name="occupation">
-								</div>
-
-					
-								<div class="form-group label-floating">
-									<label class="control-label" for="political">Political Incline</label>
-									<input class="form-control" placeholder="" type="text" id="political" name="political">
-								</div>
-							</div>
-							<div class="col col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
-								<div class="form-group with-icon label-floating">
-									<label class="control-label" for="facebook">Your Facebook Account</label>
-									<input class="form-control" type="text" id="facebook" name="facebook">
-									<i class="fab fa-facebook-f c-facebook" aria-hidden="true"></i>
-								</div>
-								<div class="form-group with-icon label-floating">
-									<label class="control-label" for="twitter">Your Twitter Account</label>
-									<input class="form-control" type="text" id="twitter" name="twitter">
-									<i class="fab fa-twitter c-twitter" aria-hidden="true"></i>
-								</div>
-							</div>
-							<div class="col col-lg-6 col-md-6 col-sm-12 col-12">
-								<button class="btn btn-secondary btn-lg full-width" href="02-ProfilePage.html">Restore all Attributes</button>
-							</div>
-							<div class="col col-lg-6 col-md-6 col-sm-12 col-12">
-								<button class="btn btn-primary btn-lg full-width">Save all Changes</button>
-							</div>
-					
 						</div>
-					</form>
-					
-					<!-- ... end Personal Information Form  -->
+
+
+					</div>
+				</div>
+			</div>
+			</form>
+		</div>
+
+		<div class="col col-xl-3 order-xl-3 col-lg-6 order-lg-3 col-md-6 col-sm-12 col-12">
+			<div class="ui-block">
+				<div class="ui-block-content">
+					<ul class="statistics-list-count">
+						<li>
+							<div class="points">
+								<span>
+									Last Year Visitors
+								</span>
+							</div>
+							<div class="count-stat">450.623
+								<span class="indicator negative"> - 12.352</span>
+							</div>
+						</li>
+					</ul>
 				</div>
 			</div>
 		</div>
 
-		<div class="col col-xl-3 order-xl-1 col-lg-3 order-lg-1 col-md-12 order-md-2 col-sm-12 col-12 responsive-display-none">
+		<div class="col col-xl-3 order-xl-3 col-lg-6 order-lg-3 col-md-6 col-sm-12 col-12">
 			<div class="ui-block">
-
-				<!-- Your Profile  -->
-				
-				<div class="your-profile">
-					<div class="ui-block-title ui-block-title-small">
-						<h6 class="title">Your PROFILE</h6>
-					</div>
-				
-					<div id="accordion" role="tablist" aria-multiselectable="true">
-						<div class="card">
-							<div class="card-header" role="tab" id="headingOne">
-								<h6 class="mb-0">
-									<a data-toggle="collapse" data-parent="#accordion" href="28-YourAccount-PersonalInformation.html#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-										Profile Settings
-										<svg class="olymp-dropdown-arrow-icon"><use xlink:href="svg-icons/sprites/icons.svg#olymp-dropdown-arrow-icon"></use></svg>
-									</a>
-								</h6>
+				<div class="ui-block-content">
+					<ul class="statistics-list-count">
+						<li>
+							<div class="points">
+								<span>
+									Last Month Posts
+								</span>
 							</div>
-				
-							<div id="collapseOne" class="collapse show" role="tabpanel" aria-labelledby="headingOne">
-								<ul class="your-profile-menu">
-									<li>
-										<a href="28-YourAccount-PersonalInformation.html">Personal Information</a>
-									</li>
-									<li>
-										<a href="29YourAccountAccountSettings.jsp">Account Settings</a>
-									</li>
-									<li>
-										<a href="30-YourAccount-ChangePassword.html">Change Password</a>
-									</li>
-									<li>
-										<a href="31YourAccount-HobbiesAndInterests.html">Hobbies and Interests</a>
-									</li>
-									<li>
-										<a href="32YourAccountEducationAndEmployement.jsp">Education and Employement</a>
-									</li>
-								</ul>
+							<div class="count-stat">16.502
+								<span class="indicator positive"> + 1.056</span>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+
+		<div class="col col-xl-3 order-xl-3 col-lg-6 order-lg-3 col-md-6 col-sm-12 col-12">
+			<div class="ui-block">
+				<div class="ui-block-content">
+					<ul class="statistics-list-count">
+						<li>
+							<div class="points">
+								<span>
+									Last Year Posts
+								</span>
+							</div>
+							<div class="count-stat">390.822
+								<span class="indicator positive"> + 2.847</span>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+
+	</div>
+</div>
+
+
+
+<div class="container">
+
+	<div class="row">
+		<div class="col col-xl-8 col-lg-8 col-md-12 col-sm-12 col-12">
+			<div class="ui-block responsive-flex" data-mh="pie-chart">
+				<div class="ui-block-title">
+					<div class="h6 title">Lines Graphic</div>
+
+					<select class="selectpicker form-control without-border">
+						<option value="CUR">LAST 3 MONTH</option>
+						<option value="LY">LAST YEAR (2016)</option>
+					</select>
+
+					<div class="points align-right">
+
+						<span>
+							<span class="statistics-point bg-yellow"></span>
+							THIS YEAR
+						</span>
+
+						<span>
+							<span class="statistics-point bg-primary"></span>
+							LAST YEAR
+						</span>
+
+					</div>
+
+					<a href="dashboard.jsp#" class="more"><svg class="olymp-three-dots-icon"><use xlink:href="svg-icons/sprites/icons.svg#olymp-three-dots-icon"></use></svg></a>
+
+				</div>
+
+				<div class="ui-block-content">
+					<div class="chart-js chart-js-line-graphic">
+						<canvas id="line-graphic-chart" width="730" height="300"></canvas>
+					</div>
+				</div>
+
+			</div>
+		</div>
+		<div class="col col-xl-4 col-lg-4 col-md-12 col-sm-12 col-12">
+			<div class="ui-block" data-mh="pie-chart">
+				<div class="ui-block-title">
+					<div class="h6 title">Colors Pie Chart</div>
+					<a href="dashboard.jsp#" class="more"><svg class="olymp-three-dots-icon"><use xlink:href="svg-icons/sprites/icons.svg#olymp-three-dots-icon"></use></svg></a>
+				</div>
+				<div class="ui-block-content">
+					<div class="chart-with-statistic">
+						<ul class="statistics-list-count">
+							<li>
+								<div class="points">
+									<span>
+										<span class="statistics-point bg-purple"></span>
+										Status Updates
+									</span>
+								</div>
+								<div class="count-stat">8.247</div>
+							</li>
+							<li>
+								<div class="points">
+									<span>
+										<span class="statistics-point bg-breez"></span>
+										Multimedia
+									</span>
+								</div>
+								<div class="count-stat">5.630</div>
+							</li>
+							<li>
+								<div class="points">
+									<span>
+										<span class="statistics-point bg-primary"></span>
+										Shared Posts
+									</span>
+								</div>
+								<div class="count-stat">1.498</div>
+							</li>
+							<li>
+								<div class="points">
+									<span>
+										<span class="statistics-point bg-yellow"></span>
+										Blog Posts
+									</span>
+								</div>
+								<div class="count-stat">1.136</div>
+							</li>
+						</ul>
+
+
+						<div class="chart-js chart-js-pie-color">
+							<canvas id="pie-color-chart" width="180" height="180"></canvas>
+							<div class="general-statistics">16.502
+								<span>Last Month Posts</span>
 							</div>
 						</div>
 					</div>
-				
-					<div class="ui-block-title">
-						<a href="33-YourAccount-Notifications.html" class="h6 title">Notifications</a>
-						<a href="28-YourAccount-PersonalInformation.html#" class="items-round-little bg-primary">8</a>
-					</div>
-					<div class="ui-block-title">
-						<a href="34-YourAccount-ChatMessages.html" class="h6 title">Chat / Messages</a>
-					</div>
-					<div class="ui-block-title">
-						<a href="35-YourAccount-FriendsRequests.html" class="h6 title">Friend Requests</a>
-						<a href="28-YourAccount-PersonalInformation.html#" class="items-round-little bg-blue">4</a>
-					</div>
-					<div class="ui-block-title ui-block-title-small">
-						<h6 class="title">FAVOURITE PAGE</h6>
-					</div>
-					<div class="ui-block-title">
-						<a href="36-FavPage-SettingsAndCreatePopup.html" class="h6 title">Create Fav Page</a>
-					</div>
-					<div class="ui-block-title">
-						<a href="36-FavPage-SettingsAndCreatePopup.html" class="h6 title">Fav Page Settings</a>
-					</div>
 				</div>
-				
-				<!-- ... end Your Profile  -->
 
 			</div>
 		</div>
 	</div>
 </div>
 
-<!-- ... end Your Account Personal Information -->
+<div class="container">
+	<div class="row">
+
+		<div class="col col-xl-4 col-lg-4 col-md-12 col-sm-12 col-12">
+			<div class="ui-block">
+				<div class="ui-block-title">
+					<div class="h6 title">Pie Chart with Text</div>
+					<a href="dashboard.jsp#" class="more"><svg class="olymp-three-dots-icon"><use xlink:href="svg-icons/sprites/icons.svg#olymp-three-dots-icon"></use></svg></a>
+				</div>
+				<div class="ui-block-content">
+					<div class="circle-progress circle-pie-chart">
+						<div class="pie-chart" data-value="0.68" data-startcolor="#38a9ff" data-endcolor="#317cb6">
+							<div class="content"><span>%</span></div>
+						</div>
+					</div>
+
+					<div class="chart-text">
+						<h6>Friends Comments</h6>
+						<p>68% of friends that visit your profile comment on your posts.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="col col-xl-8 col-lg-8 col-md-12 col-sm-12 col-12">
+			<div class="ui-block">
+				<div class="ui-block-title">
+					<div class="h6 title">Worldwide Statistics</div>
+					<a href="dashboard.jsp#" class="more"><svg class="olymp-three-dots-icon"><use xlink:href="svg-icons/sprites/icons.svg#olymp-three-dots-icon"></use></svg></a>
+				</div>
+
+				<div class="ui-block-content">
+					<div class="world-statistics">
+						<div class="world-statistics-img">
+							<img src="img/world-map.png" alt="map">
+						</div>
+
+						<ul class="country-statistics">
+							<li>
+								<img src="img/flag1.jpg" alt="flag">
+								<span class="country">United States</span>
+								<span class="count-stat">86.134</span>
+							</li>
+							<li>
+								<img src="img/flag2.jpg" alt="flag">
+								<span class="country">Mexico</span>
+								<span class="count-stat">35.136</span>
+							</li>
+							<li>
+								<img src="img/flag3.jpg" alt="flag">
+								<span class="country">France</span>
+								<span class="count-stat">12.600</span>
+							</li>
+							<li>
+								<img src="img/flag4.jpg" alt="flag">
+								<span class="country">Spain</span>
+								<span class="count-stat">9.471</span>
+							</li>
+							<li>
+								<img src="img/flag5.jpg" alt="flag">
+								<span class="country">Ireland</span>
+								<span class="count-stat">8.058</span>
+							</li>
+							<li>
+								<img src="img/flag6.jpg" alt="flag">
+								<span class="country">Argentina</span>
+								<span class="count-stat">5.653</span>
+							</li>
+							<li>
+								<img src="img/flag7.jpg" alt="flag">
+								<span class="country">Ecuador</span>
+								<span class="count-stat">2.924</span>
+							</li>
+						</ul>
+
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<div class="row">
+		<div class="col col-xl-4 col-lg-4 col-md-12 col-sm-12 col-12">
+			<div class="ui-block" data-mh="pie-chart">
+				<div class="ui-block-title">
+					<div class="h6 title">Country Detail</div>
+					<a href="dashboard.jsp#" class="more"><svg class="olymp-three-dots-icon"><use xlink:href="svg-icons/sprites/icons.svg#olymp-three-dots-icon"></use></svg></a>
+				</div>
+				<div class="ui-block-content js-google-map">
+					<div id="us-chart-map" style="width: 270px; height: 180px; max-width: 100%;"></div>
+					<ul class="statistics-list-count style-2">
+						<li>
+							<div class="points">
+									<span>
+										<span class="statistics-point bg-blue"></span>
+										Profile Visits
+									</span>
+							</div>
+							<div class="count-stat">4.290</div>
+						</li>
+						<li>
+							<div class="points">
+									<span>
+										<span class="statistics-point bg-breez"></span>
+										Post Likes
+									</span>
+							</div>
+							<div class="count-stat">2.758</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+
+
+		<div class="col col-xl-4 col-lg-4 col-md-12 col-sm-12 col-12">
+			<div class="ui-block" data-mh="pie-chart">
+				<div class="ui-block-title">
+					<div class="h6 title">Progress Bars</div>
+					<a href="dashboard.jsp#" class="more"><svg class="olymp-three-dots-icon"><use xlink:href="svg-icons/sprites/icons.svg#olymp-three-dots-icon"></use></svg></a>
+				</div>
+
+				<div class="ui-block-content">
+					<div class="skills-item">
+						<div class="skills-item-info">
+							<span class="skills-item-title">Orange Gradient Progress</span>
+							<span class="skills-item-count"><span class="count-animate" data-speed="1000" data-refresh-interval="50" data-to="62" data-from="0"></span><span class="units">62%</span></span>
+						</div>
+						<div class="skills-item-meter">
+							<span class="skills-item-meter-active bg-primary" style="width: 62%"></span>
+						</div>
+					</div>
+
+					<div class="skills-item">
+						<div class="skills-item-info">
+							<span class="skills-item-title">Violet Progress</span>
+							<span class="skills-item-count"><span class="count-animate" data-speed="1000" data-refresh-interval="50" data-to="46" data-from="0"></span><span class="units">46%</span></span>
+						</div>
+						<div class="skills-item-meter">
+							<span class="skills-item-meter-active bg-purple" style="width: 46%"></span>
+						</div>
+					</div>
+
+					<div class="skills-item">
+						<div class="skills-item-info">
+							<span class="skills-item-title">Blue Progress</span>
+							<span class="skills-item-count"><span class="count-animate" data-speed="1000" data-refresh-interval="50" data-to="79" data-from="0"></span><span class="units">79%</span></span>
+						</div>
+						<div class="skills-item-meter">
+							<span class="skills-item-meter-active bg-blue" style="width: 79%"></span>
+						</div>
+					</div>
+
+					<div class="skills-item">
+						<div class="skills-item-info">
+							<span class="skills-item-title">Aqua Progress</span>
+							<span class="skills-item-count"><span class="count-animate" data-speed="1000" data-refresh-interval="50" data-to="34" data-from="0"></span><span class="units">34%</span></span>
+						</div>
+						<div class="skills-item-meter">
+							<span class="skills-item-meter-active bg-breez" style="width: 34%"></span>
+						</div>
+					</div>
+
+					<div class="skills-item">
+						<div class="skills-item-info">
+							<span class="skills-item-title">Yellow Progress</span>
+							<span class="skills-item-count"><span class="count-animate" data-speed="1000" data-refresh-interval="50" data-to="95" data-from="0"></span><span class="units">95%</span></span>
+						</div>
+						<div class="skills-item-meter">
+							<span class="skills-item-meter-active bg-yellow" style="width: 95%"></span>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+
+
+		<div class="col col-xl-4 col-lg-4 col-md-12 col-sm-12 col-12">
+			<div class="ui-block" data-mh="pie-chart">
+				<div class="ui-block-title">
+					<div class="h6 title">Icons with Text</div>
+					<a href="dashboard.jsp#" class="more"><svg class="olymp-three-dots-icon"><use xlink:href="svg-icons/sprites/icons.svg#olymp-three-dots-icon"></use></svg></a>
+				</div>
+
+				<div class="ui-block-content">
+					<div class="monthly-indicator-wrap">
+						<div class="monthly-indicator">
+							<a href="dashboard.jsp#" class="btn btn-control bg-blue">
+								<svg class="olymp-happy-face-icon"><use xlink:href="svg-icons/sprites/icons.svg#olymp-happy-face-icon"></use></svg>
+							</a>
+
+							<div class="monthly-count">
+								9.855
+								<span class="period">Likes</span>
+							</div>
+						</div>
+
+						<div class="monthly-indicator">
+							<a href="dashboard.jsp#" class="btn btn-control bg-blue">
+								<svg class="olymp-happy-face-icon"><use xlink:href="svg-icons/sprites/icons.svg#olymp-happy-face-icon"></use></svg>
+							</a>
+
+							<div class="monthly-count">
+								6.721
+								<span class="period">Shares</span>
+							</div>
+						</div>
+
+						<div class="monthly-indicator">
+							<a href="dashboard.jsp#" class="btn btn-control bg-blue">
+								<svg class="olymp-happy-face-icon"><use xlink:href="svg-icons/sprites/icons.svg#olymp-happy-face-icon"></use></svg>
+							</a>
+
+							<div class="monthly-count">
+								2.047
+								<span class="period">Comments</span>
+							</div>
+						</div>
+
+						<div class="monthly-indicator">
+							<a href="dashboard.jsp#" class="btn btn-control bg-blue">
+								<svg class="olymp-happy-face-icon"><use xlink:href="svg-icons/sprites/icons.svg#olymp-happy-face-icon"></use></svg>
+							</a>
+
+							<div class="monthly-count">
+								1.536
+								<span class="period">Messages</span>
+							</div>
+						</div>
+
+						<div class="monthly-indicator">
+							<a href="dashboard.jsp#" class="btn btn-control bg-primary">
+								<svg class="olymp-comments-post-icon"><use xlink:href="svg-icons/sprites/icons.svg#olymp-comments-post-icon"></use></svg>
+							</a>
+
+							<div class="monthly-count">
+								Paragraph
+								<span class="period">Lorem ipsum dolor sit amet, consectetur icing elit, sed do eiusmod
+									tempor incididunt ut ore et dolore magna aliqua. Ut enim ad minim an quis nostrud
+									exercitation.
+								</span>
+							</div>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+
+	</div>
+
+	<div class="row">
+		<div class="col col-xl-4 col-lg-4 col-md-12 col-sm-12 col-12">
+			<div class="ui-block" data-mh="pie-chart">
+				<div class="ui-block-title">
+					<div class="h6 title">Progress Bars</div>
+					<a href="dashboard.jsp#" class="more"><svg class="olymp-three-dots-icon"><use xlink:href="svg-icons/sprites/icons.svg#olymp-three-dots-icon"></use></svg></a>
+				</div>
+				<div class="ui-block-content">
+					<div class="chart-js chart-js-two-bar">
+						<canvas id="two-bar-chart-2" width="400" height="300"></canvas>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="col col-xl-4 col-lg-4 col-md-12 col-sm-12 col-12">
+			<div class="ui-block" data-mh="pie-chart">
+				<div class="ui-block-title">
+					<div class="h6 title">Number with Slider</div>
+					<a href="dashboard.jsp#" class="more"><svg class="olymp-three-dots-icon"><use xlink:href="svg-icons/sprites/icons.svg#olymp-three-dots-icon"></use></svg></a>
+				</div>
+
+				<div class="ui-block-content">
+					<div class="swiper-container" data-slide="fade">
+						<div class="swiper-wrapper">
+							<div class="swiper-slide">
+								<div class="statistics-slide">
+									<div class="count-stat" data-swiper-parallax="-500">248</div>
+									<div class="title" data-swiper-parallax="-100"><span class="c-primary">Olympus</span> Posts Rank</div>
+									<div class="sub-title" data-swiper-parallax="-100">The Olympus Rank measures the quantity of comments, likes and posts.</div>
+								</div>
+							</div>
+							<div class="swiper-slide">
+								<div class="statistics-slide">
+									<div class="count-stat" data-swiper-parallax="-500">358</div>
+									<div class="title" data-swiper-parallax="-100"><span class="c-primary">Olympus</span> Posts Rank</div>
+									<div class="sub-title" data-swiper-parallax="-100">The Olympus Rank measures the quantity of comments, likes and posts.</div>
+								</div>
+							</div>
+							<div class="swiper-slide">
+								<div class="statistics-slide">
+									<div class="count-stat" data-swiper-parallax="-500">711</div>
+									<div class="title" data-swiper-parallax="-100"><span class="c-primary">Olympus</span> Posts Rank</div>
+									<div class="sub-title" data-swiper-parallax="-100">The Olympus Rank measures the quantity of comments, likes and posts.</div>
+								</div>
+							</div>
+						</div>
+
+						<!-- If we need pagination -->
+						<div class="swiper-pagination pagination-blue"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="col col-xl-4 col-lg-4 col-md-12 col-sm-12 col-12">
+			<div class="ui-block" data-mh="pie-chart">
+				<div class="ui-block-title">
+					<div class="h6 title">Pie Chart</div>
+					<a href="dashboard.jsp#" class="more"><svg class="olymp-three-dots-icon"><use xlink:href="svg-icons/sprites/icons.svg#olymp-three-dots-icon"></use></svg></a>
+				</div>
+				<div class="ui-block-content">
+					<div class="chart-js chart-radar">
+						<canvas id="radar-chart" width="400" height="300"></canvas>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+</div>
 
 
 
@@ -2540,7 +2807,7 @@
 			<label class="control-label">Press enter to post...</label>
 			<textarea class="form-control" placeholder=""></textarea>
 			<div class="add-options-message">
-				<a href="28-YourAccount-PersonalInformation.html#" class="options-message">
+				<a href="dashboard.jsp#" class="options-message">
 					<svg class="olymp-computer-icon"><use xlink:href="svg-icons/sprites/icons.svg#olymp-computer-icon"></use></svg>
 				</a>
 				<div class="options-message smile-block">
@@ -2549,137 +2816,137 @@
 
 					<ul class="more-dropdown more-with-triangle triangle-bottom-right">
 						<li>
-							<a href="28-YourAccount-PersonalInformation.html#">
+							<a href="dashboard.jsp#">
 								<img src="img/icon-chat1.png" alt="icon">
 							</a>
 						</li>
 						<li>
-							<a href="28-YourAccount-PersonalInformation.html#">
+							<a href="dashboard.jsp#">
 								<img src="img/icon-chat2.png" alt="icon">
 							</a>
 						</li>
 						<li>
-							<a href="28-YourAccount-PersonalInformation.html#">
+							<a href="dashboard.jsp#">
 								<img src="img/icon-chat3.png" alt="icon">
 							</a>
 						</li>
 						<li>
-							<a href="28-YourAccount-PersonalInformation.html#">
+							<a href="dashboard.jsp#">
 								<img src="img/icon-chat4.png" alt="icon">
 							</a>
 						</li>
 						<li>
-							<a href="28-YourAccount-PersonalInformation.html#">
+							<a href="dashboard.jsp#">
 								<img src="img/icon-chat5.png" alt="icon">
 							</a>
 						</li>
 						<li>
-							<a href="28-YourAccount-PersonalInformation.html#">
+							<a href="dashboard.jsp#">
 								<img src="img/icon-chat6.png" alt="icon">
 							</a>
 						</li>
 						<li>
-							<a href="28-YourAccount-PersonalInformation.html#">
+							<a href="dashboard.jsp#">
 								<img src="img/icon-chat7.png" alt="icon">
 							</a>
 						</li>
 						<li>
-							<a href="28-YourAccount-PersonalInformation.html#">
+							<a href="dashboard.jsp#">
 								<img src="img/icon-chat8.png" alt="icon">
 							</a>
 						</li>
 						<li>
-							<a href="28-YourAccount-PersonalInformation.html#">
+							<a href="dashboard.jsp#">
 								<img src="img/icon-chat9.png" alt="icon">
 							</a>
 						</li>
 						<li>
-							<a href="28-YourAccount-PersonalInformation.html#">
+							<a href="dashboard.jsp#">
 								<img src="img/icon-chat10.png" alt="icon">
 							</a>
 						</li>
 						<li>
-							<a href="28-YourAccount-PersonalInformation.html#">
+							<a href="dashboard.jsp#">
 								<img src="img/icon-chat11.png" alt="icon">
 							</a>
 						</li>
 						<li>
-							<a href="28-YourAccount-PersonalInformation.html#">
+							<a href="dashboard.jsp#">
 								<img src="img/icon-chat12.png" alt="icon">
 							</a>
 						</li>
 						<li>
-							<a href="28-YourAccount-PersonalInformation.html#">
+							<a href="dashboard.jsp#">
 								<img src="img/icon-chat13.png" alt="icon">
 							</a>
 						</li>
 						<li>
-							<a href="28-YourAccount-PersonalInformation.html#">
+							<a href="dashboard.jsp#">
 								<img src="img/icon-chat14.png" alt="icon">
 							</a>
 						</li>
 						<li>
-							<a href="28-YourAccount-PersonalInformation.html#">
+							<a href="dashboard.jsp#">
 								<img src="img/icon-chat15.png" alt="icon">
 							</a>
 						</li>
 						<li>
-							<a href="28-YourAccount-PersonalInformation.html#">
+							<a href="dashboard.jsp#">
 								<img src="img/icon-chat16.png" alt="icon">
 							</a>
 						</li>
 						<li>
-							<a href="28-YourAccount-PersonalInformation.html#">
+							<a href="dashboard.jsp#">
 								<img src="img/icon-chat17.png" alt="icon">
 							</a>
 						</li>
 						<li>
-							<a href="28-YourAccount-PersonalInformation.html#">
+							<a href="dashboard.jsp#">
 								<img src="img/icon-chat18.png" alt="icon">
 							</a>
 						</li>
 						<li>
-							<a href="28-YourAccount-PersonalInformation.html#">
+							<a href="dashboard.jsp#">
 								<img src="img/icon-chat19.png" alt="icon">
 							</a>
 						</li>
 						<li>
-							<a href="28-YourAccount-PersonalInformation.html#">
+							<a href="dashboard.jsp#">
 								<img src="img/icon-chat20.png" alt="icon">
 							</a>
 						</li>
 						<li>
-							<a href="28-YourAccount-PersonalInformation.html#">
+							<a href="dashboard.jsp#">
 								<img src="img/icon-chat21.png" alt="icon">
 							</a>
 						</li>
 						<li>
-							<a href="28-YourAccount-PersonalInformation.html#">
+							<a href="dashboard.jsp#">
 								<img src="img/icon-chat22.png" alt="icon">
 							</a>
 						</li>
 						<li>
-							<a href="28-YourAccount-PersonalInformation.html#">
+							<a href="dashboard.jsp#">
 								<img src="img/icon-chat23.png" alt="icon">
 							</a>
 						</li>
 						<li>
-							<a href="28-YourAccount-PersonalInformation.html#">
+							<a href="dashboard.jsp#">
 								<img src="img/icon-chat24.png" alt="icon">
 							</a>
 						</li>
 						<li>
-							<a href="28-YourAccount-PersonalInformation.html#">
+							<a href="dashboard.jsp#">
 								<img src="img/icon-chat25.png" alt="icon">
 							</a>
 						</li>
 						<li>
-							<a href="28-YourAccount-PersonalInformation.html#">
+							<a href="dashboard.jsp#">
 								<img src="img/icon-chat26.png" alt="icon">
 							</a>
 						</li>
 						<li>
-							<a href="28-YourAccount-PersonalInformation.html#">
+							<a href="dashboard.jsp#">
 								<img src="img/icon-chat27.png" alt="icon">
 							</a>
 						</li>
@@ -2698,7 +2965,7 @@
 
 
 
-<a class="back-to-top" href="28-YourAccount-PersonalInformation.html#">
+<a class="back-to-top" href="dashboard.jsp#">
 	<img src="svg-icons/back-to-top.svg" alt="arrow" class="back-icon">
 </a>
 
