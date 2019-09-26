@@ -13,6 +13,7 @@
 
 	<!-- Main Font -->
 	<script src="js/libs/webfontloader.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/sweetalert2@8"></script>
 
 
 	<script>

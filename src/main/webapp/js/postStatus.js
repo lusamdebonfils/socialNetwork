@@ -1,4 +1,11 @@
 $(function(){
+    const Toast = Swal.mixin({
+        toast: true,
+        position: 'top-end',
+        showConfirmButton: false,
+        timer: 3000
+    });
+
      let template1 = $('\n' +
          '\t\t\t\t<div id="newContent" type="" class="ui-block">\n' +
          '\t\t\t\t\t<article class="hentry post has-post-thumbnail">\n' +
@@ -61,6 +68,11 @@ $(function(){
     });
 
     function sucessMessage(data){
+
+        Toast.fire({
+            type: 'success',
+            title: 'Post created successfully'
+        });
 
         let newTemp = template1[0].cloneNode(true);
         if (data.postTextContent){
