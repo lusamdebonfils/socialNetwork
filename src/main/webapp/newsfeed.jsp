@@ -3024,164 +3024,126 @@
 
 		<aside class="col col-xl-3 order-xl-1 col-lg-6 order-lg-2 col-md-6 col-sm-6 col-12">
 			<div class="ui-block">
-				<div class="ui-block" id="weatherSection">
-<%--					<div class="bg"></div>--%>
-<%--					<div>--%>
-<%--						<div id="description"></div>--%>
-<%--						<div id="temp"></div>--%>
-<%--						<div id="weatherDate"></div>--%>
-<%--						<br>--%>
-<%--						<div id="location"></div>--%>
-<%--					</div>--%>
 
-				<!-- W-Weather -->
-				
-<%--				<div class="widget w-wethear">--%>
-<%--					<a href="03-Newsfeed.html#" class="more"><svg class="olymp-three-dots-icon"><use xlink:href="svg-icons/sprites/icons.svg#olymp-three-dots-icon"></use></svg></a>--%>
-<%--				--%>
-<%--					<div class="wethear-now inline-items">--%>
-<%--						<div class="temperature-sensor">64°</div>--%>
-<%--						<div class="max-min-temperature">--%>
-<%--							<span>58°</span>--%>
-<%--							<span>76°</span>--%>
-<%--						</div>--%>
-<%--				--%>
-<%--						<svg class="olymp-weather-partly-sunny-icon"><use xlink:href="svg-icons/sprites/icons-weather.svg#olymp-weather-partly-sunny-icon"></use></svg>--%>
-<%--					</div>--%>
-<%--				--%>
-<%--					<div class="wethear-now-description">--%>
-<%--						<div class="climate">Partly Sunny</div>--%>
-<%--						<span>Real Feel: <span>67°</span></span>--%>
-<%--						<span>Chance of Rain: <span>49%</span></span>--%>
-<%--					</div>--%>
-<%--				--%>
-<%--					<ul class="weekly-forecast">--%>
-<%--				--%>
-<%--						<li>--%>
-<%--							<div class="day">sun</div>--%>
-<%--							<svg class="olymp-weather-sunny-icon"><use xlink:href="svg-icons/sprites/icons-weather.svg#olymp-weather-sunny-icon"></use></svg>--%>
-<%--				--%>
-<%--							<div class="temperature-sensor-day">60°</div>--%>
-<%--						</li>--%>
-<%--				--%>
-<%--						<li>--%>
-<%--							<div class="day">mon</div>--%>
-<%--							<svg class="olymp-weather-partly-sunny-icon"><use xlink:href="svg-icons/sprites/icons-weather.svg#olymp-weather-partly-sunny-icon"></use></svg>--%>
-<%--							<div class="temperature-sensor-day">58°</div>--%>
-<%--						</li>--%>
-<%--				--%>
-<%--						<li>--%>
-<%--							<div class="day">tue</div>--%>
-<%--							<svg class="olymp-weather-cloudy-icon"><use xlink:href="svg-icons/sprites/icons-weather.svg#olymp-weather-cloudy-icon"></use></svg>--%>
-<%--				--%>
-<%--							<div class="temperature-sensor-day">67°</div>--%>
-<%--						</li>--%>
-<%--				--%>
-<%--						<li>--%>
-<%--							<div class="day">wed</div>--%>
-<%--							<svg class="olymp-weather-rain-icon"><use xlink:href="svg-icons/sprites/icons-weather.svg#olymp-weather-rain-icon"></use></svg>--%>
-<%--				--%>
-<%--							<div class="temperature-sensor-day">70°</div>--%>
-<%--						</li>--%>
-<%--				--%>
-<%--						<li>--%>
-<%--							<div class="day">thu</div>--%>
-<%--							<svg class="olymp-weather-storm-icon"><use xlink:href="svg-icons/sprites/icons-weather.svg#olymp-weather-storm-icon"></use></svg>--%>
-<%--				--%>
-<%--							<div class="temperature-sensor-day">58°</div>--%>
-<%--						</li>--%>
-<%--				--%>
-<%--						<li>--%>
-<%--							<div class="day">fri</div>--%>
-<%--							<svg class="olymp-weather-snow-icon"><use xlink:href="svg-icons/sprites/icons-weather.svg#olymp-weather-snow-icon"></use></svg>--%>
-<%--				--%>
-<%--							<div class="temperature-sensor-day">68°</div>--%>
-<%--						</li>--%>
-<%--				--%>
-<%--						<li>--%>
-<%--							<div class="day">sat</div>--%>
-<%--				--%>
-<%--							<svg class="olymp-weather-wind-icon-header"><use xlink:href="svg-icons/sprites/icons-weather.svg#olymp-weather-wind-icon-header"></use></svg>--%>
-<%--				--%>
-<%--							<div class="temperature-sensor-day">65°</div>--%>
-<%--						</li>--%>
-<%--				--%>
-<%--					</ul>--%>
-<%--				--%>
-<%--					<div class="date-and-place">--%>
-<%--						<h5 class="date">Saturday, March 26th</h5>--%>
-<%--						<div class="place">San Francisco, CA</div>--%>
-<%--					</div>--%>
-<%--				--%>
-<%--				</div>--%>
-				
-				<!-- W-Weather -->
+
+				<div class="container widget w-wethear" id="weatherPart">
+					<div class="row">
+						<div class="col-12">
+							<!-- Card -->
+							<div class="weather-card">
+
+								<!-- Card content -->
+								<div class="pb-3">
+
+									<!-- Title -->
+									<h4 class="font-weight-bold">
+										<div id="location"></div>
+									</h4>
+									<!-- Text -->
+									<p class=""><span id="weatherDate"></span>, <span id="description"></span></p>
+									<div class="d-flex justify-content-between">
+										<span class="display-1 degree" id="temp">29</span>&#x2103;<br>
+										<i class="fas fa-cloud fa-5x"></i>
+
+									</div>
+									<div class="d-flex justify-content-between mb-4">
+										<p><i class="fas fa-tint fa-lg text-info pr-2 fa-2x"></i>3% Precipitation</p>
+										<p><i class="fas fa-leaf fa-lg grey-text pr-2 fa-2x"></i>21 hm/h Winds</p>
+									</div>
+									<div class="progress md-progress">
+										<div class="progress-bar black" role="progressbar" style="width: 40%" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100"></div>
+									</div>
+									<ul class="list-unstyled d-flex justify-content-between font-small text-muted mb-4">
+										<li class="pl-4">8AM</li>
+										<li>11AM</li>
+										<li>2PM</li>
+										<li>5PM</li>
+										<li class="pr-4">8PM</li>
+									</ul>
+
+									<div class="collapse-content">
+
+										<div class="collapse" id="collapseExample">
+
+											<table class="table table-borderless table-sm mb-0">
+												<tbody>
+												<tr>
+													<td class="font-weight-normal align-middle">Tuesday</td>
+													<td class="float-right font-weight-normal">
+														<p class="mb-1">24&deg;<span class="text-muted">/12&deg;</span></p>
+													</td>
+													<td class="float-right mr-3">
+														<i class="fas fa-sun fa-lg amber-text"></i>
+													</td>
+												</tr>
+												<tr>
+													<td class="font-weight-normal align-middle">Wednesday</td>
+													<td class="float-right font-weight-normal">
+														<p class="mb-1">19&deg;<span class="text-muted">/10&deg;</span></p>
+													</td>
+													<td class="float-right mr-3">
+														<i class="fas fa-cloud-sun-rain fa-lg text-info"></i>
+													</td>
+												</tr>
+												<tr>
+													<td class="font-weight-normal align-middle">Thursday</td>
+													<td class="float-right font-weight-normal">
+														<p class="mb-1">23&deg;<span class="text-muted">/15&deg;</span></p>
+													</td>
+													<td class="float-right mr-3">
+														<i class="fas fa-sun fa-lg amber-text"></i>
+													</td>
+												</tr>
+												<tr>
+													<td class="font-weight-normal align-middle">Friday</td>
+													<td class="float-right font-weight-normal">
+														<p class="mb-1">26&deg;<span class="text-muted">/19&deg;</span></p>
+													</td>
+													<td class="float-right mr-3">
+														<i class="fas fa-sun fa-lg amber-text"></i>
+													</td>
+												</tr>
+												<tr>
+													<td class="font-weight-normal align-middle">Saturday</td>
+													<td class="float-right font-weight-normal">
+														<p class="mb-1">20&deg;<span class="text-muted">/16&deg;</span></p>
+													</td>
+													<td class="float-right mr-3">
+														<i class="fas fa-cloud fa-lg text-info"></i>
+													</td>
+												</tr>
+												<tr>
+													<td class="font-weight-normal align-middle">Sunday</td>
+													<td class="float-right font-weight-normal">
+														<p class="mb-1">22&deg;<span class="text-muted">/13&deg;</span></p>
+													</td>
+													<td class="float-right mr-3">
+														<i class="fas fa-cloud-sun fa-lg text-info"></i>
+													</td>
+												</tr>
+												</tbody>
+											</table>
+
+										</div>
+
+										<hr class="">
+
+										<a class="btn btn-flat red-text p-1 my-1 mr-0 mml-1 deep-purple-text collapsed" data-toggle="collapse" href="#collapseExample" aria-expanded="false" aria-controls="collapseExample"></a>
+
+									</div>
+
+								</div>
+
+							</div>
+							<!-- Card -->
+
+						</div>
+					</div>
+
+				</div>
+
 			</div>
 
-			<div class="ui-block">
-				
-				<!-- W-Calendar -->
-				
-				<div class="w-calendar">
-					<div class="calendar">
-						<header>
-							<h6 class="month">September</h6>
-						</header>
-						<table>
-							<thead>
-							<tr><td>Mon</td><td>Tue</td><td>Wed</td><td>Thu</td><td>Fri</td><td>Sat</td><td>San</td></tr>
-							</thead>
-							<tbody>
-							<tr>
-								<td data-month="12" data-day="1">1</td>
-								<td data-month="12" data-day="2">
-									2
-								</td>
-								<td data-month="12" data-day="3">3</td>
-								<td data-month="12" data-day="4">4</td>
-								<td data-month="12" data-day="5">5</td>
-								<td data-month="12" data-day="6">6</td>
-								<td data-month="12" data-day="7">7</td>
-							</tr>
-							<tr>
-								<td data-month="12" data-day="8">8</td>
-								<td data-month="12" data-day="9">9</td>
-								<td data-month="12" data-day="10">10</td>
-								<td data-month="12" data-day="11">11</td>
-								<td data-month="12" data-day="12">12</td>
-								<td data-month="12" data-day="13">13</td>
-								<td data-month="12" data-day="14">14</td>
-							</tr>
-							<tr>
-								<td data-month="12" data-day="15">15</td>
-								<td data-month="12" data-day="16">16</td>
-								<td data-month="12" data-day="17">17</td>
-								<td data-month="12" data-day="18">18</td>
-								<td data-month="12" data-day="19">19</td>
-								<td data-month="12" data-day="20">20</td>
-								<td data-month="12" data-day="21">21</td>
-							</tr>
-							<tr>
-								<td data-month="12" data-day="22">22</td>
-								<td data-month="12" data-day="23">23</td>
-								<td data-month="12" data-day="24">24</td>
-								<td data-month="12" data-day="25">25</td>
-								<td data-month="12" data-day="26">26</td>
-								<td data-month="12" data-day="27">27</td>
-								<td data-month="12" data-day="28">28</td>
-							</tr>
-							<tr>
-								<td data-month="12" data-day="29">29</td>
-								<td data-month="12" data-day="30">30</td>
-								<td data-month="12" data-day="31">31</td>
-							</tr>
-							</tbody>
-						</table>
-					</div>
-				</div>
-				
-				
-				<!-- ... end W-Calendar -->			</div>
 
 			<div class="ui-block">
 				<div class="ui-block-title">

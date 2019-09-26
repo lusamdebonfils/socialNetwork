@@ -1,5 +1,6 @@
 package edu.mum.cs.project.controller;
 
+import com.google.gson.Gson;
 import edu.mum.cs.project.dao.implementation.AdsDao;
 import edu.mum.cs.project.model.Advertisement;
 
@@ -10,6 +11,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 import java.io.IOException;
+import java.io.PrintWriter;
 import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.List;
@@ -43,10 +45,15 @@ public class AdvertisementServlet extends HttpServlet {
 
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-
+//        resp.setContentType("application/json");
+//        PrintWriter out = resp.getWriter();
         List<Advertisement> listOfAds = dao.findAll();
         HttpSession session = req.getSession();
         session.setAttribute("listOfAds", listOfAds);
+//        Gson gn = new Gson();
+//        String myAds = gn.toJson(listOfAds);
+//        out.write(myAds);
+
         resp.sendRedirect("dashboard.jsp");
 
     }

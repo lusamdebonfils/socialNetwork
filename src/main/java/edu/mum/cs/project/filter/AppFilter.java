@@ -25,7 +25,7 @@ public class AppFilter implements Filter {
         String path = request.getRequestURI();
 
         if (path.contains("/js/") || path.contains("/css/") || path.contains("/lib/") || path.contains("/fonts/")
-                || path.contains("/images/") || path.contains("/vendor/") || path.contains("/login")) {
+                || path.contains("/images/") || path.contains("/vendor/")) {
             chain.doFilter(request, response); // Just continue chain.
             return;
         }
