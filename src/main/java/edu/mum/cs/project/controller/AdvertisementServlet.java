@@ -47,7 +47,7 @@ public class AdvertisementServlet extends HttpServlet {
         List<Advertisement> listOfAds = dao.findAll();
         HttpSession session = req.getSession();
         session.setAttribute("listOfAds", listOfAds);
-        resp.sendRedirect("adspage.jsp");
+        resp.sendRedirect("dashboard.jsp");
 
     }
 }

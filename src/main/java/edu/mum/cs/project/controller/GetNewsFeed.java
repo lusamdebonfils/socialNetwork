@@ -15,7 +15,7 @@ public class GetNewsFeed extends HttpServlet {
     protected void doGet(HttpServletRequest req, HttpServletResponse resp)
             throws ServletException, IOException {
 
-        RequestDispatcher rd = req.getRequestDispatcher("03newsfeed.jsp");
+        RequestDispatcher rd = req.getRequestDispatcher("newsfeed.jsp");
         rd.forward(req, resp);
 
     }

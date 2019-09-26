@@ -17,11 +17,10 @@ public class LoginController extends HttpServlet {
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         UserDao dao = new UserDao();
-
         String userName = req.getParameter("email");
         String password = req.getParameter("password");
-//        System.out.println("UserName : "+ userName);
-//        System.out.println("Password : "+ password);
+        System.out.println("UserName : "+ userName);
+        System.out.println("Password : "+ password);
         User currentUser = null;
         List<User> users = dao.findWithUserName(userName);
         if (users.size()>0){
@@ -31,7 +30,7 @@ public class LoginController extends HttpServlet {
                 }
             }
         }
-        //System.out.println("currentUser : "+ currentUser);
+        System.out.println("currentUser : "+ currentUser);
 
         //check user by email/username
         if (currentUser != null){
@@ -45,7 +44,7 @@ public class LoginController extends HttpServlet {
             resp.sendRedirect("admin");
 
         }else {
-            resp.sendRedirect("00login.jsp");
+            resp.sendRedirect("login.jsp");
         }
     }
 

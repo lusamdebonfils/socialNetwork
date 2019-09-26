@@ -430,7 +430,7 @@
 
 			<ul class="account-settings">
 				<li>
-					<a href="02-ProfilePage.html#">
+					<a href="personalProfile">
 
 						<svg class="olymp-menu-icon">
 							<use xlink:href="svg-icons/sprites/icons.svg#olymp-menu-icon"></use>
@@ -450,7 +450,7 @@
 					</a>
 				</li>
 				<li>
-					<a href="02-ProfilePage.html#">
+					<a href="logout">
 						<svg class="olymp-logout-icon">
 							<use xlink:href="svg-icons/sprites/icons.svg#olymp-logout-icon"></use>
 						</svg>
