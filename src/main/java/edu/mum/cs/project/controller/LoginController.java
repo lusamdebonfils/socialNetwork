@@ -40,7 +40,8 @@ public class LoginController extends HttpServlet {
 
         } else if((userName.equals("admin@gmail.com")) && password.equals("password")){
             HttpSession session = req.getSession();
-            session.setAttribute("username",userName);
+            currentUser = new User();
+            session.setAttribute("user",currentUser);
             resp.sendRedirect("admin");
 
         }else {

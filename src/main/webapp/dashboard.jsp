@@ -369,7 +369,7 @@
 					</a>
 				</li>
 				<li>
-					<a href="dashboard.jsp#">
+					<a href="logout">
 						<svg class="olymp-logout-icon"><use xlink:href="svg-icons/sprites/icons.svg#olymp-logout-icon"></use></svg>
 
 						<span>Log Out</span>
@@ -381,28 +381,28 @@
 				<h6 class="title">About Olympus</h6>
 			</div>
 
-			<ul class="about-olympus">
-				<li>
-					<a href="dashboard.jsp#">
-						<span>Terms and Conditions</span>
-					</a>
-				</li>
-				<li>
-					<a href="dashboard.jsp#">
-						<span>FAQs</span>
-					</a>
-				</li>
-				<li>
-					<a href="dashboard.jsp#">
-						<span>Careers</span>
-					</a>
-				</li>
-				<li>
-					<a href="dashboard.jsp#">
-						<span>Contact</span>
-					</a>
-				</li>
-			</ul>
+<%--			<ul class="about-olympus">--%>
+<%--				<li>--%>
+<%--					<a href="dashboard.jsp#">--%>
+<%--						<span>Terms and Conditions</span>--%>
+<%--					</a>--%>
+<%--				</li>--%>
+<%--				<li>--%>
+<%--					<a href="dashboard.jsp#">--%>
+<%--						<span>FAQs</span>--%>
+<%--					</a>--%>
+<%--				</li>--%>
+<%--				<li>--%>
+<%--					<a href="dashboard.jsp#">--%>
+<%--						<span>Careers</span>--%>
+<%--					</a>--%>
+<%--				</li>--%>
+<%--				<li>--%>
+<%--					<a href="dashboard.jsp#">--%>
+<%--						<span>Contact</span>--%>
+<%--					</a>--%>
+<%--				</li>--%>
+<%--			</ul>--%>
 
 		</div>
 	</div>
@@ -1684,7 +1684,7 @@
 
 							<ul class="account-settings">
 								<li>
-									<a href="editprofile.jsp">
+									<a href="#">
 
 										<svg class="olymp-menu-icon"><use xlink:href="svg-icons/sprites/icons.svg#olymp-menu-icon"></use></svg>
 
@@ -1699,7 +1699,7 @@
 									</a>
 								</li>
 								<li>
-									<a href="dashboard.jsp#">
+									<a href="logout">
 										<svg class="olymp-logout-icon"><use xlink:href="svg-icons/sprites/icons.svg#olymp-logout-icon"></use></svg>
 
 										<span>Log Out</span>
@@ -1707,41 +1707,41 @@
 								</li>
 							</ul>
 
-							<div class="ui-block-title ui-block-title-small">
-								<h6 class="title">Chat Settings</h6>
-							</div>
+<%--							<div class="ui-block-title ui-block-title-small">--%>
+<%--								<h6 class="title">Chat Settings</h6>--%>
+<%--							</div>--%>
 
-							<ul class="chat-settings">
-								<li>
-									<a href="dashboard.jsp#">
-										<span class="icon-status online"></span>
-										<span>Online</span>
-									</a>
-								</li>
-								<li>
-									<a href="dashboard.jsp#">
-										<span class="icon-status away"></span>
-										<span>Away</span>
-									</a>
-								</li>
-								<li>
-									<a href="dashboard.jsp#">
-										<span class="icon-status disconected"></span>
-										<span>Disconnected</span>
-									</a>
-								</li>
+<%--							<ul class="chat-settings">--%>
+<%--								<li>--%>
+<%--									<a href="dashboard.jsp#">--%>
+<%--										<span class="icon-status online"></span>--%>
+<%--										<span>Online</span>--%>
+<%--									</a>--%>
+<%--								</li>--%>
+<%--								<li>--%>
+<%--									<a href="dashboard.jsp#">--%>
+<%--										<span class="icon-status away"></span>--%>
+<%--										<span>Away</span>--%>
+<%--									</a>--%>
+<%--								</li>--%>
+<%--								<li>--%>
+<%--									<a href="dashboard.jsp#">--%>
+<%--										<span class="icon-status disconected"></span>--%>
+<%--										<span>Disconnected</span>--%>
+<%--									</a>--%>
+<%--								</li>--%>
 
-								<li>
-									<a href="dashboard.jsp#">
-										<span class="icon-status status-invisible"></span>
-										<span>Invisible</span>
-									</a>
-								</li>
-							</ul>
+<%--								<li>--%>
+<%--									<a href="dashboard.jsp#">--%>
+<%--										<span class="icon-status status-invisible"></span>--%>
+<%--										<span>Invisible</span>--%>
+<%--									</a>--%>
+<%--								</li>--%>
+<%--							</ul>--%>
 
-							<div class="ui-block-title ui-block-title-small">
-								<h6 class="title">Custom Status</h6>
-							</div>
+<%--							<div class="ui-block-title ui-block-title-small">--%>
+<%--								<h6 class="title">Custom Status</h6>--%>
+<%--							</div>--%>
 
 							<form class="form-group with-button custom-status">
 								<input class="form-control" placeholder="" type="text" value="Space Cowboy">
