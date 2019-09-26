@@ -448,7 +448,7 @@
                     </a>
                 </li>
                 <li>
-                    <a href="aboutme.jsp#">
+                    <a href="logout">
                         <svg class="olymp-logout-icon">
                             <use xlink:href="svg-icons/sprites/icons.svg#olymp-logout-icon"></use>
                         </svg>
@@ -966,7 +966,7 @@
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="aboutme.jsp#">
+                                    <a href="logout">
                                         <svg class="olymp-logout-icon">
                                             <use xlink:href="svg-icons/sprites/icons.svg#olymp-logout-icon"></use>
                                         </svg>
@@ -1798,10 +1798,10 @@
                     <!-- W-Personal-Info -->
 
                     <ul class="widget w-personal-info">
-                        <li>
-                            <span class="title">About Me:</span>
-                            <span class="text">${user.profile.personalInformation.aboutMe}</span>
-                        </li>
+<%--                        <li>--%>
+<%--                            <span class="title">About Me:</span>--%>
+<%--                            <span class="text">${user.profile.personalInformation.aboutMe}</span>--%>
+<%--                        </li>--%>
                         <li>
                             <span class="title">Birthday:</span>
                             <span class="text">${user.dateOfBirth}</span>
@@ -1821,7 +1821,7 @@
                         </li>
                         <li>
                             <span class="title">Joined:</span>
-                            <span class="text">${user.dateOfRegistratio}n</span>
+                            <span class="text">${user.dateOfRegistratio}</span>
                         </li>
                         <li>
                             <span class="title">Gender:</span>

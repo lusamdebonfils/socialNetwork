@@ -370,7 +370,7 @@
 					</a>
 				</li>
 				<li>
-					<a href="findfriends.jsp#">
+					<a href="logout">
 						<svg class="olymp-logout-icon"><use xlink:href="svg-icons/sprites/icons.svg#olymp-logout-icon"></use></svg>
 
 						<span>Log Out</span>
@@ -1700,7 +1700,7 @@
 									</a>
 								</li>
 								<li>
-									<a href="findfriends.jsp#">
+									<a href="logout">
 										<svg class="olymp-logout-icon"><use xlink:href="svg-icons/sprites/icons.svg#olymp-logout-icon"></use></svg>
 
 										<span>Log Out</span>
@@ -2257,8 +2257,8 @@
 							<img src="img/author-main1.jpg" alt="author">
 						</a>
 						<div class="author-content">
-							<a href="profilepage.jsp" class="h4 author-name">James Spiegel</a>
-							<div class="country">San Francisco, CA</div>
+							<a href="profilepage.jsp" class="h4 author-name">${user.firstName} ${user.lastName}</a>
+							<div class="country"></div>
 						</div>
 					</div>
 				</div>
@@ -2300,7 +2300,7 @@
 
 				<!-- Friend Item -->
 				<div style="display: inline">
-					<%@ include file="friendtemplate.jsp"%>
+					<%@ include file="myfriendtemplate.jsp"%>
 				</div>
 			</div>
 		</div>

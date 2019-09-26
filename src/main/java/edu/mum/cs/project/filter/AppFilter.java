@@ -10,7 +10,7 @@ import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 import java.io.IOException;
 
-@WebFilter(filterName = "AppFilter", urlPatterns = { "/*" })
+//@WebFilter(filterName = "AppFilter", urlPatterns = { "/*" })
 public class AppFilter implements Filter {
 
 
@@ -20,7 +20,7 @@ public class AppFilter implements Filter {
         HttpServletRequest request = (HttpServletRequest) servletRequest;
         HttpServletResponse response = (HttpServletResponse) servletResponse;
         HttpSession session = request.getSession();
-        session.setMaxInactiveInterval(300);
+        session.setMaxInactiveInterval(3000);
         User user = (User) session.getAttribute("user");
         String path = request.getRequestURI();
 
