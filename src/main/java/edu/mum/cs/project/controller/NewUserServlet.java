@@ -39,13 +39,13 @@ public class NewUserServlet extends HttpServlet {
         String email = req.getParameter("email");
         String password = req.getParameter("password");
         String repeat_password = req.getParameter("repeat_password");
-        String birthDay =  req.getParameter("datetimepicker");
-        LocalDate date = LocalDate.parse(birthDay);
+//        String birthDay =  req.getParameter("datetimepicker");
+//        LocalDate date = LocalDate.parse(birthDay);
         String gender = req.getParameter("gender");
         String optionsCheckboxes = req.getParameter("optionsCheckboxes");
         LocalDate dateOfJoining = LocalDate.now();
 
-        user = new User(firstName, lastName, email, password, date, dateOfJoining, gender);
+        user = new User(firstName, lastName, email, password, dateOfJoining, dateOfJoining, gender);
         System.out.println(user);
         HttpSession session = req.getSession();
         session.setAttribute("user", user);

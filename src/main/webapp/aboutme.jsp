@@ -1564,7 +1564,7 @@
                                         <a href="aboutme.jsp">About</a>
                                     </li>
                                     <li>
-                                        <a href="06ProfilePage.html">Friends</a>
+                                        <a href="findfriends.jsp">Friends</a>
                                     </li>
                                 </ul>
                             </div>

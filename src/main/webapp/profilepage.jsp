@@ -1604,7 +1604,7 @@
 										<a href="aboutme.jsp">About</a>
 									</li>
 									<li>
-										<a href="profilepage.jsp">Friends</a>
+										<a href="followers">Friends</a>
 									</li>
 								</ul>
 							</div>
