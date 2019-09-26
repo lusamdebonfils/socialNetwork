@@ -30,7 +30,7 @@ public class PostStatus extends HttpServlet {
     PostDao dao = new PostDao();
 
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-
+        req.getRequestDispatcher("newsFeed").forward(req,resp);
     }
 
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
@@ -89,6 +89,7 @@ public class PostStatus extends HttpServlet {
 
         out.write(myPost);
 
+        //doGet(req,resp);
 
     }
 
