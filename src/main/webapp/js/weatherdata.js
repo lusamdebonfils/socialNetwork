@@ -1,4 +1,5 @@
 $(function(){
+    // alert("This shit works");
     const key = '71e88536f27af56395b1f7aeb8cda0ea';
     if(key=='') document.getElementById('temp').innerHTML = ('Remember to add your api key!');
 
@@ -21,11 +22,11 @@ $(function(){
         console.log( description.indexOf('clear'));
         console.log(description);
         console.log(d);
-        console.log(celcius + '&deg;');
+        console.log(celcius + '&#x2103;');
 
         //
          $('#description').append('<h3>').text(description)
-        $('#temp').append("<h1>").text(celcius + '&deg;');
+        $('#temp').append("<h1>").text(celcius);
         $('#location').append('<h3>').text(d.name);
         $('#weatherDate').append('<h3>').text(weatherDate);
 

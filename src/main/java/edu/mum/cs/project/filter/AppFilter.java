@@ -20,12 +20,12 @@ public class AppFilter implements Filter {
         HttpServletRequest request = (HttpServletRequest) servletRequest;
         HttpServletResponse response = (HttpServletResponse) servletResponse;
         HttpSession session = request.getSession();
-        session.setMaxInactiveInterval(300);
+        session.setMaxInactiveInterval(3000);
         User user = (User) session.getAttribute("user");
         String path = request.getRequestURI();
 
         if (path.contains("/js/") || path.contains("/css/") || path.contains("/lib/") || path.contains("/fonts/")
-                || path.contains("/images/") || path.contains("/vendor/") || path.contains("/login")) {
+                || path.contains("/images/") || path.contains("/vendor/")) {
             chain.doFilter(request, response); // Just continue chain.
             return;
         }
