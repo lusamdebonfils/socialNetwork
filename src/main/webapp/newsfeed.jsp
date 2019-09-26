@@ -13,6 +13,8 @@
 
 	<!-- Main Font -->
 	<script src="js/libs/webfontloader.min.js"></script>
+
+
 	<script>
 		WebFont.load({
 			google: {
@@ -3022,89 +3024,119 @@
 
 		<aside class="col col-xl-3 order-xl-1 col-lg-6 order-lg-2 col-md-6 col-sm-6 col-12">
 			<div class="ui-block">
-				
+				<div class="ui-block" id="weatherSection">
+<%--					<div class="bg"></div>--%>
+<%--					<div>--%>
+<%--						<div id="description"></div>--%>
+<%--						<div id="temp"></div>--%>
+<%--						<div id="weatherDate"></div>--%>
+<%--						<br>--%>
+<%--						<div id="location"></div>--%>
+<%--					</div>--%>
+						<div class="row">
+							<div class="col-xxl-12 col-lg-6">
+								<!-- Card -->
+								<div class="card card-shadow text-center">
+									<div class="card-block p-0">
+										<div class="bg-red-600 p-30 white">
+											<div class="font-size-40">
+												27°
+												<span class="font-size-30">C</span>
+												<i class="wi-day-cloudy-windy"></i>
+											</div>
+										</div>
+										<div class="bg-white red-600 font-size-14 p-15">
+											Saturday 12 May
+										</div>
+									</div>
+								</div>
+								<!-- End Card -->
+							</div>
+
+				</div>
 				<!-- W-Weather -->
 				
-				<div class="widget w-wethear">
-					<a href="03-Newsfeed.html#" class="more"><svg class="olymp-three-dots-icon"><use xlink:href="svg-icons/sprites/icons.svg#olymp-three-dots-icon"></use></svg></a>
+<%--				<div class="widget w-wethear">--%>
+<%--					<a href="03-Newsfeed.html#" class="more"><svg class="olymp-three-dots-icon"><use xlink:href="svg-icons/sprites/icons.svg#olymp-three-dots-icon"></use></svg></a>--%>
+<%--				--%>
+<%--					<div class="wethear-now inline-items">--%>
+<%--						<div class="temperature-sensor">64°</div>--%>
+<%--						<div class="max-min-temperature">--%>
+<%--							<span>58°</span>--%>
+<%--							<span>76°</span>--%>
+<%--						</div>--%>
+<%--				--%>
+<%--						<svg class="olymp-weather-partly-sunny-icon"><use xlink:href="svg-icons/sprites/icons-weather.svg#olymp-weather-partly-sunny-icon"></use></svg>--%>
+<%--					</div>--%>
+<%--				--%>
+<%--					<div class="wethear-now-description">--%>
+<%--						<div class="climate">Partly Sunny</div>--%>
+<%--						<span>Real Feel: <span>67°</span></span>--%>
+<%--						<span>Chance of Rain: <span>49%</span></span>--%>
+<%--					</div>--%>
+<%--				--%>
+<%--					<ul class="weekly-forecast">--%>
+<%--				--%>
+<%--						<li>--%>
+<%--							<div class="day">sun</div>--%>
+<%--							<svg class="olymp-weather-sunny-icon"><use xlink:href="svg-icons/sprites/icons-weather.svg#olymp-weather-sunny-icon"></use></svg>--%>
+<%--				--%>
+<%--							<div class="temperature-sensor-day">60°</div>--%>
+<%--						</li>--%>
+<%--				--%>
+<%--						<li>--%>
+<%--							<div class="day">mon</div>--%>
+<%--							<svg class="olymp-weather-partly-sunny-icon"><use xlink:href="svg-icons/sprites/icons-weather.svg#olymp-weather-partly-sunny-icon"></use></svg>--%>
+<%--							<div class="temperature-sensor-day">58°</div>--%>
+<%--						</li>--%>
+<%--				--%>
+<%--						<li>--%>
+<%--							<div class="day">tue</div>--%>
+<%--							<svg class="olymp-weather-cloudy-icon"><use xlink:href="svg-icons/sprites/icons-weather.svg#olymp-weather-cloudy-icon"></use></svg>--%>
+<%--				--%>
+<%--							<div class="temperature-sensor-day">67°</div>--%>
+<%--						</li>--%>
+<%--				--%>
+<%--						<li>--%>
+<%--							<div class="day">wed</div>--%>
+<%--							<svg class="olymp-weather-rain-icon"><use xlink:href="svg-icons/sprites/icons-weather.svg#olymp-weather-rain-icon"></use></svg>--%>
+<%--				--%>
+<%--							<div class="temperature-sensor-day">70°</div>--%>
+<%--						</li>--%>
+<%--				--%>
+<%--						<li>--%>
+<%--							<div class="day">thu</div>--%>
+<%--							<svg class="olymp-weather-storm-icon"><use xlink:href="svg-icons/sprites/icons-weather.svg#olymp-weather-storm-icon"></use></svg>--%>
+<%--				--%>
+<%--							<div class="temperature-sensor-day">58°</div>--%>
+<%--						</li>--%>
+<%--				--%>
+<%--						<li>--%>
+<%--							<div class="day">fri</div>--%>
+<%--							<svg class="olymp-weather-snow-icon"><use xlink:href="svg-icons/sprites/icons-weather.svg#olymp-weather-snow-icon"></use></svg>--%>
+<%--				--%>
+<%--							<div class="temperature-sensor-day">68°</div>--%>
+<%--						</li>--%>
+<%--				--%>
+<%--						<li>--%>
+<%--							<div class="day">sat</div>--%>
+<%--				--%>
+<%--							<svg class="olymp-weather-wind-icon-header"><use xlink:href="svg-icons/sprites/icons-weather.svg#olymp-weather-wind-icon-header"></use></svg>--%>
+<%--				--%>
+<%--							<div class="temperature-sensor-day">65°</div>--%>
+<%--						</li>--%>
+<%--				--%>
+<%--					</ul>--%>
+<%--				--%>
+<%--					<div class="date-and-place">--%>
+<%--						<h5 class="date">Saturday, March 26th</h5>--%>
+<%--						<div class="place">San Francisco, CA</div>--%>
+<%--					</div>--%>
+<%--				--%>
+<%--				</div>--%>
 				
-					<div class="wethear-now inline-items">
-						<div class="temperature-sensor">64°</div>
-						<div class="max-min-temperature">
-							<span>58°</span>
-							<span>76°</span>
-						</div>
-				
-						<svg class="olymp-weather-partly-sunny-icon"><use xlink:href="svg-icons/sprites/icons-weather.svg#olymp-weather-partly-sunny-icon"></use></svg>
-					</div>
-				
-					<div class="wethear-now-description">
-						<div class="climate">Partly Sunny</div>
-						<span>Real Feel: <span>67°</span></span>
-						<span>Chance of Rain: <span>49%</span></span>
-					</div>
-				
-					<ul class="weekly-forecast">
-				
-						<li>
-							<div class="day">sun</div>
-							<svg class="olymp-weather-sunny-icon"><use xlink:href="svg-icons/sprites/icons-weather.svg#olymp-weather-sunny-icon"></use></svg>
-				
-							<div class="temperature-sensor-day">60°</div>
-						</li>
-				
-						<li>
-							<div class="day">mon</div>
-							<svg class="olymp-weather-partly-sunny-icon"><use xlink:href="svg-icons/sprites/icons-weather.svg#olymp-weather-partly-sunny-icon"></use></svg>
-							<div class="temperature-sensor-day">58°</div>
-						</li>
-				
-						<li>
-							<div class="day">tue</div>
-							<svg class="olymp-weather-cloudy-icon"><use xlink:href="svg-icons/sprites/icons-weather.svg#olymp-weather-cloudy-icon"></use></svg>
-				
-							<div class="temperature-sensor-day">67°</div>
-						</li>
-				
-						<li>
-							<div class="day">wed</div>
-							<svg class="olymp-weather-rain-icon"><use xlink:href="svg-icons/sprites/icons-weather.svg#olymp-weather-rain-icon"></use></svg>
-				
-							<div class="temperature-sensor-day">70°</div>
-						</li>
-				
-						<li>
-							<div class="day">thu</div>
-							<svg class="olymp-weather-storm-icon"><use xlink:href="svg-icons/sprites/icons-weather.svg#olymp-weather-storm-icon"></use></svg>
-				
-							<div class="temperature-sensor-day">58°</div>
-						</li>
-				
-						<li>
-							<div class="day">fri</div>
-							<svg class="olymp-weather-snow-icon"><use xlink:href="svg-icons/sprites/icons-weather.svg#olymp-weather-snow-icon"></use></svg>
-				
-							<div class="temperature-sensor-day">68°</div>
-						</li>
-				
-						<li>
-							<div class="day">sat</div>
-				
-							<svg class="olymp-weather-wind-icon-header"><use xlink:href="svg-icons/sprites/icons-weather.svg#olymp-weather-wind-icon-header"></use></svg>
-				
-							<div class="temperature-sensor-day">65°</div>
-						</li>
-				
-					</ul>
-				
-					<div class="date-and-place">
-						<h5 class="date">Saturday, March 26th</h5>
-						<div class="place">San Francisco, CA</div>
-					</div>
-				
-				</div>
-				
-				<!-- W-Weather -->			</div>
+				<!-- W-Weather -->
+			</div>
 
 			<div class="ui-block">
 				
@@ -3984,6 +4016,6 @@
 <script defer src="fonts/fontawesome-all.js"></script>
 
 <script src="Bootstrap/dist/js/bootstrap.bundle.js"></script>
-
+<script src="js/weatherdata.js"></script>
 </body>
 </html>
